@@ -1,0 +1,81 @@
+{
+  "name": "pray-calc-ml",
+  "version": "1.0.0",
+  "description": "Machine learning calibration for Islamic prayer times. Fits optimal Fajr/Isha depression angles to observed mosque announcements using weighted least-squares regression. Zero runtime dependencies.",
+  "author": "Aric Camarata",
+  "license": "MIT",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist/",
+    "src/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "pretest": "tsup",
+    "test": "node test.mjs && node test-cjs.cjs",
+    "prepublishOnly": "tsup"
+  },
+  "keywords": [
+    "prayer-times",
+    "islamic-prayer-times",
+    "fajr",
+    "isha",
+    "depression-angle",
+    "calibration",
+    "machine-learning",
+    "least-squares",
+    "regression",
+    "mosque",
+    "adhan",
+    "pray-calc",
+    "twilight",
+    "islamic-astronomy"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "pray-calc": ">=2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "pray-calc": {
+      "optional": false
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acamarata/pray-calc-ml.git"
+  },
+  "homepage": "https://github.com/acamarata/pray-calc-ml#readme",
+  "bugs": {
+    "url": "https://github.com/acamarata/pray-calc-ml/issues"
+  }
+}
