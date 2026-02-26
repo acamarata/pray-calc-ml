@@ -287,48 +287,11 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "Autumn equinox",
     },
 
-    # -------------------------------------------------------------------------
-    # SAUDI ARABIA — Hail observations (Khalifa 2018)
-    # 80 total nights, 32 selected with excellent visibility, 2014-2015
-    # Location: Hail (27.52°N, 41.70°E, ~1020m elevation)
-    # Source: NRIAG J. Astronomy & Geophysics 7:22-28, 2018
-    # -------------------------------------------------------------------------
-    {
-        "prayer": "fajr",
-        "date_local": "2014-11-15",
-        "time_local": "05:28",
-        "utc_offset": 3.0,   # Arabia Standard Time
-        "lat": 27.520, "lng": 41.700, "elevation_m": 1020.0,
-        "source": "Khalifa 2018, NRIAG J. 7:22-28, Hail Saudi Arabia",
-        "notes": "Autumn observation; desert; confirmed true dawn by naked eye",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2015-01-15",
-        "time_local": "06:08",
-        "utc_offset": 3.0,
-        "lat": 27.520, "lng": 41.700, "elevation_m": 1020.0,
-        "source": "Khalifa 2018, NRIAG J. 7:22-28, Hail Saudi Arabia",
-        "notes": "Winter; desert plateau ~1000m elevation",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2015-03-20",
-        "time_local": "05:18",
-        "utc_offset": 3.0,
-        "lat": 27.520, "lng": 41.700, "elevation_m": 1020.0,
-        "source": "Khalifa 2018, NRIAG J. 7:22-28, Hail Saudi Arabia",
-        "notes": "Spring equinox; Hail desert",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2015-06-21",
-        "time_local": "03:38",
-        "utc_offset": 3.0,
-        "lat": 27.520, "lng": 41.700, "elevation_m": 1020.0,
-        "source": "Khalifa 2018, NRIAG J. 7:22-28, Hail Saudi Arabia",
-        "notes": "Summer solstice",
-    },
+    # NOTE: Hail Fajr records (Khalifa 2018) originally entered here with
+    # inconsistent times (2015-01-15 gave angle=12.6°; 2015-06-21 gave 19.3°,
+    # both implausible vs. the paper's reported D0=14.014°±0.317°).
+    # Replaced by batch 16a records computed from the paper's mean D0,
+    # now in the Batch 16 section at the end of this file.
 
     # -------------------------------------------------------------------------
     # MALAYSIA — Isha observations (Hamidi 2007-2008)
@@ -492,95 +455,10 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "Autumn equinox; near equator",
     },
 
-    # =========================================================================
-    # MALAYSIA — Pekan, Pahang (3.408°N, 103.356°E, ~10m, UTC+8) — INDIVIDUAL RECORDS
-    # Source: Kassim Bahali 2018, Sains Malaysiana 47(11):2877-2885
-    #   Table 2: observation log for Pekan Pahang, June-July 2017
-    #   DSLR camera (Canon 60Da), coastal site facing east, moonless mornings
-    #   Per-date first visibility times with computed depression angles
-    #   Note: Jun 5 (97% cloud) and Jul 3 (cloudy horizon) are cloud-delayed
-    # =========================================================================
-    {
-        "prayer": "fajr",
-        "date_local": "2017-06-01",
-        "time_local": "05:48",
-        "utc_offset": 8.0,
-        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
-        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
-        "notes": "DSLR; individual obs; Do=-17.36°; 82% cloud cover; coastal east horizon",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2017-06-03",
-        "time_local": "05:42",
-        "utc_offset": 8.0,
-        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
-        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
-        "notes": "DSLR; individual obs; Do=-17.32°; 71% intermittent cloud",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2017-06-04",
-        "time_local": "05:40",
-        "utc_offset": 8.0,
-        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
-        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
-        "notes": "DSLR; individual obs; Do=-18.00°; 81% cloud; dawn seen between clouds",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2017-06-05",
-        "time_local": "05:50",
-        "utc_offset": 8.0,
-        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
-        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
-        "notes": "DSLR; individual obs; Do=-15.45°; 97% cloud — delayed detection",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2017-07-03",
-        "time_local": "05:55",
-        "utc_offset": 8.0,
-        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
-        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
-        "notes": "DSLR; individual obs; Do=-15.50°; cloudy horizon — delayed detection",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2017-07-04",
-        "time_local": "05:53",
-        "utc_offset": 8.0,
-        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
-        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
-        "notes": "DSLR; individual obs; Do=-16.24°",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2017-07-05",
-        "time_local": "05:53",
-        "utc_offset": 8.0,
-        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
-        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
-        "notes": "DSLR; individual obs; Do=-16.24°",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2017-07-06",
-        "time_local": "05:51",
-        "utc_offset": 8.0,
-        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
-        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
-        "notes": "DSLR; individual obs; Do=-16.54°",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "2017-07-07",
-        "time_local": "05:46",
-        "utc_offset": 8.0,
-        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
-        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
-        "notes": "DSLR; individual obs; Do=-18.06°; CLEAREST sky — Venus+Aldebaran visible naked eye",
-    },
+    # NOTE: Pekan Pahang (3.408°N, 103.356°E) per-date records from Kassim Bahali
+    # 2018 Table 2 (Jun-Jul 2017, DSLR) are now loaded from the raw CSV:
+    #   data/raw/raw_sightings/kassim_bahali_2017_malaysia.csv
+    # Removed from here to avoid duplicates. Raw CSV has richer cloud/notes data.
 
     # =========================================================================
     # MALAYSIA — Kuala Terengganu (5.325°N, 103.145°E, ~5m, UTC+8) — individual

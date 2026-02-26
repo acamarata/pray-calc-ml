@@ -52,7 +52,6 @@ date,utc_dt,lat,lng,elevation_m,day_of_year,isha_angle,source,notes
 2007-05-15,2007-05-15 12:15:00+00:00,4.183,102.04,76.0,135,14.34835938945879,"Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",Shafaq Abyad end; 4.2°N 76m; Isha 14.38°; time inferred from mean angle
 2007-06-21,2007-06-21 12:32:00+00:00,4.183,102.04,76.0,172,16.14961346227997,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, June; near equator"
 2007-09-22,2007-09-22 12:20:00+00:00,4.183,102.04,76.0,265,18.755050592883862,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, September equinox"
-2007-09-22,2007-09-22 12:02:00+00:00,4.183,102.04,76.0,265,14.267391765716521,"Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",Shafaq Abyad autumn equinox; Kuala Lipis; time inferred
 2007-12-21,2007-12-21 12:10:00+00:00,4.183,102.04,76.0,355,15.474037743926715,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, December; near equator"
 2007-12-29,2007-12-29 12:09:00+00:00,4.183,102.05,75.0,363,14.354337512529845,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia","SQM-LE; D0=14.420° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data"
 2022-03-20,2022-03-20 12:18:00+00:00,5.317,103.15,5.0,79,15.723582120347716,"Faid et al. 2024 Scientific Reports, Pantai Batu Buruk Terengganu Malaysia",SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.724°

@@ -100,6 +100,21 @@ def build_dataset(
 
     all_df = pd.concat([openfajr_df, manual_df, raw_df], ignore_index=True)
 
+    # Deduplicate: same prayer + same date + same lat/lng (rounded to 3 decimal
+    # places, ~111m) should produce identical angles. Keep the first occurrence
+    # and log any removed records so cross-source overlaps are visible.
+    all_df["_lat_r"] = all_df["lat"].round(3)
+    all_df["_lng_r"] = all_df["lng"].round(3)
+    dup_mask = all_df.duplicated(subset=["prayer", "date", "_lat_r", "_lng_r"], keep="first")
+    if dup_mask.any():
+        print(f"  Deduplicating {dup_mask.sum()} cross-source duplicate(s) "
+              f"(same prayer+date+location):")
+        for _, row in all_df[dup_mask].iterrows():
+            print(f"    {row['prayer'].upper()} {row['date']} "
+                  f"lat={row['lat']:.3f} lng={row['lng']:.3f} — {row['source']}")
+        all_df = all_df[~dup_mask].copy()
+    all_df = all_df.drop(columns=["_lat_r", "_lng_r"])
+
     # Elevation lookup for records with elevation_m == 0
     if lookup_elevation:
         missing_mask = all_df["elevation_m"] == 0.0
@@ -212,7 +227,8 @@ def main():
     print("\nFajr geographic coverage:")
     print(f"  Latitude range: {fajr_df['lat'].min():.1f}° to {fajr_df['lat'].max():.1f}°")
     print(f"  Unique locations: {len(fajr_df.groupby(['lat','lng']))}")
-    print(f"  Date range: {fajr_df['date'].min()} to {fajr_df['date'].max()}")
+    dates = fajr_df["date"].astype(str)
+    print(f"  Date range: {dates.min()} to {dates.max()}")
 
 
 if __name__ == "__main__":
