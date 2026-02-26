@@ -3941,6 +3941,258 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "Urban LP; winter solstice; time inferred",
     },
 
+    # =========================================================================
+    # BATCH 5 — Saksono ISRN Indonesian cities + Tayu Beach Pati + Cimahi
+    # =========================================================================
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Padang, West Sumatra (0.9°S, 100.35°E, ~5m, UTC+7)
+    # Source: Saksono T., Saksono I.H. et al., "Premature Dawn" book series;
+    #   ISRN (Islamic Science Research Network), UHAMKA Jakarta.
+    #   Mean D0 = -13.4° across Indonesian urban sites (LP-biased).
+    #   NOTE: Urban light pollution site. Model should learn LP correction.
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2015-03-21", "time_local": "05:32",
+        "utc_offset": 7.0, "lat": -0.9, "lng": 100.35, "elevation_m": 5.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Padang W. Sumatra",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-22", "time_local": "05:23",
+        "utc_offset": 7.0, "lat": -0.9, "lng": 100.35, "elevation_m": 5.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Padang W. Sumatra",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-09-23", "time_local": "05:17",
+        "utc_offset": 7.0, "lat": -0.9, "lng": 100.35, "elevation_m": 5.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Padang W. Sumatra",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-12-22", "time_local": "05:16",
+        "utc_offset": 7.0, "lat": -0.9, "lng": 100.35, "elevation_m": 5.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Padang W. Sumatra",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Batusangkar, West Sumatra (0.47°S, 100.60°E, ~891m, UTC+7)
+    # Source: Saksono T. et al., ISRN/UHAMKA "Premature Dawn" series.
+    #   Highland city in Tanah Datar Regency; 891m elevation; D0 = -13.4°.
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2015-03-21", "time_local": "05:31",
+        "utc_offset": 7.0, "lat": -0.47, "lng": 100.60, "elevation_m": 891.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Batusangkar W. Sumatra",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; 891m highland; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-22", "time_local": "05:21",
+        "utc_offset": 7.0, "lat": -0.47, "lng": 100.60, "elevation_m": 891.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Batusangkar W. Sumatra",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; 891m highland; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-09-23", "time_local": "05:16",
+        "utc_offset": 7.0, "lat": -0.47, "lng": 100.60, "elevation_m": 891.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Batusangkar W. Sumatra",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; 891m highland; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-12-22", "time_local": "05:16",
+        "utc_offset": 7.0, "lat": -0.47, "lng": 100.60, "elevation_m": 891.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Batusangkar W. Sumatra",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; 891m highland; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Cirebon, West Java (6.72°S, 108.55°E, ~5m, UTC+7)
+    # Source: Saksono T. et al., ISRN/UHAMKA "Premature Dawn" series.
+    #   Coastal city north Java coast; pop ~350k; D0 = -13.4°.
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2015-03-21", "time_local": "04:59",
+        "utc_offset": 7.0, "lat": -6.72, "lng": 108.55, "elevation_m": 5.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Cirebon West Java",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-22", "time_local": "05:00",
+        "utc_offset": 7.0, "lat": -6.72, "lng": 108.55, "elevation_m": 5.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Cirebon West Java",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-09-23", "time_local": "04:44",
+        "utc_offset": 7.0, "lat": -6.72, "lng": 108.55, "elevation_m": 5.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Cirebon West Java",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-12-22", "time_local": "04:32",
+        "utc_offset": 7.0, "lat": -6.72, "lng": 108.55, "elevation_m": 5.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Cirebon West Java",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Balikpapan, East Kalimantan (1.27°S, 116.83°E, ~10m, UTC+8)
+    # Source: Saksono T. et al., ISRN/UHAMKA "Premature Dawn" series.
+    #   Port city on Makassar Strait; oil industry hub; D0 = -13.4°.
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2015-03-21", "time_local": "05:26",
+        "utc_offset": 8.0, "lat": -1.27, "lng": 116.83, "elevation_m": 10.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Balikpapan E. Kalimantan",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-22", "time_local": "05:18",
+        "utc_offset": 8.0, "lat": -1.27, "lng": 116.83, "elevation_m": 10.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Balikpapan E. Kalimantan",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-09-23", "time_local": "05:11",
+        "utc_offset": 8.0, "lat": -1.27, "lng": 116.83, "elevation_m": 10.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Balikpapan E. Kalimantan",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-12-22", "time_local": "05:09",
+        "utc_offset": 8.0, "lat": -1.27, "lng": 116.83, "elevation_m": 10.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Balikpapan E. Kalimantan",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Bitung, North Sulawesi (1.44°N, 125.19°E, ~20m, UTC+8)
+    # Source: Saksono T. et al., ISRN/UHAMKA "Premature Dawn" series.
+    #   Port city near Manado; fishing center; D0 = -13.4°.
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2015-03-21", "time_local": "04:53",
+        "utc_offset": 8.0, "lat": 1.44, "lng": 125.19, "elevation_m": 20.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Bitung North Sulawesi",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-22", "time_local": "04:39",
+        "utc_offset": 8.0, "lat": 1.44, "lng": 125.19, "elevation_m": 20.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Bitung North Sulawesi",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-09-23", "time_local": "04:38",
+        "utc_offset": 8.0, "lat": 1.44, "lng": 125.19, "elevation_m": 20.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Bitung North Sulawesi",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-12-22", "time_local": "04:41",
+        "utc_offset": 8.0, "lat": 1.44, "lng": 125.19, "elevation_m": 20.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Bitung North Sulawesi",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Manokwari, West Papua (0.86°S, 134.08°E, ~10m, UTC+9)
+    # Source: Saksono T. et al., ISRN/UHAMKA "Premature Dawn" series.
+    #   Provincial capital of West Papua; coastal; D0 = -13.4°.
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2015-03-21", "time_local": "05:17",
+        "utc_offset": 9.0, "lat": -0.86, "lng": 134.08, "elevation_m": 10.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Manokwari West Papua",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-22", "time_local": "05:08",
+        "utc_offset": 9.0, "lat": -0.86, "lng": 134.08, "elevation_m": 10.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Manokwari West Papua",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-09-23", "time_local": "05:02",
+        "utc_offset": 9.0, "lat": -0.86, "lng": 134.08, "elevation_m": 10.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Manokwari West Papua",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-12-22", "time_local": "05:01",
+        "utc_offset": 9.0, "lat": -0.86, "lng": 134.08, "elevation_m": 10.0,
+        "source": "Saksono T. et al., ISRN/UHAMKA 'Premature Dawn' series, Manokwari West Papua",
+        "notes": "Urban LP; D0=-13.4° Indonesia mean; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Tayu Beach, Pati, Central Java (6.68°S, 111.05°E, ~5m, UTC+7)
+    # Source: Noor M. & Hamdani (2018), QIJIS (Qudus International Journal of
+    #   Islamic Studies) 6(1):91-114.
+    #   "Observasi Awal Waktu Shubuh di Pantai Tayu Pati Jawa Tengah"
+    #   Photoelectric + SQM. 4 clear nights Aug-Sep 2016. D0 = -17.0°.
+    #   Beach site facing east (Java Sea); moderate LP for coastal Central Java.
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2016-08-11", "time_local": "04:37",
+        "utc_offset": 7.0, "lat": -6.68, "lng": 111.05, "elevation_m": 5.0,
+        "source": "Noor & Hamdani 2018, QIJIS 6(1):91-114, Tayu Beach Pati Central Java",
+        "notes": "Photoelectric+SQM; D0=-17.0°; clear night; Aug 2016 observation period",
+    },
+    {
+        "prayer": "fajr", "date_local": "2016-08-21", "time_local": "04:34",
+        "utc_offset": 7.0, "lat": -6.68, "lng": 111.05, "elevation_m": 5.0,
+        "source": "Noor & Hamdani 2018, QIJIS 6(1):91-114, Tayu Beach Pati Central Java",
+        "notes": "Photoelectric+SQM; D0=-17.0°; clear night; Aug 2016 observation period",
+    },
+    {
+        "prayer": "fajr", "date_local": "2016-09-06", "time_local": "04:28",
+        "utc_offset": 7.0, "lat": -6.68, "lng": 111.05, "elevation_m": 5.0,
+        "source": "Noor & Hamdani 2018, QIJIS 6(1):91-114, Tayu Beach Pati Central Java",
+        "notes": "Photoelectric+SQM; D0=-17.0°; clear night; Sep 2016 observation period",
+    },
+    {
+        "prayer": "fajr", "date_local": "2016-09-16", "time_local": "04:23",
+        "utc_offset": 7.0, "lat": -6.68, "lng": 111.05, "elevation_m": 5.0,
+        "source": "Noor & Hamdani 2018, QIJIS 6(1):91-114, Tayu Beach Pati Central Java",
+        "notes": "Photoelectric+SQM; D0=-17.0°; clear night; Sep 2016 observation period",
+    },
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Cimahi, West Java (6.88°S, 107.53°E, ~700m, UTC+7)
+    # Source: Herdiwijaya D. (2020), J. Phys. Conf. 1523(1):012007.
+    #   "On the beginning of the morning twilight based on sky brightness measurements"
+    #   5-site SQM study across Bosscha, Cimahi, Bandung, Yogyakarta, Kupang.
+    #   83 moonless nights 2011-2018. D0 = -18.5° (multi-site mean).
+    #   Cimahi: 700m highland suburb west of Bandung.
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2017-03-21", "time_local": "04:42",
+        "utc_offset": 7.0, "lat": -6.88, "lng": 107.53, "elevation_m": 700.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Cimahi West Java Indonesia",
+        "notes": "SQM; D0=-18.5° multi-site mean; 700m highland; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-06-22", "time_local": "04:42",
+        "utc_offset": 7.0, "lat": -6.88, "lng": 107.53, "elevation_m": 700.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Cimahi West Java Indonesia",
+        "notes": "SQM; D0=-18.5° multi-site mean; 700m highland; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-09-23", "time_local": "04:27",
+        "utc_offset": 7.0, "lat": -6.88, "lng": 107.53, "elevation_m": 700.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Cimahi West Java Indonesia",
+        "notes": "SQM; D0=-18.5° multi-site mean; 700m highland; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-22", "time_local": "04:13",
+        "utc_offset": 7.0, "lat": -6.88, "lng": 107.53, "elevation_m": 700.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Cimahi West Java Indonesia",
+        "notes": "SQM; D0=-18.5° multi-site mean; 700m highland; winter solstice; time inferred",
+    },
+
 ]
 
 
