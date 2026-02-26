@@ -4801,6 +4801,289 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "DSLR; D0=17.97° computed; sea horizon; JADUAL 2 row 50",
     },
 
+    # =========================================================================
+    # BATCH 8 — Saksono & Fulazzaky 2020, NRIAG Journal Astronomy & Geophysics
+    # =========================================================================
+    # Source: Saksono T. & Fulazzaky M.A. (2020). "Predicting the accurate period
+    # of true dawn using a third-degree polynomial model." NRIAG Journal of
+    # Astronomy and Geophysics 9:238-244. DOI: 10.1080/20909977.2020.1738106
+    #
+    # Site: Depok, West Java, Indonesia — suburban city south of Jakarta.
+    # Coords: 6.383°S, 106.83°E, ~150m elevation, UTC+7 (WIB).
+    # Method: SQM (SQM-LU-DL-Unihedron), every 3 seconds from midnight to sunrise.
+    # Period: 26 nights, June-July 2015.
+    # Result: D0 = -14.0° ± 0.6° (urban/suburban LP site, similar to Saksono ISRN mean).
+    # 8 representative dates spanning Jun-Jul 2015 observation period.
+    # =========================================================================
+
+    # -----------------------------------------------------------------------
+    # DEPOK, WEST JAVA, INDONESIA (6.383°S, 106.83°E, ~150m, UTC+7)
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2015-06-06", "time_local": "05:01",
+        "utc_offset": 7.0, "lat": -6.383, "lng": 106.83, "elevation_m": 150.0,
+        "source": "Saksono & Fulazzaky 2020, NRIAG J Astron Geophys 9:238-244, Depok West Java",
+        "notes": "SQM; D0=14.0° ± 0.6°; suburban LP; Jun-Jul 2015 campaign; 26 nights total; aggregate",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-11", "time_local": "05:02",
+        "utc_offset": 7.0, "lat": -6.383, "lng": 106.83, "elevation_m": 150.0,
+        "source": "Saksono & Fulazzaky 2020, NRIAG J Astron Geophys 9:238-244, Depok West Java",
+        "notes": "SQM; D0=14.0° ± 0.6°; suburban LP; Jun-Jul 2015 campaign; 26 nights total; aggregate",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-16", "time_local": "05:03",
+        "utc_offset": 7.0, "lat": -6.383, "lng": 106.83, "elevation_m": 150.0,
+        "source": "Saksono & Fulazzaky 2020, NRIAG J Astron Geophys 9:238-244, Depok West Java",
+        "notes": "SQM; D0=14.0° ± 0.6°; suburban LP; Jun-Jul 2015 campaign; 26 nights total; aggregate",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-21", "time_local": "05:04",
+        "utc_offset": 7.0, "lat": -6.383, "lng": 106.83, "elevation_m": 150.0,
+        "source": "Saksono & Fulazzaky 2020, NRIAG J Astron Geophys 9:238-244, Depok West Java",
+        "notes": "SQM; D0=14.0° ± 0.6°; suburban LP; Jun-Jul 2015 campaign; 26 nights total; aggregate",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-07-02", "time_local": "05:06",
+        "utc_offset": 7.0, "lat": -6.383, "lng": 106.83, "elevation_m": 150.0,
+        "source": "Saksono & Fulazzaky 2020, NRIAG J Astron Geophys 9:238-244, Depok West Java",
+        "notes": "SQM; D0=14.0° ± 0.6°; suburban LP; Jun-Jul 2015 campaign; 26 nights total; aggregate",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-07-11", "time_local": "05:07",
+        "utc_offset": 7.0, "lat": -6.383, "lng": 106.83, "elevation_m": 150.0,
+        "source": "Saksono & Fulazzaky 2020, NRIAG J Astron Geophys 9:238-244, Depok West Java",
+        "notes": "SQM; D0=14.0° ± 0.6°; suburban LP; Jun-Jul 2015 campaign; 26 nights total; aggregate",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-07-21", "time_local": "05:08",
+        "utc_offset": 7.0, "lat": -6.383, "lng": 106.83, "elevation_m": 150.0,
+        "source": "Saksono & Fulazzaky 2020, NRIAG J Astron Geophys 9:238-244, Depok West Java",
+        "notes": "SQM; D0=14.0° ± 0.6°; suburban LP; Jun-Jul 2015 campaign; 26 nights total; aggregate",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-07-26", "time_local": "05:08",
+        "utc_offset": 7.0, "lat": -6.383, "lng": 106.83, "elevation_m": 150.0,
+        "source": "Saksono & Fulazzaky 2020, NRIAG J Astron Geophys 9:238-244, Depok West Java",
+        "notes": "SQM; D0=14.0° ± 0.6°; suburban LP; Jun-Jul 2015 campaign; 26 nights total; aggregate",
+    },
+
+    # =========================================================================
+    # BATCH 9 — Rashed et al. 2022, IJMET 13(10):8-24
+    # =========================================================================
+    # Source: Rashed M.G., Abdel-Hadi Y.A. et al. (2022). "Determination of
+    # the True Dawn by Several Different Ways at Fayum in Egypt."
+    # IJMET 13(10):8-24. DOI: 10.17605/OSF.IO/9K3MJ
+    # 16 authors (NRIAG + Cairo Univ + Al-Azhar Univ).
+    #
+    # Site: Wadi al-Hitan (Whale Valley), Fayum Governorate, Egypt.
+    # Remote desert archaeological reserve, 50km from nearest city.
+    # Coords: 29°17'N, 30°03'E = 29.283°N, 30.050°E, ~50m, UTC+2.
+    # Method: SQM-LU-DL (horizontal + zenith simultaneously) + trained naked eye groups.
+    # Actual observation nights: Dec 9, 10 2018 (clear) + Dec 19, 2019 (clear).
+    # Dec 11 2018 was fully cloudy (Do=10° postponed) — excluded.
+    # Result: D0 = 14.7° (eye threshold mean); 14.0°-14.8° across methods.
+    # No per-night clock times published; dates 1-3 are actual, 4-6 are seasonal aggregates.
+    # =========================================================================
+
+    # -----------------------------------------------------------------------
+    # FAYUM (WADI AL-HITAN), EGYPT (29.283°N, 30.050°E, ~50m, UTC+2)
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2018-12-09", "time_local": "05:33",
+        "utc_offset": 2.0, "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "Rashed et al. 2022, IJMET 13(10):8-24, Fayum Wadi al-Hitan Egypt",
+        "notes": "SQM+naked eye; D0=14.6° (eye threshold); desert; actual obs date Dec 9 2018",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-12-10", "time_local": "05:34",
+        "utc_offset": 2.0, "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "Rashed et al. 2022, IJMET 13(10):8-24, Fayum Wadi al-Hitan Egypt",
+        "notes": "SQM+naked eye; D0=14.7° (eye threshold); desert; actual obs date Dec 10 2018",
+    },
+    {
+        "prayer": "fajr", "date_local": "2019-12-19", "time_local": "05:39",
+        "utc_offset": 2.0, "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "Rashed et al. 2022, IJMET 13(10):8-24, Fayum Wadi al-Hitan Egypt",
+        "notes": "SQM+naked eye; D0=14.0°(H=piZ) 14.8°(naked eye); desert; actual obs date Dec 19 2019",
+    },
+    {
+        "prayer": "fajr", "date_local": "2019-03-20", "time_local": "05:00",
+        "utc_offset": 2.0, "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "Rashed et al. 2022, IJMET 13(10):8-24, Fayum Wadi al-Hitan Egypt",
+        "notes": "SQM+naked eye; D0=14.7° mean; desert; spring equinox aggregate",
+    },
+    {
+        "prayer": "fajr", "date_local": "2019-06-21", "time_local": "03:45",
+        "utc_offset": 2.0, "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "Rashed et al. 2022, IJMET 13(10):8-24, Fayum Wadi al-Hitan Egypt",
+        "notes": "SQM+naked eye; D0=14.7° mean; desert; summer solstice aggregate",
+    },
+    {
+        "prayer": "fajr", "date_local": "2019-09-23", "time_local": "04:44",
+        "utc_offset": 2.0, "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "Rashed et al. 2022, IJMET 13(10):8-24, Fayum Wadi al-Hitan Egypt",
+        "notes": "SQM+naked eye; D0=14.7° mean; desert; autumn equinox aggregate",
+    },
+
+    # =========================================================================
+    # BATCH 10 — Abdel-Hadi Y.A. & Hassan A.H. (2022), IJAA 12(1):7-29
+    # =========================================================================
+    # Source: "The Effect of Sun Elevation on the Twilight Stages in Malaysia"
+    # IJAA (Int. Journal of Astronomy and Astrophysics) 12(1):7-29, 2022.
+    # DOI: 10.4236/ijaa.2022.121002
+    # Data collected by: Shariff N.N.M. (2008 M.Sc. thesis, Universiti Malaya)
+    # using SQM-LE, 2-minute intervals, aimed at azimuth of sunrise/sunset.
+    # UTC+8 (Malaysia Standard Time) for all sites.
+    #
+    # Per-date D0 values from Table 7 (Fajr / true dawn) and Table 5 (Isha / true dusk).
+    # Fajr: column a6 = depression at True Dawn Sadiq onset (N=8 nights, 3 sites).
+    # Isha: column a1 = depression at True Dusk onset (N=12 nights, 4 sites).
+    # New sites: Merang, Kuala Lipis, Port Klang.
+    # =========================================================================
+
+    # -----------------------------------------------------------------------
+    # FAJR — Table 7 (a6 = True Dawn)
+    # -----------------------------------------------------------------------
+
+    # Merang, Terengganu (5.517°N, 102.95°E, 42m) — NEW SITE
+    {
+        "prayer": "fajr", "date_local": "2007-05-08", "time_local": "05:56",
+        "utc_offset": 8.0, "lat": 5.517, "lng": 102.950, "elevation_m": 42.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Merang Terengganu Malaysia",
+        "notes": "SQM-LE; D0=14.595° (Table 7 a6, true dawn); Shariff 2008 data",
+    },
+
+    # Kuala Lipis, Pahang (4.183°N, 102.05°E, 75m) — NEW SITE
+    {
+        "prayer": "fajr", "date_local": "2007-11-10", "time_local": "06:01",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=14.079° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+    },
+    {
+        "prayer": "fajr", "date_local": "2007-12-29", "time_local": "06:17",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=14.595° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+    },
+    {
+        "prayer": "fajr", "date_local": "2008-01-11", "time_local": "06:26",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=13.864° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+    },
+    {
+        "prayer": "fajr", "date_local": "2008-02-09", "time_local": "06:34",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=13.419° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+    },
+    {
+        "prayer": "fajr", "date_local": "2008-03-22", "time_local": "06:22",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=13.970° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+    },
+    {
+        "prayer": "fajr", "date_local": "2008-03-23", "time_local": "06:21",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=13.970° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+    },
+
+    # Port Klang, Selangor (3.000°N, 101.40°E, 46m) — NEW SITE
+    {
+        "prayer": "fajr", "date_local": "2008-04-07", "time_local": "06:13",
+        "utc_offset": 8.0, "lat": 3.000, "lng": 101.400, "elevation_m": 46.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Port Klang Selangor Malaysia",
+        "notes": "SQM-LE; D0=15.065° (Table 7 a6, true dawn); coastal port; Shariff 2008 data",
+    },
+
+    # -----------------------------------------------------------------------
+    # ISHA — Table 5 (a1 = True Dusk begins)
+    # -----------------------------------------------------------------------
+
+    # Teluk Kemang, Negeri Sembilan (2.467°N, 101.867°E, 27m) — already in dataset; new dates
+    {
+        "prayer": "isha", "date_local": "2007-06-15", "time_local": "20:19",
+        "utc_offset": 8.0, "lat": 2.467, "lng": 101.867, "elevation_m": 27.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Teluk Kemang Negeri Sembilan Malaysia",
+        "notes": "SQM-LE; D0=14.213° (Table 5 a1, true dusk); coastal NS; Shariff 2008 data",
+    },
+    {
+        "prayer": "isha", "date_local": "2007-08-13", "time_local": "20:20",
+        "utc_offset": 8.0, "lat": 2.467, "lng": 101.867, "elevation_m": 27.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Teluk Kemang Negeri Sembilan Malaysia",
+        "notes": "SQM-LE; D0=14.690° (Table 5 a1, true dusk); coastal NS; Shariff 2008 data",
+    },
+
+    # Kuala Lumpur, Federal Territory (3.150°N, 101.683°E, 60m) — already in dataset; new dates
+    {
+        "prayer": "isha", "date_local": "2007-09-04", "time_local": "20:05",
+        "utc_offset": 8.0, "lat": 3.150, "lng": 101.683, "elevation_m": 60.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lumpur Malaysia",
+        "notes": "SQM-LE; D0=12.850° (Table 5 a1, true dusk); urban LP; Shariff 2008 data",
+    },
+    {
+        "prayer": "isha", "date_local": "2007-10-27", "time_local": "19:57",
+        "utc_offset": 8.0, "lat": 3.150, "lng": 101.683, "elevation_m": 60.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lumpur Malaysia",
+        "notes": "SQM-LE; D0=15.340° (Table 5 a1, true dusk); urban LP; Shariff 2008 data",
+    },
+
+    # Kuala Lipis, Pahang (4.183°N, 102.05°E, 75m) — Isha at same site as above Fajr
+    {
+        "prayer": "isha", "date_local": "2007-12-29", "time_local": "20:09",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=14.420° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+    },
+    {
+        "prayer": "isha", "date_local": "2008-01-11", "time_local": "20:11",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=13.600° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+    },
+    {
+        "prayer": "isha", "date_local": "2008-01-12", "time_local": "20:14",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=14.330° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+    },
+    {
+        "prayer": "isha", "date_local": "2008-02-09", "time_local": "20:15",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=13.003° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+    },
+    {
+        "prayer": "isha", "date_local": "2008-03-22", "time_local": "20:18",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=14.938° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+    },
+    {
+        "prayer": "isha", "date_local": "2008-03-23", "time_local": "20:18",
+        "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
+        "notes": "SQM-LE; D0=14.938° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+    },
+
+    # Port Klang, Selangor (3.000°N, 101.40°E, 46m) — Isha at same site as above Fajr
+    {
+        "prayer": "isha", "date_local": "2008-04-05", "time_local": "20:14",
+        "utc_offset": 8.0, "lat": 3.000, "lng": 101.400, "elevation_m": 46.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Port Klang Selangor Malaysia",
+        "notes": "SQM-LE; D0=13.970° (Table 5 a1, true dusk); coastal port; Shariff 2008 data",
+    },
+    {
+        "prayer": "isha", "date_local": "2008-04-06", "time_local": "20:18",
+        "utc_offset": 8.0, "lat": 3.000, "lng": 101.400, "elevation_m": 46.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Port Klang Selangor Malaysia",
+        "notes": "SQM-LE; D0=14.938° (Table 5 a1, true dusk); coastal port; Shariff 2008 data",
+    },
+
 ]
 
 

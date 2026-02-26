@@ -13,22 +13,34 @@ date,utc_dt,lat,lng,elevation_m,day_of_year,isha_angle,source,notes
 2008-04-15,2008-04-15 12:12:00+00:00,2.46,101.867,15.0,106,14.19409102931759,"Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM dusk",SQM dusk; mean 14.38°; spring; time inferred
 2007-05-15,2007-05-15 12:13:00+00:00,2.46,101.867,15.0,135,14.319810052501785,"Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM dusk",SQM dusk; mean 14.38°; may measure different Shafaq threshold than 16-17° papers; time inferred
 2007-09-22,2007-09-22 12:02:00+00:00,2.46,101.867,15.0,265,14.131031307805449,"Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM dusk",SQM dusk; mean 14.38°; autumn equinox; time inferred
+2007-06-15,2007-06-15 12:19:00+00:00,2.467,101.867,27.0,166,14.114171839612919,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Teluk Kemang Negeri Sembilan Malaysia","SQM-LE; D0=14.213° (Table 5 a1, true dusk); coastal NS; Shariff 2008 data"
+2007-08-13,2007-08-13 12:20:00+00:00,2.467,101.867,27.0,225,14.45502645372688,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Teluk Kemang Negeri Sembilan Malaysia","SQM-LE; D0=14.690° (Table 5 a1, true dusk); coastal NS; Shariff 2008 data"
+2008-04-05,2008-04-05 12:14:00+00:00,3.0,101.4,46.0,96,13.804319454141643,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Port Klang Selangor Malaysia","SQM-LE; D0=13.970° (Table 5 a1, true dusk); coastal port; Shariff 2008 data"
+2008-04-06,2008-04-06 12:18:00+00:00,3.0,101.4,46.0,97,14.832915207294299,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Port Klang Selangor Malaysia","SQM-LE; D0=14.938° (Table 5 a1, true dusk); coastal port; Shariff 2008 data"
 2008-03-20,2008-03-20 12:12:00+00:00,3.004,101.403,5.0,80,12.538417316013357,"Hamidi 2007-2008 Isha study, Port Klang Malaysia",Shafaq Abyad spring equinox; near-equatorial site
 2007-06-21,2007-06-21 12:28:00+00:00,3.004,101.403,5.0,172,15.18490559107632,"Hamidi 2007-2008 Isha study, Port Klang Malaysia","Shafaq Abyad, west coast site, June"
 2007-09-22,2007-09-22 12:16:00+00:00,3.004,101.403,5.0,265,17.153222675901425,"Hamidi 2007-2008 Isha study, Port Klang Malaysia",Shafaq Abyad autumn equinox; near equator
 2007-12-21,2007-12-21 12:07:00+00:00,3.004,101.403,5.0,355,13.73664508607151,"Hamidi 2007-2008 Isha study, Port Klang Malaysia","Shafaq Abyad, west coast site, December"
+2007-09-04,2007-09-04 12:05:00+00:00,3.15,101.683,60.0,247,12.621681590864045,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lumpur Malaysia","SQM-LE; D0=12.850° (Table 5 a1, true dusk); urban LP; Shariff 2008 data"
+2007-10-27,2007-10-27 11:57:00+00:00,3.15,101.683,60.0,300,15.279616409202303,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lumpur Malaysia","SQM-LE; D0=15.340° (Table 5 a1, true dusk); urban LP; Shariff 2008 data"
 2019-03-20,2019-03-20 12:49:00+00:00,3.595,98.672,22.0,79,19.006531327934564,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar spring equinox; equatorial latitude
 2018-06-21,2018-06-21 12:52:00+00:00,3.595,98.672,22.0,172,17.853482697915105,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar (red dusk twilight) June; near equator
 2019-09-22,2019-09-22 12:51:00+00:00,3.595,98.672,22.0,265,23.15953052256514,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar autumn equinox
 2018-12-21,2018-12-21 12:48:00+00:00,3.595,98.672,22.0,355,20.820721779043744,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar December; near equator
+2008-01-11,2008-01-11 12:11:00+00:00,4.183,102.05,75.0,11,13.49325471009269,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia","SQM-LE; D0=13.600° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data"
+2008-01-12,2008-01-12 12:14:00+00:00,4.183,102.05,75.0,12,14.100432060323792,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia","SQM-LE; D0=14.330° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data"
 2008-01-15,2008-01-15 12:16:00+00:00,4.183,102.04,76.0,15,14.304896334449062,"Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",Shafaq Abyad winter; Kuala Lipis; time inferred
+2008-02-09,2008-02-09 12:15:00+00:00,4.183,102.05,75.0,40,12.897576837102955,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia","SQM-LE; D0=13.003° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data"
 2008-03-20,2008-03-20 12:15:00+00:00,4.183,102.04,76.0,80,13.902877376317635,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad, spring equinox"
+2008-03-22,2008-03-22 12:18:00+00:00,4.183,102.05,75.0,82,14.749033654097373,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia","SQM-LE; D0=14.938° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data"
+2008-03-23,2008-03-23 12:18:00+00:00,4.183,102.05,75.0,83,14.79260855345476,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia","SQM-LE; D0=14.938° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data"
 2008-04-15,2008-04-15 12:13:00+00:00,4.183,102.04,76.0,106,14.273538935969533,"Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",Shafaq Abyad spring; Kuala Lipis 76m; time inferred
 2007-05-15,2007-05-15 12:15:00+00:00,4.183,102.04,76.0,135,14.34835938945879,"Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",Shafaq Abyad end; 4.2°N 76m; Isha 14.38°; time inferred from mean angle
 2007-06-21,2007-06-21 12:32:00+00:00,4.183,102.04,76.0,172,16.14961346227997,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, June; near equator"
 2007-09-22,2007-09-22 12:20:00+00:00,4.183,102.04,76.0,265,18.755050592883862,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, September equinox"
 2007-09-22,2007-09-22 12:02:00+00:00,4.183,102.04,76.0,265,14.267391765716521,"Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",Shafaq Abyad autumn equinox; Kuala Lipis; time inferred
 2007-12-21,2007-12-21 12:10:00+00:00,4.183,102.04,76.0,355,15.474037743926715,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, December; near equator"
+2007-12-29,2007-12-29 12:09:00+00:00,4.183,102.05,75.0,363,14.354337512529845,"Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia","SQM-LE; D0=14.420° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data"
 2007-03-21,2007-03-21 11:35:00+00:00,5.933,116.05,5.0,80,17.857891585024348,"Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",SQM-LE; Shafaq Abyad disappearance; mean 17.99° depression; time inferred
 2007-06-22,2007-06-22 11:47:00+00:00,5.933,116.05,5.0,173,17.787197419567423,"Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",SQM-LE; Shafaq Abyad; summer at near-equatorial site
 2007-09-23,2007-09-23 11:20:00+00:00,5.933,116.05,5.0,266,17.83225788506929,"Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",SQM-LE; Shafaq Abyad; autumn equinox
