@@ -4193,6 +4193,323 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "SQM; D0=-18.5° multi-site mean; 700m highland; winter solstice; time inferred",
     },
 
+    # =========================================================================
+    # BATCH 6 — Kassim Bahali et al. 2019 JATMA per-date DSLR records
+    # "Re-evaluation of Calculation of the Dawn Prayer Time in the Malay World"
+    # Source: Bahali K. et al. (2019), JATMA 7(2):37-48
+    #   DOI: 10.17576/jatma-2019-0702-04
+    # DSLR camera (Canon 60Da), 22 sites in Malaysia, Indonesia, Thailand.
+    # Feb 2017 - Sep 2018. 118 days, 112 valid (6 TD).
+    # Mean D0 = 17.15° (from paper's mean time difference of 11.4 min).
+    # Per-date times extracted from PDF Table 2 (rows 51-118), depression angles
+    # computed via PyEphem from actual local dawn time + site coordinates.
+    # =========================================================================
+
+    # -----------------------------------------------------------------------
+    # SABANG, ACEH, INDONESIA (5.876°N, 95.340°E, 5m, UTC+7)
+    # Westernmost city of Indonesia. Sabang island, Weh Island, Indian Ocean.
+    # Excellent dark sky horizon — facing west over Indian Ocean.
+    # 11 individual DSLR observations Dec 20-30, 2017.
+    # Mean D0 computed: 17.35°
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2017-12-20", "time_local": "05:33",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=16.78° computed; Dec 20 clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-21", "time_local": "05:37",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=15.98° computed; Dec 21 clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-22", "time_local": "05:31",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=17.47° computed; Dec 22 clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-23", "time_local": "05:36",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=16.43° computed; Dec 23 clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-24", "time_local": "05:33",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=17.24° computed; Dec 24 clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-25", "time_local": "05:33",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=17.35° computed; Dec 25 clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-26", "time_local": "05:32",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=17.70° computed; Dec 26 clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-27", "time_local": "05:34",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=17.35° computed; Dec 27 clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-28", "time_local": "05:31",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=18.15° computed; Dec 28 clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-29", "time_local": "05:32",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=18.04° computed; Dec 29 clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-12-30", "time_local": "05:31",
+        "utc_offset": 7.0, "lat": 5.876, "lng": 95.340, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sabang Aceh Indonesia",
+        "notes": "DSLR; D0=18.38° computed; Dec 30 clear sky; actual dawn time from paper Table 2",
+    },
+
+    # -----------------------------------------------------------------------
+    # YARING, PATTANI, THAILAND (6.934°N, 101.319°E, 5m, UTC+7)
+    # Southern Thailand (predominantly Muslim region). Coastal DSLR observation.
+    # Coordinates from paper: 6°56'02"N, 101°19'07"E
+    # 2 observations Jan 20-21, 2018.
+    # Mean D0 computed: 17.07°
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2018-01-20", "time_local": "05:23",
+        "utc_offset": 7.0, "lat": 6.934, "lng": 101.319, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Yaring Pattani Thailand",
+        "notes": "DSLR; D0=17.03° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-01-21", "time_local": "05:23",
+        "utc_offset": 7.0, "lat": 6.934, "lng": 101.319, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Yaring Pattani Thailand",
+        "notes": "DSLR; D0=17.10° computed; clear sky; actual dawn time from paper Table 2",
+    },
+
+    # -----------------------------------------------------------------------
+    # SURABAYA, EAST JAVA, INDONESIA (-7.244°S, 112.802°E, 5m, UTC+7)
+    # Second largest Indonesian city. Coastal Java Sea horizon.
+    # Coordinates from paper: 7°14'39"S, 112°48'08"E
+    # 3 observations Feb 21-23, 2018.
+    # Mean D0 computed: 18.54°
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2018-02-21", "time_local": "04:20",
+        "utc_offset": 7.0, "lat": -7.244, "lng": 112.802, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Surabaya East Java Indonesia",
+        "notes": "DSLR; D0=18.65° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-02-22", "time_local": "04:21",
+        "utc_offset": 7.0, "lat": -7.244, "lng": 112.802, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Surabaya East Java Indonesia",
+        "notes": "DSLR; D0=18.46° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-02-23", "time_local": "04:21",
+        "utc_offset": 7.0, "lat": -7.244, "lng": 112.802, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Surabaya East Java Indonesia",
+        "notes": "DSLR; D0=18.50° computed; clear sky; actual dawn time from paper Table 2",
+    },
+
+    # -----------------------------------------------------------------------
+    # SUMENEP, MADURA, INDONESIA (-7.255°S, 112.803°E, 5m, UTC+7)
+    # Western Madura coast facing Surabaya Strait.
+    # Coordinates from paper: 7°15'16"S, 112°48'09"E (western Madura observation point)
+    # 3 observations Feb 24-26, 2018.
+    # Mean D0 computed: 16.46° (high variance, range 14.90°-18.35°)
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2018-02-24", "time_local": "04:36",
+        "utc_offset": 7.0, "lat": -7.255, "lng": 112.803, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sumenep Madura Indonesia",
+        "notes": "DSLR; D0=14.90° computed; partial cloud possible; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-02-25", "time_local": "04:31",
+        "utc_offset": 7.0, "lat": -7.255, "lng": 112.803, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sumenep Madura Indonesia",
+        "notes": "DSLR; D0=16.14° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-02-26", "time_local": "04:22",
+        "utc_offset": 7.0, "lat": -7.255, "lng": 112.803, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Sumenep Madura Indonesia",
+        "notes": "DSLR; D0=18.35° computed; clear sky; actual dawn time from paper Table 2",
+    },
+
+    # -----------------------------------------------------------------------
+    # TERNATE, NORTH MALUKU, INDONESIA (-0.691°S, 127.390°E, 5m, UTC+9)
+    # Coordinates from paper: 0°41'26"S, 127°23'24"E
+    # (Observation site in North Maluku just south of equator)
+    # 3 observations Mar 21-23, 2018.
+    # Mean D0 computed: 17.38°
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2018-03-21", "time_local": "05:30",
+        "utc_offset": 9.0, "lat": -0.691, "lng": 127.390, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Ternate North Maluku Indonesia",
+        "notes": "DSLR; D0=16.95° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-03-22", "time_local": "05:25",
+        "utc_offset": 9.0, "lat": -0.691, "lng": 127.390, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Ternate North Maluku Indonesia",
+        "notes": "DSLR; D0=18.14° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-03-23", "time_local": "05:29",
+        "utc_offset": 9.0, "lat": -0.691, "lng": 127.390, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Ternate North Maluku Indonesia",
+        "notes": "DSLR; D0=17.06° computed; clear sky; actual dawn time from paper Table 2",
+    },
+
+    # -----------------------------------------------------------------------
+    # SOUTH SULAWESI / GOWA AREA, INDONESIA (-5.610°S, 120.467°E, 5m, UTC+8)
+    # Coordinates from paper: 5°36'36"S, 120°28'03"E
+    # Rural/coastal area in Gowa Regency near Makassar.
+    # 6 observations Mar 24-29, 2018.
+    # Mean D0 computed: 18.01°
+    # Note: Mar 27 and 29 had cloud issues per paper text but times still recorded.
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2018-03-24", "time_local": "04:52",
+        "utc_offset": 8.0, "lat": -5.610, "lng": 120.467, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, South Sulawesi Gowa Indonesia",
+        "notes": "DSLR; D0=18.19° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-03-25", "time_local": "04:58",
+        "utc_offset": 8.0, "lat": -5.610, "lng": 120.467, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, South Sulawesi Gowa Indonesia",
+        "notes": "DSLR; D0=16.66° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-03-26", "time_local": "04:51",
+        "utc_offset": 8.0, "lat": -5.610, "lng": 120.467, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, South Sulawesi Gowa Indonesia",
+        "notes": "DSLR; D0=18.36° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-03-27", "time_local": "04:48",
+        "utc_offset": 8.0, "lat": -5.610, "lng": 120.467, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, South Sulawesi Gowa Indonesia",
+        "notes": "DSLR; D0=19.07° computed; cloud on horizon per paper; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-03-28", "time_local": "04:54",
+        "utc_offset": 8.0, "lat": -5.610, "lng": 120.467, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, South Sulawesi Gowa Indonesia",
+        "notes": "DSLR; D0=17.53° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-03-29", "time_local": "04:51",
+        "utc_offset": 8.0, "lat": -5.610, "lng": 120.467, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, South Sulawesi Gowa Indonesia",
+        "notes": "DSLR; D0=18.24° computed; cloud on horizon per paper; actual dawn time from paper Table 2",
+    },
+
+    # -----------------------------------------------------------------------
+    # MERSING, JOHOR, MALAYSIA (2.432°N, 103.827°E, 5m, UTC+8)
+    # East coast Johor. South China Sea horizon — dry season (Jun-Sep) clear sky.
+    # 3 observations Jun 22-24, 2018.
+    # Mean D0 computed: 19.31°
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2018-06-22", "time_local": "05:37",
+        "utc_offset": 8.0, "lat": 2.432, "lng": 103.827, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Mersing Johor Malaysia",
+        "notes": "DSLR; D0=19.41° computed; dry season clear sky; South China Sea horizon; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-06-23", "time_local": "05:38",
+        "utc_offset": 8.0, "lat": 2.432, "lng": 103.827, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Mersing Johor Malaysia",
+        "notes": "DSLR; D0=19.24° computed; dry season clear sky; South China Sea horizon; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-06-24", "time_local": "05:38",
+        "utc_offset": 8.0, "lat": 2.432, "lng": 103.827, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Mersing Johor Malaysia",
+        "notes": "DSLR; D0=19.29° computed; dry season clear sky; South China Sea horizon; actual dawn time from paper Table 2",
+    },
+
+    # -----------------------------------------------------------------------
+    # KUALA ROMPIN, PAHANG, MALAYSIA (2.807°N, 103.491°E, 5m, UTC+8)
+    # East coast Pahang. South China Sea horizon — dry season clear sky.
+    # 2 observations Jul 16-17, 2018 (3 TD days skipped).
+    # Mean D0 computed: 19.45°
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2018-07-16", "time_local": "05:43",
+        "utc_offset": 8.0, "lat": 2.807, "lng": 103.491, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuala Rompin Pahang Malaysia",
+        "notes": "DSLR; D0=19.54° computed; dry season clear sky; South China Sea horizon; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-07-17", "time_local": "05:44",
+        "utc_offset": 8.0, "lat": 2.807, "lng": 103.491, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuala Rompin Pahang Malaysia",
+        "notes": "DSLR; D0=19.36° computed; dry season clear sky; South China Sea horizon; actual dawn time from paper Table 2",
+    },
+
+    # -----------------------------------------------------------------------
+    # NENASI, PEKAN, PAHANG, MALAYSIA (3.310°N, 103.453°E, 5m, UTC+8)
+    # Coastal Pahang. South China Sea horizon.
+    # 2 observations Aug 14-15, 2018 (1 TD skipped).
+    # Mean D0 computed: 19.39°
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2018-08-14", "time_local": "05:47",
+        "utc_offset": 8.0, "lat": 3.310, "lng": 103.453, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Nenasi Pekan Pahang Malaysia",
+        "notes": "DSLR; D0=19.39° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-08-15", "time_local": "05:47",
+        "utc_offset": 8.0, "lat": 3.310, "lng": 103.453, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Nenasi Pekan Pahang Malaysia",
+        "notes": "DSLR; D0=19.39° computed; clear sky; actual dawn time from paper Table 2",
+    },
+
+    # -----------------------------------------------------------------------
+    # KOTA TINGGI, JOHOR, MALAYSIA (1.731°N, 103.904°E, 5m, UTC+8)
+    # Inland Johor near river mouth, eastern Johor. Clear Sep 2018 dry season.
+    # 3 observations Sep 18-20, 2018.
+    # Mean D0 computed: 19.61°
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2018-09-18", "time_local": "05:40",
+        "utc_offset": 8.0, "lat": 1.731, "lng": 103.904, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kota Tinggi Johor Malaysia",
+        "notes": "DSLR; D0=19.60° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-09-19", "time_local": "05:40",
+        "utc_offset": 8.0, "lat": 1.731, "lng": 103.904, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kota Tinggi Johor Malaysia",
+        "notes": "DSLR; D0=19.53° computed; clear sky; actual dawn time from paper Table 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2018-09-20", "time_local": "05:39",
+        "utc_offset": 8.0, "lat": 1.731, "lng": 103.904, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kota Tinggi Johor Malaysia",
+        "notes": "DSLR; D0=19.71° computed; clear sky; actual dawn time from paper Table 2",
+    },
+
 ]
 
 
