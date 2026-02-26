@@ -4510,6 +4510,297 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "DSLR; D0=19.71° computed; clear sky; actual dawn time from paper Table 2",
     },
 
+    # -----------------------------------------------------------------------
+    # INDONESIA — Pondok Permai Beach, Serdang Bedagai, North Sumatra
+    # Coordinates: ~3.46°N, 99.00°E, ~5m (coastal, Strait of Malacca)
+    # UTC+7 (WIB)
+    # Source: Pinem, R.K.B., Hidayat, M. & Ananda, F.S. (2024).
+    #   "The Influence of MPSAS Values and SQM Angles in Determining Fajr Time."
+    #   Journal of Mathematics Education and Application (JMEA), 3(1).
+    #   DOI: 10.30596/jmea.v3i1.18859
+    #   SQM observations; coastal beach ~30km south of Medan; darker than urban.
+    #   Aggregate mean D0 = -15.0° for Pondok Permai.
+    # 4 seasonal aggregate records.
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2022-03-21", "time_local": "05:31",
+        "utc_offset": 7.0, "lat": 3.46, "lng": 99.00, "elevation_m": 5.0,
+        "source": "Pinem et al. 2024, JMEA 3(1), Pondok Permai Beach North Sumatra",
+        "notes": "SQM; coastal Strait of Malacca; ~30km S of Medan; D0=15.0°; spring equinox inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2022-06-22", "time_local": "05:13",
+        "utc_offset": 7.0, "lat": 3.46, "lng": 99.00, "elevation_m": 5.0,
+        "source": "Pinem et al. 2024, JMEA 3(1), Pondok Permai Beach North Sumatra",
+        "notes": "SQM; coastal Strait of Malacca; D0=15.0°; summer solstice inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2022-09-23", "time_local": "05:16",
+        "utc_offset": 7.0, "lat": 3.46, "lng": 99.00, "elevation_m": 5.0,
+        "source": "Pinem et al. 2024, JMEA 3(1), Pondok Permai Beach North Sumatra",
+        "notes": "SQM; coastal Strait of Malacca; D0=15.0°; autumn equinox inferred",
+    },
+    {
+        "prayer": "fajr", "date_local": "2022-12-22", "time_local": "05:22",
+        "utc_offset": 7.0, "lat": 3.46, "lng": 99.00, "elevation_m": 5.0,
+        "source": "Pinem et al. 2024, JMEA 3(1), Pondok Permai Beach North Sumatra",
+        "notes": "SQM; coastal Strait of Malacca; D0=15.0°; winter solstice inferred",
+    },
+
+    # -----------------------------------------------------------------------
+    # INDONESIA — Sri Mersing Beach, Serdang Bedagai, North Sumatra
+    # Coordinates: ~3.45°N, 99.00°E, ~5m (coastal, Strait of Malacca)
+    # UTC+7 (WIB)
+    # Same source paper as above (Pinem et al. 2024, JMEA 3(1)).
+    # Adjacent beach ~1km from Pondok Permai; slightly more LP-influenced.
+    # Aggregate mean D0 = -14.0° for Sri Mersing.
+    # 4 seasonal aggregate records.
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2022-03-21", "time_local": "05:35",
+        "utc_offset": 7.0, "lat": 3.45, "lng": 99.00, "elevation_m": 5.0,
+        "source": "Pinem et al. 2024, JMEA 3(1), Sri Mersing Beach North Sumatra",
+        "notes": "SQM; coastal Strait of Malacca; D0=14.0°; LP-influenced vs Pondok Permai; spring equinox",
+    },
+    {
+        "prayer": "fajr", "date_local": "2022-06-22", "time_local": "05:18",
+        "utc_offset": 7.0, "lat": 3.45, "lng": 99.00, "elevation_m": 5.0,
+        "source": "Pinem et al. 2024, JMEA 3(1), Sri Mersing Beach North Sumatra",
+        "notes": "SQM; coastal Strait of Malacca; D0=14.0°; LP-influenced; summer solstice",
+    },
+    {
+        "prayer": "fajr", "date_local": "2022-09-23", "time_local": "05:20",
+        "utc_offset": 7.0, "lat": 3.45, "lng": 99.00, "elevation_m": 5.0,
+        "source": "Pinem et al. 2024, JMEA 3(1), Sri Mersing Beach North Sumatra",
+        "notes": "SQM; coastal Strait of Malacca; D0=14.0°; LP-influenced; autumn equinox",
+    },
+    {
+        "prayer": "fajr", "date_local": "2022-12-22", "time_local": "05:27",
+        "utc_offset": 7.0, "lat": 3.45, "lng": 99.00, "elevation_m": 5.0,
+        "source": "Pinem et al. 2024, JMEA 3(1), Sri Mersing Beach North Sumatra",
+        "notes": "SQM; coastal Strait of Malacca; D0=14.0°; LP-influenced; winter solstice",
+    },
+
+    # -----------------------------------------------------------------------
+    # JATMA 2019 FIRST TABLE — ROWS 1-50 (Malaysian Sites, Feb-Nov 2017)
+    # Source: Kassim Bahali, Samian, Muslim & Abdul Hamid (2019).
+    #   "Re-evaluation of Calculation of the Dawn Prayer Time in the Malay World."
+    #   JATMA: Journal of Al-Tamaddun 7(2):37-48.
+    #   DOI: 10.17576/jatma-2019-0702-04
+    # Instrument: DSLR Canon 60Da, calibrated (Kc=74). Sea horizon for coastal sites.
+    # UTC+8 (Malaysia Standard Time) for all Malaysia sites.
+    # Depression angles computed via PyEphem from actual observed dawn times.
+    # (Rows 9-27 = Pekan already in dataset; row 16 = TD, skipped)
+    # -----------------------------------------------------------------------
+
+    # KUANTAN, PAHANG — 3°48'45"N, 103°22'19"E — sea horizon
+    {
+        "prayer": "fajr", "date_local": "2017-02-08", "time_local": "06:17",
+        "utc_offset": 8.0, "lat": 3.8125, "lng": 103.3719, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuantan Pahang Malaysia",
+        "notes": "DSLR; D0=16.35° computed; sea horizon; actual dawn from paper JADUAL 2 row 1",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-02-09", "time_local": "06:10",
+        "utc_offset": 8.0, "lat": 3.8125, "lng": 103.3719, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuantan Pahang Malaysia",
+        "notes": "DSLR; D0=18.05° computed; sea horizon; actual dawn from paper JADUAL 2 row 2",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-02-10", "time_local": "06:14",
+        "utc_offset": 8.0, "lat": 3.8125, "lng": 103.3719, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuantan Pahang Malaysia",
+        "notes": "DSLR; D0=17.09° computed; sea horizon; actual dawn from paper JADUAL 2 row 3",
+    },
+
+    # RANTAU ABANG, TERENGGANU — 4°51'53"N, 103°23'37"E — sea horizon
+    {
+        "prayer": "fajr", "date_local": "2017-03-01", "time_local": "06:21",
+        "utc_offset": 8.0, "lat": 4.8647, "lng": 103.3936, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Rantau Abang Terengganu Malaysia",
+        "notes": "DSLR; D0=14.94° computed; sea horizon; dawn JADUAL 2 row 4",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-03-02", "time_local": "06:21",
+        "utc_offset": 8.0, "lat": 4.8647, "lng": 103.3936, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Rantau Abang Terengganu Malaysia",
+        "notes": "DSLR; D0=14.87° computed; sea horizon; dawn JADUAL 2 row 5",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-03-03", "time_local": "06:17",
+        "utc_offset": 8.0, "lat": 4.8647, "lng": 103.3936, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Rantau Abang Terengganu Malaysia",
+        "notes": "DSLR; D0=15.79° computed; sea horizon; dawn JADUAL 2 row 6",
+    },
+
+    # PENOR, PAHANG — 3°40'23"N, 103°21'03"E — sea horizon
+    {
+        "prayer": "fajr", "date_local": "2017-04-03", "time_local": "06:08",
+        "utc_offset": 8.0, "lat": 3.6731, "lng": 103.3508, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Penor Pahang Malaysia",
+        "notes": "DSLR; D0=15.05° computed; sea horizon; dawn JADUAL 2 row 7",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-04-04", "time_local": "06:04",
+        "utc_offset": 8.0, "lat": 3.6731, "lng": 103.3508, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Penor Pahang Malaysia",
+        "notes": "DSLR; D0=15.93° computed; sea horizon; dawn JADUAL 2 row 8",
+    },
+
+    # KUALA DUNGUN, TERENGGANU — 4°47'42"N, 103°25'34"E — sea horizon
+    {
+        "prayer": "fajr", "date_local": "2017-07-31", "time_local": "05:51",
+        "utc_offset": 8.0, "lat": 4.7950, "lng": 103.4261, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuala Dungun Terengganu Malaysia",
+        "notes": "DSLR; D0=17.70° computed; sea horizon; dawn JADUAL 2 row 28",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-08-01", "time_local": "05:52",
+        "utc_offset": 8.0, "lat": 4.7950, "lng": 103.4261, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuala Dungun Terengganu Malaysia",
+        "notes": "DSLR; D0=17.50° computed; sea horizon; dawn JADUAL 2 row 29",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-08-02", "time_local": "05:55",
+        "utc_offset": 8.0, "lat": 4.7950, "lng": 103.4261, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuala Dungun Terengganu Malaysia",
+        "notes": "DSLR; D0=16.84° computed; sea horizon; dawn JADUAL 2 row 30",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-08-05", "time_local": "05:52",
+        "utc_offset": 8.0, "lat": 4.7950, "lng": 103.4261, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuala Dungun Terengganu Malaysia",
+        "notes": "DSLR; D0=17.63° computed; sea horizon; dawn JADUAL 2 row 33",
+    },
+
+    # KUALA TERENGGANU — additional dates (Aug 3-4, 2017, not yet in dataset)
+    {
+        "prayer": "fajr", "date_local": "2017-08-03", "time_local": "05:49",
+        "utc_offset": 8.0, "lat": 5.325, "lng": 103.145, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuala Terengganu Malaysia",
+        "notes": "DSLR; D0=18.35° computed; sea horizon; Aug 3 new date; JADUAL 2 row 31",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-08-04", "time_local": "05:53",
+        "utc_offset": 8.0, "lat": 5.325, "lng": 103.145, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuala Terengganu Malaysia",
+        "notes": "DSLR; D0=17.45° computed; sea horizon; Aug 4 new date; JADUAL 2 row 32",
+    },
+
+    # JASIN, MELAKA — 2°20'04"N, 102°18'57"E — land horizon (Darat)
+    {
+        "prayer": "fajr", "date_local": "2017-10-19", "time_local": "05:56",
+        "utc_offset": 8.0, "lat": 2.3344, "lng": 102.3158, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Jasin Melaka Malaysia",
+        "notes": "DSLR; D0=15.12° computed; land horizon; inland Melaka; JADUAL 2 row 34",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-10-20", "time_local": "05:54",
+        "utc_offset": 8.0, "lat": 2.3344, "lng": 102.3158, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Jasin Melaka Malaysia",
+        "notes": "DSLR; D0=15.57° computed; land horizon; JADUAL 2 row 35",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-10-21", "time_local": "05:47",
+        "utc_offset": 8.0, "lat": 2.3344, "lng": 102.3158, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Jasin Melaka Malaysia",
+        "notes": "DSLR; D0=17.24° computed; land horizon; JADUAL 2 row 36",
+    },
+
+    # SETIU, TERENGGANU — 5°35'52"N, 102°47'49"E — sea horizon
+    {
+        "prayer": "fajr", "date_local": "2017-10-23", "time_local": "05:47",
+        "utc_offset": 8.0, "lat": 5.5978, "lng": 102.7969, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Setiu Terengganu Malaysia",
+        "notes": "DSLR; D0=17.29° computed; sea horizon; Oct 23; JADUAL 2 row 37",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-10-24", "time_local": "05:48",
+        "utc_offset": 8.0, "lat": 5.5978, "lng": 102.7969, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Setiu Terengganu Malaysia",
+        "notes": "DSLR; D0=17.03° computed; sea horizon; JADUAL 2 row 38",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-10-25", "time_local": "05:52",
+        "utc_offset": 8.0, "lat": 5.5978, "lng": 102.7969, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Setiu Terengganu Malaysia",
+        "notes": "DSLR; D0=16.03° computed; sea horizon; JADUAL 2 row 39",
+    },
+
+    # BACHOK, KELANTAN — ~6.05°N, 102.44°E — sea horizon (east coast Kelantan)
+    {
+        "prayer": "fajr", "date_local": "2017-10-26", "time_local": "05:54",
+        "utc_offset": 8.0, "lat": 6.0500, "lng": 102.4400, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Bachok Kelantan Malaysia",
+        "notes": "DSLR; D0=15.97° computed; sea horizon; South China Sea; JADUAL 2 row 40",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-10-27", "time_local": "05:53",
+        "utc_offset": 8.0, "lat": 6.0500, "lng": 102.4400, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Bachok Kelantan Malaysia",
+        "notes": "DSLR; D0=16.20° computed; sea horizon; JADUAL 2 row 41",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-10-28", "time_local": "05:52",
+        "utc_offset": 8.0, "lat": 6.0500, "lng": 102.4400, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Bachok Kelantan Malaysia",
+        "notes": "DSLR; D0=16.44° computed; sea horizon; JADUAL 2 row 42",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-10-29", "time_local": "06:05",
+        "utc_offset": 8.0, "lat": 6.0500, "lng": 102.4400, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Bachok Kelantan Malaysia",
+        "notes": "DSLR; D0=13.28° computed; 21 min after official subuh — heavy cloud at horizon; JADUAL 2 row 43",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-10-30", "time_local": "05:47",
+        "utc_offset": 8.0, "lat": 6.0500, "lng": 102.4400, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Bachok Kelantan Malaysia",
+        "notes": "DSLR; D0=17.65° computed; sea horizon; JADUAL 2 row 44",
+    },
+
+    # KUANTAN — additional Oct 31, 2017 observation
+    {
+        "prayer": "fajr", "date_local": "2017-10-31", "time_local": "05:52",
+        "utc_offset": 8.0, "lat": 3.8125, "lng": 103.3719, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Kuantan Pahang Malaysia",
+        "notes": "DSLR; D0=15.02° computed; sea horizon; Oct 31 additional visit; JADUAL 2 row 45",
+    },
+
+    # DURIAN TUNGGAL, MELAKA — ~2.31°N, 102.17°E — land horizon
+    {
+        "prayer": "fajr", "date_local": "2017-11-01", "time_local": "05:52",
+        "utc_offset": 8.0, "lat": 2.3100, "lng": 102.1700, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Durian Tunggal Melaka Malaysia",
+        "notes": "DSLR; D0=15.81° computed; land horizon; Alor Gajah district; JADUAL 2 row 46",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-11-02", "time_local": "05:49",
+        "utc_offset": 8.0, "lat": 2.3100, "lng": 102.1700, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Durian Tunggal Melaka Malaysia",
+        "notes": "DSLR; D0=16.52° computed; land horizon; JADUAL 2 row 47",
+    },
+
+    # LANGKAWI, KEDAH — 6°18'23"N, 99°51'45"E — sea horizon (Andaman Sea)
+    {
+        "prayer": "fajr", "date_local": "2017-11-23", "time_local": "06:03",
+        "utc_offset": 8.0, "lat": 6.3064, "lng": 99.8625, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Langkawi Kedah Malaysia",
+        "notes": "DSLR; D0=17.13° computed; sea horizon; Andaman Sea; JADUAL 2 row 48",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-11-24", "time_local": "06:01",
+        "utc_offset": 8.0, "lat": 6.3064, "lng": 99.8625, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Langkawi Kedah Malaysia",
+        "notes": "DSLR; D0=17.67° computed; sea horizon; JADUAL 2 row 49",
+    },
+    {
+        "prayer": "fajr", "date_local": "2017-11-25", "time_local": "06:00",
+        "utc_offset": 8.0, "lat": 6.3064, "lng": 99.8625, "elevation_m": 5.0,
+        "source": "Kassim Bahali et al. 2019, JATMA 7(2):37-48, Langkawi Kedah Malaysia",
+        "notes": "DSLR; D0=17.97° computed; sea horizon; JADUAL 2 row 50",
+    },
+
 ]
 
 
