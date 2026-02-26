@@ -5134,6 +5134,154 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "SQM portable; D0~18.0°; high-elev dark site; summer solstice aggregate (SH)",
     },
 
+    # =========================================================================
+    # BATCH 12 — Herdiwijaya D. 2015 ICOPIA (5 sites, actual observation dates)
+    # Source: Herdiwijaya D. (2015). "Implications of Twilight Sky Brightness
+    #   Measurements on Fajr Prayer and Young Crescent Observation."
+    #   Proceedings ICOPIA 2014. DOI: 10.2991/icopia-14.2015.5
+    #
+    # 5 sites each observed one clear night. No per-site angle — paper proposes
+    # D0 = 17° for all of Indonesia (recommendation, not site-specific measurement).
+    # Using target_angle=17.0° to compute representative clock times.
+    # Amfoang May 10 2013 SKIPPED — already in Batch 11 (Kupang Amfoang).
+    # =========================================================================
+
+    # BOSSCHA/LEMBANG, West Java (6.817°S, 107.617°E, 1300m, UTC+7)
+    # Observation: May 17, 2013 morning. Fig 1 in paper.
+    {
+        "prayer": "fajr", "date_local": "2013-05-18", "time_local": "04:43",
+        "utc_offset": 7.0, "lat": -6.817, "lng": 107.617, "elevation_m": 1300.0,
+        "source": "Herdiwijaya 2015 ICOPIA, Bosscha Lembang West Java Indonesia",
+        "notes": "SQM; actual obs night May 17 2013 (Fig 1); D0=17° (paper's Indonesia proposal)",
+    },
+    # BANDUNG, West Java (6.914°S, 107.609°E, 780m, UTC+7)
+    # Observation: Dec 18, 2013 morning. Fig 2 in paper. Urban LP site.
+    {
+        "prayer": "fajr", "date_local": "2013-12-19", "time_local": "04:18",
+        "utc_offset": 7.0, "lat": -6.914, "lng": 107.609, "elevation_m": 780.0,
+        "source": "Herdiwijaya 2015 ICOPIA, Bandung West Java Indonesia",
+        "notes": "SQM; actual obs night Dec 18 2013 (Fig 2); urban LP; D0=17° (paper's Indonesia proposal)",
+    },
+    # CIMAHI, West Java (6.883°S, 107.533°E, 700m, UTC+7)
+    # Observation: Dec 18, 2013 morning. Fig 3 in paper. Urban LP site.
+    {
+        "prayer": "fajr", "date_local": "2013-12-19", "time_local": "04:19",
+        "utc_offset": 7.0, "lat": -6.883, "lng": 107.533, "elevation_m": 700.0,
+        "source": "Herdiwijaya 2015 ICOPIA, Cimahi West Java Indonesia",
+        "notes": "SQM; actual obs night Dec 18 2013 (Fig 3); urban LP; D0=17° (paper's Indonesia proposal)",
+    },
+    # YOGYAKARTA, Central Java (7.867°S, 110.417°E, 100m, UTC+7)
+    # Observation: Jul 26, 2014 morning. Fig 4 in paper.
+    {
+        "prayer": "fajr", "date_local": "2014-07-27", "time_local": "04:43",
+        "utc_offset": 7.0, "lat": -7.867, "lng": 110.417, "elevation_m": 100.0,
+        "source": "Herdiwijaya 2015 ICOPIA, Yogyakarta Central Java Indonesia",
+        "notes": "SQM; actual obs night Jul 26 2014 (Fig 4); D0=17° (paper's Indonesia proposal)",
+    },
+
+    # =========================================================================
+    # BATCH 13 — Setyanto H. et al. 2021 Al-Hilal 3(2) (6 Indonesian sites)
+    # Source: Setyanto H., Prastyo H.A., Basthoni M. et al. (2021).
+    #   "Zodiac Light Detection Based on Sky Quality Meter (SQM) Data: Preliminary Study."
+    #   Al-Hilal: J. Islamic Astron. 3(2), October 2021.
+    #   URL: https://journal.walisongo.ac.id/index.php/al-hilal/article/view/8477
+    #
+    # D0 angles from Table 4 — "dawn appearance" = when SQM first exceeds the
+    # zodiacal-light linear baseline (inflection = true Fajr onset).
+    # Amfoang May 10 2013 SKIPPED — already in Batch 11 (Kupang).
+    # Bosscha Jul 17 2015 and Imahnoong May 11 2018 included with LP/methodology flags.
+    # =========================================================================
+
+    # MOMBHUL BEACH, Gresik, East Java (5.786°S, 112.726°E, ~5m, UTC+7)
+    # NEW SITE. Jul 9, 2018. D0=19.15° (SQM Table 4). Dark coastal site. R²=0.84.
+    {
+        "prayer": "fajr", "date_local": "2018-07-10", "time_local": "04:20",
+        "utc_offset": 7.0, "lat": -5.786, "lng": 112.726, "elevation_m": 5.0,
+        "source": "Setyanto et al. 2021 Al-Hilal 3(2), Mombhul Beach Gresik East Java",
+        "notes": "SQM; Jul 9 2018; D0=19.15° (Table 4 zodiacal light baseline inflection); dark coastal site",
+    },
+    # LABUAN BAJO, Flores, NTT (8.386°S, 119.682°E, ~10m, UTC+8)
+    # New date: Apr 24, 2018, D0=19.13°. Consistent with existing Maskufa 2024 (19.30°).
+    {
+        "prayer": "fajr", "date_local": "2018-04-25", "time_local": "04:48",
+        "utc_offset": 8.0, "lat": -8.386, "lng": 119.682, "elevation_m": 10.0,
+        "source": "Setyanto et al. 2021 Al-Hilal 3(2), Labuan Bajo Flores NTT Indonesia",
+        "notes": "SQM; Apr 24 2018; D0=19.13° (Table 4); dark Komodo gateway site; consistent with Maskufa 2024 (19.30°)",
+    },
+    # SEDAN, REMBANG, Central Java (6.756°S, 111.587°E, ~30m, UTC+7)
+    # NEW SITE. Jun 16, 2018. D0=17.64°. Semi-dark rural. Best fit (R²=0.93).
+    {
+        "prayer": "fajr", "date_local": "2018-06-17", "time_local": "04:29",
+        "utc_offset": 7.0, "lat": -6.756, "lng": 111.587, "elevation_m": 30.0,
+        "source": "Setyanto et al. 2021 Al-Hilal 3(2), Sedan Rembang Central Java Indonesia",
+        "notes": "SQM; Jun 16 2018; D0=17.64° (Table 4, R²=0.93 best fit); semi-dark rural Central Java coast",
+    },
+    # BOSSCHA OBSERVATORY, Lembang, West Java (6.830°S, 107.614°E, 1300m, UTC+7)
+    # New date: Jul 17, 2015. D0=16.07° — lower than expected due to LP/ZL fitting issue.
+    # ZL fitting range was -75° to -24° (all-night data), which may distort the baseline.
+    {
+        "prayer": "fajr", "date_local": "2015-07-18", "time_local": "04:57",
+        "utc_offset": 7.0, "lat": -6.830, "lng": 107.614, "elevation_m": 1300.0,
+        "source": "Setyanto et al. 2021 Al-Hilal 3(2), Bosscha Observatory Lembang West Java",
+        "notes": "SQM; Jul 17 2015; D0=16.07° (Table 4); ZL fitting used all-night range — LP+methodology may underestimate",
+    },
+    # IMAHNOONG OBSERVATORY, Lembang, West Java (6.834°S, 107.617°E, 2200m, UTC+7)
+    # NEW SITE (high-altitude dark observatory). May 11, 2018. D0=15.26°.
+    # Flat ZL baseline (constant function, not linear) — dawn detection uncertain.
+    {
+        "prayer": "fajr", "date_local": "2018-05-12", "time_local": "04:50",
+        "utc_offset": 7.0, "lat": -6.834, "lng": 107.617, "elevation_m": 2200.0,
+        "source": "Setyanto et al. 2021 Al-Hilal 3(2), Imahnoong Observatory Lembang West Java",
+        "notes": "SQM; May 11 2018; D0=15.26° (Table 4); flat ZL baseline (no clear trend) — authors flag weather/tool placement issue",
+    },
+
+    # =========================================================================
+    # BATCH 14 — Lubis V.A. et al. 2025 Al-Hisab 2(4):215-229 (Medan City, Nov 2024)
+    # Source: Lubis V.A., Nafilah J. & Jihad J. (2025). "The Determination of Dawn
+    #   Time Based Sky Brightness Using Sky Quality Meter (SQM): A Case Study in
+    #   Medan City." Al-Hisab: J. Islamic Astron. 2(4):215-229. Dec 2025.
+    #   URL: https://jurnal.umsu.ac.id/index.php/alhisab/article/view/27421
+    #
+    # Site: OIF UMSU Astronomical Observatory, Medan, North Sumatra (UTC+7/WIB).
+    # SQM-LU-DL, 1-minute intervals, Nov 1-30, 2024 (30 nights).
+    # D0 = -12° to -14°, most clear days 10°-12° — urban tropical LP site.
+    # Using D0=13.0° (mean of 12°-14° range) for representative November 2024 dates.
+    # Paper mentions Nov 4, 7, 8, 14, 20 as clear-sky days with clear inflection points.
+    # Nov 8 specifically cited at D0=~13°. Per-date table is Figure 4 (image, not text).
+    # =========================================================================
+
+    # OIF UMSU MEDAN, North Sumatra (3.595°N, 98.672°E, 22m, UTC+7)
+    {
+        "prayer": "fajr", "date_local": "2024-11-05", "time_local": "05:18",
+        "utc_offset": 7.0, "lat": 3.595, "lng": 98.672, "elevation_m": 22.0,
+        "source": "Lubis et al. 2025 Al-Hisab 2(4), OIF UMSU Medan North Sumatra",
+        "notes": "SQM-LU-DL; Nov 4 2024 (clear day, paper Fig 4); D0=13.0° (urban LP mean); urban Medan",
+    },
+    {
+        "prayer": "fajr", "date_local": "2024-11-08", "time_local": "05:19",
+        "utc_offset": 7.0, "lat": 3.595, "lng": 98.672, "elevation_m": 22.0,
+        "source": "Lubis et al. 2025 Al-Hisab 2(4), OIF UMSU Medan North Sumatra",
+        "notes": "SQM-LU-DL; Nov 7 2024 (clear day, paper Fig 4); D0=13.0° (urban LP mean); urban Medan",
+    },
+    {
+        "prayer": "fajr", "date_local": "2024-11-09", "time_local": "05:19",
+        "utc_offset": 7.0, "lat": 3.595, "lng": 98.672, "elevation_m": 22.0,
+        "source": "Lubis et al. 2025 Al-Hisab 2(4), OIF UMSU Medan North Sumatra",
+        "notes": "SQM-LU-DL; Nov 8 2024 (D0~13° explicitly cited in text); clear inflection; urban Medan",
+    },
+    {
+        "prayer": "fajr", "date_local": "2024-11-15", "time_local": "05:19",
+        "utc_offset": 7.0, "lat": 3.595, "lng": 98.672, "elevation_m": 22.0,
+        "source": "Lubis et al. 2025 Al-Hisab 2(4), OIF UMSU Medan North Sumatra",
+        "notes": "SQM-LU-DL; Nov 14 2024 (clear day, paper Fig 4); D0=13.0° (urban LP mean); urban Medan",
+    },
+    {
+        "prayer": "fajr", "date_local": "2024-11-21", "time_local": "05:21",
+        "utc_offset": 7.0, "lat": 3.595, "lng": 98.672, "elevation_m": 22.0,
+        "source": "Lubis et al. 2025 Al-Hisab 2(4), OIF UMSU Medan North Sumatra",
+        "notes": "SQM-LU-DL; Nov 20 2024 (clear day, paper Fig 4); D0=13.0° (urban LP mean); urban Medan",
+    },
+
 ]
 
 
