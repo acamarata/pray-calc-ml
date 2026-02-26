@@ -43,9 +43,37 @@ from src.angle_calc import depression_angle
 from src.collect.openfajr import fetch_openfajr
 from src.collect.verified_sightings import load_verified_sightings
 from src.elevation import get_elevations_batch
+from src.ingest import ingest_all_raw_csvs
 
 
 PROCESSED_DIR = ROOT / "data" / "processed"
+
+
+def _raw_to_df(records: list[dict]) -> pd.DataFrame:
+    """Convert a list of standardized raw record dicts to a DataFrame."""
+    from datetime import datetime, timedelta
+    rows = []
+    for r in records:
+        try:
+            dt_local = datetime.strptime(
+                f"{r['date_local']} {r['time_local']}", "%Y-%m-%d %H:%M"
+            )
+            utc_offset = float(r.get("utc_offset", 0))
+            utc_dt = dt_local - timedelta(hours=utc_offset)
+            rows.append({
+                "prayer": r["prayer"],
+                "date": r["date_local"],
+                "utc_dt": utc_dt,
+                "lat": float(r["lat"]),
+                "lng": float(r["lng"]),
+                "elevation_m": float(r.get("elevation_m") or 0),
+                "source": r.get("source", ""),
+                "notes": r.get("notes", ""),
+            })
+        except Exception as e:
+            import logging
+            logging.getLogger(__name__).warning("Skipping raw record: %s — %s", r, e)
+    return pd.DataFrame(rows)
 
 
 def build_dataset(
@@ -62,7 +90,15 @@ def build_dataset(
     manual_df = load_verified_sightings()
     print(f"  {len(manual_df)} manually compiled records")
 
-    all_df = pd.concat([openfajr_df, manual_df], ignore_index=True)
+    print("Loading ingested raw CSV sightings...")
+    raw_records = ingest_all_raw_csvs(lookup_elevation=False)
+    raw_df = _raw_to_df(raw_records)
+    if len(raw_df) > 0:
+        print(f"  {len(raw_df)} records from raw CSVs")
+    else:
+        print("  0 raw CSV records found")
+
+    all_df = pd.concat([openfajr_df, manual_df, raw_df], ignore_index=True)
 
     # Elevation lookup for records with elevation_m == 0
     if lookup_elevation:

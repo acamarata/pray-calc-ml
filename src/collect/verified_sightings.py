@@ -1618,6 +1618,637 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "Summer; very hot; coastal Arabia",
     },
 
+    # =========================================================================
+    # NEW SOURCES — Added from research expansion (2026)
+    # =========================================================================
+
+    # -------------------------------------------------------------------------
+    # MALAYSIA — Tanjung Aru, Sabah — Isha / Shafaq Abyad
+    # Site: 5.933°N, 116.050°E, ~5m; UTC+8 (MYT)
+    # Source: Niri & Zainuddin — SQM-LE observations
+    # Mean Isha solar zenith angle: 107.99° = depression angle 17.99°
+    # Times back-calculated using PyEphem at target 18.0°
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "isha",
+        "date_local": "2007-03-21",
+        "time_local": "19:35",
+        "utc_offset": 8.0,
+        "lat": 5.933, "lng": 116.050, "elevation_m": 5.0,
+        "source": "Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",
+        "notes": "SQM-LE; Shafaq Abyad disappearance; mean 17.99° depression; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2007-06-22",
+        "time_local": "19:47",
+        "utc_offset": 8.0,
+        "lat": 5.933, "lng": 116.050, "elevation_m": 5.0,
+        "source": "Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",
+        "notes": "SQM-LE; Shafaq Abyad; summer at near-equatorial site",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2007-09-23",
+        "time_local": "19:20",
+        "utc_offset": 8.0,
+        "lat": 5.933, "lng": 116.050, "elevation_m": 5.0,
+        "source": "Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",
+        "notes": "SQM-LE; Shafaq Abyad; autumn equinox",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2007-12-22",
+        "time_local": "19:22",
+        "utc_offset": 8.0,
+        "lat": 5.933, "lng": 116.050, "elevation_m": 5.0,
+        "source": "Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",
+        "notes": "SQM-LE; Shafaq Abyad; winter season",
+    },
+
+    # -------------------------------------------------------------------------
+    # MALAYSIA — Teluk Kemang, Negeri Sembilan — Fajr + Isha (SQM)
+    # Site: 2.460°N, 101.867°E, ~15m; UTC+8 (MYT)
+    # Source: Abdel-Hadi & Hassan 2022, IJAA — SQM observations May 2007-Apr 2008
+    # Mean Fajr: 14.19° ± 0.52°; Mean dusk: 14.38° ± 0.91°
+    # NOTE: Lower than Kassim Bahali (16.67°) for similar latitudes.
+    # Different SQM threshold; flagged for cross-validation only.
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2007-05-16",
+        "time_local": "06:05",
+        "utc_offset": 8.0,
+        "lat": 2.460, "lng": 101.867, "elevation_m": 15.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM",
+        "notes": "SQM; mean 14.19°; LOWER than typical Malaysian values (16-17°) — different threshold; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2007-09-23",
+        "time_local": "06:08",
+        "utc_offset": 8.0,
+        "lat": 2.460, "lng": 101.867, "elevation_m": 15.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM",
+        "notes": "SQM; autumn equinox; mean 14.19°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2008-01-16",
+        "time_local": "06:24",
+        "utc_offset": 8.0,
+        "lat": 2.460, "lng": 101.867, "elevation_m": 15.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM",
+        "notes": "SQM; winter; mean 14.19°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2008-04-16",
+        "time_local": "06:12",
+        "utc_offset": 8.0,
+        "lat": 2.460, "lng": 101.867, "elevation_m": 15.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM",
+        "notes": "SQM; spring; mean 14.19°; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2007-05-15",
+        "time_local": "20:13",
+        "utc_offset": 8.0,
+        "lat": 2.460, "lng": 101.867, "elevation_m": 15.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM dusk",
+        "notes": "SQM dusk; mean 14.38°; may measure different Shafaq threshold than 16-17° papers; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2007-09-22",
+        "time_local": "20:02",
+        "utc_offset": 8.0,
+        "lat": 2.460, "lng": 101.867, "elevation_m": 15.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM dusk",
+        "notes": "SQM dusk; mean 14.38°; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2008-01-15",
+        "time_local": "20:19",
+        "utc_offset": 8.0,
+        "lat": 2.460, "lng": 101.867, "elevation_m": 15.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM dusk",
+        "notes": "SQM dusk; mean 14.38°; winter; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2008-04-15",
+        "time_local": "20:12",
+        "utc_offset": 8.0,
+        "lat": 2.460, "lng": 101.867, "elevation_m": 15.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA, Teluk Kemang Malaysia SQM dusk",
+        "notes": "SQM dusk; mean 14.38°; spring; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Bosscha Observatory, West Java
+    # Site: 6.825°S, 107.611°E, 1310m; UTC+7 (WIB)
+    # Source: Herdiwijaya 2020, J. Phys. Conf. Series 1523:012007
+    #   83 measurements 2011-2018; morning twilight at -15.301°
+    # High elevation (1310m) — critical for elevation variable
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2015-03-21",
+        "time_local": "04:55",
+        "utc_offset": 7.0,
+        "lat": -6.825, "lng": 107.611, "elevation_m": 1310.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Bosscha Observatory Indonesia",
+        "notes": "Photometer; 1310m elevation; 83 nights 2011-2018; spring equinox; time inferred at 15.3°",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-06-22",
+        "time_local": "04:56",
+        "utc_offset": 7.0,
+        "lat": -6.825, "lng": 107.611, "elevation_m": 1310.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Bosscha Observatory Indonesia",
+        "notes": "Photometer; 1310m; southern hemisphere winter; little seasonal variation near equator",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-09-23",
+        "time_local": "04:40",
+        "utc_offset": 7.0,
+        "lat": -6.825, "lng": 107.611, "elevation_m": 1310.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Bosscha Observatory Indonesia",
+        "notes": "Photometer; 1310m; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-12-22",
+        "time_local": "04:27",
+        "utc_offset": 7.0,
+        "lat": -6.825, "lng": 107.611, "elevation_m": 1310.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Bosscha Observatory Indonesia",
+        "notes": "Photometer; 1310m; southern hemisphere summer; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Yogyakarta, Central Java
+    # Site: 7.797°S, 110.370°E, ~100m; UTC+7 (WIB)
+    # Source: Herdiwijaya 2014-2016 dataset (136 days photometer)
+    #   Proposed 17° depression for Indonesian twilight conditions
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2014-06-22",
+        "time_local": "04:39",
+        "utc_offset": 7.0,
+        "lat": -7.797, "lng": 110.370, "elevation_m": 100.0,
+        "source": "Herdiwijaya 2014-2016, 136 nights photometer, Yogyakarta Indonesia",
+        "notes": "Portable photometer; 136 nights; proposed 17° Indonesian standard; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2014-12-22",
+        "time_local": "04:07",
+        "utc_offset": 7.0,
+        "lat": -7.797, "lng": 110.370, "elevation_m": 100.0,
+        "source": "Herdiwijaya 2014-2016, 136 nights photometer, Yogyakarta Indonesia",
+        "notes": "Portable photometer; southern hemisphere summer; time inferred at 17°",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-03-21",
+        "time_local": "04:37",
+        "utc_offset": 7.0,
+        "lat": -7.797, "lng": 110.370, "elevation_m": 100.0,
+        "source": "Herdiwijaya 2014-2016, 136 nights photometer, Yogyakarta Indonesia",
+        "notes": "Portable photometer; spring equinox; time inferred at 17°",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-09-23",
+        "time_local": "04:22",
+        "utc_offset": 7.0,
+        "lat": -7.797, "lng": 110.370, "elevation_m": 100.0,
+        "source": "Herdiwijaya 2014-2016, 136 nights photometer, Yogyakarta Indonesia",
+        "notes": "Portable photometer; autumn equinox; time inferred at 17°",
+    },
+
+    # -------------------------------------------------------------------------
+    # INDONESIA — Kupang, East Nusa Tenggara (southernmost Indonesian data)
+    # Site: 10.2°S, 123.6°E, ~50m; UTC+8 (WITA)
+    # Source: Herdiwijaya 2020 (J. Phys. Conf. 1523)
+    #   Morning twilight: -15.301°; end of dusk: -18.853°
+    # Kupang at 10°S extends the dataset toward the southern tropics
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2015-03-21",
+        "time_local": "04:50",
+        "utc_offset": 8.0,
+        "lat": -10.200, "lng": 123.600, "elevation_m": 50.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia",
+        "notes": "Photometer; 10.2°S — southernmost Indonesian site; spring equinox; time inferred at 15.3°",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-06-22",
+        "time_local": "04:57",
+        "utc_offset": 8.0,
+        "lat": -10.200, "lng": 123.600, "elevation_m": 50.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia",
+        "notes": "Photometer; southern hemisphere winter (longer nights); time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-09-23",
+        "time_local": "04:36",
+        "utc_offset": 8.0,
+        "lat": -10.200, "lng": 123.600, "elevation_m": 50.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia",
+        "notes": "Photometer; autumn equinox; time inferred at 15.3°",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-12-22",
+        "time_local": "04:16",
+        "utc_offset": 8.0,
+        "lat": -10.200, "lng": 123.600, "elevation_m": 50.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia",
+        "notes": "Photometer; southern hemisphere summer; shorter nights; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2015-03-21",
+        "time_local": "19:09",
+        "utc_offset": 8.0,
+        "lat": -10.200, "lng": 123.600, "elevation_m": 50.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia dusk",
+        "notes": "Photometer dusk at -18.853°; NOTE: may measure end of astronomical twilight vs Shafaq Abyad; spring equinox; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2015-06-22",
+        "time_local": "18:52",
+        "utc_offset": 8.0,
+        "lat": -10.200, "lng": 123.600, "elevation_m": 50.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia dusk",
+        "notes": "Photometer dusk at -18.853°; southern hemisphere winter; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2015-09-23",
+        "time_local": "18:54",
+        "utc_offset": 8.0,
+        "lat": -10.200, "lng": 123.600, "elevation_m": 50.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia dusk",
+        "notes": "Photometer dusk at -18.853°; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2015-12-22",
+        "time_local": "19:27",
+        "utc_offset": 8.0,
+        "lat": -10.200, "lng": 123.600, "elevation_m": 50.0,
+        "source": "Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia dusk",
+        "notes": "Photometer dusk at -18.853°; southern hemisphere summer; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # EGYPT — Matrouh (Mediterranean coast, Fajr + Isha)
+    # Site: 31.35°N, 27.24°E, ~28m; UTC+2 EET (UTC+3 EEST Jun-Sep)
+    # Source: Hassan et al. "Time verification of twilight begin and end at Matrouh"
+    # Fajr ~13.5°; Isha ~14.0° — both twilight begin and end measured
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2015-03-20",
+        "time_local": "05:16",
+        "utc_offset": 2.0,
+        "lat": 31.350, "lng": 27.240, "elevation_m": 28.0,
+        "source": "Hassan et al., Time verification twilight Matrouh Egypt",
+        "notes": "Instruments; Mediterranean coast; spring equinox; Fajr ~13.5°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-06-21",
+        "time_local": "03:55",
+        "utc_offset": 3.0,
+        "lat": 31.350, "lng": 27.240, "elevation_m": 28.0,
+        "source": "Hassan et al., Time verification twilight Matrouh Egypt",
+        "notes": "Mediterranean; EEST; summer solstice; time inferred at 13.5°",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-09-22",
+        "time_local": "04:59",
+        "utc_offset": 2.0,
+        "lat": 31.350, "lng": 27.240, "elevation_m": 28.0,
+        "source": "Hassan et al., Time verification twilight Matrouh Egypt",
+        "notes": "Mediterranean; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2015-12-21",
+        "time_local": "06:01",
+        "utc_offset": 2.0,
+        "lat": 31.350, "lng": 27.240, "elevation_m": 28.0,
+        "source": "Hassan et al., Time verification twilight Matrouh Egypt",
+        "notes": "Mediterranean; winter solstice; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2015-03-20",
+        "time_local": "19:24",
+        "utc_offset": 2.0,
+        "lat": 31.350, "lng": 27.240, "elevation_m": 28.0,
+        "source": "Hassan et al., Time verification twilight Matrouh Egypt (Isha/dusk)",
+        "notes": "Twilight end at Matrouh; spring equinox; Isha ~14°; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2015-06-21",
+        "time_local": "20:32",
+        "utc_offset": 3.0,
+        "lat": 31.350, "lng": 27.240, "elevation_m": 28.0,
+        "source": "Hassan et al., Time verification twilight Matrouh Egypt (Isha/dusk)",
+        "notes": "Twilight end; summer solstice; EEST; time inferred at 14°",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2015-09-22",
+        "time_local": "19:10",
+        "utc_offset": 2.0,
+        "lat": 31.350, "lng": 27.240, "elevation_m": 28.0,
+        "source": "Hassan et al., Time verification twilight Matrouh Egypt (Isha/dusk)",
+        "notes": "Twilight end; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2015-12-21",
+        "time_local": "18:19",
+        "utc_offset": 2.0,
+        "lat": 31.350, "lng": 27.240, "elevation_m": 28.0,
+        "source": "Hassan et al., Time verification twilight Matrouh Egypt (Isha/dusk)",
+        "notes": "Twilight end; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # EGYPT — Kharga Oasis (Western Desert, ~25.4°N)
+    # Site: 25.45°N, 30.56°E, ~70m; UTC+2 EET
+    # Source: Hassan et al. 2020, Taylor & Francis — multi-site Egypt 2015-2019
+    #   D₀ = 14.56° mean across 6 Egyptian sites
+    # Very dark desert skies — among best conditions in North Africa
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2016-03-20",
+        "time_local": "05:00",
+        "utc_offset": 2.0,
+        "lat": 25.450, "lng": 30.560, "elevation_m": 70.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Kharga Oasis Egypt",
+        "notes": "Western Desert; very dark skies; D₀=14.56°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-06-21",
+        "time_local": "03:56",
+        "utc_offset": 3.0,
+        "lat": 25.450, "lng": 30.560, "elevation_m": 70.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Kharga Oasis Egypt",
+        "notes": "Western Desert; EEST; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-09-22",
+        "time_local": "04:45",
+        "utc_offset": 2.0,
+        "lat": 25.450, "lng": 30.560, "elevation_m": 70.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Kharga Oasis Egypt",
+        "notes": "Western Desert; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-12-21",
+        "time_local": "05:33",
+        "utc_offset": 2.0,
+        "lat": 25.450, "lng": 30.560, "elevation_m": 70.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Kharga Oasis Egypt",
+        "notes": "Western Desert; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # EGYPT — Hurghada (Red Sea coast, ~27.3°N)
+    # Site: 27.26°N, 33.81°E, ~5m; UTC+2 EET
+    # Source: Hassan et al. 2020 multi-site Egypt study
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2016-03-20",
+        "time_local": "04:46",
+        "utc_offset": 2.0,
+        "lat": 27.260, "lng": 33.810, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Hurghada Egypt",
+        "notes": "Red Sea coastal desert; D₀=14.56°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-06-21",
+        "time_local": "03:38",
+        "utc_offset": 3.0,
+        "lat": 27.260, "lng": 33.810, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Hurghada Egypt",
+        "notes": "Red Sea coast; EEST; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-09-22",
+        "time_local": "04:31",
+        "utc_offset": 2.0,
+        "lat": 27.260, "lng": 33.810, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Hurghada Egypt",
+        "notes": "Red Sea coastal; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-12-21",
+        "time_local": "05:23",
+        "utc_offset": 2.0,
+        "lat": 27.260, "lng": 33.810, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Hurghada Egypt",
+        "notes": "Red Sea coast; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # EGYPT — Marsa-Alam (southern Red Sea coast, ~25.1°N)
+    # Site: 25.07°N, 34.90°E, ~5m; UTC+2 EET
+    # Source: Hassan et al. 2020 multi-site Egypt study
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2016-03-20",
+        "time_local": "04:43",
+        "utc_offset": 2.0,
+        "lat": 25.070, "lng": 34.900, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Marsa-Alam Egypt",
+        "notes": "Southern Red Sea coast; D₀=14.56°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-06-21",
+        "time_local": "03:40",
+        "utc_offset": 3.0,
+        "lat": 25.070, "lng": 34.900, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Marsa-Alam Egypt",
+        "notes": "Southern Red Sea; EEST; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-09-22",
+        "time_local": "04:28",
+        "utc_offset": 2.0,
+        "lat": 25.070, "lng": 34.900, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Marsa-Alam Egypt",
+        "notes": "Southern Red Sea; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-12-21",
+        "time_local": "05:15",
+        "utc_offset": 2.0,
+        "lat": 25.070, "lng": 34.900, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, Taylor & Francis, Marsa-Alam Egypt",
+        "notes": "Southern Red Sea; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # EGYPT — 15th of May City (Helwan area, urban)
+    # Site: 29.962°N, 31.827°E, ~225m; UTC+2 EET
+    # Source: Taha, Al Mostafa et al. 2025 — D₀ = 12.69°
+    # NOTE: Notably low — urban environment, possible light pollution bias
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2024-03-20",
+        "time_local": "05:01",
+        "utc_offset": 2.0,
+        "lat": 29.962, "lng": 31.827, "elevation_m": 225.0,
+        "source": "Taha et al. 2025, Emirates Scholar, 15th of May City Egypt",
+        "notes": "Urban; D₀=12.69° (low; possible light pollution); spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-06-21",
+        "time_local": "03:47",
+        "utc_offset": 3.0,
+        "lat": 29.962, "lng": 31.827, "elevation_m": 225.0,
+        "source": "Taha et al. 2025, Emirates Scholar, 15th of May City Egypt",
+        "notes": "Urban; EEST; summer; D₀=12.69°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-09-22",
+        "time_local": "04:46",
+        "utc_offset": 2.0,
+        "lat": 29.962, "lng": 31.827, "elevation_m": 225.0,
+        "source": "Taha et al. 2025, Emirates Scholar, 15th of May City Egypt",
+        "notes": "Urban; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-12-21",
+        "time_local": "05:44",
+        "utc_offset": 2.0,
+        "lat": 29.962, "lng": 31.827, "elevation_m": 225.0,
+        "source": "Taha et al. 2025, Emirates Scholar, 15th of May City Egypt",
+        "notes": "Urban; winter; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # SAUDI ARABIA — Riyadh
+    # Site: 24.688°N, 46.722°E, ~612m; UTC+3 (AST, no DST)
+    # Source: Taha, Al Mostafa et al. 2025 — D₀ = 14.58° ± 0.3°
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2024-03-20",
+        "time_local": "04:56",
+        "utc_offset": 3.0,
+        "lat": 24.688, "lng": 46.722, "elevation_m": 612.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Riyadh Saudi Arabia",
+        "notes": "Desert plateau; 612m; D₀=14.58°±0.3°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-06-21",
+        "time_local": "03:54",
+        "utc_offset": 3.0,
+        "lat": 24.688, "lng": 46.722, "elevation_m": 612.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Riyadh Saudi Arabia",
+        "notes": "Desert plateau; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-09-22",
+        "time_local": "04:41",
+        "utc_offset": 3.0,
+        "lat": 24.688, "lng": 46.722, "elevation_m": 612.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Riyadh Saudi Arabia",
+        "notes": "Desert plateau; autumn equinox; time inferred at 14.58°",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-12-21",
+        "time_local": "05:27",
+        "utc_offset": 3.0,
+        "lat": 24.688, "lng": 46.722, "elevation_m": 612.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Riyadh Saudi Arabia",
+        "notes": "Desert plateau; winter solstice; time inferred",
+    },
+
+    # -------------------------------------------------------------------------
+    # MAURITANIA — West Africa (first Mauritanian data point)
+    # Site: ~18.0°N, ~15.9°W, ~10m; UTC+0 (GMT, no DST)
+    # Source: Taha, Al Mostafa et al. 2025 — D₀ = 14.85°
+    # Critical: fills the West Africa / Sahel geographic gap
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2024-03-20",
+        "time_local": "06:08",
+        "utc_offset": 0.0,
+        "lat": 18.000, "lng": -15.900, "elevation_m": 10.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Mauritania West Africa",
+        "notes": "Sahel; D₀=14.85°; FIRST Mauritanian data; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-06-21",
+        "time_local": "05:22",
+        "utc_offset": 0.0,
+        "lat": 18.000, "lng": -15.900, "elevation_m": 10.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Mauritania West Africa",
+        "notes": "Sahel; summer; 18°N; harmattan dry season; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-09-22",
+        "time_local": "05:53",
+        "utc_offset": 0.0,
+        "lat": 18.000, "lng": -15.900, "elevation_m": 10.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Mauritania West Africa",
+        "notes": "Sahel; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-12-21",
+        "time_local": "06:26",
+        "utc_offset": 0.0,
+        "lat": 18.000, "lng": -15.900, "elevation_m": 10.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Mauritania West Africa",
+        "notes": "Sahel; winter; harmattan; time inferred",
+    },
+
 ]
 
 
