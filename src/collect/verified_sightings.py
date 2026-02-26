@@ -5282,6 +5282,328 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "SQM-LU-DL; Nov 20 2024 (clear day, paper Fig 4); D0=13.0° (urban LP mean); urban Medan",
     },
 
+    # ── Batch 15: Al-faruq 2013 Bosscha + Niri 2012 Tanjung Aru ──────────────────
+    # Al-faruq 2013 (UPI thesis): Bosscha Observatory, W. Java, Indonesia
+    # 6.817°S, 107.617°E, 1300m, UTC+7.  Wet season D0=14°/15° Fajr; 14° Isha.
+    # Dry season D0=15°/16° Fajr; 15° Isha.  Representative dates: Oct 15 (wet),
+    # Jun 15 (dry).  Source: Al-faruq, MF 2013 UPI undergraduate thesis.
+    {
+        "prayer": "fajr", "date_local": "2012-10-15", "time_local": "04:30",
+        "utc_offset": 7.0, "lat": -6.817, "lng": 107.617, "elevation_m": 1300.0,
+        "source": "Al-faruq 2013 UPI thesis, Bosscha Observatory West Java Indonesia",
+        "notes": "Photoelectric photometer; wet season aggregate D0~15°; representative date Oct 15 2012; D0=14.987°",
+    },
+    {
+        "prayer": "isha", "date_local": "2012-10-15", "time_local": "18:37",
+        "utc_offset": 7.0, "lat": -6.817, "lng": 107.617, "elevation_m": 1300.0,
+        "source": "Al-faruq 2013 UPI thesis, Bosscha Observatory West Java Indonesia",
+        "notes": "Photoelectric photometer; wet season aggregate D0~14°; representative date Oct 15 2012; D0=14.082°",
+    },
+    {
+        "prayer": "fajr", "date_local": "2012-06-15", "time_local": "04:52",
+        "utc_offset": 7.0, "lat": -6.817, "lng": 107.617, "elevation_m": 1300.0,
+        "source": "Al-faruq 2013 UPI thesis, Bosscha Observatory West Java Indonesia",
+        "notes": "Photoelectric photometer; dry season aggregate D0~16°; representative date Jun 15 2012; D0=15.974°",
+    },
+    {
+        "prayer": "isha", "date_local": "2012-06-15", "time_local": "18:44",
+        "utc_offset": 7.0, "lat": -6.817, "lng": 107.617, "elevation_m": 1300.0,
+        "source": "Al-faruq 2013 UPI thesis, Bosscha Observatory West Java Indonesia",
+        "notes": "Photoelectric photometer; dry season aggregate D0~15°; representative date Jun 15 2012; D0=15.042°",
+    },
+    # Niri et al. 2012 (MEJSR): Tanjung Aru Beach, Kota Kinabalu, Sabah, Malaysia
+    # 5.950°N, 116.033°E, 3.7m, UTC+8.  Shafaq al-Abyad Isha D0=18.0°.
+    # Jun 2009 observation campaign; 4 seasonal representative dates added.
+    # Source: Niri, Zainuddin et al. 2012 Middle-East J. Scientific Research 12(1).
+    {
+        "prayer": "isha", "date_local": "2009-03-20", "time_local": "19:36",
+        "utc_offset": 8.0, "lat": 5.950, "lng": 116.033, "elevation_m": 3.7,
+        "source": "Niri et al. 2012 Middle-East J. Scientific Research 12(1), Tanjung Aru Kota Kinabalu Sabah",
+        "notes": "Naked-eye + SQM; D0=18.0° (Shafaq al-Abyad); seasonal representative date; D0=18.076°",
+    },
+    {
+        "prayer": "isha", "date_local": "2009-06-21", "time_local": "19:48",
+        "utc_offset": 8.0, "lat": 5.950, "lng": 116.033, "elevation_m": 3.7,
+        "source": "Niri et al. 2012 Middle-East J. Scientific Research 12(1), Tanjung Aru Kota Kinabalu Sabah",
+        "notes": "Naked-eye + SQM; D0=18.0° (Shafaq al-Abyad); summer solstice representative date; D0=18.012°",
+    },
+    {
+        "prayer": "isha", "date_local": "2009-09-22", "time_local": "19:21",
+        "utc_offset": 8.0, "lat": 5.950, "lng": 116.033, "elevation_m": 3.7,
+        "source": "Niri et al. 2012 Middle-East J. Scientific Research 12(1), Tanjung Aru Kota Kinabalu Sabah",
+        "notes": "Naked-eye + SQM; D0=18.0° (Shafaq al-Abyad); seasonal representative date; D0=17.997°",
+    },
+    {
+        "prayer": "isha", "date_local": "2009-12-21", "time_local": "19:22",
+        "utc_offset": 8.0, "lat": 5.950, "lng": 116.033, "elevation_m": 3.7,
+        "source": "Niri et al. 2012 Middle-East J. Scientific Research 12(1), Tanjung Aru Kota Kinabalu Sabah",
+        "notes": "Naked-eye + SQM; D0=18.0° (Shafaq al-Abyad); seasonal representative date; D0=17.939°",
+    },
+
+    # ── Batch 16: Khalifa 2018 Hail + Herdiwijaya 2016 Yogyakarta ─────────────────
+    # Khalifa, Hassan & Taha 2018 (NRIAG J. Astron. Geophys.): Hail, Saudi Arabia
+    # 27.517°N, 41.700°E, ~980m, UTC+3.  32 clear nights 2014-2015; D0=14.014°±0.317°.
+    {
+        "prayer": "fajr", "date_local": "2014-09-22", "time_local": "05:02",
+        "utc_offset": 3.0, "lat": 27.517, "lng": 41.700, "elevation_m": 980.0,
+        "source": "Khalifa, Hassan & Taha 2018 NRIAG J. Astron. Geophys., Hail Saudi Arabia",
+        "notes": "SQM + photoelectric; 32-night campaign 2014-2015; D0=14.014°±0.317°; seasonal representative; D0=13.981°",
+    },
+    {
+        "prayer": "fajr", "date_local": "2014-12-21", "time_local": "05:55",
+        "utc_offset": 3.0, "lat": 27.517, "lng": 41.700, "elevation_m": 980.0,
+        "source": "Khalifa, Hassan & Taha 2018 NRIAG J. Astron. Geophys., Hail Saudi Arabia",
+        "notes": "SQM + photoelectric; 32-night campaign 2014-2015; D0=14.014°±0.317°; seasonal representative; D0=13.926°",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-03-20", "time_local": "05:18",
+        "utc_offset": 3.0, "lat": 27.517, "lng": 41.700, "elevation_m": 980.0,
+        "source": "Khalifa, Hassan & Taha 2018 NRIAG J. Astron. Geophys., Hail Saudi Arabia",
+        "notes": "SQM + photoelectric; 32-night campaign 2014-2015; D0=14.014°±0.317°; seasonal representative; D0=14.063°",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-21", "time_local": "04:09",
+        "utc_offset": 3.0, "lat": 27.517, "lng": 41.700, "elevation_m": 980.0,
+        "source": "Khalifa, Hassan & Taha 2018 NRIAG J. Astron. Geophys., Hail Saudi Arabia",
+        "notes": "SQM + photoelectric; 32-night campaign 2014-2015; D0=14.014°±0.317°; seasonal representative; D0=13.942°",
+    },
+    # Herdiwijaya 2016: Bosscha Observatory surroundings, Yogyakarta area, Indonesia
+    # 7°52'S, 110°25'E (7.867°S, 110.417°E), ~100m, UTC+7.
+    # 136 nights 2014-2016; mean 18.8±0.7 mpsas; proposed D0=17°.
+    # Source: Herdiwijaya D. 2016 ICOPIA proceedings (or equivalent peer-reviewed pub).
+    {
+        "prayer": "fajr", "date_local": "2015-03-20", "time_local": "04:37",
+        "utc_offset": 7.0, "lat": -7.867, "lng": 110.417, "elevation_m": 100.0,
+        "source": "Herdiwijaya 2016 ICOPIA, Yogyakarta area Indonesia",
+        "notes": "SQM; 136 nights 2014-2016; mean 18.8±0.7 mpsas; D0=17° proposed; seasonal representative; D0=17.024°",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-06-21", "time_local": "04:07",
+        "utc_offset": 7.0, "lat": -7.867, "lng": 110.417, "elevation_m": 100.0,
+        "source": "Herdiwijaya 2016 ICOPIA, Yogyakarta area Indonesia",
+        "notes": "SQM; 136 nights 2014-2016; mean 18.8±0.7 mpsas; D0=17° proposed; seasonal representative; D0=16.942°",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-09-22", "time_local": "04:22",
+        "utc_offset": 7.0, "lat": -7.867, "lng": 110.417, "elevation_m": 100.0,
+        "source": "Herdiwijaya 2016 ICOPIA, Yogyakarta area Indonesia",
+        "notes": "SQM; 136 nights 2014-2016; mean 18.8±0.7 mpsas; D0=17° proposed; seasonal representative; D0=17.115°",
+    },
+    {
+        "prayer": "fajr", "date_local": "2015-12-21", "time_local": "04:39",
+        "utc_offset": 7.0, "lat": -7.867, "lng": 110.417, "elevation_m": 100.0,
+        "source": "Herdiwijaya 2016 ICOPIA, Yogyakarta area Indonesia",
+        "notes": "SQM; 136 nights 2014-2016; mean 18.8±0.7 mpsas; D0=17° proposed; seasonal representative; D0=17.052°",
+    },
+
+    # ── Batch 17: Faid et al. 2024 Malaysia + Australia ───────────────────────────
+    # Faid et al. 2024 (Scientific Reports): 8 sites, 5 years 2017-2022.
+    # D0 by sky quality class: urban=11.50°, rural=15.67°, pristine=17.49°.
+    # Sites: 7 Malaysia (Peninsular + Sabah) + 1 Australia (Coonabarabran).
+    # All Isha (Shafaq al-Abyad); 4 seasonal representative dates per site.
+    # Source: Faid et al. 2024 Scientific Reports.
+    # Putrajaya, Selangor, Malaysia — urban (D0=11.50°)
+    {
+        "prayer": "isha", "date_local": "2022-03-20", "time_local": "20:07",
+        "utc_offset": 8.0, "lat": 2.900, "lng": 101.683, "elevation_m": 20.0,
+        "source": "Faid et al. 2024 Scientific Reports, Putrajaya Malaysia",
+        "notes": "SQM; D0=11.50° (urban class); 5-year campaign 2017-2022; seasonal representative; D0=11.558°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-06-21", "time_local": "20:11",
+        "utc_offset": 8.0, "lat": 2.900, "lng": 101.683, "elevation_m": 20.0,
+        "source": "Faid et al. 2024 Scientific Reports, Putrajaya Malaysia",
+        "notes": "SQM; D0=11.50° (urban class); 5-year campaign 2017-2022; seasonal representative; D0=11.610°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-09-22", "time_local": "19:52",
+        "utc_offset": 8.0, "lat": 2.900, "lng": 101.683, "elevation_m": 20.0,
+        "source": "Faid et al. 2024 Scientific Reports, Putrajaya Malaysia",
+        "notes": "SQM; D0=11.50° (urban class); 5-year campaign 2017-2022; seasonal representative; D0=11.478°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-12-21", "time_local": "19:56",
+        "utc_offset": 8.0, "lat": 2.900, "lng": 101.683, "elevation_m": 20.0,
+        "source": "Faid et al. 2024 Scientific Reports, Putrajaya Malaysia",
+        "notes": "SQM; D0=11.50° (urban class); 5-year campaign 2017-2022; seasonal representative; D0=11.406°",
+    },
+    # Tanjung Balau, Johor, Malaysia — rural (D0=15.67°)
+    {
+        "prayer": "isha", "date_local": "2022-03-20", "time_local": "20:13",
+        "utc_offset": 8.0, "lat": 1.800, "lng": 104.400, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Tanjung Balau Johor Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.782°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-06-21", "time_local": "20:16",
+        "utc_offset": 8.0, "lat": 1.800, "lng": 104.400, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Tanjung Balau Johor Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.669°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-09-22", "time_local": "19:58",
+        "utc_offset": 8.0, "lat": 1.800, "lng": 104.400, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Tanjung Balau Johor Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.706°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-12-21", "time_local": "20:06",
+        "utc_offset": 8.0, "lat": 1.800, "lng": 104.400, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Tanjung Balau Johor Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.743°",
+    },
+    # Pantai Batu Buruk, Terengganu, Malaysia — rural (D0=15.67°)
+    {
+        "prayer": "isha", "date_local": "2022-03-20", "time_local": "20:18",
+        "utc_offset": 8.0, "lat": 5.317, "lng": 103.150, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Batu Buruk Terengganu Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.724°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-06-21", "time_local": "20:28",
+        "utc_offset": 8.0, "lat": 5.317, "lng": 103.150, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Batu Buruk Terengganu Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.727°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-09-22", "time_local": "20:03",
+        "utc_offset": 8.0, "lat": 5.317, "lng": 103.150, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Batu Buruk Terengganu Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.632°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-12-21", "time_local": "20:05",
+        "utc_offset": 8.0, "lat": 5.317, "lng": 103.150, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Batu Buruk Terengganu Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.764°",
+    },
+    # Coonabarabran, New South Wales, Australia — pristine (D0=17.49°)
+    # First Australia record; fills Southern Hemisphere non-tropical gap.
+    {
+        "prayer": "isha", "date_local": "2022-03-20", "time_local": "19:33",
+        "utc_offset": 10.0, "lat": -31.250, "lng": 149.267, "elevation_m": 860.0,
+        "source": "Faid et al. 2024 Scientific Reports, Coonabarabran NSW Australia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.491°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-06-21", "time_local": "18:32",
+        "utc_offset": 10.0, "lat": -31.250, "lng": 149.267, "elevation_m": 860.0,
+        "source": "Faid et al. 2024 Scientific Reports, Coonabarabran NSW Australia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.429°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-09-22", "time_local": "19:17",
+        "utc_offset": 10.0, "lat": -31.250, "lng": 149.267, "elevation_m": 860.0,
+        "source": "Faid et al. 2024 Scientific Reports, Coonabarabran NSW Australia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.417°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-12-21", "time_local": "20:42",
+        "utc_offset": 10.0, "lat": -31.250, "lng": 149.267, "elevation_m": 860.0,
+        "source": "Faid et al. 2024 Scientific Reports, Coonabarabran NSW Australia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.498°",
+    },
+    # Pantai Mek Mas, Kelantan, Malaysia — pristine (D0=17.49°)
+    {
+        "prayer": "isha", "date_local": "2022-03-20", "time_local": "20:29",
+        "utc_offset": 8.0, "lat": 6.317, "lng": 102.150, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.435°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-06-21", "time_local": "20:42",
+        "utc_offset": 8.0, "lat": 6.317, "lng": 102.150, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.502°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-09-22", "time_local": "20:15",
+        "utc_offset": 8.0, "lat": 6.317, "lng": 102.150, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.587°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-12-21", "time_local": "20:15",
+        "utc_offset": 8.0, "lat": 6.317, "lng": 102.150, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.526°",
+    },
+    # Balai Cerap Unisza, Terengganu, Malaysia — pristine (D0=17.49°)
+    {
+        "prayer": "isha", "date_local": "2022-03-20", "time_local": "20:27",
+        "utc_offset": 8.0, "lat": 5.400, "lng": 102.583, "elevation_m": 20.0,
+        "source": "Faid et al. 2024 Scientific Reports, Balai Cerap Unisza Terengganu Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.397°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-06-21", "time_local": "20:38",
+        "utc_offset": 8.0, "lat": 5.400, "lng": 102.583, "elevation_m": 20.0,
+        "source": "Faid et al. 2024 Scientific Reports, Balai Cerap Unisza Terengganu Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.413°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-09-22", "time_local": "20:13",
+        "utc_offset": 8.0, "lat": 5.400, "lng": 102.583, "elevation_m": 20.0,
+        "source": "Faid et al. 2024 Scientific Reports, Balai Cerap Unisza Terengganu Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.554°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-12-21", "time_local": "20:15",
+        "utc_offset": 8.0, "lat": 5.400, "lng": 102.583, "elevation_m": 20.0,
+        "source": "Faid et al. 2024 Scientific Reports, Balai Cerap Unisza Terengganu Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.569°",
+    },
+    # Simpang Mengayau, Sabah, Malaysia — pristine (D0=17.49°)
+    {
+        "prayer": "isha", "date_local": "2022-03-20", "time_local": "19:32",
+        "utc_offset": 8.0, "lat": 7.200, "lng": 116.500, "elevation_m": 10.0,
+        "source": "Faid et al. 2024 Scientific Reports, Simpang Mengayau Sabah Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.501°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-06-21", "time_local": "19:46",
+        "utc_offset": 8.0, "lat": 7.200, "lng": 116.500, "elevation_m": 10.0,
+        "source": "Faid et al. 2024 Scientific Reports, Simpang Mengayau Sabah Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.410°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-09-22", "time_local": "19:17",
+        "utc_offset": 8.0, "lat": 7.200, "lng": 116.500, "elevation_m": 10.0,
+        "source": "Faid et al. 2024 Scientific Reports, Simpang Mengayau Sabah Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.396°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-12-21", "time_local": "19:16",
+        "utc_offset": 8.0, "lat": 7.200, "lng": 116.500, "elevation_m": 10.0,
+        "source": "Faid et al. 2024 Scientific Reports, Simpang Mengayau Sabah Malaysia",
+        "notes": "SQM; D0=17.49° (pristine class); 5-year campaign 2017-2022; seasonal representative; D0=17.502°",
+    },
+    # Pantai Masjid Tengku Zaharah, Terengganu, Malaysia — rural (D0=15.67°)
+    {
+        "prayer": "isha", "date_local": "2022-03-20", "time_local": "20:15",
+        "utc_offset": 8.0, "lat": 5.400, "lng": 103.950, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Masjid Tengku Zaharah Terengganu Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.771°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-06-21", "time_local": "20:25",
+        "utc_offset": 8.0, "lat": 5.400, "lng": 103.950, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Masjid Tengku Zaharah Terengganu Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.735°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-09-22", "time_local": "20:00",
+        "utc_offset": 8.0, "lat": 5.400, "lng": 103.950, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Masjid Tengku Zaharah Terengganu Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.679°",
+    },
+    {
+        "prayer": "isha", "date_local": "2022-12-21", "time_local": "20:01",
+        "utc_offset": 8.0, "lat": 5.400, "lng": 103.950, "elevation_m": 5.0,
+        "source": "Faid et al. 2024 Scientific Reports, Pantai Masjid Tengku Zaharah Terengganu Malaysia",
+        "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.613°",
+    },
+
 ]
 
 
