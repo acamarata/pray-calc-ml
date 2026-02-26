@@ -1,6 +1,10 @@
 date,utc_dt,lat,lng,elevation_m,day_of_year,isha_angle,source,notes
 2006-06-21,2006-06-21 17:28:00+00:00,-33.93,18.42,10.0,172,20.72596144204628,"Moonsighting.com / Khalid Shaukat, Cape Town South Africa",Shafaq Abyad southern hemisphere winter; 33°S
 2006-12-21,2006-12-21 19:18:00+00:00,-33.93,18.42,10.0,355,14.511215004933991,"Moonsighting.com / Khalid Shaukat, Cape Town South Africa",Shafaq Abyad southern hemisphere summer; long twilight
+2019-03-21,2019-03-21 09:32:00+00:00,-31.25,149.267,590.0,80,17.478792180426545,"LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",Pristine Isha; SH autumn equinox; time inferred
+2019-06-22,2019-06-22 08:32:00+00:00,-31.25,149.267,590.0,173,17.39878505203631,"LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",Pristine Isha; SH winter; short twilight at 31°S; time inferred
+2019-09-23,2019-09-23 09:17:00+00:00,-31.25,149.267,590.0,266,17.3243513580088,"LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",Pristine Isha; SH spring equinox; time inferred
+2018-12-22,2018-12-22 10:42:00+00:00,-31.25,149.267,590.0,356,17.418973383675574,"LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",Pristine Isha; SH summer; long twilight; time inferred
 2015-03-21,2015-03-21 11:09:00+00:00,-10.2,123.6,50.0,80,18.761858583939073,"Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia dusk",Photometer dusk at -18.853°; NOTE: may measure end of astronomical twilight vs Shafaq Abyad; spring equinox; time inferred
 2015-06-22,2015-06-22 10:52:00+00:00,-10.2,123.6,50.0,173,18.73244095918383,"Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia dusk",Photometer dusk at -18.853°; southern hemisphere winter; time inferred
 2015-09-23,2015-09-23 10:54:00+00:00,-10.2,123.6,50.0,266,18.66171776542293,"Herdiwijaya 2020, J. Phys. Conf. 1523, Kupang NTT Indonesia dusk",Photometer dusk at -18.853°; autumn equinox; time inferred
@@ -17,14 +21,22 @@ date,utc_dt,lat,lng,elevation_m,day_of_year,isha_angle,source,notes
 2018-06-21,2018-06-21 12:52:00+00:00,3.595,98.672,22.0,172,17.853482697915105,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar (red dusk twilight) June; near equator
 2019-09-22,2019-09-22 12:51:00+00:00,3.595,98.672,22.0,265,23.15953052256514,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar autumn equinox
 2018-12-21,2018-12-21 12:48:00+00:00,3.595,98.672,22.0,355,20.820721779043744,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar December; near equator
+2008-01-15,2008-01-15 12:16:00+00:00,4.183,102.04,76.0,15,14.304896334449062,"Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",Shafaq Abyad winter; Kuala Lipis; time inferred
 2008-03-20,2008-03-20 12:15:00+00:00,4.183,102.04,76.0,80,13.902877376317635,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad, spring equinox"
+2008-04-15,2008-04-15 12:13:00+00:00,4.183,102.04,76.0,106,14.273538935969533,"Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",Shafaq Abyad spring; Kuala Lipis 76m; time inferred
+2007-05-15,2007-05-15 12:15:00+00:00,4.183,102.04,76.0,135,14.34835938945879,"Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",Shafaq Abyad end; 4.2°N 76m; Isha 14.38°; time inferred from mean angle
 2007-06-21,2007-06-21 12:32:00+00:00,4.183,102.04,76.0,172,16.14961346227997,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, June; near equator"
 2007-09-22,2007-09-22 12:20:00+00:00,4.183,102.04,76.0,265,18.755050592883862,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, September equinox"
+2007-09-22,2007-09-22 12:02:00+00:00,4.183,102.04,76.0,265,14.267391765716521,"Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",Shafaq Abyad autumn equinox; Kuala Lipis; time inferred
 2007-12-21,2007-12-21 12:10:00+00:00,4.183,102.04,76.0,355,15.474037743926715,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, December; near equator"
 2007-03-21,2007-03-21 11:35:00+00:00,5.933,116.05,5.0,80,17.857891585024348,"Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",SQM-LE; Shafaq Abyad disappearance; mean 17.99° depression; time inferred
 2007-06-22,2007-06-22 11:47:00+00:00,5.933,116.05,5.0,173,17.787197419567423,"Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",SQM-LE; Shafaq Abyad; summer at near-equatorial site
 2007-09-23,2007-09-23 11:20:00+00:00,5.933,116.05,5.0,266,17.83225788506929,"Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",SQM-LE; Shafaq Abyad; autumn equinox
 2007-12-22,2007-12-22 11:22:00+00:00,5.933,116.05,5.0,356,17.890311077919815,"Niri & Zainuddin, Isha prayer time determination, Tanjung Aru Sabah",SQM-LE; Shafaq Abyad; winter season
+2018-03-20,2018-03-20 12:29:00+00:00,6.317,102.15,3.0,79,17.43206685631449,"LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",Pristine site Isha; 17.49° twilight stability; spring equinox; time inferred
+2018-06-21,2018-06-21 12:41:00+00:00,6.317,102.15,3.0,172,17.288274298812794,"LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",Pristine site Isha; summer; 6.3°N; time inferred
+2018-09-22,2018-09-22 12:14:00+00:00,6.317,102.15,3.0,265,17.337122104209435,"LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",Pristine site Isha; autumn equinox; time inferred
+2018-12-21,2018-12-21 12:14:00+00:00,6.317,102.15,3.0,355,17.291959185870017,"LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",Pristine site Isha; winter solstice; time inferred
 2005-06-21,2005-06-21 15:52:00+00:00,24.86,67.01,8.0,172,17.758413294857696,"Moonsighting.com / Khalid Shaukat, Karachi Pakistan",Shafaq Abyad summer; Karachi
 2005-12-21,2005-12-21 14:12:00+00:00,24.86,67.01,8.0,355,18.566364909514967,"Moonsighting.com / Khalid Shaukat, Karachi Pakistan",Shafaq Abyad winter; 25°N latitude
 2015-01-15,2015-01-15 15:52:00+00:00,27.52,41.7,1020.0,15,15.807111918802388,"Khalifa 2018, NRIAG J. 7:22-28, Hail Saudi Arabia",Shafaq Abyad winter; Hail

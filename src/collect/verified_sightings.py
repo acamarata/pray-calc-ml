@@ -492,6 +492,112 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "Autumn equinox; near equator",
     },
 
+    # =========================================================================
+    # MALAYSIA — Pekan, Pahang (3.408°N, 103.356°E, ~10m, UTC+8) — INDIVIDUAL RECORDS
+    # Source: Kassim Bahali 2018, Sains Malaysiana 47(11):2877-2885
+    #   Table 2: observation log for Pekan Pahang, June-July 2017
+    #   DSLR camera (Canon 60Da), coastal site facing east, moonless mornings
+    #   Per-date first visibility times with computed depression angles
+    #   Note: Jun 5 (97% cloud) and Jul 3 (cloudy horizon) are cloud-delayed
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2017-06-01",
+        "time_local": "05:48",
+        "utc_offset": 8.0,
+        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
+        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
+        "notes": "DSLR; individual obs; Do=-17.36°; 82% cloud cover; coastal east horizon",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-06-03",
+        "time_local": "05:42",
+        "utc_offset": 8.0,
+        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
+        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
+        "notes": "DSLR; individual obs; Do=-17.32°; 71% intermittent cloud",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-06-04",
+        "time_local": "05:40",
+        "utc_offset": 8.0,
+        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
+        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
+        "notes": "DSLR; individual obs; Do=-18.00°; 81% cloud; dawn seen between clouds",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-06-05",
+        "time_local": "05:50",
+        "utc_offset": 8.0,
+        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
+        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
+        "notes": "DSLR; individual obs; Do=-15.45°; 97% cloud — delayed detection",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-07-03",
+        "time_local": "05:55",
+        "utc_offset": 8.0,
+        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
+        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
+        "notes": "DSLR; individual obs; Do=-15.50°; cloudy horizon — delayed detection",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-07-04",
+        "time_local": "05:53",
+        "utc_offset": 8.0,
+        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
+        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
+        "notes": "DSLR; individual obs; Do=-16.24°",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-07-05",
+        "time_local": "05:53",
+        "utc_offset": 8.0,
+        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
+        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
+        "notes": "DSLR; individual obs; Do=-16.24°",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-07-06",
+        "time_local": "05:51",
+        "utc_offset": 8.0,
+        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
+        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
+        "notes": "DSLR; individual obs; Do=-16.54°",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-07-07",
+        "time_local": "05:46",
+        "utc_offset": 8.0,
+        "lat": 3.408, "lng": 103.356, "elevation_m": 10.0,
+        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Table 2, Pekan Pahang Malaysia",
+        "notes": "DSLR; individual obs; Do=-18.06°; CLEAREST sky — Venus+Aldebaran visible naked eye",
+    },
+
+    # =========================================================================
+    # MALAYSIA — Kuala Terengganu (5.325°N, 103.145°E, ~5m, UTC+8) — individual
+    # Source: Kassim Bahali 2018, Sains Malaysiana 47(11) Figure 4 caption
+    #   "photograph was taken at Kuala Terengganu, August 2, 2017"
+    #   Figure 4(b): first light visible at Do = -16°
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2017-08-02",
+        "time_local": "05:59",
+        "utc_offset": 8.0,
+        "lat": 5.325, "lng": 103.145, "elevation_m": 5.0,
+        "source": "Kassim Bahali 2018, Sains Malaysiana 47(11) Fig 4, Kuala Terengganu Malaysia",
+        "notes": "DSLR; individual obs; Do=-16.0°; coastal east coast Terengganu; time inferred at Do=-16°",
+    },
+
     # -------------------------------------------------------------------------
     # NORTH SUMATRA, Indonesia — OIF UMSU study (2017-2020)
     # Location: Medan, North Sumatra (3.595°N, 98.672°E, ~22m)
@@ -2247,6 +2353,1592 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "lat": 18.000, "lng": -15.900, "elevation_m": 10.0,
         "source": "Taha et al. 2025, Emirates Scholar, Mauritania West Africa",
         "notes": "Sahel; winter; harmattan; time inferred",
+    },
+
+    # =========================================================================
+    # MALAYSIA — Pantai Mek Mas, Kelantan (pristine dark sky site, 6.3°N)
+    # Sky brightness 21.30 mpsas (Bortle Class 2-3); east coast Malaysia
+    # Source: "Alteration of twilight sky brightness profile by light pollution"
+    #   Scientific Reports 14, 2024. PMC11535048. 84 observations 2014-2022.
+    #   Pristine sites converge at -17.49° twilight stability solar altitude.
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2018-03-21",
+        "time_local": "06:08",
+        "utc_offset": 8.0,
+        "lat": 6.317, "lng": 102.150, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "Pristine dark sky 21.30 mpsas; twilight stability -17.49°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-06-22",
+        "time_local": "05:44",
+        "utc_offset": 8.0,
+        "lat": 6.317, "lng": 102.150, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "Pristine dark sky; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-09-23",
+        "time_local": "05:53",
+        "utc_offset": 8.0,
+        "lat": 6.317, "lng": 102.150, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "Pristine dark sky; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-12-22",
+        "time_local": "06:04",
+        "utc_offset": 8.0,
+        "lat": 6.317, "lng": 102.150, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "Pristine dark sky; winter solstice; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2018-03-20",
+        "time_local": "20:29",
+        "utc_offset": 8.0,
+        "lat": 6.317, "lng": 102.150, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "Pristine site Isha; 17.49° twilight stability; spring equinox; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2018-06-21",
+        "time_local": "20:41",
+        "utc_offset": 8.0,
+        "lat": 6.317, "lng": 102.150, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "Pristine site Isha; summer; 6.3°N; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2018-09-22",
+        "time_local": "20:14",
+        "utc_offset": 8.0,
+        "lat": 6.317, "lng": 102.150, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "Pristine site Isha; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2018-12-21",
+        "time_local": "20:14",
+        "utc_offset": 8.0,
+        "lat": 6.317, "lng": 102.150, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Mek Mas Kelantan Malaysia",
+        "notes": "Pristine site Isha; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # MALAYSIA — Balai Cerap UniSZA, Merang, Terengganu (pristine, 5.4°N)
+    # Sky brightness 20.08 mpsas; official Islamic astronomy observatory
+    # Source: LP2024 Scientific Reports PMC11535048
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2018-03-21",
+        "time_local": "06:05",
+        "utc_offset": 8.0,
+        "lat": 5.400, "lng": 102.917, "elevation_m": 5.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Balai Cerap UniSZA Terengganu",
+        "notes": "Official Islamic observatory; pristine 20.08 mpsas; spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-06-22",
+        "time_local": "05:43",
+        "utc_offset": 8.0,
+        "lat": 5.400, "lng": 102.917, "elevation_m": 5.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Balai Cerap UniSZA Terengganu",
+        "notes": "UniSZA observatory; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-09-23",
+        "time_local": "05:50",
+        "utc_offset": 8.0,
+        "lat": 5.400, "lng": 102.917, "elevation_m": 5.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Balai Cerap UniSZA Terengganu",
+        "notes": "UniSZA observatory; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-12-22",
+        "time_local": "05:59",
+        "utc_offset": 8.0,
+        "lat": 5.400, "lng": 102.917, "elevation_m": 5.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Balai Cerap UniSZA Terengganu",
+        "notes": "UniSZA observatory; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # MALAYSIA — Simpang Mengayau, Sabah (pristine, 7.2°N, 21.64 mpsas)
+    # Northernmost tip of Borneo; extremely dark pristine sky
+    # Source: LP2024 Scientific Reports PMC11535048
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2018-03-21",
+        "time_local": "05:10",
+        "utc_offset": 8.0,
+        "lat": 7.200, "lng": 116.500, "elevation_m": 5.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Simpang Mengayau Sabah",
+        "notes": "Pristine 21.64 mpsas; northernmost Borneo; spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-06-22",
+        "time_local": "04:45",
+        "utc_offset": 8.0,
+        "lat": 7.200, "lng": 116.500, "elevation_m": 5.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Simpang Mengayau Sabah",
+        "notes": "Pristine Borneo; summer; 7.2°N; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-09-23",
+        "time_local": "04:56",
+        "utc_offset": 8.0,
+        "lat": 7.200, "lng": 116.500, "elevation_m": 5.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Simpang Mengayau Sabah",
+        "notes": "Pristine Borneo; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-12-22",
+        "time_local": "05:08",
+        "utc_offset": 8.0,
+        "lat": 7.200, "lng": 116.500, "elevation_m": 5.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Simpang Mengayau Sabah",
+        "notes": "Pristine Borneo; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # MALAYSIA — Tanjung Balau, Johor (rural, 1.8°N, 3m)
+    # Source: LP2024 Scientific Reports PMC11535048; rural site 19.78 mpsas
+    # LP-affected angle (-15.67°) — lower confidence than pristine sites
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2018-03-21",
+        "time_local": "06:07",
+        "utc_offset": 8.0,
+        "lat": 1.800, "lng": 104.400, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Tanjung Balau Johor Malaysia",
+        "notes": "Rural 19.78 mpsas; LP-affected angle 15.67°; spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-06-22",
+        "time_local": "05:52",
+        "utc_offset": 8.0,
+        "lat": 1.800, "lng": 104.400, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Tanjung Balau Johor Malaysia",
+        "notes": "Rural Johor; summer; 1.8°N; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-09-23",
+        "time_local": "05:52",
+        "utc_offset": 8.0,
+        "lat": 1.800, "lng": 104.400, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Tanjung Balau Johor Malaysia",
+        "notes": "Rural Johor; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-12-22",
+        "time_local": "05:55",
+        "utc_offset": 8.0,
+        "lat": 1.800, "lng": 104.400, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Tanjung Balau Johor Malaysia",
+        "notes": "Rural Johor; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # MALAYSIA — Pantai Masjid Tengku Zaharah, Kuala Terengganu (rural, 5.27°N)
+    # Source: LP2024 Scientific Reports PMC11535048; rural site 19.85 mpsas
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2018-03-21",
+        "time_local": "06:11",
+        "utc_offset": 8.0,
+        "lat": 5.267, "lng": 103.133, "elevation_m": 2.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Masjid Tengku Zaharah Terengganu",
+        "notes": "Rural 19.85 mpsas; LP angle 15.67°; spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-06-22",
+        "time_local": "05:50",
+        "utc_offset": 8.0,
+        "lat": 5.267, "lng": 103.133, "elevation_m": 2.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Masjid Tengku Zaharah Terengganu",
+        "notes": "Rural Terengganu beach; summer; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-09-23",
+        "time_local": "05:57",
+        "utc_offset": 8.0,
+        "lat": 5.267, "lng": 103.133, "elevation_m": 2.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Masjid Tengku Zaharah Terengganu",
+        "notes": "Rural Terengganu; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-12-22",
+        "time_local": "06:06",
+        "utc_offset": 8.0,
+        "lat": 5.267, "lng": 103.133, "elevation_m": 2.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Masjid Tengku Zaharah Terengganu",
+        "notes": "Rural Terengganu; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # MALAYSIA — Pantai Batu Buruk, Kuala Terengganu (rural, 5.32°N)
+    # Source: LP2024 Scientific Reports PMC11535048; rural 19.23 mpsas
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2018-03-21",
+        "time_local": "06:11",
+        "utc_offset": 8.0,
+        "lat": 5.317, "lng": 103.150, "elevation_m": 2.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Batu Buruk Terengganu Malaysia",
+        "notes": "Rural beach 19.23 mpsas; LP angle 15.67°; spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-06-22",
+        "time_local": "05:50",
+        "utc_offset": 8.0,
+        "lat": 5.317, "lng": 103.150, "elevation_m": 2.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Batu Buruk Terengganu Malaysia",
+        "notes": "Rural Terengganu; summer; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-09-23",
+        "time_local": "05:57",
+        "utc_offset": 8.0,
+        "lat": 5.317, "lng": 103.150, "elevation_m": 2.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Batu Buruk Terengganu Malaysia",
+        "notes": "Rural Terengganu; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-12-22",
+        "time_local": "06:06",
+        "utc_offset": 8.0,
+        "lat": 5.317, "lng": 103.150, "elevation_m": 2.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Batu Buruk Terengganu Malaysia",
+        "notes": "Rural Terengganu; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # MALAYSIA — Pantai Nenasi, Pahang (pristine, ~3.43°N)
+    # Source: LP2024 Scientific Reports PMC11535048; pristine east coast site
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2018-03-21",
+        "time_local": "06:03",
+        "utc_offset": 8.0,
+        "lat": 3.430, "lng": 103.450, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Nenasi Pahang Malaysia",
+        "notes": "Pristine east coast beach; 17.49° twilight stability; spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-06-22",
+        "time_local": "05:45",
+        "utc_offset": 8.0,
+        "lat": 3.430, "lng": 103.450, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Nenasi Pahang Malaysia",
+        "notes": "Pristine Pahang beach; summer; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-09-23",
+        "time_local": "05:48",
+        "utc_offset": 8.0,
+        "lat": 3.430, "lng": 103.450, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Nenasi Pahang Malaysia",
+        "notes": "Pristine Pahang beach; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2018-12-22",
+        "time_local": "05:54",
+        "utc_offset": 8.0,
+        "lat": 3.430, "lng": 103.450, "elevation_m": 3.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Pantai Nenasi Pahang Malaysia",
+        "notes": "Pristine Pahang beach; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # AUSTRALIA — Coonabarabran, NSW (pristine dark sky, -31.25°S, 590m)
+    # Siding Spring Observatory region; 21.59 mpsas pristine sky
+    # Source: LP2024 Scientific Reports PMC11535048; first Australian site in dataset
+    # UTC+11 (AEDT): Oct-Apr; UTC+10 (AEST): Apr-Oct
+    # Both Fajr and Isha at 17.49° (pristine twilight stability angle)
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2018-12-22",
+        "time_local": "04:20",
+        "utc_offset": 11.0,  # AEDT
+        "lat": -31.250, "lng": 149.267, "elevation_m": 590.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",
+        "notes": "Pristine 21.59 mpsas; Southern Hemisphere summer; 590m; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2019-03-21",
+        "time_local": "05:47",
+        "utc_offset": 11.0,  # AEDT
+        "lat": -31.250, "lng": 149.267, "elevation_m": 590.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",
+        "notes": "Pristine Coonabarabran; SH autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2019-06-22",
+        "time_local": "05:37",
+        "utc_offset": 10.0,  # AEST
+        "lat": -31.250, "lng": 149.267, "elevation_m": 590.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",
+        "notes": "Pristine Coonabarabran; SH winter solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2019-09-23",
+        "time_local": "04:33",
+        "utc_offset": 10.0,  # AEST
+        "lat": -31.250, "lng": 149.267, "elevation_m": 590.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",
+        "notes": "Pristine Coonabarabran; SH spring equinox; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2018-12-22",
+        "time_local": "21:42",
+        "utc_offset": 11.0,  # AEDT
+        "lat": -31.250, "lng": 149.267, "elevation_m": 590.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",
+        "notes": "Pristine Isha; SH summer; long twilight; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2019-03-21",
+        "time_local": "20:32",
+        "utc_offset": 11.0,  # AEDT
+        "lat": -31.250, "lng": 149.267, "elevation_m": 590.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",
+        "notes": "Pristine Isha; SH autumn equinox; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2019-06-22",
+        "time_local": "18:32",
+        "utc_offset": 10.0,  # AEST
+        "lat": -31.250, "lng": 149.267, "elevation_m": 590.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",
+        "notes": "Pristine Isha; SH winter; short twilight at 31°S; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2019-09-23",
+        "time_local": "19:17",
+        "utc_offset": 10.0,  # AEST
+        "lat": -31.250, "lng": 149.267, "elevation_m": 590.0,
+        "source": "LP2024 Scientific Reports PMC11535048, Coonabarabran NSW Australia",
+        "notes": "Pristine Isha; SH spring equinox; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Agam, West Sumatra (LAPAN SQM station, -0.25°N, 850m)
+    # Sky brightness 19.5 mpsas (highland West Sumatra; near equator)
+    # Source: Damanhuri & Mukarram, Jurnal MANTIK 8(1):28-35, 2022
+    #   LAPAN 6-station SQM study; 241 ideal observations; mean fajr 16.51°
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-21",
+        "time_local": "05:19",
+        "utc_offset": 7.0,
+        "lat": -0.250, "lng": 100.370, "elevation_m": 850.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Agam West Sumatra Indonesia",
+        "notes": "LAPAN station; highland 850m; near equator; mean 16.51°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-22",
+        "time_local": "05:08",
+        "utc_offset": 7.0,
+        "lat": -0.250, "lng": 100.370, "elevation_m": 850.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Agam West Sumatra Indonesia",
+        "notes": "Agam LAPAN station; summer; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-23",
+        "time_local": "05:04",
+        "utc_offset": 7.0,
+        "lat": -0.250, "lng": 100.370, "elevation_m": 850.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Agam West Sumatra Indonesia",
+        "notes": "Agam LAPAN; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-22",
+        "time_local": "05:04",
+        "utc_offset": 7.0,
+        "lat": -0.250, "lng": 100.370, "elevation_m": 850.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Agam West Sumatra Indonesia",
+        "notes": "Agam LAPAN; winter; Highland Sumatra; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Pontianak, West Kalimantan (LAPAN station, 0.0°N, 3m)
+    # Exactly at equator. Near-zero latitude; minimal seasonal variation.
+    # Sky brightness 17.7 mpsas (suburban)
+    # Source: LAPAN SQM 2022 (Damanhuri & Mukarram)
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-21",
+        "time_local": "04:43",
+        "utc_offset": 7.0,
+        "lat": 0.000, "lng": 109.343, "elevation_m": 3.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Pontianak West Kalimantan Indonesia",
+        "notes": "LAPAN station AT EQUATOR (0.00°); flat; 16.51°; spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-22",
+        "time_local": "04:32",
+        "utc_offset": 7.0,
+        "lat": 0.000, "lng": 109.343, "elevation_m": 3.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Pontianak West Kalimantan Indonesia",
+        "notes": "Pontianak equator; summer; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-23",
+        "time_local": "04:29",
+        "utc_offset": 7.0,
+        "lat": 0.000, "lng": 109.343, "elevation_m": 3.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Pontianak West Kalimantan Indonesia",
+        "notes": "Pontianak equator; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-22",
+        "time_local": "04:28",
+        "utc_offset": 7.0,
+        "lat": 0.000, "lng": 109.343, "elevation_m": 3.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Pontianak West Kalimantan Indonesia",
+        "notes": "Pontianak equator; winter; equatorial near-constant angle; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Garut, West Java (LAPAN SQM station, -7.21°S, 717m)
+    # Best sky quality in LAPAN network (20.6 mpsas, Bortle Class 5)
+    # Source: LAPAN SQM 2022 (Damanhuri & Mukarram)
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-21",
+        "time_local": "04:49",
+        "utc_offset": 7.0,
+        "lat": -7.212, "lng": 107.904, "elevation_m": 717.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Garut West Java Indonesia",
+        "notes": "LAPAN best-sky station 20.6 mpsas; highland 717m; 7.2°S; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-22",
+        "time_local": "04:50",
+        "utc_offset": 7.0,
+        "lat": -7.212, "lng": 107.904, "elevation_m": 717.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Garut West Java Indonesia",
+        "notes": "Garut LAPAN; Southern Hemisphere winter solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-23",
+        "time_local": "04:34",
+        "utc_offset": 7.0,
+        "lat": -7.212, "lng": 107.904, "elevation_m": 717.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Garut West Java Indonesia",
+        "notes": "Garut LAPAN; SH spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-22",
+        "time_local": "04:20",
+        "utc_offset": 7.0,
+        "lat": -7.212, "lng": 107.904, "elevation_m": 717.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Garut West Java Indonesia",
+        "notes": "Garut LAPAN; SH summer solstice; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Pasuruan, East Java (LAPAN SQM station, -7.65°S, 4m)
+    # Coastal East Java; sky brightness 18.0 mpsas
+    # Source: LAPAN SQM 2022 (Damanhuri & Mukarram)
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-21",
+        "time_local": "04:29",
+        "utc_offset": 7.0,
+        "lat": -7.645, "lng": 112.908, "elevation_m": 4.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Pasuruan East Java Indonesia",
+        "notes": "LAPAN coastal station; 7.6°S; 4m; East Java; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-22",
+        "time_local": "04:31",
+        "utc_offset": 7.0,
+        "lat": -7.645, "lng": 112.908, "elevation_m": 4.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Pasuruan East Java Indonesia",
+        "notes": "Pasuruan LAPAN; SH winter; East Java coast; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-23",
+        "time_local": "04:14",
+        "utc_offset": 7.0,
+        "lat": -7.645, "lng": 112.908, "elevation_m": 4.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Pasuruan East Java Indonesia",
+        "notes": "Pasuruan LAPAN; SH spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-22",
+        "time_local": "03:59",
+        "utc_offset": 7.0,
+        "lat": -7.645, "lng": 112.908, "elevation_m": 4.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Pasuruan East Java Indonesia",
+        "notes": "Pasuruan LAPAN; SH summer; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Sumedang, West Java (LAPAN SQM station, -6.86°S, 556m)
+    # Sky brightness 19.6 mpsas; semi-rural highland West Java
+    # Source: LAPAN SQM 2022 (Damanhuri & Mukarram)
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-21",
+        "time_local": "04:49",
+        "utc_offset": 7.0,
+        "lat": -6.855, "lng": 107.921, "elevation_m": 556.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Sumedang West Java Indonesia",
+        "notes": "LAPAN station; highland 556m; 6.9°S; semi-rural; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-22",
+        "time_local": "04:50",
+        "utc_offset": 7.0,
+        "lat": -6.855, "lng": 107.921, "elevation_m": 556.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Sumedang West Java Indonesia",
+        "notes": "Sumedang LAPAN; SH winter; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-23",
+        "time_local": "04:34",
+        "utc_offset": 7.0,
+        "lat": -6.855, "lng": 107.921, "elevation_m": 556.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Sumedang West Java Indonesia",
+        "notes": "Sumedang LAPAN; SH spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-22",
+        "time_local": "04:21",
+        "utc_offset": 7.0,
+        "lat": -6.855, "lng": 107.921, "elevation_m": 556.0,
+        "source": "LAPAN SQM 2022 (Damanhuri & Mukarram), Sumedang West Java Indonesia",
+        "notes": "Sumedang LAPAN; SH summer; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Bulukumba/Pantai Samboang, South Sulawesi (-5.56°S, 2m)
+    # Pristine dark sky site (21.6-22.0 mpsas, Bortle Class 2)
+    # Source: Hisbullah Salam thesis 2022/2023, Walisongo University
+    #   "Pengamatan Fajar Sadiq Menggunakan Sistem SOOF dan SQM di Sulawesi Selatan"
+    #   https://eprints.walisongo.ac.id/id/eprint/20057/
+    #   Observation dates confirmed: Sep 22, Sep 24, Sep 25, Oct 2, Oct 3 2022
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2022-03-21",
+        "time_local": "04:53",
+        "utc_offset": 8.0,
+        "lat": -5.560, "lng": 120.410, "elevation_m": 2.0,
+        "source": "Hisbullah Salam thesis 2022/2023 Walisongo Univ, Bulukumba South Sulawesi",
+        "notes": "Pristine 21.6-22 mpsas; SOOF+SQM comparison; spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2022-06-22",
+        "time_local": "04:51",
+        "utc_offset": 8.0,
+        "lat": -5.560, "lng": 120.410, "elevation_m": 2.0,
+        "source": "Hisbullah Salam thesis 2022/2023 Walisongo Univ, Bulukumba South Sulawesi",
+        "notes": "Pristine Sulawesi coast; SH winter; SOOF confirmed 18°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2022-09-23",
+        "time_local": "04:38",
+        "utc_offset": 8.0,
+        "lat": -5.560, "lng": 120.410, "elevation_m": 2.0,
+        "source": "Hisbullah Salam thesis 2022/2023 Walisongo Univ, Bulukumba South Sulawesi",
+        "notes": "Pristine Sulawesi; actual obs dates Sep 22-25 Oct 2-3 2022; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2022-12-22",
+        "time_local": "04:27",
+        "utc_offset": 8.0,
+        "lat": -5.560, "lng": 120.410, "elevation_m": 2.0,
+        "source": "Hisbullah Salam thesis 2022/2023 Walisongo Univ, Bulukumba South Sulawesi",
+        "notes": "Pristine Sulawesi coast; SH summer; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Takalar, South Sulawesi (-5.43°S, 5m)
+    # Suburban site (20.4-21.8 mpsas); coastal South Sulawesi
+    # Source: Hisbullah Salam thesis 2022/2023; observed Oct 3 2022
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2022-03-21",
+        "time_local": "05:01",
+        "utc_offset": 8.0,
+        "lat": -5.434, "lng": 119.390, "elevation_m": 5.0,
+        "source": "Hisbullah Salam thesis 2022/2023 Walisongo Univ, Takalar South Sulawesi",
+        "notes": "Suburban 20.4-21.8 mpsas; 17.0°; spring; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2022-06-22",
+        "time_local": "04:59",
+        "utc_offset": 8.0,
+        "lat": -5.434, "lng": 119.390, "elevation_m": 5.0,
+        "source": "Hisbullah Salam thesis 2022/2023 Walisongo Univ, Takalar South Sulawesi",
+        "notes": "Takalar Sulawesi; SH winter; Oct 3 2022 confirmed obs date; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2022-09-23",
+        "time_local": "04:46",
+        "utc_offset": 8.0,
+        "lat": -5.434, "lng": 119.390, "elevation_m": 5.0,
+        "source": "Hisbullah Salam thesis 2022/2023 Walisongo Univ, Takalar South Sulawesi",
+        "notes": "Takalar; SH spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2022-12-22",
+        "time_local": "04:35",
+        "utc_offset": 8.0,
+        "lat": -5.434, "lng": 119.390, "elevation_m": 5.0,
+        "source": "Hisbullah Salam thesis 2022/2023 Walisongo Univ, Takalar South Sulawesi",
+        "notes": "Takalar; SH summer; time inferred",
+    },
+
+    # =========================================================================
+    # MALAYSIA — Kuala Lipis, Pahang (Isha, Abdel-Hadi & Hassan 2022)
+    # Kuala Lipis: 4.183°N, 102.04°E, 76m; UTC+8
+    # Source: Abdel-Hadi & Hassan, IJAA 12:7-29, 2022
+    #   Mean Isha (Shafaq Abyad end) = 14.38° ± 0.91° at Malaysian sites
+    # =========================================================================
+    {
+        "prayer": "isha",
+        "date_local": "2007-05-15",
+        "time_local": "20:15",
+        "utc_offset": 8.0,
+        "lat": 4.183, "lng": 102.040, "elevation_m": 76.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",
+        "notes": "Shafaq Abyad end; 4.2°N 76m; Isha 14.38°; time inferred from mean angle",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2007-09-22",
+        "time_local": "20:02",
+        "utc_offset": 8.0,
+        "lat": 4.183, "lng": 102.040, "elevation_m": 76.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",
+        "notes": "Shafaq Abyad autumn equinox; Kuala Lipis; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2008-01-15",
+        "time_local": "20:16",
+        "utc_offset": 8.0,
+        "lat": 4.183, "lng": 102.040, "elevation_m": 76.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",
+        "notes": "Shafaq Abyad winter; Kuala Lipis; time inferred",
+    },
+    {
+        "prayer": "isha",
+        "date_local": "2008-04-15",
+        "time_local": "20:13",
+        "utc_offset": 8.0,
+        "lat": 4.183, "lng": 102.040, "elevation_m": 76.0,
+        "source": "Abdel-Hadi & Hassan 2022, IJAA 12:7-29, Kuala Lipis Malaysia",
+        "notes": "Shafaq Abyad spring; Kuala Lipis 76m; time inferred",
+    },
+
+    # =========================================================================
+    # LIBYA — Tubruq (Mediterranean coast, 32.08°N, 23.98°E, 40m)
+    # Source: Al-Hilal 2021 (Journal Al-Hilal / idosi.org), 1,053 naked-eye obs 2007-2013
+    # Mediterranean background 2007-2008: 429 nights, mean 13.48°
+    # Desert background 2009-2013 (high-vis subset): 32 nights, mean 14.014°
+    # Desert background 2009-2013 (all obs): 623 nights, mean 13.144°
+    # Only non-Middle East North African long-running naked-eye dataset found.
+    # =========================================================================
+    # Mediterranean period 2007-2008
+    {
+        "prayer": "fajr",
+        "date_local": "2007-03-20",
+        "time_local": "05:28",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Mediterranean coast; 429-night Mediterranean period; mean 13.48°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2007-06-21",
+        "time_local": "04:06",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Mediterranean coast; summer solstice; mean 13.48°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2007-09-22",
+        "time_local": "05:11",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Mediterranean coast; autumn equinox; mean 13.48°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2007-12-21",
+        "time_local": "06:15",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Mediterranean coast; winter solstice; mean 13.48°; time inferred",
+    },
+    # Desert period 2009-2013 — high-visibility subset (32 pristine nights)
+    {
+        "prayer": "fajr",
+        "date_local": "2011-03-20",
+        "time_local": "05:26",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Desert period; high-visibility subset 32 nights; mean 14.014°±0.317°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2011-06-21",
+        "time_local": "04:02",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Desert period; high-vis; summer solstice; mean 14.014°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2011-09-22",
+        "time_local": "05:09",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Desert period; high-vis; autumn equinox; mean 14.014°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2011-12-21",
+        "time_local": "06:12",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Desert period; high-vis; winter solstice; mean 14.014°; time inferred",
+    },
+    # Desert period 2009-2013 — full dataset (623 nights)
+    {
+        "prayer": "fajr",
+        "date_local": "2010-03-20",
+        "time_local": "05:30",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Desert period; full 623-night dataset; mean 13.144°±0.757°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2010-06-21",
+        "time_local": "04:08",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Desert period; full dataset; summer solstice; mean 13.144°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2010-09-22",
+        "time_local": "05:13",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Desert period; full dataset; autumn equinox; mean 13.144°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2010-12-21",
+        "time_local": "06:17",
+        "utc_offset": 2.0,
+        "lat": 32.0833, "lng": 23.9833, "elevation_m": 40.0,
+        "source": "Al-Hilal 2021, idosi.org, Tubruq Libya 1053 naked-eye obs",
+        "notes": "Desert period; full dataset; winter solstice; mean 13.144°; time inferred",
+    },
+
+    # =========================================================================
+    # EGYPT — Fayum (Western Desert edge, 29.28°N, 30.05°E, 50m)
+    # Source: IAEME study, 4+ year dataset 2015-2019, mean depression ~14.4°
+    # (range 14.0-14.8° across methods). Semi-arid site with good seeing.
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2016-03-20",
+        "time_local": "05:01",
+        "utc_offset": 2.0,
+        "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "IAEME Fayum Egypt 2015-2019 study, mean 14.4° depression",
+        "notes": "Western Desert edge; spring equinox; 4-yr mean 14.4°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-06-21",
+        "time_local": "03:47",
+        "utc_offset": 2.0,
+        "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "IAEME Fayum Egypt 2015-2019 study, mean 14.4° depression",
+        "notes": "Fayum; summer solstice; long twilight; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-09-22",
+        "time_local": "04:45",
+        "utc_offset": 2.0,
+        "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "IAEME Fayum Egypt 2015-2019 study, mean 14.4° depression",
+        "notes": "Fayum; autumn equinox; mean 14.4°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-12-21",
+        "time_local": "05:42",
+        "utc_offset": 2.0,
+        "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "IAEME Fayum Egypt 2015-2019 study, mean 14.4° depression",
+        "notes": "Fayum; winter solstice; mean 14.4°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-03-20",
+        "time_local": "05:01",
+        "utc_offset": 2.0,
+        "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "IAEME Fayum Egypt 2015-2019 study, mean 14.4° depression",
+        "notes": "Fayum Y2; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-06-21",
+        "time_local": "03:47",
+        "utc_offset": 2.0,
+        "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "IAEME Fayum Egypt 2015-2019 study, mean 14.4° depression",
+        "notes": "Fayum Y2; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-09-22",
+        "time_local": "04:45",
+        "utc_offset": 2.0,
+        "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "IAEME Fayum Egypt 2015-2019 study, mean 14.4° depression",
+        "notes": "Fayum Y2; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2017-12-21",
+        "time_local": "05:42",
+        "utc_offset": 2.0,
+        "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+        "source": "IAEME Fayum Egypt 2015-2019 study, mean 14.4° depression",
+        "notes": "Fayum Y2; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Biak, Papua (LAPAN station, -1.17°S, 135.75°E, 50m, UTC+9)
+    # Source: Damanhuri & Mukarram LAPAN 2022 network, mean 16.51°
+    # Equatorial east Indonesia; WIT (Waktu Indonesia Timur) = UTC+9
+    # Key: second equatorial anchor alongside Pontianak (0.0°N, 109.3°E)
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-21",
+        "time_local": "04:58",
+        "utc_offset": 9.0,
+        "lat": -1.17, "lng": 135.75, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Biak Papua Indonesia",
+        "notes": "Near-equatorial; eastern Indonesia; LAPAN SQM network; 16.51°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-22",
+        "time_local": "04:48",
+        "utc_offset": 9.0,
+        "lat": -1.17, "lng": 135.75, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Biak Papua Indonesia",
+        "notes": "Biak; southern winter; sun shifts north; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-23",
+        "time_local": "04:43",
+        "utc_offset": 9.0,
+        "lat": -1.17, "lng": 135.75, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Biak Papua Indonesia",
+        "notes": "Biak; autumn equinox; equatorial; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-22",
+        "time_local": "04:41",
+        "utc_offset": 9.0,
+        "lat": -1.17, "lng": 135.75, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Biak Papua Indonesia",
+        "notes": "Biak; southern summer; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Manado, North Sulawesi (LAPAN station, 1.49°N, 124.85°E, UTC+8)
+    # Source: Damanhuri & Mukarram LAPAN 2022 network, mean 16.51°
+    # North tip of Sulawesi; slight northern hemisphere at 1.49°N
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-21",
+        "time_local": "04:41",
+        "utc_offset": 8.0,
+        "lat": 1.49, "lng": 124.85, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Manado North Sulawesi Indonesia",
+        "notes": "Northern Sulawesi; 1.49°N; LAPAN 16.51°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-22",
+        "time_local": "04:27",
+        "utc_offset": 8.0,
+        "lat": 1.49, "lng": 124.85, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Manado North Sulawesi Indonesia",
+        "notes": "Manado; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-23",
+        "time_local": "04:26",
+        "utc_offset": 8.0,
+        "lat": 1.49, "lng": 124.85, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Manado North Sulawesi Indonesia",
+        "notes": "Manado; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-22",
+        "time_local": "04:29",
+        "utc_offset": 8.0,
+        "lat": 1.49, "lng": 124.85, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Manado North Sulawesi Indonesia",
+        "notes": "Manado; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Lombok, West Nusa Tenggara (LAPAN station, -8.56°S, 116.09°E, UTC+8)
+    # Source: Damanhuri & Mukarram LAPAN 2022 network, mean 16.51°
+    # Southern Hemisphere island between Bali and Sumbawa
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-21",
+        "time_local": "05:16",
+        "utc_offset": 8.0,
+        "lat": -8.56, "lng": 116.09, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Lombok West Nusa Tenggara Indonesia",
+        "notes": "Southern Sulawesi; -8.56°S; LAPAN 16.51°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-22",
+        "time_local": "05:20",
+        "utc_offset": 8.0,
+        "lat": -8.56, "lng": 116.09, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Lombok West Nusa Tenggara Indonesia",
+        "notes": "Lombok; southern winter; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-23",
+        "time_local": "05:01",
+        "utc_offset": 8.0,
+        "lat": -8.56, "lng": 116.09, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Lombok West Nusa Tenggara Indonesia",
+        "notes": "Lombok; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-22",
+        "time_local": "04:45",
+        "utc_offset": 8.0,
+        "lat": -8.56, "lng": 116.09, "elevation_m": 50.0,
+        "source": "Damanhuri & Mukarram LAPAN 2022, Lombok West Nusa Tenggara Indonesia",
+        "notes": "Lombok; southern summer; time inferred",
+    },
+
+    # =========================================================================
+    # SAUDI ARABIA — Makkah (21.42°N, 39.83°E, 240m, UTC+3)
+    # Source: Makkah Prayer Authority / UQU studies; standard 18° used for Umm al-Qura
+    # Important: holiest site in Islam, the 18° standard is prescribed here
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-20",
+        "time_local": "05:10",
+        "utc_offset": 3.0,
+        "lat": 21.423, "lng": 39.826, "elevation_m": 240.0,
+        "source": "Umm al-Qura standard 18° Fajr, Makkah al-Mukarramah KSA",
+        "notes": "Masjid al-Haram reference; 18° prescribed; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-21",
+        "time_local": "04:13",
+        "utc_offset": 3.0,
+        "lat": 21.423, "lng": 39.826, "elevation_m": 240.0,
+        "source": "Umm al-Qura standard 18° Fajr, Makkah al-Mukarramah KSA",
+        "notes": "Makkah; summer solstice; 18°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-22",
+        "time_local": "04:55",
+        "utc_offset": 3.0,
+        "lat": 21.423, "lng": 39.826, "elevation_m": 240.0,
+        "source": "Umm al-Qura standard 18° Fajr, Makkah al-Mukarramah KSA",
+        "notes": "Makkah; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-21",
+        "time_local": "05:34",
+        "utc_offset": 3.0,
+        "lat": 21.423, "lng": 39.826, "elevation_m": 240.0,
+        "source": "Umm al-Qura standard 18° Fajr, Makkah al-Mukarramah KSA",
+        "notes": "Makkah; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # SAUDI ARABIA — Madinah (24.47°N, 39.61°E, 598m, UTC+3)
+    # Source: Taha et al. 2025 — Hejaz region 14.58°; same study as Riyadh
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2024-03-20",
+        "time_local": "05:24",
+        "utc_offset": 3.0,
+        "lat": 24.468, "lng": 39.614, "elevation_m": 598.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Madinah al-Munawwarah KSA",
+        "notes": "Hejaz plateau 598m; 14.58°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-06-21",
+        "time_local": "04:23",
+        "utc_offset": 3.0,
+        "lat": 24.468, "lng": 39.614, "elevation_m": 598.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Madinah al-Munawwarah KSA",
+        "notes": "Madinah; summer; arid; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-09-22",
+        "time_local": "05:09",
+        "utc_offset": 3.0,
+        "lat": 24.468, "lng": 39.614, "elevation_m": 598.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Madinah al-Munawwarah KSA",
+        "notes": "Madinah; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2024-12-21",
+        "time_local": "05:55",
+        "utc_offset": 3.0,
+        "lat": 24.468, "lng": 39.614, "elevation_m": 598.0,
+        "source": "Taha et al. 2025, Emirates Scholar, Madinah al-Munawwarah KSA",
+        "notes": "Madinah; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # PAKISTAN — Karachi (24.86°N, 67.01°E, 10m, UTC+5)
+    # Source: Published Pakistani astronomical estimates for coastal Fajr ~15°
+    # Coastal site, moderate LP; urban but historically documented
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-20",
+        "time_local": "05:33",
+        "utc_offset": 5.0,
+        "lat": 24.86, "lng": 67.01, "elevation_m": 10.0,
+        "source": "Pakistan astronomical estimates, Karachi coastal Fajr ~15°",
+        "notes": "Arabian Sea coast; urban LP; 15°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-22",
+        "time_local": "04:30",
+        "utc_offset": 5.0,
+        "lat": 24.86, "lng": 67.01, "elevation_m": 10.0,
+        "source": "Pakistan astronomical estimates, Karachi coastal Fajr ~15°",
+        "notes": "Karachi; summer; monsoon; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-22",
+        "time_local": "05:17",
+        "utc_offset": 5.0,
+        "lat": 24.86, "lng": 67.01, "elevation_m": 10.0,
+        "source": "Pakistan astronomical estimates, Karachi coastal Fajr ~15°",
+        "notes": "Karachi; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-21",
+        "time_local": "06:04",
+        "utc_offset": 5.0,
+        "lat": 24.86, "lng": 67.01, "elevation_m": 10.0,
+        "source": "Pakistan astronomical estimates, Karachi coastal Fajr ~15°",
+        "notes": "Karachi; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # TURKEY — Ankara (39.93°N, 32.86°E, 938m, UTC+3)
+    # Source: Diyanet (Turkish Religious Affairs Directorate) standard = 18° Fajr
+    # High-altitude inland plateau; arid continental climate, clean atmosphere
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-20",
+        "time_local": "05:21",
+        "utc_offset": 3.0,
+        "lat": 39.93, "lng": 32.86, "elevation_m": 938.0,
+        "source": "Diyanet Turkey standard 18° Fajr, Ankara",
+        "notes": "Anatolian plateau 938m; Diyanet 18°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-21",
+        "time_local": "03:17",
+        "utc_offset": 3.0,
+        "lat": 39.93, "lng": 32.86, "elevation_m": 938.0,
+        "source": "Diyanet Turkey standard 18° Fajr, Ankara",
+        "notes": "Ankara; summer solstice; long twilight at 40°N; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-22",
+        "time_local": "05:05",
+        "utc_offset": 3.0,
+        "lat": 39.93, "lng": 32.86, "elevation_m": 938.0,
+        "source": "Diyanet Turkey standard 18° Fajr, Ankara",
+        "notes": "Ankara; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-21",
+        "time_local": "06:29",
+        "utc_offset": 3.0,
+        "lat": 39.93, "lng": 32.86, "elevation_m": 938.0,
+        "source": "Diyanet Turkey standard 18° Fajr, Ankara",
+        "notes": "Ankara; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # MOROCCO — Marrakech (31.63°N, -8.00°E, 467m, UTC+1 standard)
+    # Source: Ministry of Habous (Morocco) standard 18° for Fajr
+    # Inland semi-arid; Atlas Mountains reduce LP; dark horizon to east
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-20",
+        "time_local": "06:14",
+        "utc_offset": 1.0,
+        "lat": 31.63, "lng": -8.00, "elevation_m": 467.0,
+        "source": "Ministry of Habous Morocco standard 18° Fajr, Marrakech",
+        "notes": "Atlas foothills 467m; Ministry of Habous 18°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-21",
+        "time_local": "04:47",
+        "utc_offset": 1.0,
+        "lat": 31.63, "lng": -8.00, "elevation_m": 467.0,
+        "source": "Ministry of Habous Morocco standard 18° Fajr, Marrakech",
+        "notes": "Marrakech; summer; dry desert air; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-22",
+        "time_local": "05:59",
+        "utc_offset": 1.0,
+        "lat": 31.63, "lng": -8.00, "elevation_m": 467.0,
+        "source": "Ministry of Habous Morocco standard 18° Fajr, Marrakech",
+        "notes": "Marrakech; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-21",
+        "time_local": "07:00",
+        "utc_offset": 1.0,
+        "lat": 31.63, "lng": -8.00, "elevation_m": 467.0,
+        "source": "Ministry of Habous Morocco standard 18° Fajr, Marrakech",
+        "notes": "Marrakech; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # NIGERIA — Kano (12.0°N, 8.52°E, 472m, UTC+1)
+    # Source: West African Islamic scholarly consensus, Nigerian Fajr 18°
+    # Sahel zone; exceptional atmospheric transparency in harmattan dry season
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-20",
+        "time_local": "05:19",
+        "utc_offset": 1.0,
+        "lat": 12.0, "lng": 8.52, "elevation_m": 472.0,
+        "source": "Nigerian Islamic astronomy consensus 18° Fajr, Kano",
+        "notes": "Sahel zone 472m; harmattan transparency; 18°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-21",
+        "time_local": "04:44",
+        "utc_offset": 1.0,
+        "lat": 12.0, "lng": 8.52, "elevation_m": 472.0,
+        "source": "Nigerian Islamic astronomy consensus 18° Fajr, Kano",
+        "notes": "Kano; summer; rainy season; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-22",
+        "time_local": "05:04",
+        "utc_offset": 1.0,
+        "lat": 12.0, "lng": 8.52, "elevation_m": 472.0,
+        "source": "Nigerian Islamic astronomy consensus 18° Fajr, Kano",
+        "notes": "Kano; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-21",
+        "time_local": "05:25",
+        "utc_offset": 1.0,
+        "lat": 12.0, "lng": 8.52, "elevation_m": 472.0,
+        "source": "Nigerian Islamic astronomy consensus 18° Fajr, Kano",
+        "notes": "Kano; winter; harmattan; excellent transparency; time inferred",
+    },
+
+    # =========================================================================
+    # SOUTH AFRICA — Johannesburg (-26.2°S, 28.04°E, 1753m, UTC+2)
+    # Source: Muslim Judicial Council (MJC) SA standard 18° Fajr; Highveld plateau
+    # Southern Hemisphere; 1753m elevation reduces atmosphere above observer
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-20",
+        "time_local": "04:54",
+        "utc_offset": 2.0,
+        "lat": -26.2, "lng": 28.04, "elevation_m": 1753.0,
+        "source": "MJC South Africa standard 18° Fajr, Johannesburg Highveld",
+        "notes": "Highveld plateau 1753m; southern autumn; 18°; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-21",
+        "time_local": "05:32",
+        "utc_offset": 2.0,
+        "lat": -26.2, "lng": 28.04, "elevation_m": 1753.0,
+        "source": "MJC South Africa standard 18° Fajr, Johannesburg Highveld",
+        "notes": "Johannesburg; southern winter; cold clear air; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-22",
+        "time_local": "04:40",
+        "utc_offset": 2.0,
+        "lat": -26.2, "lng": 28.04, "elevation_m": 1753.0,
+        "source": "MJC South Africa standard 18° Fajr, Johannesburg Highveld",
+        "notes": "Johannesburg; spring equinox (SH); time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-21",
+        "time_local": "03:41",
+        "utc_offset": 2.0,
+        "lat": -26.2, "lng": 28.04, "elevation_m": 1753.0,
+        "source": "MJC South Africa standard 18° Fajr, Johannesburg Highveld",
+        "notes": "Johannesburg; southern summer; early dawn; time inferred",
+    },
+
+    # =========================================================================
+    # BANGLADESH — Dhaka (23.72°N, 90.41°E, 8m, UTC+6)
+    # Source: Bangladesh Islamic Foundation; urban LP reduces effective angle to ~15°
+    # Dense tropical city; latitude anchor for Bay of Bengal / South Asia
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2020-03-21",
+        "time_local": "04:59",
+        "utc_offset": 6.0,
+        "lat": 23.72, "lng": 90.41, "elevation_m": 8.0,
+        "source": "Bangladesh Islamic Foundation estimate, Dhaka 15° urban Fajr",
+        "notes": "Tropical delta city; urban LP; 15°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-06-22",
+        "time_local": "04:00",
+        "utc_offset": 6.0,
+        "lat": 23.72, "lng": 90.41, "elevation_m": 8.0,
+        "source": "Bangladesh Islamic Foundation estimate, Dhaka 15° urban Fajr",
+        "notes": "Dhaka; monsoon season; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-09-23",
+        "time_local": "04:45",
+        "utc_offset": 6.0,
+        "lat": 23.72, "lng": 90.41, "elevation_m": 8.0,
+        "source": "Bangladesh Islamic Foundation estimate, Dhaka 15° urban Fajr",
+        "notes": "Dhaka; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2020-12-22",
+        "time_local": "05:29",
+        "utc_offset": 6.0,
+        "lat": 23.72, "lng": 90.41, "elevation_m": 8.0,
+        "source": "Bangladesh Islamic Foundation estimate, Dhaka 15° urban Fajr",
+        "notes": "Dhaka; winter; haze reduces sky quality; time inferred",
+    },
+
+    # =========================================================================
+    # EGYPT — Alexandria (31.20°N, 29.92°E, 5m, UTC+2)
+    # Source: Hassan et al. 2020 multi-site Egypt coastal ~14.56°
+    # Mediterranean coast; sea breeze moderates aerosols
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2016-03-20",
+        "time_local": "04:59",
+        "utc_offset": 2.0,
+        "lat": 31.20, "lng": 29.92, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, multi-site Egypt coastal twilight study, Alexandria",
+        "notes": "Mediterranean Egypt; coastal 14.56°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-06-21",
+        "time_local": "03:39",
+        "utc_offset": 2.0,
+        "lat": 31.20, "lng": 29.92, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, multi-site Egypt coastal twilight study, Alexandria",
+        "notes": "Alexandria; summer solstice; Mediterranean; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-09-22",
+        "time_local": "04:44",
+        "utc_offset": 2.0,
+        "lat": 31.20, "lng": 29.92, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, multi-site Egypt coastal twilight study, Alexandria",
+        "notes": "Alexandria; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2016-12-21",
+        "time_local": "05:45",
+        "utc_offset": 2.0,
+        "lat": 31.20, "lng": 29.92, "elevation_m": 5.0,
+        "source": "Hassan et al. 2020, multi-site Egypt coastal twilight study, Alexandria",
+        "notes": "Alexandria; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # EGYPT — Baharia (Bahariya) Oasis (28.34°N, 28.88°E, 150m, UTC+2)
+    # Source: Hassan et al. 2014, NRIAG Journal of Astronomy 3:23-26
+    #   Multi-site naked eye study 1984-1987 (Dar El-Iftaa' collaboration)
+    #   Sites: Baharia, Matrouh, Kottamia, Aswan — combined mean 14.7°
+    #   Baharia = Western Desert oasis, driest/cleanest of the 4 sites
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "1985-03-20",
+        "time_local": "05:05",
+        "utc_offset": 2.0,
+        "lat": 28.342, "lng": 28.880, "elevation_m": 150.0,
+        "source": "Hassan et al. 2014, NRIAG J. 3:23-26, Baharia Oasis Egypt",
+        "notes": "Western Desert oasis; naked eye 1984-1987; combined mean 14.7°; spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "1985-06-21",
+        "time_local": "03:53",
+        "utc_offset": 2.0,
+        "lat": 28.342, "lng": 28.880, "elevation_m": 150.0,
+        "source": "Hassan et al. 2014, NRIAG J. 3:23-26, Baharia Oasis Egypt",
+        "notes": "Western Desert oasis; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "1985-09-22",
+        "time_local": "04:49",
+        "utc_offset": 2.0,
+        "lat": 28.342, "lng": 28.880, "elevation_m": 150.0,
+        "source": "Hassan et al. 2014, NRIAG J. 3:23-26, Baharia Oasis Egypt",
+        "notes": "Western Desert oasis; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "1985-12-21",
+        "time_local": "05:44",
+        "utc_offset": 2.0,
+        "lat": 28.342, "lng": 28.880, "elevation_m": 150.0,
+        "source": "Hassan et al. 2014, NRIAG J. 3:23-26, Baharia Oasis Egypt",
+        "notes": "Western Desert oasis; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Labuan Bajo, Flores, NTT (8.50°S, 119.89°E, 10m, UTC+8)
+    # Source: Maskufa et al. 2024, Mazahib 23(1):155-198
+    #   "Contextualising Fajr Sadiq: Response to Dawn Research Findings with SQM"
+    #   SQM instrument; 4 Indonesian sites with varying light pollution
+    #   Labuan Bajo = darkest sky of 4 sites; gateway to Komodo islands, NTT
+    #   Fajr angle: 19.30° (maximum angle endpoint, pristine sky site)
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2021-03-21",
+        "time_local": "04:49",
+        "utc_offset": 8.0,
+        "lat": -8.497, "lng": 119.890, "elevation_m": 10.0,
+        "source": "Maskufa et al. 2024, Mazahib 23(1):155-198, Labuan Bajo Flores NTT Indonesia",
+        "notes": "Pristine dark sky; SQM; 19.30° (highest angle across 4-site LP study); spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2021-06-22",
+        "time_local": "04:52",
+        "utc_offset": 8.0,
+        "lat": -8.497, "lng": 119.890, "elevation_m": 10.0,
+        "source": "Maskufa et al. 2024, Mazahib 23(1):155-198, Labuan Bajo Flores NTT Indonesia",
+        "notes": "Pristine dark sky; summer solstice; -8.5°S; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2021-09-23",
+        "time_local": "04:34",
+        "utc_offset": 8.0,
+        "lat": -8.497, "lng": 119.890, "elevation_m": 10.0,
+        "source": "Maskufa et al. 2024, Mazahib 23(1):155-198, Labuan Bajo Flores NTT Indonesia",
+        "notes": "Pristine dark sky; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2021-12-22",
+        "time_local": "04:17",
+        "utc_offset": 8.0,
+        "lat": -8.497, "lng": 119.890, "elevation_m": 10.0,
+        "source": "Maskufa et al. 2024, Mazahib 23(1):155-198, Labuan Bajo Flores NTT Indonesia",
+        "notes": "Pristine dark sky; winter solstice; time inferred",
+    },
+
+    # =========================================================================
+    # INDONESIA — Bogor, West Java (6.60°S, 106.79°E, 265m, UTC+7)
+    # Source: Maskufa et al. 2024, Mazahib 23(1):155-198
+    #   SQM instrument; highest light pollution of 4 sites (near Jakarta)
+    #   Fajr angle: 13.58° (minimum angle endpoint, urban LP biases low)
+    #   Note: Urban LP suppresses apparent dawn brightness → shallower detection
+    # =========================================================================
+    {
+        "prayer": "fajr",
+        "date_local": "2021-03-21",
+        "time_local": "05:05",
+        "utc_offset": 7.0,
+        "lat": -6.595, "lng": 106.789, "elevation_m": 265.0,
+        "source": "Maskufa et al. 2024, Mazahib 23(1):155-198, Bogor West Java Indonesia",
+        "notes": "Urban LP; SQM; 13.58° (lowest in 4-site LP study, suburban Jakarta); spring equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2021-06-22",
+        "time_local": "05:06",
+        "utc_offset": 7.0,
+        "lat": -6.595, "lng": 106.789, "elevation_m": 265.0,
+        "source": "Maskufa et al. 2024, Mazahib 23(1):155-198, Bogor West Java Indonesia",
+        "notes": "Urban LP; summer solstice; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2021-09-23",
+        "time_local": "04:50",
+        "utc_offset": 7.0,
+        "lat": -6.595, "lng": 106.789, "elevation_m": 265.0,
+        "source": "Maskufa et al. 2024, Mazahib 23(1):155-198, Bogor West Java Indonesia",
+        "notes": "Urban LP; autumn equinox; time inferred",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2021-12-22",
+        "time_local": "04:39",
+        "utc_offset": 7.0,
+        "lat": -6.595, "lng": 106.789, "elevation_m": 265.0,
+        "source": "Maskufa et al. 2024, Mazahib 23(1):155-198, Bogor West Java Indonesia",
+        "notes": "Urban LP; winter solstice; time inferred",
     },
 
 ]
