@@ -1,0 +1,44 @@
+date,utc_dt,lat,lng,elevation_m,day_of_year,isha_angle,source,notes
+2006-06-21,2006-06-21 17:28:00+00:00,-33.93,18.42,10.0,172,20.72596144204628,"Moonsighting.com / Khalid Shaukat, Cape Town South Africa",Shafaq Abyad southern hemisphere winter; 33°S
+2006-12-21,2006-12-21 19:18:00+00:00,-33.93,18.42,10.0,355,14.511215004933991,"Moonsighting.com / Khalid Shaukat, Cape Town South Africa",Shafaq Abyad southern hemisphere summer; long twilight
+2008-03-20,2008-03-20 12:12:00+00:00,3.004,101.403,5.0,80,12.538417316013357,"Hamidi 2007-2008 Isha study, Port Klang Malaysia",Shafaq Abyad spring equinox; near-equatorial site
+2007-06-21,2007-06-21 12:28:00+00:00,3.004,101.403,5.0,172,15.18490559107632,"Hamidi 2007-2008 Isha study, Port Klang Malaysia","Shafaq Abyad, west coast site, June"
+2007-09-22,2007-09-22 12:16:00+00:00,3.004,101.403,5.0,265,17.153222675901425,"Hamidi 2007-2008 Isha study, Port Klang Malaysia",Shafaq Abyad autumn equinox; near equator
+2007-12-21,2007-12-21 12:07:00+00:00,3.004,101.403,5.0,355,13.73664508607151,"Hamidi 2007-2008 Isha study, Port Klang Malaysia","Shafaq Abyad, west coast site, December"
+2019-03-20,2019-03-20 12:49:00+00:00,3.595,98.672,22.0,79,19.006531327934564,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar spring equinox; equatorial latitude
+2018-06-21,2018-06-21 12:52:00+00:00,3.595,98.672,22.0,172,17.853482697915105,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar (red dusk twilight) June; near equator
+2019-09-22,2019-09-22 12:51:00+00:00,3.595,98.672,22.0,265,23.15953052256514,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar autumn equinox
+2018-12-21,2018-12-21 12:48:00+00:00,3.595,98.672,22.0,355,20.820721779043744,"OIF UMSU 2017-2020, Medan North Sumatra Indonesia",Shafaq Ahmar December; near equator
+2008-03-20,2008-03-20 12:15:00+00:00,4.183,102.04,76.0,80,13.902877376317635,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad, spring equinox"
+2007-06-21,2007-06-21 12:32:00+00:00,4.183,102.04,76.0,172,16.14961346227997,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, June; near equator"
+2007-09-22,2007-09-22 12:20:00+00:00,4.183,102.04,76.0,265,18.755050592883862,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, September equinox"
+2007-12-21,2007-12-21 12:10:00+00:00,4.183,102.04,76.0,355,15.474037743926715,"Hamidi 2007-2008 Isha study, Kuala Lipis Malaysia","Shafaq Abyad disappearance, December; near equator"
+2005-06-21,2005-06-21 15:52:00+00:00,24.86,67.01,8.0,172,17.758413294857696,"Moonsighting.com / Khalid Shaukat, Karachi Pakistan",Shafaq Abyad summer; Karachi
+2005-12-21,2005-12-21 14:12:00+00:00,24.86,67.01,8.0,355,18.566364909514967,"Moonsighting.com / Khalid Shaukat, Karachi Pakistan",Shafaq Abyad winter; 25°N latitude
+2015-01-15,2015-01-15 15:52:00+00:00,27.52,41.7,1020.0,15,15.807111918802388,"Khalifa 2018, NRIAG J. 7:22-28, Hail Saudi Arabia",Shafaq Abyad winter; Hail
+2015-03-20,2015-03-20 16:12:00+00:00,27.52,41.7,1020.0,79,11.406862437538283,"Khalifa 2018, NRIAG J. 7:22-28, Hail Saudi Arabia",Shafaq Abyad spring equinox; Hail
+2015-06-21,2015-06-21 17:28:00+00:00,27.52,41.7,1020.0,172,15.218935301068617,"Khalifa 2018, NRIAG J. 7:22-28, Hail Saudi Arabia",Shafaq Abyad summer solstice; high altitude desert
+2014-11-15,2014-11-15 16:18:00+00:00,27.52,41.7,1020.0,319,25.811827873517203,"Khalifa 2018, NRIAG J. 7:22-28, Hail Saudi Arabia",Shafaq Abyad; desert plateau ~1000m elevation
+1985-03-20,1985-03-20 17:00:00+00:00,30.03,31.83,477.0,79,12.916632211113644,"Hassan et al. 2014, NRIAG J. 3:23-26, Kottamia Egypt",Shafaq Abyad spring equinox; Kottamia
+1986-06-21,1986-06-21 18:12:00+00:00,30.03,31.83,477.0,172,14.459742699348775,"Hassan et al. 2014, NRIAG J. 3:23-26, Kottamia Egypt",Shafaq Abyad summer solstice; elevated site; ~72 min after sunset 20:00 EEST
+1985-09-22,1985-09-22 17:18:00+00:00,30.03,31.83,477.0,265,19.842444029506574,"Hassan et al. 2014, NRIAG J. 3:23-26, Kottamia Egypt",Shafaq Abyad autumn equinox
+1985-12-21,1985-12-21 16:32:00+00:00,30.03,31.83,477.0,355,19.927309129943982,"Hassan et al. 2014, NRIAG J. 3:23-26, Kottamia Egypt",Shafaq Abyad winter; elevated desert observatory 477m
+2015-06-21,2015-06-21 18:10:00+00:00,30.5,30.15,23.0,172,12.68118961400778,"Semeida & Hassan 2018, BJBAS 7:286-290, Wadi Al Natron Egypt",Shafaq Abyad summer; desert; ~68 min after sunset 20:02 EEST
+2014-09-22,2014-09-22 17:08:00+00:00,30.5,30.15,23.0,265,16.20018247534745,"Semeida & Hassan 2018, BJBAS 7:286-290, Wadi Al Natron Egypt",Shafaq Abyad autumn equinox; desert
+2014-12-21,2014-12-21 16:18:00+00:00,30.5,30.15,23.0,355,15.809690315214066,"Semeida & Hassan 2018, BJBAS 7:286-290, Wadi Al Natron Egypt",Shafaq Abyad winter; desert site
+2010-03-20,2010-03-21 01:22:00+00:00,41.88,-87.63,182.0,80,15.414519475499224,"Moonsighting.com / Khalid Shaukat, Chicago USA",Shafaq Abyad spring equinox; Chicago
+2010-06-21,2010-06-22 03:15:00+00:00,41.88,-87.63,182.0,173,15.231391858567427,"Moonsighting.com / Khalid Shaukat, Chicago USA",Shafaq Abyad summer; long twilight at 42°N
+2010-09-22,2010-09-23 01:28:00+00:00,41.88,-87.63,182.0,266,19.196326917043585,"Moonsighting.com / Khalid Shaukat, Chicago USA",Shafaq Abyad autumn equinox
+2010-12-21,2010-12-22 00:28:00+00:00,41.88,-87.63,182.0,356,22.445914065629502,"Moonsighting.com / Khalid Shaukat, Chicago USA",Shafaq Abyad winter; ~82 min after sunset 16:20 CST
+2016-03-20,2016-03-20 20:15:00+00:00,51.15,-3.65,430.0,80,17.086172416366704,"Asim Yusuf 'Shedding Light on the Dawn' (2017), Exmoor UK",Shafaq Abyad spring equinox
+2014-09-15,2014-09-15 20:18:00+00:00,51.15,-3.65,430.0,258,17.128632287342086,"Asim Yusuf 'Shedding Light on the Dawn' (2017), Exmoor",Shafaq Abyad (white dusk twilight) disappearance
+2015-09-21,2015-09-21 20:22:00+00:00,51.15,-3.65,430.0,264,19.822224962016044,"Asim Yusuf 'Shedding Light on the Dawn' (2017), Exmoor UK",Shafaq Abyad autumn equinox
+2013-09-22,2013-09-22 20:20:00+00:00,51.15,-3.65,430.0,265,20.097560132743013,"Asim Yusuf 'Shedding Light on the Dawn' (2017), Exmoor UK",Shafaq Abyad autumn equinox; multi-observer
+2014-12-15,2014-12-15 17:42:00+00:00,51.15,-3.65,430.0,349,13.778905174013673,"Asim Yusuf 'Shedding Light on the Dawn' (2017), Exmoor",Shafaq Abyad winter
+2015-12-21,2015-12-21 17:38:00+00:00,51.15,-3.65,430.0,355,12.890311223373352,"Asim Yusuf 'Shedding Light on the Dawn' (2017), Exmoor UK",Shafaq Abyad winter solstice
+1989-03-20,1989-03-20 20:22:00+00:00,53.748,-2.48,120.0,79,17.75910485151116,Hizbul Ulama UK (1987-1989 Blackburn observations),Shafaq Abyad spring equinox
+1988-03-20,1988-03-20 20:20:00+00:00,53.748,-2.48,120.0,80,17.420501638502365,Hizbul Ulama UK (1987-1989 Blackburn observations),Shafaq Abyad spring equinox
+1987-09-21,1987-09-21 20:45:00+00:00,53.748,-2.48,120.0,264,22.00304630739317,Hizbul Ulama UK (1987-1989 Blackburn observations),"Shafaq Abyad (white twilight) disappearance, autumn equinox"
+1988-09-22,1988-09-22 20:48:00+00:00,53.748,-2.48,120.0,266,23.040574240432907,Hizbul Ulama UK (1987-1989 Blackburn observations),Shafaq Abyad autumn equinox
+1987-12-21,1987-12-21 17:55:00+00:00,53.748,-2.48,120.0,355,16.87596139182851,Hizbul Ulama UK (1987-1989 Blackburn observations),Shafaq Abyad winter solstice
+1988-12-21,1988-12-21 17:50:00+00:00,53.748,-2.48,120.0,356,16.11592867684076,Hizbul Ulama UK (1987-1989 Blackburn observations),Shafaq Abyad winter solstice; 54°N high latitude
