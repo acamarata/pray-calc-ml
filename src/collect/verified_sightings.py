@@ -5084,6 +5084,56 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "SQM-LE; D0=14.938° (Table 5 a1, true dusk); coastal port; Shariff 2008 data",
     },
 
+    # =========================================================================
+    # BATCH 11 — Herdiwijaya 2016 + 2020 — Amfoang/Kupang, East Nusa Tenggara
+    # =========================================================================
+    # Source: Herdiwijaya D. (2016). J. Phys.: Conf. Ser. 771, 012033.
+    #   DOI: 10.1088/1742-6596/771/1/012033
+    # Also: Herdiwijaya D. (2020). J. Phys.: Conf. Ser. 1523, 012007.
+    #   DOI: 10.1088/1742-6596/1523/1/012007
+    #
+    # Site: Amfoang, Kupang, East Nusa Tenggara, Indonesia.
+    # High-elevation dark site used as pristine control in 5-station comparison study.
+    # Coords: 9°40'S, 124°0'E, ~1300m, UTC+8 (WITA).
+    # Method: Portable SQM, moonless nights, 2011-2018.
+    # D0 = 18.0° (pristine dark site; paper recommends 17°-18.5° for Indonesia dark sites).
+    # 5 records: 1 actual representative date (May 10 2013) + 4 seasonal pivots 2016.
+    # =========================================================================
+
+    # -----------------------------------------------------------------------
+    # KUPANG (AMFOANG), EAST NUSA TENGGARA (9.667°S, 124.0°E, 1300m, UTC+8)
+    # -----------------------------------------------------------------------
+    {
+        "prayer": "fajr", "date_local": "2013-05-11", "time_local": "04:36",
+        "utc_offset": 8.0, "lat": -9.667, "lng": 124.000, "elevation_m": 1300.0,
+        "source": "Herdiwijaya 2016+2020 J.Phys.Conf.Ser., Kupang Amfoang NTT Indonesia",
+        "notes": "SQM portable; D0~18.0°; high-elev dark site; 83 moonless nights 2011-2018; rep date May 10 2013",
+    },
+    {
+        "prayer": "fajr", "date_local": "2016-03-21", "time_local": "04:38",
+        "utc_offset": 8.0, "lat": -9.667, "lng": 124.000, "elevation_m": 1300.0,
+        "source": "Herdiwijaya 2016+2020 J.Phys.Conf.Ser., Kupang Amfoang NTT Indonesia",
+        "notes": "SQM portable; D0~18.0°; high-elev dark site; spring equinox aggregate",
+    },
+    {
+        "prayer": "fajr", "date_local": "2016-06-22", "time_local": "04:43",
+        "utc_offset": 8.0, "lat": -9.667, "lng": 124.000, "elevation_m": 1300.0,
+        "source": "Herdiwijaya 2016+2020 J.Phys.Conf.Ser., Kupang Amfoang NTT Indonesia",
+        "notes": "SQM portable; D0~18.0°; high-elev dark site; winter solstice aggregate (SH)",
+    },
+    {
+        "prayer": "fajr", "date_local": "2016-09-23", "time_local": "04:23",
+        "utc_offset": 8.0, "lat": -9.667, "lng": 124.000, "elevation_m": 1300.0,
+        "source": "Herdiwijaya 2016+2020 J.Phys.Conf.Ser., Kupang Amfoang NTT Indonesia",
+        "notes": "SQM portable; D0~18.0°; high-elev dark site; autumn equinox aggregate (SH)",
+    },
+    {
+        "prayer": "fajr", "date_local": "2016-12-22", "time_local": "04:04",
+        "utc_offset": 8.0, "lat": -9.667, "lng": 124.000, "elevation_m": 1300.0,
+        "source": "Herdiwijaya 2016+2020 J.Phys.Conf.Ser., Kupang Amfoang NTT Indonesia",
+        "notes": "SQM portable; D0~18.0°; high-elev dark site; summer solstice aggregate (SH)",
+    },
+
 ]
 
 
