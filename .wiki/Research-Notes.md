@@ -64,8 +64,29 @@ SQM + naked eye at Fayum (29.28°N, near the Fayum depression):
 
 **Rashed et al. 2025** — *NRIAG Journal of Astronomy and Geophysics*.
 
-Most recent paper. Alexandria (Mediterranean coast, 31.2°N):
+Most recent NRIAG journal paper. Alexandria (Mediterranean coast, 31.2°N):
 - Three seasons: winter 14.1°, summer 12.9°, autumn 13.8°
+
+**Rashed & Hassan 2025** — *In: Islamic Calendar and Prayer Times*, Springer, ISBN 978-981-96-3276-3, chapter 14.
+
+The most comprehensive modern Egypt study. CCD photometry + SQM-L + naked eye across six sites
+in Egypt, 1300+ observation nights from August 2015 to December 2019. Mean D0 values reported
+per site per season.
+
+| Site | Lat | Elev | D0 mean | Notes |
+| --- | --- | --- | --- | --- |
+| Kottamia Observatory | 29.929°N | 477m | 14.66° ±0.20° | Primary site, highest data density |
+| Alexandria (coast) | 31.2°N | 32m | 13.4° | Mediterranean boundary layer effects |
+| Matrouh | 31.35°N | 27m | 13.8° | Northwestern desert, low humidity |
+| Marsa Alam | 25.07°N | 20m | 13.5° | Southern Red Sea coast |
+| Sohag | 26.56°N | 62m | 13.9° | Upper Nile agricultural valley |
+| Dahab (Sinai) | 28.5°N | 5m | 14.2° | Mountain-backed coastal site |
+
+Consistent result across all Egyptian sites (13.4°-14.7°) from modern instrumental methods.
+The inter-site variation is real: lower angles at Alexandria are consistent with boundary-layer
+aerosols scattering light and elevating sky brightness before true dawn.
+
+Entered in dataset as seasonal proxy records (4 seasons per site = 24 Fajr records).
 
 ---
 

@@ -68,75 +68,266 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
     # -------------------------------------------------------------------------
 
     # -------------------------------------------------------------------------
-    # UK — Hizbul Ulama Blackburn observations 1987-1989
-    # Location: outskirts of Blackburn, Lancashire (53.748°N, 2.48°W, ~120m)
-    # 21 successful Fajr observations over Sept 1987 - Sept 1988.
-    # Times are approximate to nearest minute from published accounts.
-    # Source: http://www.hizbululama.org.uk/files/salat_timing.html
+    # UK — Hizbul Ulama Blackburn per-night observations 1987-1988
+    # Location: outskirts of Blackburn, Lancashire (53.75°N, 2.483°W, ~120m)
+    # 29 Fajr (Subh Sadiq) + 32 Isha (Shafaq Abyad) per-night observations.
+    # Source: Shaukat 2015 "Fajr and Isha" booklet, Table 8.2.3, originally
+    #   published by Miftahi 2007 "Fajr and Isha Times & Twilight" (Hizbul Ulama UK).
+    # Observers: Molvi Yaqub Ahmed Miftahi and five Imams/Ulama.
+    # BST (UTC+1) before Oct 25 1987 and from Mar 27 1988. GMT (UTC+0) otherwise.
+    # Booklet also records Red Shafaq (Ahmer) and Tabayyan times (noted where available).
     # -------------------------------------------------------------------------
-    {
-        "prayer": "fajr",
-        "date_local": "1987-09-21",   # autumn equinox, first observation
-        "time_local": "04:30",
-        "utc_offset": 1.0,            # BST (British Summer Time)
-        "lat": 53.748, "lng": -2.480, "elevation_m": 120.0,
-        "source": "Hizbul Ulama UK (1987-1989 Blackburn observations)",
-        "notes": "Autumn equinox observation; one of 21 successful Fajr sightings",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "1987-12-21",   # winter solstice
-        "time_local": "06:45",
-        "utc_offset": 0.0,            # GMT
-        "lat": 53.748, "lng": -2.480, "elevation_m": 120.0,
-        "source": "Hizbul Ulama UK (1987-1989 Blackburn observations)",
-        "notes": "Winter solstice observation; dark-sky outskirts site",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "1988-03-20",   # spring equinox
-        "time_local": "05:05",
-        "utc_offset": 0.0,            # GMT
-        "lat": 53.748, "lng": -2.480, "elevation_m": 120.0,
-        "source": "Hizbul Ulama UK (1987-1989 Blackburn observations)",
-        "notes": "Spring equinox observation",
-    },
-    {
-        "prayer": "fajr",
-        "date_local": "1988-06-21",   # summer solstice
-        "time_local": "01:55",
-        "utc_offset": 1.0,            # BST
-        "lat": 53.748, "lng": -2.480, "elevation_m": 120.0,
-        "source": "Hizbul Ulama UK (1987-1989 Blackburn observations)",
-        "notes": "Summer solstice; very short night at 54°N",
-    },
-    {
-        "prayer": "isha",
-        "date_local": "1987-09-21",
-        "time_local": "21:45",
-        "utc_offset": 1.0,
-        "lat": 53.748, "lng": -2.480, "elevation_m": 120.0,
-        "source": "Hizbul Ulama UK (1987-1989 Blackburn observations)",
-        "notes": "Shafaq Abyad (white twilight) disappearance, autumn equinox",
-    },
-    {
-        "prayer": "isha",
-        "date_local": "1987-12-21",
-        "time_local": "17:55",
-        "utc_offset": 0.0,
-        "lat": 53.748, "lng": -2.480, "elevation_m": 120.0,
-        "source": "Hizbul Ulama UK (1987-1989 Blackburn observations)",
-        "notes": "Shafaq Abyad winter solstice",
-    },
-    {
-        "prayer": "isha",
-        "date_local": "1988-03-20",
-        "time_local": "20:20",
-        "utc_offset": 0.0,
-        "lat": 53.748, "lng": -2.480, "elevation_m": 120.0,
-        "source": "Hizbul Ulama UK (1987-1989 Blackburn observations)",
-        "notes": "Shafaq Abyad spring equinox",
-    },
+    # ── Fajr (Subh Sadiq) — 29 per-night observations ──
+    {"prayer": "fajr", "date_local": "1987-09-21", "time_local": "05:30", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama 5-observer team; autumn equinox"},
+    {"prayer": "fajr", "date_local": "1987-09-23", "time_local": "05:35", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1987-09-26", "time_local": "05:37", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1987-09-28", "time_local": "05:40", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1987-10-22", "time_local": "06:20", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; last BST date before clocks back"},
+    {"prayer": "fajr", "date_local": "1987-10-25", "time_local": "05:30", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; clocks back to GMT"},
+    {"prayer": "fajr", "date_local": "1987-10-28", "time_local": "05:33", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1987-10-29", "time_local": "05:33", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1987-11-11", "time_local": "05:57", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1987-11-25", "time_local": "06:09", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1987-11-26", "time_local": "06:13", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1987-11-28", "time_local": "06:14", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1987-12-09", "time_local": "06:35", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; near winter solstice"},
+    {"prayer": "fajr", "date_local": "1988-02-06", "time_local": "06:10", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1988-02-07", "time_local": "06:09", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1988-02-23", "time_local": "05:32", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1988-03-02", "time_local": "05:20", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1988-04-01", "time_local": "05:10", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; BST"},
+    {"prayer": "fajr", "date_local": "1988-05-02", "time_local": "03:53", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1988-05-06", "time_local": "03:35", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1988-05-10", "time_local": "03:23", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1988-05-15", "time_local": "03:14", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; Tabayyan at 03:36"},
+    {"prayer": "fajr", "date_local": "1988-05-20", "time_local": "02:45", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers"},
+    {"prayer": "fajr", "date_local": "1988-05-21", "time_local": "02:38", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; Tabayyan at 03:28"},
+    {"prayer": "fajr", "date_local": "1988-05-25", "time_local": "02:10", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; Tabayyan at 03:10; late May very short night"},
+    {"prayer": "fajr", "date_local": "1988-06-06", "time_local": "01:45", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; Tabayyan at 03:00; near summer solstice; 18-degree time does not exist"},
+    {"prayer": "fajr", "date_local": "1988-06-13", "time_local": "02:45", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; 18-degree time does not exist"},
+    {"prayer": "fajr", "date_local": "1988-08-07", "time_local": "03:38", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; Tabayyan at 04:10"},
+    {"prayer": "fajr", "date_local": "1988-08-16", "time_local": "03:55", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Subh Sadiq; Hizbul Ulama observers; Tabayyan at 04:25"},
+    # ── Isha (Shafaq Abyad / White) — 32 per-night observations ──
+    # Note: Red Shafaq (Ahmer) was also recorded on many dates; using White Shafaq
+    # for consistency with dataset Isha definition (Shafaq al-Abyad).
+    # Times past midnight (0:40, 0:46) belong to the observation evening of that date.
+    {"prayer": "isha", "date_local": "1987-09-22", "time_local": "20:37", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red Shafaq at 20:10"},
+    {"prayer": "isha", "date_local": "1987-09-24", "time_local": "20:30", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red Shafaq at 20:10"},
+    {"prayer": "isha", "date_local": "1987-09-26", "time_local": "20:25", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red Shafaq at 20:00"},
+    {"prayer": "isha", "date_local": "1987-10-01", "time_local": "20:15", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red Shafaq at 20:00"},
+    {"prayer": "isha", "date_local": "1987-10-10", "time_local": "19:55", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red Shafaq at 19:35"},
+    {"prayer": "isha", "date_local": "1987-10-25", "time_local": "18:15", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; clocks back to GMT; Red at 17:55"},
+    {"prayer": "isha", "date_local": "1987-11-14", "time_local": "17:40", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red Shafaq not observed"},
+    {"prayer": "isha", "date_local": "1987-11-25", "time_local": "17:26", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed"},
+    {"prayer": "isha", "date_local": "1987-11-26", "time_local": "17:25", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed"},
+    {"prayer": "isha", "date_local": "1987-11-27", "time_local": "17:30", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red Shafaq at 17:10"},
+    {"prayer": "isha", "date_local": "1987-12-08", "time_local": "17:35", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red at 17:15"},
+    {"prayer": "isha", "date_local": "1987-12-09", "time_local": "17:33", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red at 17:15"},
+    {"prayer": "isha", "date_local": "1987-12-10", "time_local": "17:30", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed"},
+    {"prayer": "isha", "date_local": "1987-12-12", "time_local": "17:20", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red at 17:00"},
+    {"prayer": "isha", "date_local": "1987-12-14", "time_local": "17:27", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed"},
+    {"prayer": "isha", "date_local": "1987-12-25", "time_local": "17:30", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed"},
+    {"prayer": "isha", "date_local": "1988-01-07", "time_local": "17:43", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red at 17:11"},
+    {"prayer": "isha", "date_local": "1988-01-24", "time_local": "18:05", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red at 17:25"},
+    {"prayer": "isha", "date_local": "1988-02-21", "time_local": "18:50", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed"},
+    {"prayer": "isha", "date_local": "1988-03-01", "time_local": "19:14", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed"},
+    {"prayer": "isha", "date_local": "1988-03-04", "time_local": "19:17", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed"},
+    {"prayer": "isha", "date_local": "1988-03-21", "time_local": "19:48", "utc_offset": 0.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed; spring equinox"},
+    {"prayer": "isha", "date_local": "1988-03-30", "time_local": "21:21", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; BST; Red at 20:42"},
+    {"prayer": "isha", "date_local": "1988-04-11", "time_local": "21:33", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed"},
+    {"prayer": "isha", "date_local": "1988-04-28", "time_local": "22:06", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red not observed"},
+    {"prayer": "isha", "date_local": "1988-05-05", "time_local": "22:47", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red at 21:49"},
+    {"prayer": "isha", "date_local": "1988-05-19", "time_local": "23:24", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red at 22:31"},
+    {"prayer": "isha", "date_local": "1988-05-20", "time_local": "23:37", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red at 22:29"},
+    # May 24 evening: White Shafaq at 0:40 BST next day (May 25 00:40 local = May 24 23:40 UTC)
+    {"prayer": "isha", "date_local": "1988-05-25", "time_local": "00:40", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; sunset evening May 24; Red not observed; late May very short night"},
+    # Jun 5 evening: White Shafaq at 0:46 BST next day (Jun 6 00:46 local = Jun 5 23:46 UTC)
+    {"prayer": "isha", "date_local": "1988-06-06", "time_local": "00:46", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; sunset evening Jun 5; Red at 23:00; near summer solstice"},
+    {"prayer": "isha", "date_local": "1988-08-01", "time_local": "23:25", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red at 22:20"},
+    {"prayer": "isha", "date_local": "1988-08-06", "time_local": "23:15", "utc_offset": 1.0,
+     "lat": 53.750, "lng": -2.483, "elevation_m": 120.0,
+     "source": "Shaukat 2015 booklet / Miftahi 2007, Blackburn Lancashire UK",
+     "notes": "naked eye; Shafaq Abyad (white); Hizbul Ulama observers; Red at 22:12"},
 
     # -------------------------------------------------------------------------
     # UK — Asim Yusuf observations (2010s), Exmoor National Park
@@ -215,7 +406,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 2.0,           # EET
         "lat": 30.500, "lng": 30.150, "elevation_m": 23.0,
         "source": "Semeida & Hassan 2018, BJBAS 7:286-290, Wadi Al Natron Egypt",
-        "notes": "One of 38 winter naked-eye Fajr observations; desert site",
+        "notes": "One of 38 winter naked-eye Fajr observations; desert site; time inferred from published mean D0 14.57° (no per-night table in paper)",
     },
     {
         "prayer": "fajr",
@@ -224,7 +415,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 2.0,
         "lat": 30.500, "lng": 30.150, "elevation_m": 23.0,
         "source": "Semeida & Hassan 2018, BJBAS 7:286-290, Wadi Al Natron Egypt",
-        "notes": "Spring equinox observation; desert site",
+        "notes": "Spring equinox observation; desert site; time inferred from published mean D0 14.57°",
     },
     {
         "prayer": "fajr",
@@ -233,7 +424,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 3.0,           # EEST
         "lat": 30.500, "lng": 30.150, "elevation_m": 23.0,
         "source": "Semeida & Hassan 2018, BJBAS 7:286-290, Wadi Al Natron Egypt",
-        "notes": "Summer solstice; desert",
+        "notes": "Summer solstice; desert; time inferred from published mean D0 14.57°",
     },
     {
         "prayer": "fajr",
@@ -242,7 +433,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 2.0,
         "lat": 30.500, "lng": 30.150, "elevation_m": 23.0,
         "source": "Semeida & Hassan 2018, BJBAS 7:286-290, Wadi Al Natron Egypt",
-        "notes": "Autumn equinox; desert",
+        "notes": "Autumn equinox; desert; time inferred from published mean D0 14.57°",
     },
 
     # -------------------------------------------------------------------------
@@ -769,7 +960,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 3.0,
         "lat": 30.030, "lng": 31.830, "elevation_m": 477.0,
         "source": "Hassan et al. 2014, NRIAG J. 3:23-26, Kottamia Egypt",
-        "notes": "Summer solstice; elevated desert observatory",
+        "notes": "Summer solstice; elevated desert observatory; time inferred from published mean angle",
     },
 
     # -------------------------------------------------------------------------
@@ -794,7 +985,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 3.0,
         "lat": 24.090, "lng": 32.900, "elevation_m": 92.0,
         "source": "Hassan et al. 2014, NRIAG J. 3:23-26, Aswan Egypt",
-        "notes": "Summer solstice; Aswan desert",
+        "notes": "Summer solstice; Aswan desert; time inferred from published mean angle",
     },
 
     # =========================================================================
@@ -844,37 +1035,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "notes": "Shafaq Abyad winter solstice",
     },
 
-    # -------------------------------------------------------------------------
-    # UK — Blackburn Isha observations, Hizbul Ulama (1987-1989)
-    # Blackburn: 53.748°N, 2.48°W, ~120m
-    # -------------------------------------------------------------------------
-    {
-        "prayer": "isha",
-        "date_local": "1988-09-22",
-        "time_local": "21:48",
-        "utc_offset": 1.0,  # BST
-        "lat": 53.748, "lng": -2.480, "elevation_m": 120.0,
-        "source": "Hizbul Ulama UK (1987-1989 Blackburn observations)",
-        "notes": "Shafaq Abyad autumn equinox",
-    },
-    {
-        "prayer": "isha",
-        "date_local": "1988-12-21",
-        "time_local": "17:50",
-        "utc_offset": 0.0,  # GMT
-        "lat": 53.748, "lng": -2.480, "elevation_m": 120.0,
-        "source": "Hizbul Ulama UK (1987-1989 Blackburn observations)",
-        "notes": "Shafaq Abyad winter solstice; 54°N high latitude",
-    },
-    {
-        "prayer": "isha",
-        "date_local": "1989-03-20",
-        "time_local": "20:22",
-        "utc_offset": 0.0,
-        "lat": 53.748, "lng": -2.480, "elevation_m": 120.0,
-        "source": "Hizbul Ulama UK (1987-1989 Blackburn observations)",
-        "notes": "Shafaq Abyad spring equinox",
-    },
+    # (Blackburn Isha records now in Batch 1 above with full per-night data)
 
     # -------------------------------------------------------------------------
     # MALAYSIA — Isha, Port Klang additional seasonal (Hamidi 2007-2008)
@@ -953,7 +1114,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 2.0,  # EET
         "lat": 30.030, "lng": 31.830, "elevation_m": 477.0,
         "source": "Hassan et al. 2014, NRIAG J. 3:23-26, Kottamia Egypt",
-        "notes": "Shafaq Abyad winter; elevated desert observatory 477m",
+        "notes": "Shafaq Abyad winter; elevated desert observatory 477m; time inferred from published mean angle",
     },
     {
         "prayer": "isha",
@@ -962,7 +1123,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 3.0,  # EEST
         "lat": 30.030, "lng": 31.830, "elevation_m": 477.0,
         "source": "Hassan et al. 2014, NRIAG J. 3:23-26, Kottamia Egypt",
-        "notes": "Shafaq Abyad summer solstice; elevated site; ~72 min after sunset 20:00 EEST",
+        "notes": "Shafaq Abyad summer solstice; elevated site; ~72 min after sunset 20:00 EEST; time inferred from published mean angle",
     },
     {
         "prayer": "isha",
@@ -971,7 +1132,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 2.0,
         "lat": 30.030, "lng": 31.830, "elevation_m": 477.0,
         "source": "Hassan et al. 2014, NRIAG J. 3:23-26, Kottamia Egypt",
-        "notes": "Shafaq Abyad autumn equinox",
+        "notes": "Shafaq Abyad autumn equinox; time inferred from published mean angle",
     },
     {
         "prayer": "isha",
@@ -980,7 +1141,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 2.0,
         "lat": 30.030, "lng": 31.830, "elevation_m": 477.0,
         "source": "Hassan et al. 2014, NRIAG J. 3:23-26, Kottamia Egypt",
-        "notes": "Shafaq Abyad spring equinox; Kottamia",
+        "notes": "Shafaq Abyad spring equinox; Kottamia; time inferred from published mean angle",
     },
 
     # -------------------------------------------------------------------------
@@ -995,7 +1156,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 2.0,
         "lat": 30.500, "lng": 30.150, "elevation_m": 23.0,
         "source": "Semeida & Hassan 2018, BJBAS 7:286-290, Wadi Al Natron Egypt",
-        "notes": "Shafaq Abyad winter; desert site",
+        "notes": "Shafaq Abyad winter; desert site; time inferred from published gap (no per-night table in paper)",
     },
     {
         "prayer": "isha",
@@ -1004,7 +1165,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 3.0,  # EEST
         "lat": 30.500, "lng": 30.150, "elevation_m": 23.0,
         "source": "Semeida & Hassan 2018, BJBAS 7:286-290, Wadi Al Natron Egypt",
-        "notes": "Shafaq Abyad summer; desert; ~68 min after sunset 20:02 EEST",
+        "notes": "Shafaq Abyad summer; desert; ~68 min after sunset 20:02 EEST; time inferred from published gap",
     },
     {
         "prayer": "isha",
@@ -1013,7 +1174,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "utc_offset": 2.0,
         "lat": 30.500, "lng": 30.150, "elevation_m": 23.0,
         "source": "Semeida & Hassan 2018, BJBAS 7:286-290, Wadi Al Natron Egypt",
-        "notes": "Shafaq Abyad autumn equinox; desert",
+        "notes": "Shafaq Abyad autumn equinox; desert; time inferred from published gap",
     },
 
     # -------------------------------------------------------------------------
@@ -4829,7 +4990,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "prayer": "fajr", "date_local": "2007-05-08", "time_local": "05:56",
         "utc_offset": 8.0, "lat": 5.517, "lng": 102.950, "elevation_m": 42.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Merang Terengganu Malaysia",
-        "notes": "SQM-LE; D0=14.595° (Table 7 a6, true dawn); Shariff 2008 data",
+        "notes": "SQM-LE; D0=14.595° (Table 7 a6, true dawn); Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
 
     # Kuala Lipis, Pahang (4.183°N, 102.05°E, 75m) — NEW SITE
@@ -4837,37 +4998,37 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "prayer": "fajr", "date_local": "2007-11-10", "time_local": "06:01",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=14.079° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=14.079° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "fajr", "date_local": "2007-12-29", "time_local": "06:17",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=14.595° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=14.595° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "fajr", "date_local": "2008-01-11", "time_local": "06:26",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=13.864° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=13.864° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "fajr", "date_local": "2008-02-09", "time_local": "06:34",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=13.419° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=13.419° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "fajr", "date_local": "2008-03-22", "time_local": "06:22",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=13.970° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=13.970° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "fajr", "date_local": "2008-03-23", "time_local": "06:21",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=13.970° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=13.970° (Table 7 a6, true dawn); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
 
     # Port Klang, Selangor (3.000°N, 101.40°E, 46m) — NEW SITE
@@ -4875,7 +5036,7 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "prayer": "fajr", "date_local": "2008-04-07", "time_local": "06:13",
         "utc_offset": 8.0, "lat": 3.000, "lng": 101.400, "elevation_m": 46.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Port Klang Selangor Malaysia",
-        "notes": "SQM-LE; D0=15.065° (Table 7 a6, true dawn); coastal port; Shariff 2008 data",
+        "notes": "SQM-LE; D0=15.065° (Table 7 a6, true dawn); coastal port; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
 
     # -----------------------------------------------------------------------
@@ -4887,13 +5048,13 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "prayer": "isha", "date_local": "2007-06-15", "time_local": "20:19",
         "utc_offset": 8.0, "lat": 2.467, "lng": 101.867, "elevation_m": 27.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Teluk Kemang Negeri Sembilan Malaysia",
-        "notes": "SQM-LE; D0=14.213° (Table 5 a1, true dusk); coastal NS; Shariff 2008 data",
+        "notes": "SQM-LE; D0=14.213° (Table 5 a1, true dusk); coastal NS; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "isha", "date_local": "2007-08-13", "time_local": "20:20",
         "utc_offset": 8.0, "lat": 2.467, "lng": 101.867, "elevation_m": 27.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Teluk Kemang Negeri Sembilan Malaysia",
-        "notes": "SQM-LE; D0=14.690° (Table 5 a1, true dusk); coastal NS; Shariff 2008 data",
+        "notes": "SQM-LE; D0=14.690° (Table 5 a1, true dusk); coastal NS; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
 
     # Kuala Lumpur, Federal Territory (3.150°N, 101.683°E, 60m) — already in dataset; new dates
@@ -4901,13 +5062,13 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "prayer": "isha", "date_local": "2007-09-04", "time_local": "20:05",
         "utc_offset": 8.0, "lat": 3.150, "lng": 101.683, "elevation_m": 60.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lumpur Malaysia",
-        "notes": "SQM-LE; D0=12.850° (Table 5 a1, true dusk); urban LP; Shariff 2008 data",
+        "notes": "SQM-LE; D0=12.850° (Table 5 a1, true dusk); urban LP; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "isha", "date_local": "2007-10-27", "time_local": "19:57",
         "utc_offset": 8.0, "lat": 3.150, "lng": 101.683, "elevation_m": 60.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lumpur Malaysia",
-        "notes": "SQM-LE; D0=15.340° (Table 5 a1, true dusk); urban LP; Shariff 2008 data",
+        "notes": "SQM-LE; D0=15.340° (Table 5 a1, true dusk); urban LP; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
 
     # Kuala Lipis, Pahang (4.183°N, 102.05°E, 75m) — Isha at same site as above Fajr
@@ -4915,37 +5076,37 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "prayer": "isha", "date_local": "2007-12-29", "time_local": "20:09",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=14.420° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=14.420° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "isha", "date_local": "2008-01-11", "time_local": "20:11",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=13.600° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=13.600° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "isha", "date_local": "2008-01-12", "time_local": "20:14",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=14.330° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=14.330° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "isha", "date_local": "2008-02-09", "time_local": "20:15",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=13.003° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=13.003° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "isha", "date_local": "2008-03-22", "time_local": "20:18",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=14.938° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=14.938° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "isha", "date_local": "2008-03-23", "time_local": "20:18",
         "utc_offset": 8.0, "lat": 4.183, "lng": 102.050, "elevation_m": 75.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Kuala Lipis Pahang Malaysia",
-        "notes": "SQM-LE; D0=14.938° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data",
+        "notes": "SQM-LE; D0=14.938° (Table 5 a1, true dusk); inland Pahang; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
 
     # Port Klang, Selangor (3.000°N, 101.40°E, 46m) — Isha at same site as above Fajr
@@ -4953,13 +5114,13 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "prayer": "isha", "date_local": "2008-04-05", "time_local": "20:14",
         "utc_offset": 8.0, "lat": 3.000, "lng": 101.400, "elevation_m": 46.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Port Klang Selangor Malaysia",
-        "notes": "SQM-LE; D0=13.970° (Table 5 a1, true dusk); coastal port; Shariff 2008 data",
+        "notes": "SQM-LE; D0=13.970° (Table 5 a1, true dusk); coastal port; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
     {
         "prayer": "isha", "date_local": "2008-04-06", "time_local": "20:18",
         "utc_offset": 8.0, "lat": 3.000, "lng": 101.400, "elevation_m": 46.0,
         "source": "Abdel-Hadi & Hassan 2022, IJAA 12(1):7-29, Port Klang Selangor Malaysia",
-        "notes": "SQM-LE; D0=14.938° (Table 5 a1, true dusk); coastal port; Shariff 2008 data",
+        "notes": "SQM-LE; D0=14.938° (Table 5 a1, true dusk); coastal port; Shariff 2008 data; time inferred from published D0 (paper Tables 3-11 have no clock times)",
     },
 
     # =========================================================================
@@ -5481,6 +5642,346 @@ VERIFIED_SIGHTINGS: list[SightingRecord] = [
         "source": "Faid et al. 2024 Scientific Reports, Pantai Masjid Tengku Zaharah Terengganu Malaysia",
         "notes": "SQM; D0=15.67° (rural class); 5-year campaign 2017-2022; seasonal representative; D0=15.613°",
     },
+
+    # -------------------------------------------------------------------------
+    # JORDAN — Desert sites east of Amman (31°N, 36°E, ~700-900m)
+    # Source: Abdulkader M. Abed (University of Jordan), "Determining the
+    #   Beginning of the True Dawn Observationally by the Naked Eye in Jordan"
+    #   Jordan Journal for Islamic Studies, Vol. 11(2), 2015.
+    #   Full PDF: https://astronomycenter.net/pdf/aabed_2015.pdf
+    #   Hosted by Mohammad Odeh / International Astronomical Center (IAC).
+    # Method: Naked eye, multi-observer, dark desert sites away from city lights.
+    # Criterion: Fajr al-Sadiq (first white thread of true dawn).
+    # 12 sessions total; 9 used here (excluding: session 4 = cloudy,
+    #   session 8 = Abu Darwish Mosque city roof = light polluted 30+ min late,
+    #   session 9 = Al-Azraq / Al-Umari border = contaminated by border lights).
+    # Locations:
+    #   East Uraynibah: 40 km south of Amman then ~15 km east; desert plateau
+    #   East Sawaqah: 17 km east of Sawaqah Prison (75 km south of Amman)
+    # Main finding: Official Jordan 18° adhan is 4-7 min early vs. observed Fajr.
+    # Jordan DST: UTC+3 (last Fri March → last Fri October), UTC+2 otherwise.
+    # -------------------------------------------------------------------------
+    {
+        "prayer": "fajr",
+        "date_local": "2009-09-18",
+        "time_local": "05:04",
+        "utc_offset": 3.0,
+        "lat": 31.64, "lng": 36.00, "elevation_m": 750.0,
+        "source": "Abed 2015, Jordan J. Islamic Studies 11(2), East Uraynibah Jordan",
+        "notes": "naked eye multi-observer; first appearance of Fajr al-Sadiq; 4 min after 18° adhan; dark desert plateau",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2009-10-02",
+        "time_local": "05:17",
+        "utc_offset": 3.0,
+        "lat": 31.38, "lng": 36.27, "elevation_m": 900.0,
+        "source": "Abed 2015, Jordan J. Islamic Studies 11(2), East Sawaqah Jordan",
+        "notes": "naked eye multi-observer; first appearance Fajr al-Sadiq; 7 min after 18° adhan; darker site than Uraynibah",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2009-10-17",
+        "time_local": "05:25",
+        "utc_offset": 3.0,
+        "lat": 31.38, "lng": 36.27, "elevation_m": 900.0,
+        "source": "Abed 2015, Jordan J. Islamic Studies 11(2), East Sawaqah Jordan",
+        "notes": "naked eye multi-observer; first appearance Fajr al-Sadiq; 6 min after 18° adhan",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2009-12-25",
+        "time_local": "05:11",
+        "utc_offset": 2.0,
+        "lat": 31.64, "lng": 36.00, "elevation_m": 750.0,
+        "source": "Abed 2015, Jordan J. Islamic Studies 11(2), East Uraynibah Jordan",
+        "notes": "naked eye multi-observer; first appearance Fajr al-Sadiq; 4 min after 18° adhan; winter",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2010-01-22",
+        "time_local": "05:16",
+        "utc_offset": 2.0,
+        "lat": 31.64, "lng": 36.00, "elevation_m": 750.0,
+        "source": "Abed 2015, Jordan J. Islamic Studies 11(2), East Uraynibah Jordan",
+        "notes": "naked eye multi-observer; first appearance Fajr al-Sadiq; 5 min after 18° adhan",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2010-02-19",
+        "time_local": "04:59",
+        "utc_offset": 2.0,
+        "lat": 31.64, "lng": 36.00, "elevation_m": 750.0,
+        "source": "Abed 2015, Jordan J. Islamic Studies 11(2), East Uraynibah Jordan",
+        "notes": "naked eye multi-observer; first appearance Fajr al-Sadiq; 6 min after 18° adhan",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2010-06-18",
+        "time_local": "03:54",
+        "utc_offset": 3.0,
+        "lat": 31.64, "lng": 36.00, "elevation_m": 750.0,
+        "source": "Abed 2015, Jordan J. Islamic Studies 11(2), East Uraynibah Jordan",
+        "notes": "naked eye multi-observer; first appearance Fajr al-Sadiq; 5 min after 18° adhan; summer; tayakkun 04:04 (10 min later)",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2010-07-16",
+        "time_local": "04:10",
+        "utc_offset": 3.0,
+        "lat": 31.64, "lng": 36.00, "elevation_m": 750.0,
+        "source": "Abed 2015, Jordan J. Islamic Studies 11(2), East Uraynibah Jordan",
+        "notes": "naked eye multi-observer; first appearance Fajr al-Sadiq; 5 min after 18° adhan; summer; tayakkun 04:15",
+    },
+    {
+        "prayer": "fajr",
+        "date_local": "2010-09-17",
+        "time_local": "05:06",
+        "utc_offset": 3.0,
+        "lat": 31.64, "lng": 36.00, "elevation_m": 750.0,
+        "source": "Abed 2015, Jordan J. Islamic Studies 11(2), East Uraynibah Jordan",
+        "notes": "naked eye multi-observer; first appearance Fajr al-Sadiq; 7 min after 18° adhan",
+    },
+
+    # ── Batch 18: Ritonga et al. 2025 UMSU Book — Medan ASC observation ──────
+    # Source: Ritonga, Limbong & Putraga 2025 "Kajian Waktu Subuh Perspektif
+    #   Instrumen Modern" UMSU Press (ISBN 978-634-236-115-3), BAB 5.
+    # Site: OIF UMSU rooftop, Medan, North Sumatra (3.595°N, 98.672°E, 22m).
+    # Method: All Sky Camera ALPHEA 6MW, pixel intensity analysis via ImageJ.
+    # Observation period: Oct-Nov 2021, Jan-Apr 2022 (only Apr 13 analyzed).
+    # Inflection at image #108-109 = ~05:20 WIB; sun at ~15° below horizon.
+    {
+        "prayer": "fajr", "date_local": "2022-04-13", "time_local": "05:20",
+        "utc_offset": 7.0, "lat": 3.595, "lng": 98.672, "elevation_m": 22.0,
+        "source": "Ritonga et al. 2025 UMSU Press, OIF UMSU Medan North Sumatra",
+        "notes": "All Sky Camera ALPHEA 6MW; pixel intensity inflection; Apr 13 2022 clear sky; D0~15°; urban Medan",
+    },
+
+    # ── Batch 19: Shaukat 2015 booklet — additional per-night observations ──────
+    # These are individual observations documented in the booklet text sections
+    # (outside the main Blackburn table which is in Batch 1 above).
+
+    # Pakistan — Tando Adam, Sindh (Ludhianvi 1975 via Shaukat 2015 booklet)
+    # 11 Ulama + experts, rural dark-sky site. Lat ~25.76N, Lng ~68.66E, ~25m.
+    # Jun 11, 1970: "scattering of light" at 4:19 AM (Pakistan Standard Time, UTC+5)
+    # Jun 12, 1970: "Subh Sadiq" at 4:17 AM
+    {"prayer": "fajr", "date_local": "1970-06-11", "time_local": "04:19",
+     "utc_offset": 5.0, "lat": 25.760, "lng": 68.660, "elevation_m": 25.0,
+     "source": "Ludhianvi 1975 via Shaukat 2015 booklet, Tando Adam Sindh Pakistan",
+     "notes": "naked eye; 11 Ulama + experts; first scattering of light observed; rural dark sky"},
+    {"prayer": "fajr", "date_local": "1970-06-12", "time_local": "04:17",
+     "utc_offset": 5.0, "lat": 25.760, "lng": 68.660, "elevation_m": 25.0,
+     "source": "Ludhianvi 1975 via Shaukat 2015 booklet, Tando Adam Sindh Pakistan",
+     "notes": "naked eye; 11 Ulama + experts; Subh Sadiq confirmed; started at 3:30 AM in pitch dark"},
+
+    # USA — Ithaca, NY (Dr. Omar Afzal, Sep 28-29 1991 via Shaukat 2015 booklet)
+    # Lat 42.44N, Lng 76.50W, ~270m. 3 participants. Clear horizons both days.
+    # Sep 28: "Very faint redness" at 6:02 AM, "diffused light over whole eastern
+    #   horizon" at 6:20 AM (EDT, UTC-4). Sunrise 7:01 AM.
+    # Subh Sadiq = 6:02 AM (earliest light) or 6:20 AM (diffused = Mustatir).
+    # Using 6:02 (first light) as the conservative Fajr time.
+    {"prayer": "fajr", "date_local": "1991-09-28", "time_local": "06:02",
+     "utc_offset": -4.0, "lat": 42.440, "lng": -76.500, "elevation_m": 270.0,
+     "source": "Omar Afzal via Shaukat 2015 booklet, Ithaca NY USA",
+     "notes": "naked eye; 3 observers; first faint redness on horizon; diffused light at 06:20; sunrise 07:01 EDT"},
+    {"prayer": "fajr", "date_local": "1991-09-29", "time_local": "06:02",
+     "utc_offset": -4.0, "lat": 42.440, "lng": -76.500, "elevation_m": 270.0,
+     "source": "Omar Afzal via Shaukat 2015 booklet, Ithaca NY USA",
+     "notes": "naked eye; 3 observers; faint redness on lower horizon; sunrise 07:01 EDT; second consecutive night"},
+
+    # USA — Ithaca, NY Isha (Sep 28 1991, Omar Afzal)
+    # Redness (Red Shafaq) and whiteness (White Shafaq) both observed.
+    # Booklet text says "all three participants observed the glow-set both redness and whiteness"
+    # but specific Isha times not given in the text. Skipping Isha for Ithaca.
+
+    # USA — St. Joseph, MI Isha (May 19, 2009, Abdelkader Tayebi)
+    # Lat 42.10N, Lng 86.48W, ~190m. EDT (UTC-4).
+    # Maghrib 9:05 PM. Red Shafaq disappeared ~10:15 PM (progression 10:04-10:15 PM).
+    # Using Red Shafaq (Ahmer) since it was specifically measured. No White Shafaq reported.
+    {"prayer": "isha", "date_local": "2009-05-19", "time_local": "22:15",
+     "utc_offset": -4.0, "lat": 42.100, "lng": -86.480, "elevation_m": 190.0,
+     "source": "Tayebi via Shaukat 2015 booklet, St. Joseph MI USA",
+     "notes": "naked eye; Shafaq Ahmer (red) disappearance; Maghrib at 21:05 EDT; only Red Shafaq recorded"},
+
+    # Switzerland — Pampigny (Jun 23 2016, Rafik Ouared via Shaukat 2015 booklet)
+    # Lat 46.57N, Lng 6.39E, ~570m. CEST (UTC+2).
+    # Camera observation. Imsak at 3:56 AM CEST.
+    {"prayer": "fajr", "date_local": "2016-06-23", "time_local": "03:56",
+     "utc_offset": 2.0, "lat": 46.570, "lng": 6.390, "elevation_m": 570.0,
+     "source": "Ouared via Shaukat 2015 booklet, Pampigny Switzerland",
+     "notes": "camera observation; Imsak (start of Fajr); near summer solstice at 46.6N"},
+
+    # =========================================================================
+    # Batch 20: Taha et al. 2025 — Riyadh KSA (13 Fajr per-night observations)
+    # Source: Taha et al. 2025, Emirati J. Space & Astronomy Sciences 3(1):4-17
+    # DOI: 10.54878/e3q5jd54
+    # Site: Riyadh desert NE of city, 25.767N 47.200E 540m
+    # Method: naked eye + Nikon D70 camera, Feb 2004 - May 2005
+    # Paper reports per-night D0 (true dawn depression angle), not clock times.
+    # Observation times reverse-solved from D0 via ephem (verified: 0.00 drift).
+    # Mean D0 = 14.58 +/- 0.30; range 14.0 - 15.1
+    # =========================================================================
+    {"prayer": "fajr", "date_local": "2004-02-27", "time_local": "05:15",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.7 from Table 7; desert; FQ moon; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2004-04-02", "time_local": "04:39",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.5 from Table 7; desert; FQ f=0.86; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2004-05-28", "time_local": "03:52",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.2 from Table 7; desert; FQ f=0.574; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2004-06-24", "time_local": "03:49",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.6 from Table 7; desert; FQ f=0.332; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2004-07-23", "time_local": "04:02",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.9 from Table 7; desert; FQ f=0.282; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2004-08-27", "time_local": "04:24",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.9 from Table 7; desert; FQ f=0.875; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2004-09-24", "time_local": "04:37",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=15.1 from Table 7; desert; FQ f=0.764; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2004-10-17", "time_local": "04:48",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.7 from Table 7; desert; FQ f=0.111; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2004-11-26", "time_local": "05:14",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye; D0=14.0 from Table 7; desert; FM f=0.994; partly cloudy vis=3; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2004-12-28", "time_local": "05:31",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.3 from Table 7; desert; FM f=0.979; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2005-02-07", "time_local": "05:29",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.4 from Table 7; desert; LQ; light drizzle vis=4; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2005-03-03", "time_local": "05:11",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.6 from Table 7; desert; LQ f=0.573; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2005-05-12", "time_local": "03:59",
+     "utc_offset": 3.0, "lat": 25.767, "lng": 47.200, "elevation_m": 540.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Riyadh KSA",
+     "notes": "naked eye + camera; D0=14.6 from Table 7; desert; LQ f=0.438; per-night obs; time from D0 via ephem"},
+
+    # =========================================================================
+    # Batch 20 (cont.): Taha et al. 2025 — Mauritania (10 Fajr per-night obs)
+    # Two sites: Mur.1 = Jeneifisa (20.850N, 14.383W, 170m)
+    #            Mur.2 = Jorf (20.250N, 15.283W, 91m)
+    # Method: naked eye only. Deep Saharan desert, January 2024.
+    # UTC+0 (Mauritania uses GMT year-round).
+    # Mean D0 = 14.24 +/- 0.61; range 13.32 - 14.94
+    # =========================================================================
+    {"prayer": "fajr", "date_local": "2024-01-06", "time_local": "06:30",
+     "utc_offset": 0.0, "lat": 20.850, "lng": -14.383, "elevation_m": 170.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Mauritania Mur.1 Jeneifisa",
+     "notes": "naked eye; D0=14.88 from Table 9; deep Saharan desert; LQ f=0.3; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2024-01-07", "time_local": "06:31",
+     "utc_offset": 0.0, "lat": 20.850, "lng": -14.383, "elevation_m": 170.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Mauritania Mur.1 Jeneifisa",
+     "notes": "naked eye; D0=14.94 from Table 9; deep desert; LQ f=0.21; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2024-01-08", "time_local": "06:31",
+     "utc_offset": 0.0, "lat": 20.850, "lng": -14.383, "elevation_m": 170.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Mauritania Mur.1 Jeneifisa",
+     "notes": "naked eye; D0=14.78 from Table 9; deep desert; LQ f=0.13; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2024-01-11", "time_local": "06:36",
+     "utc_offset": 0.0, "lat": 20.250, "lng": -15.283, "elevation_m": 91.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Mauritania Mur.2 Jorf",
+     "notes": "naked eye; D0=14.65 from Table 9; deep desert; NM f=0.002; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2024-01-12", "time_local": "06:37",
+     "utc_offset": 0.0, "lat": 20.250, "lng": -15.283, "elevation_m": 91.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Mauritania Mur.2 Jorf",
+     "notes": "naked eye; D0=14.47 from Table 9; deep desert; NM f=0.1; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2024-01-16", "time_local": "06:36",
+     "utc_offset": 0.0, "lat": 20.850, "lng": -14.383, "elevation_m": 170.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Mauritania Mur.1 Jeneifisa",
+     "notes": "naked eye; D0=14.16 from Table 9; deep desert; FQ f=0.9; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2024-01-17", "time_local": "06:39",
+     "utc_offset": 0.0, "lat": 20.250, "lng": -15.283, "elevation_m": 91.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Mauritania Mur.2 Jorf",
+     "notes": "naked eye; D0=14.18 from Table 9; deep desert; FQ f=0.4; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2024-01-19", "time_local": "06:42",
+     "utc_offset": 0.0, "lat": 20.250, "lng": -15.283, "elevation_m": 91.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Mauritania Mur.2 Jorf",
+     "notes": "naked eye; D0=13.32 from Table 9; deep desert; FQ f=0.62; lower than site mean; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2024-01-21", "time_local": "06:42",
+     "utc_offset": 0.0, "lat": 20.250, "lng": -15.283, "elevation_m": 91.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Mauritania Mur.2 Jorf",
+     "notes": "naked eye; D0=13.33 from Table 9; deep desert; FQ f=0.81; lower than site mean; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2024-01-26", "time_local": "06:34",
+     "utc_offset": 0.0, "lat": 20.850, "lng": -14.383, "elevation_m": 170.0,
+     "source": "Taha et al. 2025 EJSAS 3(1):4-17, Mauritania Mur.1 Jeneifisa",
+     "notes": "naked eye; D0=14.42 from Table 9; deep desert; FM f=0.996; per-night obs; time from D0 via ephem"},
+
+    # =========================================================================
+    # Batch 21: Marzouk et al. 2025 — Egyptian desert sites (11 Fajr per-night)
+    # Source: Marzouk et al. 2025, Springer Proceedings in Physics Vol. 420,
+    #         AUASS-CONF 2023, pp. 178-209
+    # DOI: 10.1007/978-981-96-3276-3_14
+    # Method: naked eye + Canon/Nikon/CCD/SQM, Aug 2015 - Dec 2019
+    # Paper reports per-night D0 from figures/text, not clock times.
+    # Observation times reverse-solved from D0 via ephem (verified: 0.00 drift).
+    # Aggregate: mean D0 = 14.14 +/- 0.43 (43 N.E. across 6 sites)
+    # Egypt uses EET = UTC+2 year-round (no DST since 2014).
+    # =========================================================================
+    # Kottamia (29.932N, 31.825E, 411m, desert)
+    {"prayer": "fajr", "date_local": "2015-08-20", "time_local": "04:19",
+     "utc_offset": 2.0, "lat": 29.932, "lng": 31.825, "elevation_m": 411.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Kottamia Egypt",
+     "notes": "naked eye D0=13.85; Canon camera M=14.0; desert 411m; Fig 1-2; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2015-09-19", "time_local": "04:35",
+     "utc_offset": 2.0, "lat": 29.932, "lng": 31.825, "elevation_m": 411.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Kottamia Egypt",
+     "notes": "naked eye D0=14.5; Canon camera M=15.0; desert 411m; Fig 3; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2016-02-11", "time_local": "05:31",
+     "utc_offset": 2.0, "lat": 29.932, "lng": 31.825, "elevation_m": 411.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Kottamia Egypt",
+     "notes": "naked eye D0=14.55; Canon camera M=14.8; desert 411m; Fig 4-5; per-night obs; time from D0 via ephem"},
+    # Kharga (25.300N, 30.167E, 40m, desert)
+    {"prayer": "fajr", "date_local": "2015-11-20", "time_local": "05:15",
+     "utc_offset": 2.0, "lat": 25.300, "lng": 30.167, "elevation_m": 40.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Kharga Egypt",
+     "notes": "Canon T.I start D0=14.5; Western Desert oasis; Fig 7; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2015-11-22", "time_local": "05:14",
+     "utc_offset": 2.0, "lat": 25.300, "lng": 30.167, "elevation_m": 40.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Kharga Egypt",
+     "notes": "Canon T.I start D0=15.0; Western Desert oasis; Fig 8; per-night obs; time from D0 via ephem"},
+    # Aswan (23.803N, 32.492E, 210m, desert)
+    {"prayer": "fajr", "date_local": "2015-12-23", "time_local": "05:26",
+     "utc_offset": 2.0, "lat": 23.803, "lng": 32.492, "elevation_m": 210.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Aswan Egypt",
+     "notes": "Nikon color intersection D0=14.0; moonless; desert; Fig 10-11; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2015-12-26", "time_local": "05:26",
+     "utc_offset": 2.0, "lat": 23.803, "lng": 32.492, "elevation_m": 210.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Aswan Egypt",
+     "notes": "naked eye D0=13.84 camera D0=14.4; FM f=0.993; desert; Fig 12-15; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2016-01-12", "time_local": "05:31",
+     "utc_offset": 2.0, "lat": 23.803, "lng": 32.492, "elevation_m": 210.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Aswan Egypt",
+     "notes": "Canon D0=14.375 (range 13.75-15.0 midpoint); desert; Fig 17; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2016-01-14", "time_local": "05:36",
+     "utc_offset": 2.0, "lat": 23.803, "lng": 32.492, "elevation_m": 210.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Aswan Egypt",
+     "notes": "Canon T.I M2 D0=13.3; desert; Fig 19-21; per-night obs; time from D0 via ephem"},
+    # Fayum (29.283N, 30.050E, 50m, desert)
+    {"prayer": "fajr", "date_local": "2016-11-25", "time_local": "05:23",
+     "utc_offset": 2.0, "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Fayum Egypt",
+     "notes": "CCD D0=14.8; moon phase 0.164; Western Desert edge; Fig 25; per-night obs; time from D0 via ephem"},
+    {"prayer": "fajr", "date_local": "2016-12-08", "time_local": "05:36",
+     "utc_offset": 2.0, "lat": 29.283, "lng": 30.050, "elevation_m": 50.0,
+     "source": "Marzouk et al. 2025 Springer AUASS, Fayum Egypt",
+     "notes": "CCD+Canon D0=14.0; Western Desert edge; Fig 26-27; per-night obs; time from D0 via ephem"},
 
 ]
 

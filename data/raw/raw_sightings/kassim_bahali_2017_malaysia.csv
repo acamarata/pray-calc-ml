@@ -1,0 +1,13 @@
+prayer,date_local,time_local,utc_offset,lat,lng,elevation_m,source,notes
+fajr,2017-06-01,05:48,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Pekan Pahang Malaysia; first visibility by DSLR Canon 60Da; Do=-17.36; cloudy 82% cloud cover; sea horizon background"
+fajr,2017-06-03,05:42,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Pekan Pahang Malaysia; intermittent cloud 71%; Do=-17.32"
+fajr,2017-06-04,05:40,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Pekan Pahang Malaysia; cloudy 81%; Do=-18.00; dawn seen between clouds"
+fajr,2017-06-05,05:50,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Pekan Pahang Malaysia; cloudy 97%; Do=-15.45"
+fajr,2017-07-03,05:55,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Pekan Pahang Malaysia; Do=-15.50"
+fajr,2017-07-04,05:53,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Pekan Pahang Malaysia; Do=-16.24"
+fajr,2017-07-05,05:53,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Pekan Pahang Malaysia; Do=-16.24"
+fajr,2017-07-06,05:51,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Pekan Pahang Malaysia; Do=-16.54"
+fajr,2017-07-07,05:46,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Pekan Pahang Malaysia; Do=-18.06; clearest sky of June-July series; Venus and Aldebaran visible"
+fajr,2017-08-02,05:49,8.0,5.330,103.137,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Kuala Terengganu Malaysia; Do=-16.0 at horizon; mentioned in figure caption"
+fajr,2017-08-03,05:49,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Malaysia/Indonesia study; earliest dawn recorded; Do=-18.35 (most sensitive reading in dataset)"
+fajr,2017-10-29,06:05,8.0,3.408,103.356,0.0,"Kassim Bahali et al. 2018, Sains Malaysiana 47(11):2877-2885, DSLR camera study","Malaysia/Indonesia study; latest dawn time recorded; Do=-13.30 (minimum in dataset)"

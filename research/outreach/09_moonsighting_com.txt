@@ -1,0 +1,30 @@
+To: info@moonsighting.com (Khalid Shaukat)
+Subject: Request for Fajr/Isha Observation Records from Moonsighting.com Community Reports
+
+Assalamu alaykum wa rahmatullahi wa barakatuh,
+
+My name is Ali Camarata. I am an independent researcher building the largest open-source dataset of verified human Fajr and Isha observations for empirical prayer time research.
+
+Moonsighting.com is one of the few sources we have found that publishes genuine per-city, per-date Fajr observation reports from community observers. Your FAQ page (moonsighting.com/faq_pt.html) references specific observations from Miami Beach (December 2000) with named witnesses, and seasonal reports from Chicago, Karachi, Cape Town, and Toronto.
+
+I believe moonsighting.com has collected community Fajr and Isha observation reports from dozens of cities over many years. This data would be extraordinarily valuable for building data-driven prayer time models that reflect real human observation rather than fixed-angle assumptions.
+
+Would you be willing to share a more complete set of observation records? For each observation, I need:
+- City and country (or coordinates)
+- Calendar date
+- Locally observed time of Fajr (Subh Sadiq) or Isha
+- Number of observers (if available)
+- Any notes on sky conditions
+
+Even a partial extract from your database covering the most active reporting cities would be a major contribution. Any format works: CSV, Excel, plain text.
+
+Our project: https://github.com/acamarata/pray-calc-ml
+Current dataset: 4,200+ Fajr observations from 140+ sites worldwide.
+
+Your data is particularly valuable because it represents genuine human naked-eye observations across diverse latitudes and urban environments, which is exactly what most academic studies lack.
+
+Full attribution to moonsighting.com and Khalid Shaukat in all publications and our open-source repository.
+
+Jazakallahu khairan,
+Ali Camarata
+alisalaah@gmail.com

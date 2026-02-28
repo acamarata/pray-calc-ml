@@ -1,0 +1,31 @@
+To: oif@umsu.ac.id
+Subject: Request for Raw SQM Observation Data — Fajr/Isha Twilight Research Collaboration
+
+Assalamu alaykum wa rahmatullahi wa barakatuh,
+
+My name is Ali Camarata. I am an independent researcher working on an open-source project to build the largest empirical dataset of verified Fajr and Isha twilight observations worldwide. The goal is to develop data-driven models for Islamic prayer time calculation based on real human and instrument observations rather than fixed-angle assumptions.
+
+I recently read Lubis, Nafilah & Jihad (2025) in Al-Hisab 2(4):215-229, which used SQM data from OIF UMSU for November 2024. The paper references your observatory's continuous SQM monitoring program running since 2016-2017.
+
+I am writing to ask whether OIF UMSU would be willing to share raw per-night SQM observation data from your Medan site (3.595 N, 98.672 E) for the years 2016-2024. Specifically, I need:
+
+- Date of each observation night
+- Local time when dawn brightness first exceeded the night baseline (Fajr onset)
+- Local time when evening brightness dropped below the twilight threshold (Isha onset), if recorded
+- Sky condition notes (clear, cloudy, etc.) for each night
+
+Even a simple CSV or spreadsheet with date, Fajr time, and Isha time columns would be extremely valuable. The data would be used in an open-source research project (MIT licensed) with full attribution to OIF UMSU and the relevant researchers.
+
+Our project repository: https://github.com/acamarata/pray-calc-ml
+Current dataset: 4,200+ Fajr and 19 Isha verified observation records from 140+ sites worldwide.
+
+Your data from Medan would be particularly valuable because:
+1. It spans multiple years at a single equatorial site
+2. It documents urban light pollution effects on twilight angles
+3. North Sumatra is underrepresented in global twilight datasets
+
+Please let me know if this collaboration is possible. I am happy to share our dataset and findings in return.
+
+Jazakallahu khairan,
+Ali Camarata
+alisalaah@gmail.com

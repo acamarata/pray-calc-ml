@@ -13,8 +13,45 @@ env/
 .ipynb_checkpoints/
 .jupyter/
 .claude/
-# Raw scraped/downloaded files — committed only if manually vetted
+
+# Raw scraped/downloaded files
 data/raw/*.pdf
+
 # Generated notebook outputs
 data/processed/*.png
 data/processed/*.svg
+
+# Bulk data directories (too large for git, not curated)
+data/cache/
+data/raw/crawled/
+data/raw/excluded/
+data/raw/brin_multistation_raw/
+
+# Collection session logs and scratch
+data/raw/collection_log*.txt
+data/raw/sources_crawled.md
+
+# Research scratch files (superseded by aggregate_d0_values.csv)
+research/aggregate_d0_database.csv
+research/aggregate_analysis.md
+research/candidate_papers.json
+research/mine_*.py
+
+# Experimental collection scripts (not part of core pipeline)
+src/autonomous_collect.py
+src/compute_aggregate_times.py
+src/collect/aladhan.py
+src/collect/autonomous_collector.py
+src/collect/aggregate_to_records.py
+src/collect/bulk_generator.py
+src/collect/bulk_runner.py
+src/collect/cities.py
+src/collect/collect_agent.py
+src/collect/harvest.py
+src/collect/jakim.py
+src/collect/morocco.py
+src/collect/muis_singapore.py
+src/collect/openalex_harvester.py
+src/collect/source_tracker.py
+src/collect/waktusolat.py
+src/collect/web_harvester.py

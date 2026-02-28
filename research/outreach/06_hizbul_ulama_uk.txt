@@ -1,0 +1,27 @@
+To: info@hizbululama.org.uk (or via their website contact form)
+Subject: Request for Digitized 1987-1989 Blackburn Fajr/Isha Observation Records
+
+Assalamu alaykum wa rahmatullahi wa barakatuh,
+
+My name is Ali Camarata. I am a researcher working on an open-source project to build a comprehensive dataset of verified Fajr and Isha twilight observations worldwide.
+
+Hizbul Ulama UK conducted pioneering observation campaigns in Blackburn (53.748 N, 2.480 W) during 1987-1989, recording actual Fajr and Isha times through direct human observation. These observations, referenced in academic literature and in Mufti Shabbir Ahmad Sahib's guidance, represent some of the earliest systematic dawn/dusk observation records in the UK.
+
+I currently have 10 records from these observations (6 Fajr, 4 Isha) based on dates cited in secondary sources (Asim Yusuf's "Shedding Light on the Dawn" and related publications). However, the original observation log likely contains hundreds of individual dated records.
+
+Would it be possible to obtain a copy of the full observation log from the 1987-1989 Blackburn campaign? I am interested in:
+- Each observation date
+- The recorded Fajr time for that date
+- The recorded Isha time for that date
+- Any notes on sky conditions
+
+Even a photocopy or photograph of the handwritten log would be helpful. I can digitize it.
+
+This data would be historically significant as one of the earliest systematic Fajr/Isha observation campaigns in the UK, and would contribute to ongoing research that benefits the Muslim community's understanding of prayer times at northern latitudes.
+
+Our project: https://github.com/acamarata/pray-calc-ml
+The project is open-source and freely available to the community.
+
+Jazakallahu khairan,
+Ali Camarata
+alisalaah@gmail.com

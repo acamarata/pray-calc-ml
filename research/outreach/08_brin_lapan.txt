@@ -1,0 +1,34 @@
+To: (via ResearchGate messages to Rukman Nugraha / BRIN Astronomy, or brin@brin.go.id)
+Subject: Request for Raw Multi-Station SQM Data (Fajr/Isha) from BRIN Twilight Network
+
+Assalamu alaykum wa rahmatullahi wa barakatuh,
+
+My name is Ali Camarata. I am an independent researcher building an open-source dataset of verified Fajr and Isha twilight observations for empirical Islamic prayer time modeling.
+
+I have been studying the multistation SQM network data published by Damanhuri and Mukarram (LAPAN, now BRIN), including measurements from Garut, Pasuruan, Sumedang, Biak, Agam, Pontianak, Manado, and Lombok stations during 2018 and subsequent campaigns.
+
+We have processed 34 per-night Fajr records from the published tables, and they are among the most valuable in our dataset because they cover a wide range of Indonesian longitudes at near-equatorial latitudes.
+
+I am writing to ask whether BRIN would be willing to share the full multi-year per-night SQM observation data from any or all stations. Specifically, I need:
+
+- Date of each observation night
+- Local time of detected Fajr onset (SQM inflection point)
+- Local time of detected Isha end (SQM threshold), if recorded
+- Station identifier
+- Sky condition (clear, cloudy) if available
+
+Even raw SQM MPSAS time-series CSVs would work. I can process them through our pipeline.
+
+Our project: https://github.com/acamarata/pray-calc-ml
+Current dataset: 4,200+ Fajr observations from 140+ sites worldwide.
+
+BRIN's multi-station data would be uniquely valuable because:
+1. No other dataset covers this many equatorial stations simultaneously
+2. The longitude spread (95E to 136E) across the Indonesian archipelago is unmatched
+3. Multi-year time series from a single network enables seasonal analysis at low latitudes
+
+Full attribution to BRIN and the original researchers in all publications and our open-source dataset. I am happy to share our compiled global dataset in return.
+
+Jazakallahu khairan,
+Ali Camarata
+alisalaah@gmail.com

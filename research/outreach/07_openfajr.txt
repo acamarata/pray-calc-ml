@@ -1,0 +1,21 @@
+To: (via openfajr.org contact form or social media)
+Subject: Question About OpenFajr Data for Other UK Cities
+
+Assalamu alaykum,
+
+My name is Ali Camarata. I am a researcher working on an open-source twilight observation dataset for empirical prayer time modeling.
+
+The OpenFajr Birmingham project has been the single most valuable data source in our research. Your community-verified Fajr observations (approximately 4,000 dated records from Birmingham) form the backbone of our dataset.
+
+I have two questions:
+
+1. Do OpenFajr feeds exist for other UK cities? The Birmingham Google Calendar iCal feed provides daily verified Fajr times. If similar feeds exist for Bradford, Leicester, Manchester, London, Sheffield, Glasgow, or any other city, they would dramatically expand our geographic coverage at northern latitudes.
+
+2. Is there any plan to expand to other cities or countries? If so, I would be happy to help or collaborate.
+
+Our project: https://github.com/acamarata/pray-calc-ml
+Your Birmingham data currently makes up approximately 95% of our 4,200-record Fajr dataset. Expanding to additional UK cities would significantly improve the dataset's ability to model latitude-dependent twilight angles.
+
+Jazakallahu khairan,
+Ali Camarata
+alisalaah@gmail.com

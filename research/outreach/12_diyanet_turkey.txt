@@ -1,0 +1,26 @@
+To: bilgi@diyanet.gov.tr (Diyanet Isleri Baskanligi)
+Subject: Request for Historical Twilight Observation Records from Diyanet Research (2012-2015 Ankara Campaign)
+
+Assalamu alaykum wa rahmatullahi wa barakatuh,
+
+My name is Ali Camarata. I am an independent researcher building an open-source dataset of verified Fajr and Isha twilight observations for empirical Islamic prayer time modeling.
+
+I understand that Diyanet conducted twilight observation research in Ankara during approximately 2012-2015, informing Turkey's prayer time methodology. If per-night observation records exist from this campaign (or any other Diyanet twilight observation program), they would be extremely valuable for our global dataset.
+
+For each observation night, I need:
+- Calendar date
+- City or observation site
+- Locally observed time of Fajr onset
+- Locally observed time of Isha end (if recorded)
+- Sky conditions or observation method
+
+Our project: https://github.com/acamarata/pray-calc-ml
+Current dataset: 4,200+ verified Fajr observations from 140+ sites across 20+ countries.
+
+Turkey's latitude (approximately 37-42N) is underrepresented in our dataset, and Diyanet's observations would help calibrate models for the Mediterranean and Central Asian latitude band.
+
+Full attribution to Diyanet in our open-source repository.
+
+Jazakallahu khairan,
+Ali Camarata
+alisalaah@gmail.com

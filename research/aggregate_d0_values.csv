@@ -1,0 +1,115 @@
+source,site,lat,lng,elevation_m,prayer,d0_angle,d0_std,n_nights,method,sky_quality,year_range
+MJC South Africa standard,Johannesburg,-26.2,28.04,1753,fajr,18.0,,,standard,n/a,current
+Herdiwijaya 2016+2020,"Kupang Amfoang, NTT",-9.6,123.95,1300,fajr,18.0,,83.0,SQM/photometer,pristine,2011-2018
+Damanhuri & Mukarram LAPAN 2022,"Lombok, NTT",-8.56,116.1,25,fajr,16.51,,,SQM,rural,2018
+Maskufa et al. 2024 Mazahib,"Labuan Bajo, Flores NTT",-8.5,119.89,10,fajr,19.3,,,SQM,pristine,2023
+Setyanto et al. 2021 Al-Hilal,"Labuan Bajo, NTT",-8.39,119.68,10,fajr,19.13,,1.0,SQM,pristine,2018
+Herdiwijaya 2014-2016,Yogyakarta,-7.87,110.42,100,fajr,17.0,0.7,136.0,photometer,suburban,2014-2016
+Damanhuri & Mukarram LAPAN 2022,"Pasuruan, East Java",-7.64,112.9,4,fajr,16.51,,,SQM,suburban,2018
+Damanhuri & Mukarram LAPAN 2022,"Garut, West Java",-7.21,107.9,717,fajr,16.51,,,SQM,rural,2018
+Herdiwijaya 2016+2020,"Cimahi, West Java",-6.88,107.53,700,fajr,18.5,,,SQM,suburban,2011-2018
+Damanhuri & Mukarram LAPAN 2022,"Sumedang, West Java",-6.86,107.92,556,fajr,16.51,,,SQM,rural,2018
+Herdiwijaya 2016+2020,"Bosscha Observatory, Lembang",-6.83,107.61,1300,fajr,15.3,,83.0,photometer,rural,2011-2018
+Setyanto et al. 2021 Al-Hilal,Bosscha Observatory,-6.83,107.61,1300,fajr,16.07,,1.0,SQM,rural,2015
+Setyanto et al. 2021 Al-Hilal,Imahnoong Observatory,-6.83,107.62,2200,fajr,15.26,,1.0,SQM,rural,2018
+Al-faruq 2013 UPI thesis,Bosscha Observatory (wet),-6.82,107.62,1300,fajr,15.0,,,photoelectric,rural,2012
+Al-faruq 2013 UPI thesis,Bosscha Observatory (dry),-6.82,107.62,1300,fajr,16.0,,,photoelectric,rural,2012
+Setyanto et al. 2021 Al-Hilal,"Sedan, Rembang",-6.76,111.59,30,fajr,17.64,,1.0,SQM,rural,2018
+Saksono ISRN/UHAMKA,"Cirebon, West Java",-6.72,108.55,5,fajr,13.4,,,SQM,urban,2015
+Noor & Hamdani 2018 QIJIS,"Tayu Beach, Pati, Central Java",-6.68,111.05,5,fajr,17.0,,4.0,photoelectric+SQM,rural,2016
+Maskufa et al. 2024 Mazahib,"Bogor, West Java",-6.59,106.79,265,fajr,13.58,,,SQM,urban,2023
+Saksono & Fulazzaky 2020 NRIAG,"Depok, West Java",-6.38,106.83,150,fajr,14.0,0.6,26.0,SQM,urban,2015
+Setyanto et al. 2021 Al-Hilal,"Mombhul Beach, Gresik",-5.79,112.73,5,fajr,19.15,,1.0,SQM,pristine,2018
+Hisbullah Salam 2022-2023 Walisongo,"Bulukumba, South Sulawesi",-5.56,120.18,10,fajr,18.24,,,SOOF+SQM,pristine,2022-2023
+Hisbullah Salam 2022-2023 Walisongo,"Takalar, South Sulawesi",-5.43,119.43,10,fajr,17.0,,,SOOF+SQM,suburban,2022-2023
+Saksono ISRN/UHAMKA,"Balikpapan, East Kalimantan",-1.27,116.83,10,fajr,13.4,,,SQM,urban,2015
+Damanhuri & Mukarram LAPAN 2022,"Biak, Papua",-1.17,135.8,10,fajr,16.51,,,SQM,rural,2018
+Saksono ISRN/UHAMKA,"Padang, West Sumatra",-0.9,100.35,5,fajr,13.4,,,SQM,urban,2015
+Saksono ISRN/UHAMKA,"Manokwari, West Papua",-0.86,134.08,10,fajr,13.4,,,SQM,urban,2015
+Saksono ISRN/UHAMKA,"Batusangkar, West Sumatra",-0.47,100.6,891,fajr,13.4,,,SQM,urban,2015
+Damanhuri & Mukarram LAPAN 2022,"Agam, West Sumatra",-0.25,100.37,850,fajr,16.51,,,SQM,rural,2018
+Damanhuri & Mukarram LAPAN 2022,"Pontianak, West Kalimantan",0.0,109.33,1,fajr,16.51,,,SQM,suburban,2018
+Saksono ISRN/UHAMKA,"Bitung, North Sulawesi",1.44,125.19,20,fajr,13.4,,,SQM,urban,2015
+Damanhuri & Mukarram LAPAN 2022,"Manado, North Sulawesi",1.49,124.85,80,fajr,16.51,,,SQM,suburban,2018
+Abdel-Hadi & Hassan 2022 IJAA,"Teluk Kemang, N. Sembilan (Fajr)",2.46,101.87,27,fajr,14.19,0.52,,SQM,rural,2007-2008
+Abdel-Hadi & Hassan 2022 IJAA,"Port Klang, Selangor (Fajr)",3.0,101.4,46,fajr,15.07,,,SQM,suburban,2007-2008
+Pinem et al. 2024 JMEA,"Sri Mersing Beach, N. Sumatra",3.45,99.0,5,fajr,14.0,,,SQM,suburban,2022
+Pinem et al. 2024 JMEA,"Pondok Permai Beach, N. Sumatra",3.46,99.0,5,fajr,15.0,,,SQM,rural,2022
+Lubis et al. 2025 Al-Hisab,OIF UMSU Medan,3.6,98.67,22,fajr,13.0,,30.0,SQM,urban,2024
+Abdel-Hadi & Hassan 2022 IJAA,"Kuala Lipis, Pahang (Fajr)",4.18,102.04,75,fajr,14.08,,,SQM,rural,2007-2008
+Abdel-Hadi & Hassan 2022 IJAA,"Merang, Terengganu (Fajr)",5.52,102.95,42,fajr,14.6,,,SQM,rural,2007-2008
+Nigeria standard,Kano,12.0,8.52,472,fajr,18.0,,,standard,n/a,current
+Taha et al. 2025 Emirates Scholar,"Jeneifisa, Mauritania",20.85,-14.383,170,fajr,14.85,,,naked-eye,pristine,2024
+Taha et al. 2025 Emirates Scholar,"Jorf, Mauritania",20.25,-15.283,91,fajr,14.85,,,naked-eye,pristine,2024
+Umm al-Qura standard,"Makkah, Saudi Arabia",21.42,39.83,300,fajr,18.5,,,standard,n/a,current
+Bangladesh IF estimate,Dhaka,23.72,90.41,8,fajr,15.0,,,standard,n/a,current
+Hassan et al. 2014 NRIAG,Aswan,24.09,32.9,115,fajr,14.7,,,naked-eye,rural,1984-1987
+Taha et al. 2025 Emirates Scholar,Madinah,24.47,39.61,598,fajr,14.58,,,SQM+CCD,suburban,2024
+Taha et al. 2025 Emirates Scholar,Riyadh,25.767,47.2,540,fajr,14.58,0.3,13.0,naked-eye+DSLR,suburban,2024
+Pakistan standard,Karachi,24.86,67.01,10,fajr,15.0,,,standard,n/a,current
+Hassan et al. 2020 multi-site,Marsa Alam,25.07,34.9,10,fajr,14.56,,,multi-method,pristine,2015-2019
+Hassan et al. 2020 multi-site,Kharga Oasis,25.45,30.55,80,fajr,14.56,,,multi-method,pristine,2015-2019
+Hassan et al. 2016 NRIAG,Assiut,27.17,31.18,70,fajr,13.48,,80.0,SQM,suburban,2015-2016
+Hassan et al. 2020 multi-site,Hurghada,27.26,33.8,10,fajr,14.56,,,multi-method,rural,2015-2019
+Khalifa et al. 2018 NRIAG,"Hail, Saudi Arabia",27.52,41.7,980,fajr,14.014,0.317,32.0,SQM+photoelectric,pristine,2014-2015
+Hassan et al. 2014 NRIAG,Baharia Oasis,28.34,28.88,150,fajr,14.7,,,naked-eye,pristine,1984-1987
+Rashed et al. 2022 IJMET,"Wadi al-Hitan, Fayum",29.28,30.05,50,fajr,14.6,,4.0,SQM+naked-eye,pristine,2018-2019
+IAEME Fayum study,"Fayum, Egypt",29.28,30.05,50,fajr,14.4,,,multi-method,rural,2015-2019
+Taha et al. 2025 Emirates Scholar,"15th of May City, Egypt",29.96,31.76,50,fajr,12.69,,,SQM+CCD,urban,2024
+Hassan et al. 2014 NRIAG,Kottamia Observatory (Fajr),30.03,31.82,477,fajr,14.7,,,photoelectric+naked-eye,rural,1984-1987
+Semeida & Hassan 2018 BJBAS,Wadi Al Natron (Fajr),30.5,30.1,0,fajr,14.5,,38.0,naked-eye,pristine,2016-2017
+Hassan et al. 2016 NRIAG,Sinai,31.07,32.93,30,fajr,14.66,,80.0,SQM,rural,2015-2016
+Hassan et al. 2020 multi-site,Alexandria,31.2,29.9,10,fajr,14.56,,,multi-method,suburban,2015-2019
+Hassan et al. 2014 NRIAG,Matrouh (Fajr),31.35,27.24,30,fajr,13.5,,,instruments,rural,1984-1987
+Abed 2015 Jordan J,"East Sawaqah, Jordan",31.38,36.27,700,fajr,19.5,,2.0,naked-eye,pristine,2009
+Morocco Habous standard,Marrakech,31.63,-8.0,467,fajr,18.0,,,standard,n/a,current
+Abed 2015 Jordan J,"East Uraynibah, Jordan",31.64,36.0,700,fajr,19.5,,7.0,naked-eye,pristine,2009-2010
+Al-Hilal 2021 Tubruq Libya,"Tubruq, Libya",32.08,24.01,10,fajr,13.48,,1053.0,naked-eye,rural,multi-year
+Diyanet Turkey 2012-2015,"Ankara, Turkey",39.93,32.85,938,fajr,18.0,,,unknown,suburban,2012-2015
+Asim Yusuf 2017,"Exmoor, UK (Fajr)",51.15,-3.65,300,fajr,16.0,,,naked-eye,pristine,2014-2016
+Hizbul Ulama UK 1987-1989,"Blackburn, UK (Fajr)",53.75,-2.48,120,fajr,15.0,,21.0,naked-eye,suburban,1987-1989
+Basthoni 2022 PhD UIN Walisongo,"Tilong Kupang, NTT",-10.14,123.732,96,fajr,14.37,2.06,213.0,SQM,somewhat dark,2018-2019
+Basthoni 2022 PhD UIN Walisongo,"Banyuwangi, East Java",-8.028,114.425,1,fajr,19.88,0.59,60.0,SQM,dark,2020
+Basthoni 2022 PhD UIN Walisongo,"Garut, West Java",-7.65,107.692,10,fajr,14.83,2.56,101.0,SQM,dark,2018
+Basthoni 2022 PhD UIN Walisongo,"Pasuruan, East Java",-7.567,112.674,57,fajr,13.89,1.41,87.0,SQM,somewhat bright,2019
+Basthoni 2022 PhD UIN Walisongo,"Bosscha Lembang, West Java",-6.824,107.617,1289,fajr,13.69,1.86,189.0,SQM,somewhat bright,2012
+Basthoni 2022 PhD UIN Walisongo,"Mangkangkulon Semarang, Central Java",-6.971,110.296,1,fajr,12.79,1.35,154.0,SQM,bright/urban,2019-2021
+Basthoni 2022 PhD UIN Walisongo,"Subang, West Java",-6.562,107.769,90,fajr,12.68,1.49,59.0,SQM,somewhat bright,2018
+Basthoni 2022 PhD UIN Walisongo,"Depok, West Java",-6.39,106.76,86,fajr,13.64,0.53,15.0,SQM,bright/urban,2015
+Basthoni 2022 PhD UIN Walisongo,"Karimunjawa, Central Java",-5.822,110.491,1,fajr,15.48,2.37,252.0,SQM,dark,2020-2021
+Basthoni 2022 PhD UIN Walisongo,"Biak, Papua",-1.174,136.101,47,fajr,13.38,2.4,148.0,SQM,somewhat dark,2019-2020
+Basthoni 2022 PhD UIN Walisongo,"Agam, West Sumatra",-0.204,100.32,855,fajr,16.67,1.92,151.0,SQM,dark,2019
+Basthoni 2022 PhD UIN Walisongo,"Pontianak, West Kalimantan",-0.007,109.365,2,fajr,12.34,1.64,76.0,SQM,somewhat bright,2018
+Basthoni 2022 PhD UIN Walisongo,"Medan, North Sumatra",3.582,98.722,25,fajr,11.92,1.17,28.0,SQM,bright/urban,2019
+Basthoni 2022 PhD UIN Walisongo,"Paopao Gowa, South Sulawesi",-5.184,119.471,4,fajr,14.01,1.17,13.0,SQM,bright/urban,2013
+Marzouk et al. 2025 AUASS,"Kottamia Observatory, Egypt",29.932,31.825,411,fajr,14.0,,3.0,naked-eye+camera,rural,2023-2024
+Marzouk et al. 2025 AUASS,"Kharga Oasis, Egypt",25.3,30.167,40,fajr,14.5,,2.0,camera,pristine,2023-2024
+Marzouk et al. 2025 AUASS,"Aswan, Egypt",23.803,32.492,210,fajr,15.0,,4.0,camera,rural,2023-2024
+Marzouk et al. 2025 AUASS,"Fayum, Egypt",29.283,30.05,50,fajr,14.5,,2.0,CCD+camera,rural,2023-2024
+Kassim Bahali 2019 IJMET,"Pekan, Pahang",3.408,103.356,5,fajr,15.5,,1.0,DSLR+SQM,rural,2017
+Kassim Bahali 2019 IJMET,"Dungun, Terengganu",4.795,103.426,5,fajr,16.0,,3.0,DSLR+SQM,rural,2017
+Kassim Bahali 2019 IJMET,"Sabang, Aceh",5.876,95.339,5,fajr,16.5,,5.0,DSLR+SQM,rural,2017
+Faid et al. 2024 Sci. Reports,"Coonabarabran, NSW Australia",-31.25,149.27,860,isha,17.49,,,SQM,pristine,2017-2022
+Herdiwijaya 2016+2020,"Kupang, NTT (dusk)",-10.2,123.6,50,isha,18.853,,,photometer,rural,2011-2018
+Al-faruq 2013 UPI thesis,"Bosscha Observatory (wet, Isha)",-6.82,107.62,1300,isha,14.0,,,photoelectric,rural,2012
+Al-faruq 2013 UPI thesis,"Bosscha Observatory (dry, Isha)",-6.82,107.62,1300,isha,15.0,,,photoelectric,rural,2012
+Faid et al. 2024 Sci. Reports,"Tanjung Balau, Johor (rural)",1.8,104.4,5,isha,15.67,,,SQM,rural,2017-2022
+Abdel-Hadi & Hassan 2022 IJAA,"Teluk Kemang, N. Sembilan (Isha)",2.46,101.87,27,isha,14.21,,,SQM,rural,2007-2008
+Faid et al. 2024 Sci. Reports,Putrajaya (urban),2.9,101.68,20,isha,11.5,,,SQM,urban,2017-2022
+Abdel-Hadi & Hassan 2022 IJAA,"Port Klang, Selangor (Isha)",3.0,101.4,46,isha,14.0,,,SQM,suburban,2007-2008
+Hamidi 2007-2008,"Port Klang, Selangor (Isha)",3.0,101.4,46,isha,16.5,,,SQM,suburban,2007-2008
+Abdel-Hadi & Hassan 2022 IJAA,Kuala Lumpur (Isha),3.15,101.68,60,isha,12.85,,,SQM,urban,2007-2008
+Abdel-Hadi & Hassan 2022 IJAA,"Kuala Lipis, Pahang (Isha)",4.18,102.04,75,isha,14.38,0.91,,SQM,rural,2007-2008
+Hamidi 2007-2008,"Kuala Lipis, Pahang (Isha)",4.18,102.04,75,isha,16.5,,,SQM,rural,2007-2008
+Faid et al. 2024 Sci. Reports,"Pantai Batu Buruk, Terengganu",5.32,103.15,5,isha,15.67,,,SQM,rural,2017-2022
+Faid et al. 2024 Sci. Reports,"Balai Cerap Unisza, Terengganu",5.4,102.58,20,isha,17.49,,,SQM,pristine,2017-2022
+Faid et al. 2024 Sci. Reports,"Pantai Masjid TZ, Terengganu",5.4,103.95,5,isha,15.67,,,SQM,rural,2017-2022
+Niri et al. 2012 MEJSR,"Tanjung Aru, Kota Kinabalu",5.95,116.03,4,isha,18.0,,,naked-eye+SQM,rural,2009
+Faid et al. 2024 Sci. Reports,"Pantai Mek Mas, Kelantan",6.32,102.15,5,isha,17.49,,,SQM,pristine,2017-2022
+Faid et al. 2024 Sci. Reports,"Simpang Mengayau, Sabah",7.2,116.5,10,isha,17.49,,,SQM,pristine,2017-2022
+Khalifa et al. 2018 NRIAG,"Hail, Saudi Arabia (Isha)",27.52,41.7,980,isha,14.8,,32.0,SQM+photoelectric,pristine,2014-2015
+Hassan et al. 2014 NRIAG,Kottamia Observatory (Isha),30.03,31.82,477,isha,14.5,,,photoelectric+naked-eye,rural,1984-1987
+Semeida & Hassan 2018 BJBAS,Wadi Al Natron (Isha),30.5,30.1,0,isha,14.0,,38.0,naked-eye,pristine,2016-2017
+Hassan et al. 2014 NRIAG,Matrouh (Isha),31.35,27.24,30,isha,14.0,,,instruments,rural,1984-1987
+Asim Yusuf 2017,"Exmoor, UK (Isha)",51.15,-3.65,300,isha,15.0,,,naked-eye,pristine,2014-2016
+Hizbul Ulama UK 1987-1989,"Blackburn, UK (Isha)",53.75,-2.48,120,isha,15.0,,,naked-eye,suburban,1987-1989

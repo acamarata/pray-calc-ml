@@ -34,6 +34,73 @@ PROCESSED_DIR = Path(__file__).parent.parent / "data" / "processed"
 # Required fields after standardization
 REQUIRED_FIELDS = {"prayer", "date_local", "time_local", "utc_offset", "lat", "lng"}
 
+# Explicit allowlist of approved raw CSV files.
+# Only these filenames are ingested by ingest_all_raw_csvs().
+# Any new file written by the collection agent is silently skipped until
+# a human reviews and adds it here.
+#
+# STRICT RULE: Only files with GENUINE OBSERVED prayer times qualify.
+# "Observed" means a human observer or calibrated instrument (SQM, DSLR photometer)
+# was physically present on a specific night and recorded the actual time they
+# detected Fajr (dawn) or Isha (dusk). Back-calculated times from published mean
+# angles (aggregate_monthly_*.csv, aggregate_seasonal.csv) are NOT allowed —
+# those times are computed, not observed, making the dataset circular.
+#
+# NEVER add: aggregate_monthly_*.csv, aggregate_seasonal.csv, aladhan_*.csv,
+# waktusolat_*.csv, jakim_*.csv, or any file where times come from an algorithm.
+APPROVED_RAW_CSVS: frozenset[str] = frozenset(
+    {
+        # Kassim & Bahali 2017 — 13 nights, DSLR photometry, east-coast Malaysia
+        "kassim_bahali_2017_malaysia.csv",
+        # Moonsighting.com — genuine human eye-sighting reports
+        "moonsighting_com_sightings.csv",
+        # Per-date records from specific papers — SQM instrument measurements
+        # on specific calendar nights. Approved after manual review.
+        #
+        # EXCLUDED — abdelhadi_2022_malaysia_sqm.csv (Y.A.-F. Abdel-Hadi & A.H. Hassan 2022,
+        # IJAA doi:10.4236/ijaa.2022.121002): Confirmed that Tables 3-11 provide only
+        # solar depression angles (no local clock times). All 8 Fajr + 12 Isha times in
+        # this CSV were reverse-engineered from published Do angles. Exact Do==back-calc
+        # matches (to 3 d.p.) confirm circularity. Paper is valid research but cannot
+        # provide genuine per-night observation times for our pipeline.
+        "khalifa_2018_saudi_desert.csv",
+        # Hidayatulloh 2023 UIN Walisongo thesis — 10 nights SOOF+SQM, 2 sites in South Sulawesi
+        # Bulukumba (Bortle 1, dark sky) + Takalar (Bortle 4, suburban). Makassar excluded (Bortle 9, LP).
+        # Time column is inferred from published SQM depression angle (per-night instrument reading).
+        "walisongo_2022_sulawesi_sqm.csv",
+        # BRIN multistation SQM 2018 — per-night SQM readings from 8 Indonesian stations
+        # (Agam, Bandung, Biak, Garut, Pasuruan, Pontianak, Sumedang, Subang)
+        # Extracted by brin_multistation_processor.py from raw .dat files.
+        # Reference: Damanhuri & Mukarram LAPAN 2022.
+        "brin_multistation_fajr.csv",
+        # NOTE: Shaukat 2015 Fajr and Isha Booklet — Blackburn Lancashire UK (1987-88),
+        # Tando Adam Pakistan (1970), and Ithaca NY (1991) observations are all already
+        # in verified_sightings.py. Do NOT add shaukat_2015_blackburn_uk.csv or
+        # shaukat_2015_other_sites.csv here — they would create duplicates.
+        # EXCLUDED — brin_multistation_isha.csv
+        # The MPSAS zenith-threshold method detects when the ZENITH sky reaches near-dark
+        # level (~13° mean depression at equatorial Indonesian stations). Shafaq Abyad is
+        # defined as the disappearance of the white glow on the WESTERN HORIZON, which
+        # occurs later (~17-18° at equatorial sites per Niri & Zainuddin 2007, Sabah).
+        # The 4-5° systematic offset means these records do not represent Shafaq Abyad
+        # horizon observations. File retained in raw_sightings/ for future analysis.
+        # Kassim Bahali et al. 2019 IJMET — 8 clear-sky nights from Dungun (Malaysia) + Sabang (Indonesia)
+        # Clear sky subset from Table 6. New locations not in kassim_bahali_2017_malaysia.csv.
+        # Times inferred from average of DSLR and SQM depression angles.
+        "kassim_bahali_2019_ijmet.csv",
+        # EXCLUDED — brin_multistation_isha.csv
+        # The MPSAS zenith-threshold method detects when the ZENITH sky reaches near-dark
+        # level (~13° mean depression at equatorial Indonesian stations). Shafaq Abyad is
+        # defined as the disappearance of the white glow on the WESTERN HORIZON, which
+        # occurs later (~17-18° at equatorial sites per Niri & Zainuddin 2007, Sabah).
+        # The 4-5° systematic offset is confirmed: BRIN records back-calculate to 12-13°
+        # while genuine Shafaq Abyad at the same latitudes gives 17-18°. These records
+        # do not represent Shafaq Abyad horizon observations. File retained for reference.
+        # Add new approved files here — must be genuine per-night observations
+        # "new_source.csv",  # Author Year — location, method, date range
+    }
+)
+
 # Standard column aliases for CSV imports
 COLUMN_ALIASES: dict[str, list[str]] = {
     "prayer":      ["prayer", "type", "salah", "salat"],
@@ -182,7 +249,12 @@ def load_raw_csv(path: str | Path) -> list[dict]:
 
 def ingest_all_raw_csvs(lookup_elevation: bool = True) -> list[dict]:
     """
-    Load and standardize all CSV files in data/raw/raw_sightings/.
+    Load and standardize approved CSV files from data/raw/raw_sightings/.
+
+    Only files listed in APPROVED_RAW_CSVS are ingested. Any other files
+    present in the directory are logged as warnings but skipped — this
+    prevents the collection agent from accidentally poisoning the dataset
+    with circular or computed data.
 
     Optionally looks up elevation for records with elevation_m == 0.
     """
@@ -193,8 +265,18 @@ def ingest_all_raw_csvs(lookup_elevation: bool = True) -> list[dict]:
         log.info("No raw CSV files found in %s", RAW_DIR)
         return []
 
+    approved = [f for f in csv_files if f.name in APPROVED_RAW_CSVS]
+    skipped = [f.name for f in csv_files if f.name not in APPROVED_RAW_CSVS]
+    if skipped:
+        log.warning(
+            "Skipping %d unapproved file(s) in raw_sightings/ — add to "
+            "APPROVED_RAW_CSVS in ingest.py after manual review: %s",
+            len(skipped),
+            ", ".join(skipped[:5]) + (f" ... (+{len(skipped)-5} more)" if len(skipped) > 5 else ""),
+        )
+
     all_records: list[dict] = []
-    for f in csv_files:
+    for f in approved:
         records = load_raw_csv(f)
         all_records.extend(records)
         log.info("  %s: %d records", f.name, len(records))

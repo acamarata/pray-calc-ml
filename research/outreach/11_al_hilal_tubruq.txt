@@ -1,0 +1,26 @@
+To: (via ResearchGate or email to authors of the Al-Hilal 2021 paper, idosi.org)
+Subject: Request for Per-Night Dawn Observation Data from Tubruq Libya (1053 Observations)
+
+Assalamu alaykum wa rahmatullahi wa barakatuh,
+
+My name is Ali Camarata. I am an independent researcher building an open-source dataset of verified Fajr observations for empirical Islamic prayer time modeling.
+
+Your study of 1,053 naked-eye dawn observations in Tubruq, Libya over approximately three years is remarkable for both its duration and its use of direct human observation rather than instrumental measurement. This makes it uniquely valuable for calibrating prayer time models to real human perception of Subh Sadiq.
+
+The published paper presents aggregate results. Would you be willing to share the per-night observation log? For each of the 1,053 observations, I need:
+
+- Calendar date
+- Locally observed time of true dawn (Fajr Sadiq)
+- Sky condition (clear, cloudy, etc.)
+- Any observer notes
+
+Even a subset of the data would be a significant contribution. A dataset of this size from a single North African location would dramatically improve our model's coverage of the 30-35N latitude band.
+
+Our project: https://github.com/acamarata/pray-calc-ml
+Current dataset: 4,200+ Fajr observations from 140+ sites across 20+ countries.
+
+Full attribution to all authors in our open-source repository and any publications.
+
+Jazakallahu khairan,
+Ali Camarata
+alisalaah@gmail.com

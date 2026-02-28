@@ -1,0 +1,34 @@
+To: (via ResearchGate messages to Mohammed G. Rashed and A.H. Hassan)
+Subject: Request for Per-Night Twilight Observation Data — Open-Source Prayer Time Dataset
+
+Dear Dr. Rashed and Dr. Hassan,
+
+My name is Ali Camarata. I am building an open-source dataset of verified Fajr and Isha twilight observations for empirical Islamic prayer time modeling.
+
+Your research at NRIAG represents some of the most comprehensive twilight photometry work in the Middle East and North Africa region. I have been studying your publications extensively:
+
+- Hassan et al. (2014), NRIAG J. Astronomy & Geophysics 3:23-26 (Kottamia, Baharia, Matrouh, Aswan)
+- Hassan et al. (2016), NRIAG J. 5:9-15 (Sinai, Assiut)
+- Rashed et al. (2022), IJMET 13(10):8-24 (Wadi al-Hitan, Fayum)
+- Semeida & Hassan (2018), BJBAS 7:286-290 (Wadi Al Natron)
+- Hassan et al. (2020), Taylor & Francis (multi-site Egypt polynomial model)
+- Rashed & Hassan (2025), Springer (6 Egyptian sites, 2015-2019)
+
+These papers publish mean depression angles across many observation nights, but the per-night raw data (specific dates with specific observed times) would be invaluable for training latitude-dependent predictive models.
+
+Would you be willing to share the per-night observation logs from any of your campaigns? The multi-site 2015-2019 dataset (Kottamia, Alexandria, Matrouh, Hurghada, Marsa Alam, Dahab) would be particularly valuable given its geographic diversity across Egypt.
+
+For each observation night, I need:
+- Calendar date
+- Site name and coordinates
+- Local observed time of Fajr onset (morning) and/or Isha onset (evening)
+- Sky condition notes (if available)
+
+Our project: https://github.com/acamarata/pray-calc-ml
+Current dataset: 4,200+ verified observations from 140+ sites worldwide. Egyptian data currently limited to aggregate records from your publications.
+
+Full attribution to NRIAG would be included in all outputs. I would also be happy to share our compiled global dataset for your own research.
+
+Best regards,
+Ali Camarata
+alisalaah@gmail.com

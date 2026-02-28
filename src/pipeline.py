@@ -41,6 +41,7 @@ sys.path.insert(0, str(ROOT))
 
 from src.angle_calc import depression_angle
 from src.collect.openfajr import fetch_openfajr
+from src.collect.precomputed_angles import load_precomputed_angles
 from src.collect.verified_sightings import load_verified_sightings
 from src.elevation import get_elevations_batch
 from src.ingest import ingest_all_raw_csvs
@@ -89,6 +90,121 @@ def build_dataset(
     print("Loading manually verified sightings...")
     manual_df = load_verified_sightings()
     print(f"  {len(manual_df)} manually compiled records")
+
+    # Quality gate: drop records whose times were INFERRED from a published mean
+    # depression angle rather than actually observed.  These are circular — the
+    # back-calculated angle would reproduce the very value used to compute the
+    # time, providing no independent calibration signal.
+    #
+    # Markers that identify non-genuine records.
+    # These patterns are checked in both the notes field and the source field.
+    # A record matching ANY marker is dropped before angle computation.
+    #
+    # RULE: Only records with directly OBSERVED times qualify. "Observed" means
+    # a human observer or calibrated instrument (SQM, DSLR, photoelectric) was
+    # physically present on a SPECIFIC NIGHT and recorded the ACTUAL time of
+    # Fajr (subh sadiq) or Isha (shafaq al-abyad disappearance). Any time
+    # computed from a known angle, aggregated from multiple nights, or taken
+    # from a government timetable is CIRCULAR or INVALID.
+    BAD_NOTE_MARKERS = (
+        # Time-computation markers — present in notes field on synthetic records
+        "time inferred",
+        "aggregate representative",
+        "seasonal representative",
+        "representative date",
+        "time computed",
+        "back-calculated from",
+        # Government timetable sources — calculated, not observed
+        "JAKIM official",
+        "Diyanet official",
+        "Diyanet Turkey",
+        "Diyanet research",
+        "Ministry of Awqaf",
+        "Ministry of Habous",
+        "Moroccan Ministry",
+        "Iranian Supreme Court",
+        "Bangladesh Islamic Foundation",
+        "Nigeria Islamic astronomy consensus",
+        "MJC South Africa standard",
+        "Umm al-Qura standard",
+        "Pakistan astronomical estimates",
+        "Dubai Awqaf",
+        "Oman Ministry",
+        "Kerala Islamic Body",
+        "Jordanian Ministry",
+        # Community aggregate sources — collective aggregates, not per-night
+        "AFIC community observations",
+        "Community observations",
+        # Khalid Shaukat seasonal aggregate records added by collect agent
+        # (genuine moonsighting.com sighting reports are in approved raw CSVs;
+        #  these verified_sightings entries are seasonal proxies, not per-night)
+        "Moonsighting.com / Khalid Shaukat",
+        # Per-source exclusions of known synthetic datasets
+        "Hamidi 2007-2008 Isha",
+        # OIF UMSU 2017-2020 — 4 Fajr records on exact solstice/equinox dates
+        # with "proposed national angle" note; seasonal proxies, not per-night.
+        # (The 4 Isha records are already excluded via "Shafaq Ahmar" in notes.)
+        "OIF UMSU 2017-2020",
+        # Kassim Bahali 2018 Sains Malaysia 47(11) KL records — note explicitly
+        # says "mean depression ~16.67° across 64 days"; solstice/equinox dates.
+        "Kassim Bahali 2018, Sains Malaysia 47(11)",
+        # Rashed et al. 2025 NRIAG Alexandria — 3 records on solstice/equinox
+        # dates, unverified paper, no per-night observation evidence.
+        "Rashed et al. 2025, NRIAG J., Alexandria",
+        # Bandung/Jombang 2012 AIP — both records fall on Jun 21 (summer
+        # solstice); no per-night provenance confirmed.
+        "Bandung/Jombang study 2012",
+        # Lubis et al. 2025 urban LP mean — 4 records where times were inferred
+        # from mean D0=13° (comment: "Using D0=13.0° for representative dates"),
+        # not read directly from per-night SQM curves. Note marker is the tag
+        # "(urban LP mean)" in the notes field.
+        "urban LP mean",
+        # Saksono & Fulazzaky 2020 NRIAG — confirmed aggregate-only paper
+        # (26 Jun-Jul 2015 nights → single mean D0=14° ± 0.6°; no per-night data).
+        "Saksono & Fulazzaky 2020",
+        # Saksono 2020 NRIAG J. same paper, alternate citation — times cannot
+        # be attributed to specific per-night SQM readings in this publication.
+        "Saksono 2020, NRIAG J.",
+        # Hassan et al. 2016 NRIAG J. 5:9-15 — confirmed aggregate-only paper
+        # (Sinai Do=14.66°, Assiut Do=13.48°; ~80 cloudless obs each, no dates).
+        "Hassan et al. 2016, NRIAG J. 5:9-15",
+        # Rashed et al. 2022 IJMET — paper not found in any indexed database;
+        # records mix unverified "actual obs dates" with explicit aggregate ones.
+        "Rashed et al. 2022, IJMET",
+        # Pinem et al. 2024 JMEA — all 8 records fall on exact solstice/equinox
+        # dates with mean D0 in notes; seasonal proxy pattern.
+        "Pinem et al. 2024",
+        # Generic note-pattern filters — catch any record whose notes contain
+        # these aggregate / representative / inferred tags regardless of source.
+        "equinox aggregate",   # "spring equinox aggregate", "autumn equinox aggregate (SH)", …
+        "solstice aggregate",  # "summer solstice aggregate (SH)", "winter solstice aggregate", …
+        "equinox inferred",    # "spring equinox inferred", "autumn equinox inferred"
+        "solstice inferred",   # "summer solstice inferred", "winter solstice inferred"
+        "rep date",            # "rep date May 10 2013" — short for "representative date"
+        # Wrong Isha criterion — shafaq ahmar (red dusk, ~14°) is NOT the
+        # criterion used in this dataset. Only shafaq al-abyad (white dusk,
+        # ~17-18°) qualifies. Drop any record explicitly labeled shafaq ahmar.
+        "Shafaq Ahmar",
+        "shafaq ahmar",
+        "red dusk twilight",
+    )
+    bad_notes = manual_df["notes"].apply(
+        lambda n: any(m in str(n) for m in BAD_NOTE_MARKERS)
+    )
+    bad_source = manual_df["source"].apply(
+        lambda s: any(m in str(s) for m in BAD_NOTE_MARKERS)
+    )
+    non_genuine = bad_notes | bad_source
+    if non_genuine.any():
+        dropped = manual_df[non_genuine]
+        print(
+            f"  Dropping {non_genuine.sum()} non-genuine record(s) "
+            f"(inferred/aggregate/timetable-sourced):"
+        )
+        for src, cnt in dropped["source"].value_counts().items():
+            print(f"    {cnt:3d}  {src}")
+        manual_df = manual_df[~non_genuine].copy()
+    print(f"  {len(manual_df)} genuine manually compiled records (after quality filter)")
 
     print("Loading ingested raw CSV sightings...")
     raw_records = ingest_all_raw_csvs(lookup_elevation=False)
@@ -147,6 +263,18 @@ def build_dataset(
         angles.append(angle)
 
     all_df["angle"] = angles
+
+    # ── Merge pre-computed angle records ──
+    # These come from sources where the solar depression angle was measured
+    # directly by instrument (SQM time-series + linear fitting) rather than
+    # inferred from a clock time. They bypass back-calculation entirely.
+    print("Loading pre-computed angle records (SQM instrument data)...")
+    precomp_df = load_precomputed_angles()
+    if len(precomp_df) > 0:
+        print(f"  {len(precomp_df)} pre-computed angle records")
+        all_df = pd.concat([all_df, precomp_df], ignore_index=True)
+    else:
+        print("  0 pre-computed angle records")
 
     # Drop records with implausible depression angles — data entry / timing errors.
     # Floor thresholds based on the full body of peer-reviewed sighting research:

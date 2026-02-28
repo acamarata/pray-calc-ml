@@ -1,0 +1,31 @@
+To: (via ResearchGate message to Dani Herdiwijaya, ITB Astronomy)
+Subject: Request for Per-Night Twilight Observation Data — Yogyakarta 136-Night Campaign
+
+Assalamu alaykum,
+
+My name is Ali Camarata. I am building an open-source global dataset of verified Fajr and Isha twilight observations for empirical prayer time modeling.
+
+Your multi-station twilight photometry work across Indonesia has been very valuable to our project:
+
+- Herdiwijaya (2015), ICOPIA proceedings (5 sites)
+- Herdiwijaya (2016), J. Phys.: Conf. Ser. 771, 012033 (Kupang Amfoang)
+- Herdiwijaya (2020), J. Phys.: Conf. Ser. 1523, 012007 (5-station comparison)
+
+The Yogyakarta 2014-2016 campaign with 136 clear SQM nights is particularly interesting. The published papers report aggregate statistics (mean D0 = 17 degrees), but I am wondering whether the per-night observation log is available.
+
+Specifically, for each of the 136 clear observation nights, I would need:
+- Calendar date
+- Local time of Fajr onset detection
+- Local time of Isha detection (if evening observations were conducted)
+- Any per-night sky quality or weather notes
+
+Similarly, if per-night logs exist for Bosscha, Bandung, Cimahi, or Kupang Amfoang, those would also be valuable.
+
+Our project: https://github.com/acamarata/pray-calc-ml
+Current dataset: 4,200+ verified observations. Indonesian data includes BRIN 8-station, Kassim Bahali DSLR, LAPAN, Walisongo, and aggregate records from your publications.
+
+I would be happy to share the full compiled dataset and provide attribution in all outputs.
+
+Jazakallahu khairan,
+Ali Camarata
+alisalaah@gmail.com

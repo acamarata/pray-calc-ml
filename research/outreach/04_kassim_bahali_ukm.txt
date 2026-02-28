@@ -1,0 +1,27 @@
+To: (via ResearchGate message to Kassim Bahali / Bahali Kassim)
+Subject: Request for Additional DSLR Twilight Observation Data — Open-Source Prayer Time Research
+
+Assalamu alaykum,
+
+My name is Ali Camarata. I am an independent researcher building an open-source global dataset of verified Fajr twilight observations.
+
+Your DSLR photometry work across Malaysian and Indonesian coastal sites is some of the most valuable per-night observation data in the published literature:
+
+- Kassim Bahali (2018), Sains Malaysiana 47(11):2877-2885 (Pekan, Kuala Terengganu)
+- Kassim Bahali et al. (2019), JATMA 7(2):37-48 (21 sites across Malaysia, Indonesia, Thailand)
+
+I have extracted all per-date observations from both papers (approximately 90 individual site-night records) and they form a core part of our Malaysian/Indonesian dataset.
+
+I am writing to ask:
+1. Do you have additional observation nights beyond what was published in these two papers? Many DSLR campaigns produce more nights than are included in the final publication tables.
+2. Have you conducted any Isha (evening twilight / Shafaq al-Abyad) observations? Our Isha dataset is critically small (only 19 records globally) and Malaysian coastal sites would be ideal.
+3. Are there any more recent campaigns (2020-2025) at new sites?
+
+Even 10-20 additional per-night records would meaningfully expand the dataset.
+
+Our project: https://github.com/acamarata/pray-calc-ml
+Current dataset: 4,200+ Fajr observations from 140+ sites, with Malaysian east-coast sites well represented thanks to your work.
+
+Jazakallahu khairan,
+Ali Camarata
+alisalaah@gmail.com

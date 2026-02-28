@@ -1,0 +1,3774 @@
+{
+  "hizbululama_full": {
+    "source_id": "hizbululama_full",
+    "url": "http://www.hizbululama.org.uk/files/salat_timing.html",
+    "title": "Hizbul Ulama UK Blackburn 1987-1989",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Blackburn, Lancashire, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:38:33.549580+00:00",
+    "notes": ""
+  },
+  "openfajr_bradford": {
+    "source_id": "openfajr_bradford",
+    "url": "https://openfajr.org/ical/bradford",
+    "title": "OpenFajr Bradford UK iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Bradford, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:52.640116+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "kassim_bahali_2017_pdf": {
+    "source_id": "kassim_bahali_2017_pdf",
+    "url": "https://www.ukm.my/jsm/malay_pdf/jil47bil11_2018/P_1913-1920.pdf",
+    "title": "Kassim Bahali 2018 - Malaysia+Indonesia DSLR",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Kuala Lumpur + Indonesia multi-site",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:30.382989+00:00",
+    "notes": "Could not download PDF"
+  },
+  "openfajr_leicester": {
+    "source_id": "openfajr_leicester",
+    "url": "https://openfajr.org/ical/leicester",
+    "title": "OpenFajr Leicester UK iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Leicester, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:54.926294+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "herdiwijaya_2020_multi_pdf": {
+    "source_id": "herdiwijaya_2020_multi_pdf",
+    "url": "https://www.researchgate.net/publication/342241083",
+    "title": "Herdiwijaya 2020 Multi-station Indonesia SQM",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Bosscha + Bandung + Yogyakarta + Kupang",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:30.398260+00:00",
+    "notes": "PDF text extraction failed"
+  },
+  "oif_umsu_book_2021": {
+    "source_id": "oif_umsu_book_2021",
+    "url": "https://oif.umsu.ac.id/wp-content/uploads/2021/10/Buku-Observasi-1.pdf",
+    "title": "OIF UMSU Medan Observation Book 2017-2020",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Medan, North Sumatra, Indonesia",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:38:39.313551+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "hassan_egypt_2022": {
+    "source_id": "hassan_egypt_2022",
+    "url": "https://www.academia.edu/78098166",
+    "title": "Hassan 2022 - Egypt Matrouh Fajr and Isha",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Matrouh, Egypt",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:30.404275+00:00",
+    "notes": "PDF text extraction failed"
+  },
+  "abdelhadi_malaysia_2022": {
+    "source_id": "abdelhadi_malaysia_2022",
+    "url": "https://scirp.org/pdf/ijaa_2022021011401116.pdf",
+    "title": "Abdel-Hadi 2022 Malaysia 4-site SQM",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Teluk Kemang + Kuala Lumpur + Kuala Lipis + Port Klang",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:38:39.968805+00:00",
+    "notes": ""
+  },
+  "oif_umsu_website": {
+    "source_id": "oif_umsu_website",
+    "url": "https://oif.umsu.ac.id/data-pengamatan/",
+    "title": "OIF UMSU Medan Observation Data",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Medan, North Sumatra, Indonesia",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:57.723551+00:00",
+    "notes": "Could not fetch HTML"
+  },
+  "saksono_2013_multi_country": {
+    "source_id": "saksono_2013_multi_country",
+    "url": "https://www.academia.edu/5205739",
+    "title": "Saksono 2013 Multi-country SQM Fajr+Isha",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Indonesia+Malaysia+USA+Egypt+Turkey",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:30.409116+00:00",
+    "notes": "PDF text extraction failed"
+  },
+  "taha_2025_saudi_egypt_mauritania": {
+    "source_id": "taha_2025_saudi_egypt_mauritania",
+    "url": "https://emiratesscholar.com/directory/index.php/ejsas/article/view/1047",
+    "title": "Taha 2025 Saudi Arabia Egypt Mauritania twilight",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Riyadh + 15th May City Egypt + Mauritania",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:30.412896+00:00",
+    "notes": "PDF text extraction failed"
+  },
+  "niri_sabah_isha": {
+    "source_id": "niri_sabah_isha",
+    "url": "https://www.researchgate.net/publication/296919834",
+    "title": "Niri Zainuddin - Tanjung Aru Sabah Isha Shafaq",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Tanjung Aru, Sabah, Malaysia",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:30.417308+00:00",
+    "notes": "PDF text extraction failed"
+  },
+  "khalifa_2018_hail_saudi": {
+    "source_id": "khalifa_2018_hail_saudi",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2090997718300051",
+    "title": "Khalifa 2018 - Hail Saudi Arabia naked-eye Fajr observations",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Hail, Saudi Arabia",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:32.745273+00:00",
+    "notes": "Could not download PDF"
+  },
+  "oif_umsu_jurnal_subuh": {
+    "source_id": "oif_umsu_jurnal_subuh",
+    "url": "https://oif.umsu.ac.id/jurnal-subuh/",
+    "title": "OIF UMSU Jurnal Subuh (Dawn Journal)",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Medan, North Sumatra, Indonesia",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:00.554601+00:00",
+    "notes": "Could not fetch HTML"
+  },
+  "hamidi_uk_2007": {
+    "source_id": "hamidi_uk_2007",
+    "url": "https://www.researchgate.net/publication/282855601",
+    "title": "Hamidi 2007-2008 UK Fajr naked-eye observations",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "UK (multiple sites)",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:34.884807+00:00",
+    "notes": "Could not download PDF"
+  },
+  "timau_brin_fajr_2020": {
+    "source_id": "timau_brin_fajr_2020",
+    "url": "https://ejournal.brin.go.id/jstars/article/view/4",
+    "title": "BRIN Mount Timau Fajr SQM 2020",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Mount Timau, East Nusa Tenggara, Indonesia",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:42:33.712449+00:00",
+    "notes": ""
+  },
+  "timau_brin_fajr_2022": {
+    "source_id": "timau_brin_fajr_2022",
+    "url": "https://ejournal.brin.go.id/jstars/article/view/2022fajr",
+    "title": "BRIN Mount Timau Fajr SQM 2022",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Mount Timau, East Nusa Tenggara, Indonesia",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:38:44.984405+00:00",
+    "notes": ""
+  },
+  "timau_sqm_database": {
+    "source_id": "timau_sqm_database",
+    "url": "https://montimau.brin.go.id/sqm-data/",
+    "title": "Mount Timau SQM public database",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Mount Timau, East Nusa Tenggara, Indonesia",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:18.598987+00:00",
+    "notes": "Could not fetch HTML"
+  },
+  "ss_347779964012": {
+    "source_id": "ss_347779964012",
+    "url": "https://download.atlantis-press.com/article/16737.pdf",
+    "title": "Implications of Twilight Sky Brightness Measurements on Fajr Prayer and Young Crescent Observation",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:38:46.481690+00:00",
+    "notes": ""
+  },
+  "ss_07aa70d12d32": {
+    "source_id": "ss_07aa70d12d32",
+    "url": "http://astro.nau.edu.ua/papers/AstSR_2016_Vol_12_Iss_1_P_72.pdf",
+    "title": "“Churyumov Unified Network”: new tasks for astronomical observatories to protect society",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:38:51.218053+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "south_sulawesi_2022": {
+    "source_id": "south_sulawesi_2022",
+    "url": "https://www.researchgate.net/publication/370473115",
+    "title": "South Sulawesi SOOF Bulukumba 2022-2023",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Bulukumba + Takalar, South Sulawesi, Indonesia",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:36.985733+00:00",
+    "notes": "Could not download PDF"
+  },
+  "ss_492c4c954c86": {
+    "source_id": "ss_492c4c954c86",
+    "url": "https://www.nature.com/articles/035307a0.pdf",
+    "title": "Our Astronomical Column",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:38:51.218549+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "moonsighting_fajr_log": {
+    "source_id": "moonsighting_fajr_log",
+    "url": "http://www.moonsighting.com/fajr.html",
+    "title": "Moonsighting.com Fajr observation log",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Chicago, IL, USA",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:20.862084+00:00",
+    "notes": "Could not fetch HTML"
+  },
+  "moonsighting_isha_log": {
+    "source_id": "moonsighting_isha_log",
+    "url": "http://www.moonsighting.com/isha.html",
+    "title": "Moonsighting.com Isha observation log",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Chicago, IL, USA",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:23.133096+00:00",
+    "notes": "Could not fetch HTML"
+  },
+  "moonsighting_data_2010": {
+    "source_id": "moonsighting_data_2010",
+    "url": "http://www.moonsighting.com/data/fajr2010.html",
+    "title": "Moonsighting.com Fajr 2010 data",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Chicago, IL, USA",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:25.361888+00:00",
+    "notes": "Could not fetch HTML"
+  },
+  "moonsighting_data_usa": {
+    "source_id": "moonsighting_data_usa",
+    "url": "http://www.moonsighting.com/data/fajr_usa.html",
+    "title": "Moonsighting.com Fajr USA data",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Chicago, IL, USA",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:08:27.600115+00:00",
+    "notes": "Could not fetch HTML"
+  },
+  "ss_519aed1eef20": {
+    "source_id": "ss_519aed1eef20",
+    "url": "https://www.atmos-meas-tech.net/10/15/2017/amt-10-15-2017.pdf",
+    "title": "Open-loop GPS signal tracking at low elevation angles from a ground-based observation site",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:39:36.413935+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "openfajr_88633619": {
+    "source_id": "openfajr_88633619",
+    "url": "https://calendar.google.com/calendar/ical/qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com/public/basic.ics",
+    "title": "OpenFajr UK city iCal",
+    "type": "ical",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 4266,
+    "records_accepted": 4266,
+    "location": "UK, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:39:41.349613+00:00",
+    "notes": ""
+  },
+  "openfajr_63467579": {
+    "source_id": "openfajr_63467579",
+    "url": "https://calendar.google.com/calendar/embed?src=qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com&ctz=Europe/London",
+    "title": "OpenFajr london iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "london, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:42:16.434463+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "openfajr_lut_uk": {
+    "source_id": "openfajr_lut_uk",
+    "url": "https://openfajr.org/ical/lut",
+    "title": "OpenFajr Luton UK iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Luton, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:45.627522+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "openfajr_manchester": {
+    "source_id": "openfajr_manchester",
+    "url": "https://openfajr.org/ical/manchester",
+    "title": "OpenFajr Manchester UK iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "Manchester, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:47.913846+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "openfajr_london": {
+    "source_id": "openfajr_london",
+    "url": "https://openfajr.org/ical/london",
+    "title": "OpenFajr London UK iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "London, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:50.306424+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "openfajr_50696514": {
+    "source_id": "openfajr_50696514",
+    "url": "https://calendar.google.com/calendar/embed?src=qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com&ctz=Europe/London",
+    "title": "OpenFajr london iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "london, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:46:06.935971+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "openfajr_16250060": {
+    "source_id": "openfajr_16250060",
+    "url": "https://calendar.google.com/calendar/ical/qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com/public/basic.ics",
+    "title": "OpenFajr UK city iCal",
+    "type": "ical",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 4266,
+    "records_accepted": 4266,
+    "location": "UK, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:40:01.952733+00:00",
+    "notes": ""
+  },
+  "ss_d15cfd424efd": {
+    "source_id": "ss_d15cfd424efd",
+    "url": "https://informatics.bmj.com/content/bmjhci/28/1/e100310.full.pdf",
+    "title": "Smartphone-based remote monitoring of vision in macular disease enables early detection of worsening",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:40:49.336923+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "ss_40f6d4194006": {
+    "source_id": "ss_40f6d4194006",
+    "url": "https://serval.unil.ch/resource/serval:BIB_C863F227027C.P001/REF.pdf",
+    "title": "Allocation of Internal Medicine Resident Time in a Swiss Hospital: A Time and Motion Study of Day an",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:40:49.338568+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "ss_9977d663adb1": {
+    "source_id": "ss_9977d663adb1",
+    "url": "https://ntrs.nasa.gov/api/citations/19710005269/downloads/19710005269.pdf",
+    "title": "Rocket‐borne ultraviolet spectrometer measurement of OH resonance fluorescence with a diffusive tran",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:41:17.424415+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "ss_2b773b51e939": {
+    "source_id": "ss_2b773b51e939",
+    "url": "https://www.nature.com/articles/116768b0.pdf",
+    "title": "Societies and Academies",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:41:17.427134+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "ss_f4b71262ef15": {
+    "source_id": "ss_f4b71262ef15",
+    "url": "http://bura.brunel.ac.uk/bitstream/2438/25459/3/MeetingAbstract.pdf",
+    "title": "British Association of Sport and Exercise Sciences abstracts",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:41:21.311566+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "ss_00452ea796fe": {
+    "source_id": "ss_00452ea796fe",
+    "url": "https://journals.ametsoc.org/downloadpdf/journals/apme/37/2/1520-0450_1998_037_0184_mosprs_2.0.co_2.pdf",
+    "title": "Modeling of Submillimeter Passive Remote Sensing of Cirrus Clouds",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:41:21.312944+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "ss_7c4ed0ba9298": {
+    "source_id": "ss_7c4ed0ba9298",
+    "url": "https://academic.oup.com/mnras/article-pdf/405/4/2683/18446078/mnras0405-2683.pdf",
+    "title": "Infrared astronomical characteristics of the Roque de los Muchachos Observatory: precipitable water ",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:41:22.875877+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "ss_fd6e7a941fcd": {
+    "source_id": "ss_fd6e7a941fcd",
+    "url": "https://digital.csic.es/bitstream/10261/137142/1/accesoRestringido.pdf",
+    "title": "On the Orientation of Megalithic Monuments of the Transjordan Plateau: New Clues for an Astronomical",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:41:22.878029+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "openfajr_84792530": {
+    "source_id": "openfajr_84792530",
+    "url": "https://calendar.google.com/calendar/embed?src=qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com&ctz=Europe/London",
+    "title": "OpenFajr london iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "london, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:53:23.836238+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "openfajr_72423526": {
+    "source_id": "openfajr_72423526",
+    "url": "https://calendar.google.com/calendar/ical/qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com/public/basic.ics",
+    "title": "OpenFajr UK city iCal",
+    "type": "ical",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 4266,
+    "records_accepted": 4266,
+    "location": "UK, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:41:46.679115+00:00",
+    "notes": ""
+  },
+  "ss_daa276e487e3": {
+    "source_id": "ss_daa276e487e3",
+    "url": "https://angeo.copernicus.org/articles/25/1175/2007/angeo-25-1175-2007.pdf",
+    "title": "Energetic particle sounding of the magnetospheric cusp with ISEE-1",
+    "type": "pdf",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 4,
+    "records_accepted": 4,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:45:04.820352+00:00",
+    "notes": ""
+  },
+  "ss_3dd377ce7fe9": {
+    "source_id": "ss_3dd377ce7fe9",
+    "url": "https://www.ann-geophys.net/20/311/2002/angeo-20-311-2002.pdf",
+    "title": "Cusp-like plasma in high altitudes: a statistical study of the width and location of the cusp from M",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:47:18.169871+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "openfajr_73146549": {
+    "source_id": "openfajr_73146549",
+    "url": "https://calendar.google.com/calendar/ical/qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com/public/basic.ics",
+    "title": "OpenFajr UK city iCal",
+    "type": "ical",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 4266,
+    "records_accepted": 4266,
+    "location": "UK, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:47:48.636068+00:00",
+    "notes": ""
+  },
+  "openfajr_46848102": {
+    "source_id": "openfajr_46848102",
+    "url": "https://calendar.google.com/calendar/embed?src=qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com&ctz=Europe/London",
+    "title": "OpenFajr london iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "london, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:02:41.596092+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "openfajr_25573377": {
+    "source_id": "openfajr_25573377",
+    "url": "https://calendar.google.com/calendar/ical/qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com/public/basic.ics",
+    "title": "OpenFajr UK city iCal",
+    "type": "ical",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 4266,
+    "records_accepted": 4266,
+    "location": "UK, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:50:37.661656+00:00",
+    "notes": ""
+  },
+  "openfajr_32735887": {
+    "source_id": "openfajr_32735887",
+    "url": "https://calendar.google.com/calendar/embed?src=qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com&ctz=Europe/London",
+    "title": "OpenFajr london iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "london, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:43.334593+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "ss_20a6fdd1c6e5": {
+    "source_id": "ss_20a6fdd1c6e5",
+    "url": "https://www.nature.com/articles/019014a0.pdf",
+    "title": "Our Astronomical Column",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:53:38.580034+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "ss_bbd84c8e84e2": {
+    "source_id": "ss_bbd84c8e84e2",
+    "url": "https://www.nature.com/articles/019245a0.pdf",
+    "title": "Our Astronomical Column",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:53:38.581036+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "ss_7a7df0ee8ac7": {
+    "source_id": "ss_7a7df0ee8ac7",
+    "url": "https://www.aanda.org/articles/aa/pdf/2024/01/aa46058-23.pdf",
+    "title": "Euclid preparation. XXXII. Evaluating the weak-lensing cluster mass biases using the Three Hundred P",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T12:56:37.417687+00:00",
+    "notes": "Not prayer-relevant"
+  },
+  "openfajr_09146779": {
+    "source_id": "openfajr_09146779",
+    "url": "https://calendar.google.com/calendar/ical/qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com/public/basic.ics",
+    "title": "OpenFajr UK city iCal",
+    "type": "ical",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 4266,
+    "records_accepted": 4266,
+    "location": "UK, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:00:45.857043+00:00",
+    "notes": ""
+  },
+  "openfajr_90526901": {
+    "source_id": "openfajr_90526901",
+    "url": "https://calendar.google.com/calendar/embed?src=qmho4v5896ki2mc5supv0ikgfs%40group.calendar.google.com&ctz=Europe/London",
+    "title": "OpenFajr london iCal",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "london, UK",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:00:45.864986+00:00",
+    "notes": "Not a valid iCal feed"
+  },
+  "web_9001335102": {
+    "source_id": "web_9001335102",
+    "url": "https://shafaq.com/en",
+    "title": "Shafaq News",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:22.960817+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_3043663067": {
+    "source_id": "web_3043663067",
+    "url": "https://shafaq.com/en/society/BBC-expands-partnership-with-Shafaq-News-launches-its-podcasts-on-the-agency-s-English-platform",
+    "title": "BBC expands partnership with Shafaq News, launches its podcasts on the ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:25.681321+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_2881022945": {
+    "source_id": "web_2881022945",
+    "url": "https://shafaq.com/en/Security/Iraqi-forces-clear-armed-faction-site-in-Baghdad",
+    "title": "Iraqi forces clear armed faction site in Baghdad - Shafaq News",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:28.211573+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_7201747402": {
+    "source_id": "web_7201747402",
+    "url": "https://shafaq.com/en/Report/Iraqi-factions-raise-alert-levels-Messages-to-Iran-and-US",
+    "title": "Iraqi factions raise alert levels: Messages to Iran and US",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:07:30.905375+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_7352523926": {
+    "source_id": "web_7352523926",
+    "url": "https://www.islamicfinder.org/prayer-times/",
+    "title": "Islamic Prayer Times Today, Salat Time, Namaz Timings | IslamicFinder",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:14.621897+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_7092939363": {
+    "source_id": "web_7092939363",
+    "url": "https://en.wikipedia.org/wiki/Fajr_(prayer)",
+    "title": "Fajr (prayer) - Wikipedia",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:16.901726+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_8634823007": {
+    "source_id": "web_8634823007",
+    "url": "https://www.edarabia.com/prayer-times-usa/",
+    "title": "Islamic Prayer Time in USA - Edarabia - Salah / Azan (Today)",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:20.221777+00:00",
+    "notes": "Content not relevant"
+  },
+  "pdf_9099851065": {
+    "source_id": "pdf_9099851065",
+    "url": "https://icohp.org/Instructions%20for%20Performing%20Prayers.pdf",
+    "title": "PDF from https://www.wikihow.com/Perform-Fajr-Salaah",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:24.914822+00:00",
+    "notes": ""
+  },
+  "pdf_0109114346": {
+    "source_id": "pdf_0109114346",
+    "url": "https://www.icorlando.org/pdfs/How_to_perform_Salaah.pdf",
+    "title": "PDF from https://www.wikihow.com/Perform-Fajr-Salaah",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:27.786132+00:00",
+    "notes": ""
+  },
+  "web_2536264607": {
+    "source_id": "web_2536264607",
+    "url": "https://www.wikihow.com/Perform-Fajr-Salaah",
+    "title": "How to Perform Fajr Salaah (Dawn Prayer) in Islam - wikiHow",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:27.786882+00:00",
+    "notes": "Scanned for PDF links; found 2"
+  },
+  "web_5431810516": {
+    "source_id": "web_5431810516",
+    "url": "https://www.scribd.com/document/372975351/Angle-of-Fajr-and-Isha",
+    "title": "Fajr and Isha Timing Calculations | PDF | Twilight | Dawn - Scribd",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:28.706538+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_3482978963": {
+    "source_id": "web_3482978963",
+    "url": "https://quranoasis.com/fajr-prayer/",
+    "title": "What Time Is Fajr Prayer?, Fajr Prayer, Fajr Prayers, Al-fajr Prayer ...",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:30.505201+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_0980993393": {
+    "source_id": "web_0980993393",
+    "url": "https://www.cureus.com/articles/248539-between-fajr-and-isha-understanding-sleep-dynamics-in-islamic-prayer-timings-and-astronomical-considerations",
+    "title": "Between Fajr and Isha: Understanding Sleep Dynamics in Islamic Prayer ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:31.165712+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_8060640237": {
+    "source_id": "web_8060640237",
+    "url": "https://www.academia.edu/figures/38854850/table-8-this-difference-in-time-measure-depression-do-and",
+    "title": "Table 8 - from Naked Eye Estimates of Morning Prayer at - Academia.edu",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:33.672171+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_5251926347": {
+    "source_id": "web_5251926347",
+    "url": "https://www.qurantime.net/prayer-time/",
+    "title": "Islamic Prayer Times Today, Salah & Namaz Timings by Location",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:33.964064+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_1020021316": {
+    "source_id": "web_1020021316",
+    "url": "https://www.researchgate.net/figure/The-times-of-the-beginning-of-twilight-Al-Fajr-for-the-adopted-sun-vertical-depression_tbl2_361563678",
+    "title": "The times of the beginning of twilight (Al-Fajr) for the adopted sun... | Download Scientific Diagram",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:35.824286+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_5437898059": {
+    "source_id": "web_5437898059",
+    "url": "https://www.researchgate.net/figure/the-basis-of-calculated-of-the-beginning-Al-Fajr-and-evening-Al-Eshaa-twilight-for_tbl1_361563678",
+    "title": "the basis of calculated of the beginning (Al-Fajr) and evening... | Download Scientific Diagram",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:37.943717+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_2951283636": {
+    "source_id": "web_2951283636",
+    "url": "https://fiqhcouncil.org/the-suggested-calculation-method-for-fajr-and-isha/",
+    "title": "How should the times of Fajr and Isha be calculated? - Fiqh Council of North America",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:40.367015+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_3560777705": {
+    "source_id": "web_3560777705",
+    "url": "https://www.islam21c.com/islamic-law/a-modern-misunderstanding-of-fajr/",
+    "title": "A Modern Misunderstanding of Fajr | Islam21c",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:43.818403+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_2795892206": {
+    "source_id": "web_2795892206",
+    "url": "https://www.muftisays.com/forums/14-peoples-say/7626-true-dawn--astronomical-twilight.html",
+    "title": "True Dawn - Astronomical Twilight",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:46.192796+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_3462213753": {
+    "source_id": "web_3462213753",
+    "url": "https://seforimblog.com/2021/02/depression-angles/",
+    "title": "Depression Angles – The Seforim Blog",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:48.939793+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "pdf_2822017873": {
+    "source_id": "pdf_2822017873",
+    "url": "https://backtofoundation.wordpress.com/wp-content/uploads/2017/08/pdf2-observations1.pdf",
+    "title": "PDF from https://backtofoundation.wordpress.com/2017/08/18/what-are-t",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:53.934107+00:00",
+    "notes": ""
+  },
+  "web_5594071296": {
+    "source_id": "web_5594071296",
+    "url": "https://app.muslimpro.com/prayer-times",
+    "title": "Accurate Prayer Times, Salah (Namaz) & Azan Worldwide | Muslim Pro",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:52.330897+00:00",
+    "notes": "Could not fetch"
+  },
+  "pdf_6601084578": {
+    "source_id": "pdf_6601084578",
+    "url": "https://backtofoundation.wordpress.com/wp-content/uploads/2017/08/pdf1-twilight-pictures.pdf",
+    "title": "PDF from https://backtofoundation.wordpress.com/2017/08/18/what-are-t",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:56.165523+00:00",
+    "notes": ""
+  },
+  "web_8291577724": {
+    "source_id": "web_8291577724",
+    "url": "https://onlinequrankidsschool.com/fajar-prayer/",
+    "title": "Fajar Prayer – Importance, Timing, and How to Perform It",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:55.885957+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_4344422522": {
+    "source_id": "web_4344422522",
+    "url": "https://backtofoundation.wordpress.com/2017/08/18/what-are-the-correct-timings-for-fajr-and-isha-prayers/",
+    "title": "What are the correct timings for Fajr and Isha Prayers? | Back to Foundation",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:56.167734+00:00",
+    "notes": "Scanned for PDF links; found 2"
+  },
+  "web_6044701180": {
+    "source_id": "web_6044701180",
+    "url": "https://www.quora.com/When-does-Fajr-actually-begin-Astronomical-Twilight-18-or-Nautical-Twilight-12",
+    "title": "When does Fajr actually begin? Astronomical Twilight (18°) or Nautical Twilight (12°)? - Quora",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:58.305805+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_6561793628": {
+    "source_id": "web_6561793628",
+    "url": "https://www.quranfocus.com/blog/fajr-namaz-guide-for-beginners-a-simple-step-by-step-guide/",
+    "title": "Fajr Namaz Guide for Beginners: Steps, Benefits, and Tips",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:20:58.569776+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_4470797634": {
+    "source_id": "web_4470797634",
+    "url": "https://al-islam.org/articles/al-fajr-sadiq-new-perspective-sayyid-muhammad-rizvi",
+    "title": "Al-Fajr As-Sadiq: A New Perspective | Al-Islam.org",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:00.653995+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_4557197094": {
+    "source_id": "web_4557197094",
+    "url": "https://www.muslimconverts.com/prayer/how_to_pray.htm",
+    "title": "Muslim Prayer guide for fajr salah (namaz,prayer)",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:01.322083+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_3867908450": {
+    "source_id": "web_3867908450",
+    "url": "https://www.researchgate.net/publication/274375919_Implications_of_Twilight_Sky_Brightness_Measurements_on_Fajr_Prayer_and_Young_Crescent_Observation",
+    "title": "(PDF) Implications of Twilight Sky Brightness Measurements on Fajr Prayer and Young Crescent Observation",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:02.835656+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_1605865412": {
+    "source_id": "web_1605865412",
+    "url": "https://seekersguidance.org/answers/prayer-shafii-fiqh/at-which-angle-do-fajr-and-isha-start-respectively/",
+    "title": "At Which Angle Do Fajr and Isha Start Respectively? - SeekersGuidance",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:05.374765+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_5555777745": {
+    "source_id": "web_5555777745",
+    "url": "https://en.wikipedia.org/wiki/Salah_times",
+    "title": "Salah times - Wikipedia",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:11.837783+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_8020196756": {
+    "source_id": "web_8020196756",
+    "url": "https://www.qurantime.net/prayer-time/",
+    "title": "Islamic Prayer Times Today, Salah & Namaz Timings by Location",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:11.840114+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_7913748094": {
+    "source_id": "web_7913748094",
+    "url": "https://www.academia.edu/60160373/Predicting_the_accurate_period_of_true_dawn_using_a_third_degree_polynomial_model",
+    "title": "(PDF) Predicting the accurate period of true dawn using a third-degree...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:14.759432+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_0891282775": {
+    "source_id": "web_0891282775",
+    "url": "https://isubqo.com/prayer-time/russia/moscow/moscow",
+    "title": "Today's Prayer (Namaz / Salah) Times in Moscow | iSubqo",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:47.644439+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_6999923354": {
+    "source_id": "web_6999923354",
+    "url": "https://prayertimesalert.com/tr/turkiye/ankara",
+    "title": "Ankara Namaz Vakitleri - Güncel Ezan Saatleri | Global Prayer Times",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:50.801285+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_7837273670": {
+    "source_id": "web_7837273670",
+    "url": "https://timesprayer.org/en-tr/34/istanbul",
+    "title": "Istanbul Prayer Times 2026 (Namaz - Salah Time) | TimesPrayer",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:53.805310+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_8767533724": {
+    "source_id": "web_8767533724",
+    "url": "https://www.islamicfinder.org/prayer-times/",
+    "title": "Islamic Prayer Times Today, Salat Time, Namaz Timings | IslamicFinder",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:53.808535+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_3131275613": {
+    "source_id": "web_3131275613",
+    "url": "https://www.dawateislami.net/prayer-times/",
+    "title": "Daily Islamic Prayer Times and Salah (Namaz) Time Table",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:21:56.115776+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_0536696747": {
+    "source_id": "web_0536696747",
+    "url": "https://www.minbar.su/jour/article/view/979?locale=en_US",
+    "title": "True Dawn: the defi nition by the Sharia and the terminology ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:00.754570+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_7118625260": {
+    "source_id": "web_7118625260",
+    "url": "https://islamqa.org/hanafi/darul-iftaa-chicago/271056/fajr-prayer-time-15-or-18-degrees-an-islamic-perspective/",
+    "title": "Fajr Prayer Time 15 or 18 Degrees An Islamic Perspective",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:02.952201+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "pdf_4211266089": {
+    "source_id": "pdf_4211266089",
+    "url": "https://islamweb.net/service_agreement/en.pdf",
+    "title": "PDF from https://islamweb.net/en/fatwa/473398/the-time-of-the-fajr-mo",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:07.460613+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "web_2027384755": {
+    "source_id": "web_2027384755",
+    "url": "https://islamweb.net/en/fatwa/473398/the-time-of-the-fajr-morning-prayer",
+    "title": "The time of the Fajr morning prayer - إسلام ويب",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:07.461678+00:00",
+    "notes": "Scanned for PDF links; found 1"
+  },
+  "web_6502518535": {
+    "source_id": "web_6502518535",
+    "url": "https://media.neliti.com/media/publications/587903-muslim-prayer-times-on-astronomy-and-fuq-c47ffc55.pdf",
+    "title": "Muslim Prayer Times on Astronomy and Fukaha",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:09.934368+00:00",
+    "notes": ""
+  },
+  "web_2561914480": {
+    "source_id": "web_2561914480",
+    "url": "https://www.researchgate.net/publication/355284903_True_Dawn_the_defi_nition_by_the_Sharia_and_the_terminology_of_astronomers",
+    "title": "(PDF) True Dawn: the defi nition by the Sharia and the ...",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:12.052551+00:00",
+    "notes": "Could not fetch"
+  },
+  "pdf_1401826025": {
+    "source_id": "pdf_1401826025",
+    "url": "http://unihedron.com/projects/sqm-l/Instruction_sheet.pdf",
+    "title": "PDF from https://en.wikipedia.org/wiki/Sky_quality_meter",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:19.786693+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "web_3987783210": {
+    "source_id": "web_3987783210",
+    "url": "https://en.wikipedia.org/wiki/Sky_quality_meter",
+    "title": "Sky quality meter - Wikipedia",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:19.787812+00:00",
+    "notes": "Scanned for PDF links; found 1"
+  },
+  "pdf_5532308257": {
+    "source_id": "pdf_5532308257",
+    "url": "http://unihedron.com/projects/darksky/sqmreport_v1p4.pdf",
+    "title": "PDF from https://www.unihedron.com/projects/sqm-l/",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:24.735579+00:00",
+    "notes": ""
+  },
+  "pdf_5146856129": {
+    "source_id": "pdf_5146856129",
+    "url": "http://unihedron.com/projects/darksky/MeasureNightSkyBrightnessAtVariousZenithAngles-221.pdf",
+    "title": "PDF from https://www.unihedron.com/projects/sqm-l/",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:27.220415+00:00",
+    "notes": ""
+  },
+  "pdf_4339752481": {
+    "source_id": "pdf_4339752481",
+    "url": "http://www.ee.ryerson.ca/~phiscock/astronomy/light-pollution/dark-box.pdf",
+    "title": "PDF from https://www.unihedron.com/projects/sqm-l/",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:29.581550+00:00",
+    "notes": "Could not download PDF"
+  },
+  "web_2236208526": {
+    "source_id": "web_2236208526",
+    "url": "https://www.unihedron.com/projects/sqm-l/",
+    "title": "Sky Quality Meter-L",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:29.586119+00:00",
+    "notes": "Scanned for PDF links; found 15"
+  },
+  "web_3142253727": {
+    "source_id": "web_3142253727",
+    "url": "https://www.unihedron.com/projects/darksky/",
+    "title": "Sky Quality Meter",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:31.842825+00:00",
+    "notes": "Scanned for PDF links; found 15"
+  },
+  "web_9281357524": {
+    "source_id": "web_9281357524",
+    "url": "https://academic.oup.com/mnras/article/467/3/2966/3061573",
+    "title": "Sky Quality Meter measurements in a colour-changing world | Monthly Notices of the Royal Astronomical Society | Oxford Academic",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:33.957994+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_7337181821": {
+    "source_id": "web_7337181821",
+    "url": "https://www.aavso.org/sites/default/files/jaavso/v38n1/132.pdf",
+    "title": "Documenting Local Night Sky Brightness Using ...",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:36.436011+00:00",
+    "notes": ""
+  },
+  "pdf_8660574652": {
+    "source_id": "pdf_8660574652",
+    "url": "https://darksky.org/app/uploads/2022/12/Example-of-SQM-L-Data.pdf",
+    "title": "PDF from https://darksky.org/resources/guides-and-how-tos/how-to-cond",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:40.779003+00:00",
+    "notes": ""
+  },
+  "web_8165946305": {
+    "source_id": "web_8165946305",
+    "url": "https://darksky.org/resources/guides-and-how-tos/how-to-conduct-a-night-sky-quality-survey/",
+    "title": "How to conduct a night sky quality survey | DarkSky International",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:40.780491+00:00",
+    "notes": "Scanned for PDF links; found 1"
+  },
+  "web_9649298812": {
+    "source_id": "web_9649298812",
+    "url": "https://agenaastro.com/media/documents/report.pdf",
+    "title": "Night Sky Photometry with Sky Quality Meter",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:43.330338+00:00",
+    "notes": "PDF text extraction failed"
+  },
+  "web_5276549015": {
+    "source_id": "web_5276549015",
+    "url": "https://optcorp.com/products/uh-sqm-l-sky-quality-meter-with-lens-sqm-l",
+    "title": "Unihedron Sky Quality Meter with Lens (SQM-L) | OPT Telescopes",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:45.972337+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_8383410134": {
+    "source_id": "web_8383410134",
+    "url": "https://unihedron.com/projects/sqm-le/",
+    "title": "Sky Quality Meter-LE",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:22:48.177232+00:00",
+    "notes": "Scanned for PDF links; found 17"
+  },
+  "web_9540357528": {
+    "source_id": "web_9540357528",
+    "url": "http://www.darkskiesawareness.org/sqm-zlpa.php",
+    "title": "Dark Skies Awareness: Sky Quality Meter monitoring",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:06.396276+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_2469236166": {
+    "source_id": "web_2469236166",
+    "url": "https://www.researchgate.net/publication/228399779_Night_Sky_Photometry_with_Sky_Quality_Meter",
+    "title": "(PDF) Night Sky Photometry with Sky Quality Meter",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:08.511424+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_5256079899": {
+    "source_id": "web_5256079899",
+    "url": "https://unihedron.com/projects/sqm-lu/",
+    "title": "Sky Quality Meter-LU",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:10.709623+00:00",
+    "notes": "Scanned for PDF links; found 15"
+  },
+  "web_0234136776": {
+    "source_id": "web_0234136776",
+    "url": "https://www.darkskyoregon.org/sky-quality-meters",
+    "title": "FAQs 2 — DarkSky Oregon",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:13.085073+00:00",
+    "notes": "Content not relevant"
+  },
+  "pdf_1413466016": {
+    "source_id": "pdf_1413466016",
+    "url": "http://unihedron.com/projects/darksky/TSL237-E32.pdf",
+    "title": "PDF from https://unihedron.com/projects/darksky/faqsqm.php",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:17.796701+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "pdf_8781380656": {
+    "source_id": "pdf_8781380656",
+    "url": "http://unihedron.com/projects/darksky/hcm500_files/CM500.pdf",
+    "title": "PDF from https://unihedron.com/projects/darksky/faqsqm.php",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:20.182984+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "web_4761987946": {
+    "source_id": "web_4761987946",
+    "url": "https://unihedron.com/projects/darksky/faqsqm.php",
+    "title": "Sky Quality Meter - FAQ",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:20.186353+00:00",
+    "notes": "Scanned for PDF links; found 3"
+  },
+  "pdf_9568806950": {
+    "source_id": "pdf_9568806950",
+    "url": "https://agenaastro.com/downloads/manuals/Instruction_sheet.pdf",
+    "title": "PDF from https://agenaastro.com/unihedron-sky-quality-meter-lens-sqm-",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:24.832311+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "web_0757964290": {
+    "source_id": "web_0757964290",
+    "url": "https://agenaastro.com/unihedron-sky-quality-meter-lens-sqm-l.html",
+    "title": "Unihedron Sky Quality Meter with Lens - Narrow Field of View # SQM-L",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:24.833575+00:00",
+    "notes": "Scanned for PDF links; found 1"
+  },
+  "pdf_0117033194": {
+    "source_id": "pdf_0117033194",
+    "url": "http://www.icoproject.org/pdf/saifee_2106.pdf",
+    "title": "PDF from https://fiqhcouncil.org/fifteen-or-eighteen-degrees-calculat",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:35.239321+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "pdf_0578229772": {
+    "source_id": "pdf_0578229772",
+    "url": "http://Yaqub Miftahi, Fajar and Isha Times & Twilight (Hizbul Ulama, UK), see www.hizbululama.org.uk/files/fazar_&_isha_times.pdf",
+    "title": "PDF from https://fiqhcouncil.org/fifteen-or-eighteen-degrees-calculat",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:53.261478+00:00",
+    "notes": "Could not download PDF"
+  },
+  "web_2428204099": {
+    "source_id": "web_2428204099",
+    "url": "https://fiqhcouncil.org/fifteen-or-eighteen-degrees-calculating-prayer-fasting-times-in-islam/",
+    "title": "Fifteen or Eighteen Degrees: Calculating Prayer & Fasting Times in Islam - Fiqh Council of North America",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:53.269100+00:00",
+    "notes": "Scanned for PDF links; found 2"
+  },
+  "web_0774790147": {
+    "source_id": "web_0774790147",
+    "url": "https://praytimes.org/calculation",
+    "title": "Prayer Times Calculation | Pray Times!",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:55.465244+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_8828823747": {
+    "source_id": "web_8828823747",
+    "url": "https://astronomycenter.net/pdf/mohamoud_2017.pdf",
+    "title": "Mathematical Calculation of Prayer Times Using Spherical ...",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:23:58.062984+00:00",
+    "notes": ""
+  },
+  "web_3042262804": {
+    "source_id": "web_3042262804",
+    "url": "https://iszlam.com/english/item/2552-declaration-on-the-actual-time-of-fajr-prayer",
+    "title": "DECLARATION on the actual time of Fajr prayer",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:01.756834+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_0894002773": {
+    "source_id": "web_0894002773",
+    "url": "https://www.moonsighting.com/how-we.html",
+    "title": "How We Calculate Muslim Prayer Times",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:03.981300+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "pdf_7188918981": {
+    "source_id": "pdf_7188918981",
+    "url": "https://www.islamweb.net/service_agreement/en.pdf",
+    "title": "PDF from https://www.islamweb.net/en/fatwa/473398/the-time-of-the-faj",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:09.543033+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "web_4932033205": {
+    "source_id": "web_4932033205",
+    "url": "https://www.islamweb.net/en/fatwa/473398/the-time-of-the-fajr-morning-prayer",
+    "title": "The time of the Fajr morning prayer",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:09.544440+00:00",
+    "notes": "Scanned for PDF links; found 1"
+  },
+  "web_9782682534": {
+    "source_id": "web_9782682534",
+    "url": "https://www.salahtimes.com/faq/twilight",
+    "title": "Frequently Asked Questions (faq) - Search for 'twilight'",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:12.565072+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_1023650984": {
+    "source_id": "web_1023650984",
+    "url": "https://www.prayerminder.com/faq.php",
+    "title": "Prayer Minder FAQ / Help",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:14.849460+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_1247501067": {
+    "source_id": "web_1247501067",
+    "url": "https://www.academia.edu/3257542/The_Application_of_Sky_Quality_Meter_at_Twilight_for_Islamic_Prayer_Time",
+    "title": "(PDF) The Application of Sky Quality Meter at Twilight for Islamic Prayer Time",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:17.548807+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_5753968766": {
+    "source_id": "web_5753968766",
+    "url": "https://islamqa.org/hanafi/askimam/15652/which-angle-of-twilight-to-use-for-prayer-time-calculations/",
+    "title": "Which angle of twilight to use for prayer time calculations? - IslamQA",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:19.922675+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_4198676940": {
+    "source_id": "web_4198676940",
+    "url": "https://journal.walisongo.ac.id/index.php/al-hilal/article/view/8625",
+    "title": "NAKED EYE ESTIMATES OF MORNING PRAYER AT TUBRUQ OF LIBYA | Al-Hilal: Journal of Islamic Astronomy",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:23.627847+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_2727024255": {
+    "source_id": "web_2727024255",
+    "url": "https://www.antaranews.com/berita/631826/fenomena-munculnya-fajar-penanda-subuh",
+    "title": "Fenomena munculnya fajar penanda subuh - ANTARA News",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:37.542842+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_5601982053": {
+    "source_id": "web_5601982053",
+    "url": "https://www.researchgate.net/publication/370473115_PENGAMATAN_FAJAR_SADIQ_MENGGUNAKAN_SISTEM_OTOMATISASI_OBSERVASI_FAJAR_DAN_SKY_QUALITY_METER_STAND_ALONE_DI_SULAWESI_SELATAN_STUDI_KOMPARATIF",
+    "title": "(PDF) pengamatan fajar ṣādiq menggunakan sistem otomatisasi...",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:39.665379+00:00",
+    "notes": "Could not fetch"
+  },
+  "pdf_8123547722": {
+    "source_id": "pdf_8123547722",
+    "url": "http://www.baabeilm.org/articles/scientific_fajr.pdf",
+    "title": "PDF from https://ejournal.iaingawi.ac.id/index.php/almabsut/article/v",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:54.429189+00:00",
+    "notes": "Could not download PDF"
+  },
+  "web_2799648354": {
+    "source_id": "web_2799648354",
+    "url": "https://ejournal.iaingawi.ac.id/index.php/almabsut/article/view/77",
+    "title": "Pengaruh suhu dan kelembaban atmosfer terhadap...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:54.433417+00:00",
+    "notes": "Scanned for PDF links; found 1"
+  },
+  "web_3582021606": {
+    "source_id": "web_3582021606",
+    "url": "https://www.popmuda.id/waktu-subuh/",
+    "title": "Waktu Subuh: Panduan Komprehensif Penentuan, Fenomena, dan...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:57.444135+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_5227115453": {
+    "source_id": "web_5227115453",
+    "url": "https://id.truecalendar.com/ramadan-dates/2026",
+    "title": "Kapan Ramadhan dimulai pada tahun 2026? • TrueCalendar",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:24:59.592125+00:00",
+    "notes": "Content not relevant"
+  },
+  "pdf_9092016416": {
+    "source_id": "pdf_9092016416",
+    "url": "https://web.archive.org/web/20211205225742/https://flaterco.com/files/xtide/Bowditch.pdf",
+    "title": "PDF from https://en.wikipedia.org/wiki/Twilight",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:21.234454+00:00",
+    "notes": "PDF text extraction failed"
+  },
+  "pdf_0151412492": {
+    "source_id": "pdf_0151412492",
+    "url": "https://web.archive.org/web/20250620040156/https://acoeweather.tradoc.army.mil/USAACE1151.pdf",
+    "title": "PDF from https://en.wikipedia.org/wiki/Twilight",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:24.350119+00:00",
+    "notes": "PDF text extraction failed"
+  },
+  "pdf_9279091693": {
+    "source_id": "pdf_9279091693",
+    "url": "https://flaterco.com/files/xtide/Bowditch.pdf",
+    "title": "PDF from https://en.wikipedia.org/wiki/Twilight",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:26.493026+00:00",
+    "notes": "Could not download PDF"
+  },
+  "web_0813701100": {
+    "source_id": "web_0813701100",
+    "url": "https://en.wikipedia.org/wiki/Twilight",
+    "title": "Twilight - Wikipedia",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:26.501795+00:00",
+    "notes": "Scanned for PDF links; found 4"
+  },
+  "web_2818702623": {
+    "source_id": "web_2818702623",
+    "url": "https://nooralsaiftourism.com/nottingham-prayer-times/",
+    "title": "Nottingham Prayer Times Today | Accurate Daily Salah Timetable",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:30.323246+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "pdf_9294188698": {
+    "source_id": "pdf_9294188698",
+    "url": "https://freeislamicwill.com/sites/default/files/2025-11/Huddserfield%20Salaah_Times_2026_FIW.pdf",
+    "title": "PDF from https://freeislamicwill.com/index.php/astronomical-data-cons",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:36.470830+00:00",
+    "notes": ""
+  },
+  "pdf_8885828963": {
+    "source_id": "pdf_8885828963",
+    "url": "https://freeislamicwill.com/sites/default/files/2025-05/Huddersfield_Prayer_Times_2025.pdf",
+    "title": "PDF from https://freeislamicwill.com/index.php/astronomical-data-cons",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:39.877987+00:00",
+    "notes": ""
+  },
+  "web_3572747145": {
+    "source_id": "web_3572747145",
+    "url": "https://freeislamicwill.com/index.php/astronomical-data-constructing-prayer-timetable-huddersfield",
+    "title": "Astronomical Data for Constructing Prayer Timetable for",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:39.879457+00:00",
+    "notes": "Scanned for PDF links; found 2"
+  },
+  "web_8105699042": {
+    "source_id": "web_8105699042",
+    "url": "https://www.islam21c.com/special/prayer-fasting-ramadan-timetables/",
+    "title": "Summarising 18 Degree Prayer Timetable | Islam21c",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:43.460754+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_9889841570": {
+    "source_id": "web_9889841570",
+    "url": "https://freeislamicwill.com/astronomical-data-constructing-prayer-timetable-huddersfield",
+    "title": "Astronomical Data for Constructing Prayer Timetable for",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:46.123184+00:00",
+    "notes": "Scanned for PDF links; found 2"
+  },
+  "web_3471300286": {
+    "source_id": "web_3471300286",
+    "url": "https://www.researchgate.net/publication/344246350_Quantification_of_Evening_and_Morning_Twilight_Angle_in_Malaysia_A_Suburban-Rural_Areas_Comparison",
+    "title": "(PDF) Quantification of Evening and Morning Twilight Angle in...",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:49.036549+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_4489792397": {
+    "source_id": "web_4489792397",
+    "url": "https://askthescholars.com/fifteen-or-eighteen-degrees-calculating-prayer-fasting-times-in-islam/",
+    "title": "Fifteen or Eighteen Degrees: Calculating Prayer & Fasting",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:51.776620+00:00",
+    "notes": "Scanned for PDF links; found 1"
+  },
+  "web_2704559178": {
+    "source_id": "web_2704559178",
+    "url": "https://freeislamicwill.com/index.php/astronomical-data-prayer-times-huddersfield",
+    "title": "Astronomical Data for Prayer Times for Huddersfield | FIW Online",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:54.212072+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_4315940763": {
+    "source_id": "web_4315940763",
+    "url": "https://eathealthy365.com/comparing-methods-of-ezan-vakti-calculation/",
+    "title": "Differences in Ezan Vakti Calculation Methods",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:25:56.447822+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_3680220009": {
+    "source_id": "web_3680220009",
+    "url": "https://thetokyotourist.com/prayer-times/",
+    "title": "Prayer Times Explained: 5 Essential Daily Rules Muslims Trust",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:00.814724+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_9189729587": {
+    "source_id": "web_9189729587",
+    "url": "https://islamqa.org/hanafi/daruliftaa-birmingham/19679/fajr-and-esha-time-in-britain/",
+    "title": "Fajr and Esha time in Britain - IslamQA",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:03.087908+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_6165280947": {
+    "source_id": "web_6165280947",
+    "url": "https://www.academia.edu/Documents/in/Prayer_Times",
+    "title": "Prayer Times Research Papers - Academia.edu",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:06.224145+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_2865842474": {
+    "source_id": "web_2865842474",
+    "url": "https://www.idosi.org/mejsr/mejsr12(1)12/18.pdf",
+    "title": "Astronomical Determinations for the Beginning Prayer Time of ...",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:12.125024+00:00",
+    "notes": ""
+  },
+  "web_8807329813": {
+    "source_id": "web_8807329813",
+    "url": "https://www.academia.edu/71594995/Astronomical_Determinations_for_the_Beginning_Prayer_Time_of_Isha",
+    "title": "(PDF) Astronomical Determinations for the Beginning Prayer Time of ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:14.711661+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_5803694333": {
+    "source_id": "web_5803694333",
+    "url": "https://pubs.aip.org/aip/acp/article-pdf/doi/10.1063/5.0058253/14235120/040002_1_online.pdf",
+    "title": "Measurement of Subh And Isha At Besut, Kuala Terengganu By Using ...",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:16.862352+00:00",
+    "notes": "Could not download PDF"
+  },
+  "web_7514308005": {
+    "source_id": "web_7514308005",
+    "url": "https://www.academia.edu/84540573/Red_to_White_Transition_of_Dusk_Horizon",
+    "title": "(PDF) Red-to-White Transition of Dusk Horizon - Academia.edu",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:19.725507+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_6416949859": {
+    "source_id": "web_6416949859",
+    "url": "https://www.academia.edu/73476430/Astronomical_determinations_for_the_beginning_prayer_time_of_Isha",
+    "title": "(PDF) Astronomical determinations for the beginning prayer ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:22.341357+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_9787735628": {
+    "source_id": "web_9787735628",
+    "url": "https://www.researchgate.net/publication/296919834_Astronomical_determinations_for_the_beginning_prayer_time_of_Isha'",
+    "title": "Astronomical determinations for the beginning prayer time of ...",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:24.496417+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_3469991287": {
+    "source_id": "web_3469991287",
+    "url": "https://deepwiki.com/batoulapps/adhan-js/4.2-astronomical-calculations",
+    "title": "Astronomical Calculations | batoulapps/adhan-js | DeepWiki",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:27.791740+00:00",
+    "notes": "Content not relevant"
+  },
+  "pdf_9498964284": {
+    "source_id": "pdf_9498964284",
+    "url": "http://www.irtis.org.uk/images/Prayer.pdf",
+    "title": "PDF from https://ahlussunnah.boards.net/thread/658/notes-article-why-",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:32.667825+00:00",
+    "notes": "Could not download PDF"
+  },
+  "web_3433406641": {
+    "source_id": "web_3433406641",
+    "url": "https://ahlussunnah.boards.net/thread/658/notes-article-why-degrees-incorrect",
+    "title": "Notes on the article: \"Why 18 degrees is incorrect\" | Ahlus Sunnah Forum",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:32.672302+00:00",
+    "notes": "Scanned for PDF links; found 1"
+  },
+  "web_9339166961": {
+    "source_id": "web_9339166961",
+    "url": "https://birka.nur.nu/prayertimes/prayertimes-references/quoted/sidq_comments-on-KShaukat.pdf",
+    "title": "[PDF] explanation of muslims prayer timing - Birka",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:35.924722+00:00",
+    "notes": ""
+  },
+  "web_5158037998": {
+    "source_id": "web_5158037998",
+    "url": "https://www.taybatrust.org/DawnProject/EstablishingDawnForNorthernLatitudes.pdf",
+    "title": "[PDF] Establishing Dawn - TaybaTrust",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:44.437860+00:00",
+    "notes": ""
+  },
+  "web_0270549371": {
+    "source_id": "web_0270549371",
+    "url": "https://github.com/zkry/awqat",
+    "title": "zkry/awqat: أوقات الصلاة - Islamic prayer times for Emacs - GitHub",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:47.158917+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_9686791602": {
+    "source_id": "web_9686791602",
+    "url": "https://astronomycenter.net/ref/birka.doc",
+    "title": "[DOC] الرابط الأصلي:",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:50.052602+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_6490859425": {
+    "source_id": "web_6490859425",
+    "url": "https://en.wikipedia.org/wiki/Sky_Quality_Meter",
+    "title": "Sky quality meter - Wikipedia",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:26:57.507704+00:00",
+    "notes": "Scanned for PDF links; found 1"
+  },
+  "web_0600819393": {
+    "source_id": "web_0600819393",
+    "url": "https://www.ijapm.org/show-31-118-1.html",
+    "title": "The Application of Sky Quality Meter at Twilight for Islamic ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:27:00.764402+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_5171419373": {
+    "source_id": "web_5171419373",
+    "url": "https://www.academia.edu/26478658/Application_of_SQM_for_sky_darkness_for_maghrib_and_isyak_prayer_time",
+    "title": "Application of SQM for sky darkness for maghrib and isyak ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:27:03.484836+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_7963515814": {
+    "source_id": "web_7963515814",
+    "url": "https://www.researchgate.net/publication/236644769_Background_theory_of_twilight_in_Isya_and_Subh_Prayer_Times",
+    "title": "(PDF) Background theory of twilight in Isya and Subh Prayer Times",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:27:06.271992+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_7223060137": {
+    "source_id": "web_7223060137",
+    "url": "https://www.timeanddate.com/astronomy/different-types-twilight.html",
+    "title": "The Different Types of Twilight , Dawn and Dusk",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:27:08.478082+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_4788446901": {
+    "source_id": "web_4788446901",
+    "url": "https://www.ijser.org/paper/Sky-Brightness-for-Determination-of-Fajr-and-Isha-Prayer-by-Using-Sky-Quality-Meter.html",
+    "title": "Sky Brightness for Determination of Fajr and Isha Prayer by ...",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:27:12.134229+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_8831134456": {
+    "source_id": "web_8831134456",
+    "url": "https://islamicnight.com/",
+    "title": "Islamic Night Calculator – The Best Times for Worship",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:27:19.360504+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_0858939077": {
+    "source_id": "web_0858939077",
+    "url": "https://central-mosque.com/index.php/Acts-of-Worship/calculating-prayer-times-for-your-local-masjid.html",
+    "title": "www.central-mosque.com - Calculating Prayer times for your local Masjid",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:27:22.691855+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_7691699016": {
+    "source_id": "web_7691699016",
+    "url": "https://radhifadlillah.com/blog/2020-09-06-calculating-prayer-times/",
+    "title": "Step by Step: Calculating Prayer Times - Radhi Fadlillah",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:27:24.863837+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_5537672090": {
+    "source_id": "web_5537672090",
+    "url": "https://www.muwaqqit.com/",
+    "title": "Muwaqqit — Astronomical Data for Muslims",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:27:43.484568+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_4175114383": {
+    "source_id": "web_4175114383",
+    "url": "https://time.now/articles/major-islamic-prayer-calculation-methods-explained/",
+    "title": "Major Islamic Prayer Calculation Methods Explained | Time.now",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:27:45.768772+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_1214604976": {
+    "source_id": "web_1214604976",
+    "url": "https://www.calislamic.com/fifteen-or-eighteen-degrees-calculating-prayer-and-fasting-times-in-islam/",
+    "title": "Fifteen or Eighteen Degrees – Calculating Prayer and Fasting Times in Islam – California Islamic University",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:28:03.921373+00:00",
+    "notes": "Could not fetch"
+  },
+  "pdf_0330561945": {
+    "source_id": "pdf_0330561945",
+    "url": "https://www.gpo.gov/fdsys/pkg/FR-2011-06-02/pdf/2011-13725.pdf",
+    "title": "PDF from https://www.science.gov/topicpages/t/twilight+sky+brightness",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:44:50.279335+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "pdf_1627950327": {
+    "source_id": "pdf_1627950327",
+    "url": "https://www.gpo.gov/fdsys/pkg/CFR-2010-title14-vol2/pdf/CFR-2010-title14-vol2-sec103-11.pdf",
+    "title": "PDF from https://www.science.gov/topicpages/t/twilight+sky+brightness",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:44:52.574889+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "pdf_8442828084": {
+    "source_id": "pdf_8442828084",
+    "url": "https://www.gpo.gov/fdsys/pkg/FR-2010-11-02/pdf/2010-27583.pdf",
+    "title": "PDF from https://www.science.gov/topicpages/t/twilight+sky+brightness",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:44:55.017303+00:00",
+    "notes": "PDF not relevant to prayer times"
+  },
+  "web_5012492624": {
+    "source_id": "web_5012492624",
+    "url": "https://www.science.gov/topicpages/t/twilight+sky+brightness.html",
+    "title": "twilight sky brightness: Topics by Science.gov",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:44:55.019021+00:00",
+    "notes": "Scanned for PDF links; found 4"
+  },
+  "web_9648726788": {
+    "source_id": "web_9648726788",
+    "url": "https://islam.stackexchange.com/questions/24964/are-fajr-isha-the-nautical-twilights",
+    "title": "practical islam - Are Fajr & Isha the Nautical Twilights? - Islam Stack Exchange",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:44:57.291841+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_4732885847": {
+    "source_id": "web_4732885847",
+    "url": "http://www.hizbululama.org.uk/highlights/why_18_degrees.html",
+    "title": "WHY 18 DEGREES IS INCORRECT",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:00.084763+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_4983357872": {
+    "source_id": "web_4983357872",
+    "url": "https://www.Answers.com/religion-and-spirituality/What_is_the_meaning_of_true_dawn_In_Islam",
+    "title": "What is the meaning of true dawn In Islam ? - Answers",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:06.518139+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_2203497071": {
+    "source_id": "web_2203497071",
+    "url": "https://www.researchgate.net/publication/364824887_Determination_of_the_True_Dawn_by_Several_Different_Ways_at_Fayum_in_Egypt",
+    "title": "Determination of the True Dawn by Several Different Ways at Fayum...",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:08.631325+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_0836788578": {
+    "source_id": "web_0836788578",
+    "url": "https://www.muftisays.com/forums/14-peoples-say/7626-true-dawn--astronomical-twilight.html?p=108534",
+    "title": "True Dawn - Astronomical Twilight | Forum",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:11.017829+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_3369568689": {
+    "source_id": "web_3369568689",
+    "url": "https://daruliftabirmingham.co.uk/home/ruling-on-determining-fajr-time-astronomical-twilight-18-observable-light/",
+    "title": "Ruling On Determining Fajr Time: Astronomical Twilight 18...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:15.689717+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_0243583661": {
+    "source_id": "web_0243583661",
+    "url": "https://feng.stafpu.bu.edu.eg/Surveying+Engineering/3666/publications/Saad+Zaki+Bolbol_pdf.pdf",
+    "title": "PDF Islamic Prayer Times Determined from Geodetic Astronomic Principles",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:18.859563+00:00",
+    "notes": "Could not download PDF"
+  },
+  "web_5224885823": {
+    "source_id": "web_5224885823",
+    "url": "https://www.academia.edu/100856804/Zodiac_Light_Detection_Based_on_Sky_Quality_Meter_SQM_Data_Preliminary_Study",
+    "title": "Zodiac Light Detection Based on Sky Quality Meter (SQM) Data",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:24.801772+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_4106019174": {
+    "source_id": "web_4106019174",
+    "url": "https://pdfs.semanticscholar.org/fba9/8df06d56ef35dd61a4e30474f678f8a63a79.pdf",
+    "title": "[PDF] DIY photometer in determining the beginning of dawn time in Cimahi City",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:27.959527+00:00",
+    "notes": ""
+  },
+  "web_8758505780": {
+    "source_id": "web_8758505780",
+    "url": "https://www.scilit.com/publications/d048183327aff6a485bbaf7592a0b8ba",
+    "title": "DIY Photometer Performance Test in Determining Morning Twilight | Scilit",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:30.102438+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_8683435768": {
+    "source_id": "web_8683435768",
+    "url": "https://www.academia.edu/85242932/Ideal_Data_to_Determine_Accurate_Fajr_Time",
+    "title": "(PDF) Ideal Data to Determine Accurate Fajr Time - Academia.edu",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:32.770388+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_9307504074": {
+    "source_id": "web_9307504074",
+    "url": "https://www.semanticscholar.org/paper/Sky-Brightness-for-Determination-of-Fajr-and-Isha-Asma-Zainuddin/9d471b62012f45487aec446597a06f6764a1245d",
+    "title": "Sky Brightness for Determination of Fajr and Isha Prayer by Using Sky ...",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:35.031596+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_1289098025": {
+    "source_id": "web_1289098025",
+    "url": "https://unihedron.com/projects/sqm-lu-dl/",
+    "title": "Sky Quality Meter-LU-DL - Unihedron",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:37.277730+00:00",
+    "notes": "Scanned for PDF links; found 15"
+  },
+  "web_4257763719": {
+    "source_id": "web_4257763719",
+    "url": "https://arxiv.org/pdf/1701.05019",
+    "title": "Sky Quality Meter measurements in a colour changing world",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:40.013806+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_8775691680": {
+    "source_id": "web_8775691680",
+    "url": "https://ieeexplore.ieee.org/document/8200798",
+    "title": "Sky Quality Meter measurements in a colour-changing world",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:42.284361+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_8311404422": {
+    "source_id": "web_8311404422",
+    "url": "https://www.mdpi.com/1424-8220/21/22/7544",
+    "title": "Verification of Angular Response of Sky Quality Meter with ...",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:44.405168+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_0838549183": {
+    "source_id": "web_0838549183",
+    "url": "https://discovery.researcher.life/article/contextualising-fajr-sadiq-response-to-dawn-research-findings-with-the-sky-quality-meter-sqm/1e8a1485eb0737659a182a888bd25642",
+    "title": "Contextualising Fajr Sadiq: Response to Dawn Research Findings with ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:51.852279+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_6606024007": {
+    "source_id": "web_6606024007",
+    "url": "https://pubs.aip.org/aip/acp/article-pdf/doi/10.1063/5.0114620/17433341/030005_1_5.0114620.pdf",
+    "title": "Fajr Identification Based on Hue Histogram of Astrophotography ...",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:53.963678+00:00",
+    "notes": "Could not download PDF"
+  },
+  "web_5235968468": {
+    "source_id": "web_5235968468",
+    "url": "https://pubs.aip.org/aip/acp/article-pdf/doi/10.1063/5.0073949/16195294/080005_1_online.pdf",
+    "title": "Typology of Dawn Light Curves in High and Low Light Pollution Areas",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:45:56.098228+00:00",
+    "notes": "Could not download PDF"
+  },
+  "pdf_1854375284": {
+    "source_id": "pdf_1854375284",
+    "url": "https://www.nature.com/articles/s41598-024-76550-3.pdf",
+    "title": "PDF from https://www.nature.com/articles/s41598-024-76550-3",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:07.167122+00:00",
+    "notes": ""
+  },
+  "web_5564456616": {
+    "source_id": "web_5564456616",
+    "url": "https://www.nature.com/articles/s41598-024-76550-3",
+    "title": "Alteration of twilight sky brightness profile by light pollution - Nature",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:07.169005+00:00",
+    "notes": "Scanned for PDF links; found 1"
+  },
+  "web_4237652827": {
+    "source_id": "web_4237652827",
+    "url": "https://www.scribd.com/document/869833045/Herdiwijaya-2020-J-Phys-3A-Conf-Ser-1523-012007",
+    "title": "Morning Twilight Sky Brightness Study | PDF - Scribd",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:10.280952+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_5828547940": {
+    "source_id": "web_5828547940",
+    "url": "https://id.scribd.com/document/543150224/Pengaruh-Suhu-Terhadap-Kenampakan-Fajar",
+    "title": "Pengaruh Suhu pada Fajar Shadiq | PDF - Scribd",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:17.074135+00:00",
+    "notes": "Content not relevant"
+  },
+  "pdf_1026898889": {
+    "source_id": "pdf_1026898889",
+    "url": "https://eprints.walisongo.ac.id/id/eprint/20057/1/Tesis_2002048013_Hisbullah_Salam.pdf",
+    "title": "PDF from https://eprints.walisongo.ac.id/20057/",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:35.082381+00:00",
+    "notes": ""
+  },
+  "pdf_0243641351": {
+    "source_id": "pdf_0243641351",
+    "url": "https://eprints.walisongo.ac.id/20057/1/Tesis_2002048013_Hisbullah_Salam.pdf",
+    "title": "PDF from https://eprints.walisongo.ac.id/20057/",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:41.396056+00:00",
+    "notes": ""
+  },
+  "web_6178899093": {
+    "source_id": "web_6178899093",
+    "url": "https://eprints.walisongo.ac.id/20057/",
+    "title": "Pengamatan fajar ṣādiq menggunakan sistem otomatisasi ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:41.398078+00:00",
+    "notes": "Scanned for PDF links; found 2"
+  },
+  "web_9062096626": {
+    "source_id": "web_9062096626",
+    "url": "https://pdfs.semanticscholar.org/13d9/4daea9e61118009c434d072ebeddbbbaf386.pdf",
+    "title": "FAJAR SHADIQ DALAM PRESPEKTIF ASTRONOMI",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:44.517022+00:00",
+    "notes": ""
+  },
+  "web_8745994622": {
+    "source_id": "web_8745994622",
+    "url": "https://www.academia.edu/130046544/DARI_TIMUR_CAHAYA_MENYEBAR_KRITERIA_WAKTU_SUBUH_DALAM_LINTASAN_SEJARAH_DAN_ASTRONOMI",
+    "title": "(doc) dari timur cahaya menyebar: kriteria waktu subuh dalam lintasan...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "fajr"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:47.049110+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_0030576269": {
+    "source_id": "web_0030576269",
+    "url": "https://aa.usno.navy.mil/data/RS_OneYear",
+    "title": "Table of Sunrise/Sunset, Moonrise/Moonset, or Twilight Times for an ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:54.087766+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_8548312340": {
+    "source_id": "web_8548312340",
+    "url": "https://www.ijapm.org/papers/71-A012.pdf",
+    "title": "PDF The Application of Sky Quality Meter at Twilight for Islamic Prayer Time",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:46:58.727799+00:00",
+    "notes": ""
+  },
+  "web_1220423124": {
+    "source_id": "web_1220423124",
+    "url": "https://www.islamicity.org/PrayerTimes/Salat.pdf",
+    "title": "[PDF] The Islamic Prayer Times – Computational Philosophy with ...",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:01.041829+00:00",
+    "notes": ""
+  },
+  "web_2076313008": {
+    "source_id": "web_2076313008",
+    "url": "https://astronomycenter.net/pdf/tarabishyshigh_2015.pdf",
+    "title": "[PDF] Evaluation of Kalid Shawkat's Method For Salat Time",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:03.879425+00:00",
+    "notes": ""
+  },
+  "web_1657111198": {
+    "source_id": "web_1657111198",
+    "url": "http://praytimes.org/docs/calculation",
+    "title": "Prayer Times Calculation - Pray Times",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:06.033450+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_1880797201": {
+    "source_id": "web_1880797201",
+    "url": "https://www.baridsoft.com/Document/Prayer+Times+Calculation.pdf",
+    "title": "PDF Prayer Times Calculation - baridsoft.com",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:08.267568+00:00",
+    "notes": "Could not download PDF"
+  },
+  "web_0767067944": {
+    "source_id": "web_0767067944",
+    "url": "https://calculators.sg/prayer-calculator/",
+    "title": "Prayer Calculator",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:10.470919+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_4388764189": {
+    "source_id": "web_4388764189",
+    "url": "https://www.semanticscholar.org/paper/Astronomical-Determinations-for-the-Beginning-Time-Niri-Zainuddin/2869233a101d32513d030d0432dead45b67083df",
+    "title": "Astronomical Determinations for the Beginning Prayer Time of Isha",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:17.879547+00:00",
+    "notes": "Could not fetch"
+  },
+  "pdf_0132986192": {
+    "source_id": "pdf_0132986192",
+    "url": "http://terminalib.uitm.edu.my/60126.pdf",
+    "title": "PDF from https://ir.uitm.edu.my/id/eprint/60126/",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:40.532147+00:00",
+    "notes": "Could not download PDF"
+  },
+  "pdf_8681339266": {
+    "source_id": "pdf_8681339266",
+    "url": "https://ir.uitm.edu.my/60126/1/60126.pdf",
+    "title": "PDF from https://ir.uitm.edu.my/id/eprint/60126/",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:45.871403+00:00",
+    "notes": ""
+  },
+  "pdf_0302475734": {
+    "source_id": "pdf_0302475734",
+    "url": "https://ir.uitm.edu.my/id/eprint/60126/1/60126.pdf",
+    "title": "PDF from https://ir.uitm.edu.my/id/eprint/60126/",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:50.407036+00:00",
+    "notes": ""
+  },
+  "web_3700370111": {
+    "source_id": "web_3700370111",
+    "url": "https://ir.uitm.edu.my/id/eprint/60126/",
+    "title": "Re-evaluation of twilight angle for 'Ishā' and Ṣubḥ prayer ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:50.409096+00:00",
+    "notes": "Scanned for PDF links; found 3"
+  },
+  "web_4815744036": {
+    "source_id": "web_4815744036",
+    "url": "https://www.youtube.com/watch?v=5wAQ2hV2_q8",
+    "title": "EP#15 / Dec 2024 || waqt fajr, mahgrib, esha , witr/ shafaq abyad wa...",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:53.179733+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_1409956378": {
+    "source_id": "web_1409956378",
+    "url": "https://moonsighting.com/how-we.html",
+    "title": "How We Calculate Muslim Prayer Times",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:55.400520+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_0100973852": {
+    "source_id": "web_0100973852",
+    "url": "https://www.crescentradio.net/moonsighting-calculation-method/",
+    "title": "Moonsighting Calculation Method – Crescent Community Radio 97FM",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:47:58.669878+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_6849278976": {
+    "source_id": "web_6849278976",
+    "url": "https://www.muftiselangor.gov.my/newclean/2024/10/08/10-taudhih-al-falak-awal-waktu-isya-dan-perbezaan-cahaya-senja/",
+    "title": "#10 Taudhih Al-Falak : Awal Waktu Isya’ Dan Perbezaan Cahaya...",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:06.006068+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_3660831859": {
+    "source_id": "web_3660831859",
+    "url": "https://arxiv.org/abs/2012.04042",
+    "title": "[2012.04042] Correcting Sky Quality Meter measurements for aging effects using twilight as calibrator",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:11.019728+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_3808353999": {
+    "source_id": "web_3808353999",
+    "url": "https://www.reddit.com/r/askastronomy/comments/8ned2k/can_there_be_any_observable_light_to_the_naked/",
+    "title": "r/askastronomy on Reddit: Can there be ANY observable light to the naked eye even the faintest of light, before the sun is 18 degrees below the horizon i.e. Astronomical Twilight? for example 19.5 degrees?",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:13.368842+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_2370031465": {
+    "source_id": "web_2370031465",
+    "url": "https://www.reddit.com/r/telescopes/comments/1ljfb04/question_on_astronomical_twilight_at_higher/",
+    "title": "r/telescopes on Reddit: Question on Astronomical Twilight at higher latitudes",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:15.658385+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_9575911734": {
+    "source_id": "web_9575911734",
+    "url": "https://iaeme.com/MasterAdmin/Journal_uploads/IJMET/VOLUME_10_ISSUE_2/IJMET_10_02_119.pdf",
+    "title": "http://www.iaeme.com/IJMET/index.asp 1136 editor@iaeme.com",
+    "type": "pdf",
+    "status": "empty",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:19.871050+00:00",
+    "notes": ""
+  },
+  "web_9020879363": {
+    "source_id": "web_9020879363",
+    "url": "https://download.bibis.ir/Books/Programming/python/2026/Python+for+Islamic+Astronomy+(Muhamad+Syazwan+Faid,+Muhamad+Syauqi+Nahwandi)_bibis.ir.pdf",
+    "title": "Python for Islamic Astronomy: Modern Computational Approaches to...",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:26.759043+00:00",
+    "notes": "Could not download PDF"
+  },
+  "web_8387597490": {
+    "source_id": "web_8387597490",
+    "url": "https://prayertimes.date/doha",
+    "title": "Islamic Prayer Times in Doha",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:28.927300+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  },
+  "web_5135798307": {
+    "source_id": "web_5135798307",
+    "url": "https://app.muslimpro.com/",
+    "title": "Accurate Prayer Times, Salah (Namaz) & Azan Worldwide | Muslim Pro",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:47.322804+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_7283419797": {
+    "source_id": "web_7283419797",
+    "url": "https://www.researchgate.net/publication/236644372_The_Application_of_Sky_Quality_Meter_at_Twilight_for_Islamic_Prayer_Time",
+    "title": "The Application of Sky Quality Meter at Twilight for Islamic Prayer Time",
+    "type": "html",
+    "status": "failed",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:49.532410+00:00",
+    "notes": "Could not fetch"
+  },
+  "web_5549603883": {
+    "source_id": "web_5549603883",
+    "url": "https://prayertimings.net/prayer-times/",
+    "title": "prayer times",
+    "type": "html",
+    "status": "empty",
+    "prayer_types": [],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:53.993977+00:00",
+    "notes": "Content not relevant"
+  },
+  "web_8439800780": {
+    "source_id": "web_8439800780",
+    "url": "https://eprints.um.edu.my/14597/",
+    "title": "The Application of Sky Quality Meter at Twilight for Islamic Prayer ...",
+    "type": "html",
+    "status": "processed",
+    "prayer_types": [
+      "isha"
+    ],
+    "records_raw": 0,
+    "records_accepted": 0,
+    "location": "",
+    "date_range": "",
+    "fetched_at": "2026-02-26T13:48:58.171862+00:00",
+    "notes": "Scanned for PDF links; found 0"
+  }
+}
