@@ -1,4 +1,0 @@
-# .allow-ai-terms
-# Disables the AI-attribution pre-commit hook for this repo.
-# .markdownlintignore and .vscode/settings.json reference ".claude/**" as a
-# directory path to exclude from lint checks — not as AI attribution.

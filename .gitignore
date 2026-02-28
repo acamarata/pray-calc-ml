@@ -12,7 +12,24 @@ env/
 .DS_Store
 .ipynb_checkpoints/
 .jupyter/
+# IDE directories
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+
+# AI agent working directories
 .claude/
+.codex/
+.cursor/
+.aider/
+.aider.chat.history.md
+.continue/
+.windsurf/
+.gemini/
+.codeium/
 
 # Raw scraped/downloaded files
 data/raw/*.pdf

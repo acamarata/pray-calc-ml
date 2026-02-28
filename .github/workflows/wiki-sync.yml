@@ -4,7 +4,10 @@ on:
   push:
     branches: [main]
     paths:
-      - ".wiki/**"
+      - ".github/wiki/**"
+
+permissions:
+  contents: write
 
 jobs:
   sync:
@@ -12,10 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Sync .wiki/ to GitHub Wiki
+      - name: Sync .github/wiki/ to GitHub Wiki
         uses: newrelic/wiki-sync-action@v1.0.1
         with:
-          source: .wiki
+          source: .github/wiki
           destination: wiki
           token: ${{ secrets.GITHUB_TOKEN }}
           gitAuthorName: github-actions[bot]
