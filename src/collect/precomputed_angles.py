@@ -15,7 +15,7 @@ Each record has: prayer, date, lat, lng, elevation_m, angle, source, notes.
 The pipeline merges these after its own angle computation step.
 """
 
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import pandas as pd
 
 
@@ -1961,7 +1961,7 @@ def load_precomputed_angles() -> pd.DataFrame:
         # This is only used for day_of_year; the angle is pre-computed.
         local_dt = datetime.strptime(f"{date_iso} 04:00", "%Y-%m-%d %H:%M")
         utc_dt = (local_dt - timedelta(hours=utc_offset)).replace(
-            tzinfo=None
+            tzinfo=timezone.utc
         )
 
         weather_en = {

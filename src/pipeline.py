@@ -29,9 +29,7 @@ Usage:
 
 import argparse
 import sys
-import os
 from pathlib import Path
-from datetime import timezone
 
 import pandas as pd
 
@@ -52,7 +50,7 @@ PROCESSED_DIR = ROOT / "data" / "processed"
 
 def _raw_to_df(records: list[dict]) -> pd.DataFrame:
     """Convert a list of standardized raw record dicts to a DataFrame."""
-    from datetime import datetime, timedelta
+    from datetime import datetime, timedelta, timezone
     rows = []
     for r in records:
         try:
@@ -60,7 +58,9 @@ def _raw_to_df(records: list[dict]) -> pd.DataFrame:
                 f"{r['date_local']} {r['time_local']}", "%Y-%m-%d %H:%M"
             )
             utc_offset = float(r.get("utc_offset", 0))
-            utc_dt = dt_local - timedelta(hours=utc_offset)
+            utc_dt = (dt_local - timedelta(hours=utc_offset)).replace(
+                tzinfo=timezone.utc
+            )
             rows.append({
                 "prayer": r["prayer"],
                 "date": r["date_local"],

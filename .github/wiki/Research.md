@@ -267,4 +267,4 @@ Best strategies for expanding high-quality records:
 
 ---
 
-*[<-- Data](Data) . [Research Notes -->](Research-Notes) . [Home](Home)*
+*[← Data](Data) · [Research Notes →](Research-Notes) · [Home](Home)*

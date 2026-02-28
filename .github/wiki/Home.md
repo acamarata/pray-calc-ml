@@ -57,3 +57,7 @@ virtually all well-documented sites.
 ---
 
 *Part of the [acamarata](https://github.com/acamarata) Islamic computing library suite.*
+
+---
+
+*[Data Collection →](Data-Collection)*

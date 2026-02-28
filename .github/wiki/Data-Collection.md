@@ -44,15 +44,17 @@ This does three things in sequence:
 
 1. **Fetches the OpenFajr iCal feed** from `calendar.google.com` — ~4,018 community-verified
    Fajr records from Birmingham, UK, 2016-2026. Requires network access.
-2. **Loads manually compiled records** from `src/collect/verified_sightings.py` — ~141 records
-   from peer-reviewed studies across 35 locations worldwide.
-3. **Looks up missing elevations** via the [Open-Elevation API](https://open-elevation.com) for
-   any record where `elevation_m == 0`.
+2. **Loads manually compiled records** from `src/collect/verified_sightings.py` and per-source
+   CSVs in `data/raw/raw_sightings/`.
+3. **Loads pre-computed SQM angles** from `src/collect/precomputed_angles.py` (1,621 Basthoni
+   2022 records where depression angles were measured directly by instrument).
+4. **Looks up missing elevations** via the Open-Topo-Data API (with Open-Elevation fallback)
+   for any record where `elevation_m == 0`.
 
 Output:
 ```
-data/processed/fajr_angles.csv   — ~4,105 Fajr records
-data/processed/isha_angles.csv   — ~43 Isha records
+data/processed/fajr_angles.csv   — 5,871 Fajr records
+data/processed/isha_angles.csv   — 46 Isha records
 ```
 
 ### Without elevation lookup
@@ -72,14 +74,17 @@ Skips the Open-Elevation API calls. Use this when:
 Loading OpenFajr Birmingham iCal feed...
   4018 Fajr records from OpenFajr
 Loading manually verified sightings...
-  141 manually compiled records
+  ... genuine manually compiled records (after quality filter)
+Loading ingested raw CSV sightings...
+  ... records from raw CSVs
+Loading pre-computed angle records (SQM instrument data)...
+  1621 pre-computed angle records
 Computing solar depression angles...
-  Dropping 11 record(s) with implausible angles (< 7.0° Fajr / < 10.0° Isha):
-    FAJR 2021-03-27 ... angle=-18.71° — OpenFajr (openfajr.org)
+  Dropping N record(s) with implausible angles (< 7.0° Fajr / < 10.0° Isha):
     ...
 
-Fajr dataset: 4105 records → data/processed/fajr_angles.csv
-Isha dataset:  43 records → data/processed/isha_angles.csv
+Fajr dataset: 5871 records → data/processed/fajr_angles.csv
+Isha dataset:   46 records → data/processed/isha_angles.csv
 ```
 
 Records dropped with "implausible angles" are data entry or DST-transition artifacts. The
@@ -102,15 +107,23 @@ true dawn. The voted times are published as a public Google Calendar iCal feed.
 - Fetched live by the pipeline — no local cache needed
 
 This is the highest-quality source: actual community-reviewed per-date timestamps at a single
-well-documented location. It provides 98% of the Fajr training data.
+well-documented location. It provides ~68% of the Fajr training data.
 
-### Secondary: Manually compiled records
+### Secondary: Basthoni 2022 SQM network (Indonesia)
 
-Located in `src/collect/verified_sightings.py`. These come from:
+1,621 per-night SQM records across 46 Indonesian sites, extracted from Basthoni's 2022 PhD
+dissertation at UIN Walisongo. Each record is a direct instrument measurement where the Fajr
+depression angle was determined by linear fitting of SQM time-series data. Loaded by
+`src/collect/precomputed_angles.py`.
 
-- Peer-reviewed academic papers (NRIAG Egypt, Malaysia, Indonesia, Saudi Arabia)
-- Community observation programs (Hizbul Ulama UK, Asim Yusuf UK, Moonsighting.com)
-- National religious body publications (AFIC Australia, Jordanian Awqaf, etc.)
+### Tertiary: Manually compiled records
+
+Located in `src/collect/verified_sightings.py` and per-source CSVs in `data/raw/raw_sightings/`.
+These come from:
+
+- Peer-reviewed academic papers (NRIAG Egypt, Malaysia, Indonesia, Saudi Arabia, Mauritania)
+- Community observation programs (Miftahi/Shaukat UK, Asim Yusuf UK, Moonsighting.com)
+- Institutional SQM data (BRIN Mount Timau, BRIN multistation network)
 
 See [Data Sources](Data-Sources) for the full citation table.
 
@@ -179,7 +192,7 @@ python -m src.pipeline --no-elevation-lookup 2>&1 | grep -A5 "Dropping"
 
 ## Priority gaps to fill
 
-The Isha dataset is the most critical gap at ~43 records. Fajr has excellent Birmingham coverage
+The Isha dataset is the most critical gap at 46 records. Fajr has excellent Birmingham coverage
 but needs more geographic diversity:
 
 | Gap | What to look for |

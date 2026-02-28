@@ -126,4 +126,4 @@ CSV format for raw_sightings: `prayer, date_local, time_local, utc_offset, lat, 
 
 ---
 
-*[← Data Sources](Data-Sources) . [Research -->](Research) . [Home](Home)*
+*[← Data Sources](Data-Sources) · [Research →](Research) · [Home](Home)*

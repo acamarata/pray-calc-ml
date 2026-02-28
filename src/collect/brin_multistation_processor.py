@@ -27,15 +27,10 @@ Reference: Damanhuri & Mukarram (2022), LAPAN SQM multi-station Indonesia.
 Mean D0 reported: -16.51° (all stations, quality-filtered).
 """
 
-import sys
-import math
-import os
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
-from collections import defaultdict
 
 import pandas as pd
-import numpy as np
 
 
 # Station metadata: code -> (lat, lon, elevation_m, name, utc_offset)

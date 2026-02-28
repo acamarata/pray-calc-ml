@@ -27,7 +27,6 @@ from io import StringIO
 from pathlib import Path
 from typing import Optional
 
-import numpy as np
 import pandas as pd
 
 log = logging.getLogger(__name__)
@@ -319,7 +318,6 @@ def download_and_extract_all(output_dir: Path) -> list[dict]:
     Caches downloaded files to output_dir/brin_multistation_raw/.
     """
     from urllib.request import urlopen, Request
-    from urllib.error import URLError
 
     # File ID → filename mapping from BRIN Dataverse API
     FILE_IDS: dict[str, int] = {

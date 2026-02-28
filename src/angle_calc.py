@@ -9,7 +9,7 @@ because human observers see the sky with refraction — the angle we compute
 matches what the sun physically was doing at that horizon.
 """
 
-from datetime import datetime, timezone
+from datetime import datetime
 import ephem
 import math
 

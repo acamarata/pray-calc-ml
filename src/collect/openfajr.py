@@ -10,7 +10,6 @@ Source: https://openfajr.org/
 Location: Birmingham, UK — 52.4862°N, 1.8904°W, elevation 141 m
 """
 
-import io
 from datetime import datetime, timezone
 
 import pandas as pd
