@@ -1,0 +1,4 @@
+prayer,date_local,time_local,utc_offset,lat,lng,elevation_m,source,notes
+fajr,2018-12-09,05:05,2.0,29.283,30.05,50,"Rashed et al. 2022, IJMET 13(10), Wadi al Hitan Fayum Egypt","SQM measurement; eye threshold 0.83mag from full night gives D0=14.6; time estimated from D0=14.6 at this location/date; clear night"
+fajr,2018-12-10,05:04,2.0,29.283,30.05,50,"Rashed et al. 2022, IJMET 13(10), Wadi al Hitan Fayum Egypt","SQM measurement; mesopic threshold 0.015cd/m2 gives D0=13.75; clear night; time estimated from D0=13.75"
+fajr,2019-12-19,05:08,2.0,29.283,30.05,50,"Rashed et al. 2022, IJMET 13(10), Wadi al Hitan Fayum Egypt","SQM H+Z measurement; Kocifaj H=piZ gives D0=14.0; naked eye group D0=14.8; time estimated from D0=14.0 (conservative); clear night"

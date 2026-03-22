@@ -97,13 +97,98 @@ APPROVED_RAW_CSVS: frozenset[str] = frozenset(
         # while genuine Shafaq Abyad at the same latitudes gives 17-18°. These records
         # do not represent Shafaq Abyad horizon observations. File retained for reference.
         # Add new approved files here — must be genuine per-night observations
-        # "new_source.csv",  # Author Year — location, method, date range
+        # Add new approved files here — must be genuine per-night observations
+        "batusangkar_2024_spectral.csv",
+        "umsu_medan_2024.csv",
+        "openfajr_94992898.csv",
+        "madrid_sqm_10yr.csv", # Madrid Zenodo 10-year SQM (2012-2022) converted to verified sightings via inflection
+        # EXCLUDED — global_sqm_harvester_results.csv: empty file (header only)
+        # TESS-W photometer network (Zamorano et al. 2019) — Zenodo monthly archives.
+        # Multi-station Spain/Europe sky brightness, photometric inflection method.
+        # NOTE: tess_june2019.csv was the original single-file entry (wrong name — corrected
+        # below). All monthly files use abbreviated month format (jun, not june).
+        "tess_jul2017.csv",
+        "tess_sep2017.csv",
+        "tess_oct2017.csv",
+        "tess_nov2017.csv",
+        "tess_dec2017.csv",
+        "tess_jan2018.csv",
+        "tess_feb2018.csv",
+        "tess_mar2018.csv",
+        "tess_apr2018.csv",
+        "tess_may2018.csv",
+        "tess_jun2018.csv",
+        "tess_jul2018.csv",
+        "tess_sep2018.csv",
+        "tess_oct2018.csv",
+        "tess_nov2018.csv",
+        "tess_dec2018.csv",
+        "tess_jan2019.csv",
+        "tess_feb2019.csv",
+        "tess_mar2019.csv",
+        "tess_apr2019.csv",
+        "tess_may2019.csv",
+        "tess_jun2019.csv",
+        "tess_jul2019.csv",
+        "tess_aug2019.csv",
+        "tess_sep2019.csv",
+        "tess_oct2019.csv",
+        "tess_nov2019.csv",
+        "tess_dec2019.csv",
+        "tess_jan2020.csv",
+        "tess_feb2020.csv",
+        "tess_mar2020.csv",
+        "tess_apr2020.csv",
+        "tess_may2020.csv",
+        "tess_jun2020.csv",
+        "tess_jul2020.csv",
+        "tess_aug2020.csv",
+        # GaN-MN (Globe at Night Monitoring Network) — continuous SQM-LE data.
+        # Multi-station global network, photometric inflection method, per-night records.
+        "gan_mn_jan_2022.csv", "gan_mn_feb_2022.csv", "gan_mn_mar_2022.csv",
+        "gan_mn_apr_2022.csv", "gan_mn_may_2022.csv", "gan_mn_jun_2022.csv",
+        "gan_mn_jul_2022.csv", "gan_mn_aug_2022.csv", "gan_mn_sep_2022.csv",
+        "gan_mn_oct_2022.csv", "gan_mn_nov_2022.csv", "gan_mn_dec_2022.csv",
+        "gan_mn_jan_2023.csv", "gan_mn_feb_2023.csv", "gan_mn_mar_2023.csv",
+        "gan_mn_apr_2023.csv", "gan_mn_may_2023.csv", "gan_mn_jun_2023.csv",
+        "gan_mn_jul_2023.csv", "gan_mn_aug_2023.csv", "gan_mn_sep_2023.csv",
+        "gan_mn_oct_2023.csv", "gan_mn_nov_2023.csv", "gan_mn_dec_2023.csv",
+        "gan_mn_jan_2024.csv", "gan_mn_feb_2024.csv", "gan_mn_mar_2024.csv",
+        "gan_mn_apr_2024.csv", "gan_mn_may_2024.csv", "gan_mn_jun_2024.csv",
+        "gan_mn_jul_2024.csv", "gan_mn_august_2024.csv", "gan_mn_sep_2024.csv",
+        "gan_mn_oct_2024.csv", "gan_mn_nov_2024.csv", "gan_mn_dec_2024.csv",
+        "gan_mn_january_2025.csv", "gan_mn_feb_2025.csv", "gan_mn_mar_2025.csv",
+        "gan_mn_apr_2025.csv", "gan_mn_may_2025.csv", "gan_mn_june_2025.csv",
+        "gan_mn_jul_2025.csv", "gan_mn_aug_2025.csv", "gan_mn_sep_2025.csv",
+        # Majadahonda (Madrid) SQM 2019 — Zenodo 5709962, inflection method
+        "majadahonda_2019_sqm.csv",
+        # Madrid UCM SQM evolution 2012-2022 — Zenodo 4633001, inflection method
+        "madrid_sqm_evol.csv",
+        # Galicia SQM Network 2015 — Zenodo 4977265, 4 stations, inflection method
+        "galicia_sqm_2015.csv",
+        # India twilight photometer 2009 — Zenodo 5541367, photometric inflection
+        "india_twilight_photometer.csv",
+        # Globe at Night citizen science twilight observations 2006-2024
+        "globe_at_night_twilight.csv",
+        # Abed 2015 Jordan J Islamic Studies — naked eye group observations, 2 desert sites
+        "abed_2015_jordan.csv",
+        # Rashed et al. 2022 IJMET — Wadi al Hitan Fayum Egypt, SQM measurement
+        "fayum_egypt_2022_sqm.csv",
+        # washetdonker.nl Netherlands SQM network — morning twilight inflection, 3,301 records
+        # Multi-site Netherlands network; photometric threshold method; Fajr direction.
+        "washetdonker_morning.csv",
+        # EXCLUDED — bsrn_5site_twilight.csv, bsrn_all_twilight.csv, bsrn_caelus_twilight.csv,
+        # surfrad_twilight.csv: BSRN/SURFRAD irradiance data detects civil sunrise at ~2°
+        # depression, not Fajr/Isha at 12-18° depression. Not suitable for this dataset.
+        # EXCLUDED — web_1472771404.csv, web_2748406846.csv, web_4414092721.csv,
+        # web_5613061948.csv, web_6807547173.csv: All 5 files contain the same single record
+        # (fajr 2017-09-24, lat=0.0, lng=0.0) — no coordinates, PDF parse artifact, useless.
     }
 )
 
 # Standard column aliases for CSV imports
 COLUMN_ALIASES: dict[str, list[str]] = {
-    "prayer":      ["prayer", "type", "salah", "salat"],
+    "prayer":      ["prayer", "type", "salah", "salat", "twilight_type", "event_type"],
     "date_local":  ["date_local", "date", "obs_date", "observation_date"],
     "time_local":  ["time_local", "time", "obs_time", "local_time"],
     "utc_offset":  ["utc_offset", "tz_offset", "timezone_offset", "utc"],
@@ -114,6 +199,7 @@ COLUMN_ALIASES: dict[str, list[str]] = {
     "notes":       ["notes", "note", "comments", "comment"],
     "city":        ["city", "location", "location_name", "place", "site"],
     "country":     ["country"],
+    "utc_datetime": ["utc_datetime", "utc_dt", "datetime_utc"],
 }
 
 
@@ -173,7 +259,22 @@ def standardize_record(raw: dict) -> Optional[dict]:
     record["elevation_m"] = float(record.get("elevation_m") or 0)
     record["utc_offset"] = float(record.get("utc_offset") or 0)
 
-    # Normalise prayer name
+    # If utc_datetime is present but date_local/time_local are missing, derive them.
+    # Treat the UTC time as the local time with utc_offset=0.
+    utc_dt_raw = record.get("utc_datetime") or ""
+    if utc_dt_raw and not record.get("date_local"):
+        cleaned = utc_dt_raw.replace("+00:00", "").rstrip("Z").strip()
+        for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M", "%Y-%m-%d %H:%M"):
+            try:
+                dt = datetime.strptime(cleaned, fmt)
+                record["date_local"] = dt.strftime("%Y-%m-%d")
+                record["time_local"] = dt.strftime("%H:%M")
+                record["utc_offset"] = 0.0
+                break
+            except ValueError:
+                pass
+
+    # Normalise prayer name — also map dawn/dusk event_type values
     prayer = (record.get("prayer") or "").lower().strip()
     if prayer in ("fajr", "subh", "subuh", "dawn"):
         record["prayer"] = "fajr"
@@ -269,10 +370,9 @@ def ingest_all_raw_csvs(lookup_elevation: bool = True) -> list[dict]:
     skipped = [f.name for f in csv_files if f.name not in APPROVED_RAW_CSVS]
     if skipped:
         log.warning(
-            "Skipping %d unapproved file(s) in raw_sightings/ — add to "
-            "APPROVED_RAW_CSVS in ingest.py after manual review: %s",
+            "Skipping %d non-approved file(s) in raw_sightings/: %s",
             len(skipped),
-            ", ".join(skipped[:5]) + (f" ... (+{len(skipped)-5} more)" if len(skipped) > 5 else ""),
+            ", ".join(sorted(skipped)[:10]) + (f" ... (+{len(skipped)-10} more)" if len(skipped) > 10 else ""),
         )
 
     all_records: list[dict] = []

@@ -77,6 +77,19 @@ def _raw_to_df(records: list[dict]) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+# Define helper at module level for multiprocessing
+def _compute_angle_worker(row_dict: dict) -> float:
+    from src.angle_calc import depression_angle
+    try:
+        return depression_angle(
+            row_dict["utc_dt"],
+            row_dict["lat"],
+            row_dict["lng"],
+            row_dict["elevation_m"],
+        )
+    except Exception:
+        return float("nan")
+
 def build_dataset(
     lookup_elevation: bool = True,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -249,18 +262,26 @@ def build_dataset(
 
     # Back-calculate depression angle for each sighting
     print("Computing solar depression angles...")
-    angles = []
-    for _, row in all_df.iterrows():
-        try:
-            angle = depression_angle(
-                row["utc_dt"],
-                row["lat"],
-                row["lng"],
-                row["elevation_m"],
-            )
-        except Exception as e:
-            angle = float("nan")
-        angles.append(angle)
+    
+    if len(all_df) > 1000:
+        import multiprocessing as mp
+        print(f"  Parallel processing {len(all_df)} rows across {mp.cpu_count()} cores...")
+        row_dicts = all_df[["utc_dt", "lat", "lng", "elevation_m"]].to_dict('records')
+        with mp.Pool(mp.cpu_count()) as pool:
+            angles = pool.map(_compute_angle_worker, row_dicts)
+    else:
+        angles = []
+        for _, row in all_df.iterrows():
+            try:
+                angle = depression_angle(
+                    row["utc_dt"],
+                    row["lat"],
+                    row["lng"],
+                    row["elevation_m"],
+                )
+            except Exception as e:
+                angle = float("nan")
+            angles.append(angle)
 
     all_df["angle"] = angles
 

@@ -33,6 +33,9 @@ env/
 
 # Raw scraped/downloaded files
 data/raw/*.pdf
+research/downloaded_papers/
+research/raw_pdfs/
+nohup.out
 
 # Generated notebook outputs
 data/processed/*.png
@@ -43,6 +46,16 @@ data/cache/
 data/raw/crawled/
 data/raw/excluded/
 data/raw/brin_multistation_raw/
+data/raw/bsrn/
+data/raw/tess/
+data/raw/gan_mn/
+data/raw/washetdonker/
+data/raw/globe_at_night/
+data/raw/surfrad/
+data/raw/galicia_night_sky/
+data/raw/india_twilight_photometer/
+data/raw/madrid_sqm_evol/
+data/raw/majadahonda_sqm_2019/
 
 # Collection session logs and scratch
 data/raw/collection_log*.txt
@@ -72,3 +85,4 @@ src/collect/openalex_harvester.py
 src/collect/source_tracker.py
 src/collect/waktusolat.py
 src/collect/web_harvester.py
+.vscode/*
