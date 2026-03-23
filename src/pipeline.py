@@ -202,10 +202,10 @@ def build_dataset(
         "red dusk twilight",
     )
     bad_notes = manual_df["notes"].apply(
-        lambda n: any(m in str(n) for m in BAD_NOTE_MARKERS)
+        lambda n: any(m.lower() in str(n).lower() for m in BAD_NOTE_MARKERS)
     )
     bad_source = manual_df["source"].apply(
-        lambda s: any(m in str(s) for m in BAD_NOTE_MARKERS)
+        lambda s: any(m.lower() in str(s).lower() for m in BAD_NOTE_MARKERS)
     )
     non_genuine = bad_notes | bad_source
     if non_genuine.any():
@@ -289,6 +289,7 @@ def build_dataset(
     # These come from sources where the solar depression angle was measured
     # directly by instrument (SQM time-series + linear fitting) rather than
     # inferred from a clock time. They bypass back-calculation entirely.
+    # Merged BEFORE dedup so cross-source duplicates are caught.
     print("Loading pre-computed angle records (SQM instrument data)...")
     precomp_df = load_precomputed_angles()
     if len(precomp_df) > 0:
@@ -297,25 +298,58 @@ def build_dataset(
     else:
         print("  0 pre-computed angle records")
 
+    # ── Second dedup pass (catches precomputed vs back-calculated overlap) ──
+    all_df["_lat_r"] = all_df["lat"].round(3)
+    all_df["_lng_r"] = all_df["lng"].round(3)
+    dup_mask2 = all_df.duplicated(subset=["prayer", "date", "_lat_r", "_lng_r"], keep="first")
+    if dup_mask2.any():
+        print(f"  Deduplicating {dup_mask2.sum()} post-merge duplicate(s)")
+        all_df = all_df[~dup_mask2].copy()
+    all_df = all_df.drop(columns=["_lat_r", "_lng_r"])
+
+    # ── Geographic and temporal quality filters ──
+    from datetime import date as date_type
+    today_str = str(date_type.today())
+
+    # Filter out future dates (OpenFajr publishes predictions for the full year)
+    future = all_df["date"].astype(str) > today_str
+    if future.any():
+        print(f"  Dropping {future.sum()} future-dated record(s) (predictions, not observations)")
+        all_df = all_df[~future].copy()
+
+    # Filter out polar stations (|lat| > 70) — no meaningful Fajr/Isha
+    polar = all_df["lat"].abs() > 70
+    if polar.any():
+        print(f"  Dropping {polar.sum()} polar record(s) (|lat| > 70°)")
+        all_df = all_df[~polar].copy()
+
+    # Filter out Null Island (lat=0, lng=0) — GPS default / missing coordinates
+    null_island = (all_df["lat"].abs() < 0.01) & (all_df["lng"].abs() < 0.01)
+    if null_island.any():
+        print(f"  Dropping {null_island.sum()} Null Island record(s) (lat≈0, lng≈0)")
+        all_df = all_df[~null_island].copy()
+
     # Drop records with implausible depression angles — data entry / timing errors.
     # Floor thresholds based on the full body of peer-reviewed sighting research:
-    #   Fajr: no confirmed genuine sighting below 7° depression
-    #   Isha: no confirmed genuine sighting below 10° depression
-    # These also catch: sun-above-horizon (negative), DST clock-change artifacts,
-    # and mis-estimated observation times that ended up too close to sunrise/sunset.
+    #   Fajr: no confirmed genuine sighting below 7° or above 22° depression
+    #   Isha: no confirmed genuine sighting below 10° or above 22° depression
+    # Upper bound: 22° is the maximum physically meaningful astronomical twilight
+    # angle. Values above this indicate light pollution artifacts or timing errors.
     FAJR_MIN_DEG = 7.0
     ISHA_MIN_DEG = 10.0
+    MAX_DEG = 22.0
 
-    fajr_bad = (all_df["prayer"] == "fajr") & (all_df["angle"] < FAJR_MIN_DEG)
-    isha_bad  = (all_df["prayer"] == "isha") & (all_df["angle"] < ISHA_MIN_DEG)
+    fajr_bad = (all_df["prayer"] == "fajr") & (
+        (all_df["angle"] < FAJR_MIN_DEG) | (all_df["angle"] > MAX_DEG)
+    )
+    isha_bad = (all_df["prayer"] == "isha") & (
+        (all_df["angle"] < ISHA_MIN_DEG) | (all_df["angle"] > MAX_DEG)
+    )
     bad = fajr_bad | isha_bad | all_df["angle"].isna()
 
     if bad.any():
         print(f"  Dropping {bad.sum()} record(s) with implausible angles "
-              f"(< {FAJR_MIN_DEG}° Fajr / < {ISHA_MIN_DEG}° Isha):")
-        for _, row in all_df[bad].iterrows():
-            print(f"    {row['prayer'].upper()} {row['date']} {row['utc_dt']} "
-                  f"lat={row['lat']:.2f} angle={row['angle']:.2f}° — {row['source']}")
+              f"(Fajr: <{FAJR_MIN_DEG}° or >{MAX_DEG}° / Isha: <{ISHA_MIN_DEG}° or >{MAX_DEG}°)")
         all_df = all_df[~bad].copy()
 
     # Add seasonality feature

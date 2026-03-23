@@ -78,35 +78,23 @@ APPROVED_RAW_CSVS: frozenset[str] = frozenset(
         # in verified_sightings.py. Do NOT add shaukat_2015_blackburn_uk.csv or
         # shaukat_2015_other_sites.csv here — they would create duplicates.
         # EXCLUDED — brin_multistation_isha.csv
-        # The MPSAS zenith-threshold method detects when the ZENITH sky reaches near-dark
-        # level (~13° mean depression at equatorial Indonesian stations). Shafaq Abyad is
-        # defined as the disappearance of the white glow on the WESTERN HORIZON, which
-        # occurs later (~17-18° at equatorial sites per Niri & Zainuddin 2007, Sabah).
-        # The 4-5° systematic offset means these records do not represent Shafaq Abyad
-        # horizon observations. File retained in raw_sightings/ for future analysis.
+        # The MPSAS zenith-threshold method detects zenith darkness (~13° depression at
+        # equatorial stations), not Shafaq Abyad horizon disappearance (~17-18°). The 4-5°
+        # systematic offset is confirmed. File retained for reference.
         # Kassim Bahali et al. 2019 IJMET — 8 clear-sky nights from Dungun (Malaysia) + Sabang (Indonesia)
-        # Clear sky subset from Table 6. New locations not in kassim_bahali_2017_malaysia.csv.
-        # Times inferred from average of DSLR and SQM depression angles.
         "kassim_bahali_2019_ijmet.csv",
-        # EXCLUDED — brin_multistation_isha.csv
-        # The MPSAS zenith-threshold method detects when the ZENITH sky reaches near-dark
-        # level (~13° mean depression at equatorial Indonesian stations). Shafaq Abyad is
-        # defined as the disappearance of the white glow on the WESTERN HORIZON, which
-        # occurs later (~17-18° at equatorial sites per Niri & Zainuddin 2007, Sabah).
-        # The 4-5° systematic offset is confirmed: BRIN records back-calculate to 12-13°
-        # while genuine Shafaq Abyad at the same latitudes gives 17-18°. These records
-        # do not represent Shafaq Abyad horizon observations. File retained for reference.
-        # Add new approved files here — must be genuine per-night observations
         # Add new approved files here — must be genuine per-night observations
         "batusangkar_2024_spectral.csv",
         "umsu_medan_2024.csv",
-        "openfajr_94992898.csv",
+        # EXCLUDED — openfajr_94992898.csv: duplicates the iCal feed loaded by
+        # openfajr.py (same Birmingham data, slightly different coords bypass dedup)
         "madrid_sqm_10yr.csv", # Madrid Zenodo 10-year SQM (2012-2022) converted to verified sightings via inflection
         # EXCLUDED — global_sqm_harvester_results.csv: empty file (header only)
         # TESS-W photometer network (Zamorano et al. 2019) — Zenodo monthly archives.
         # Multi-station Spain/Europe sky brightness, photometric inflection method.
         # NOTE: tess_june2019.csv was the original single-file entry (wrong name — corrected
         # below). All monthly files use abbreviated month format (jun, not june).
+        "tess_jun2017.csv",
         "tess_jul2017.csv",
         "tess_sep2017.csv",
         "tess_oct2017.csv",
@@ -174,9 +162,9 @@ APPROVED_RAW_CSVS: frozenset[str] = frozenset(
         "abed_2015_jordan.csv",
         # Rashed et al. 2022 IJMET — Wadi al Hitan Fayum Egypt, SQM measurement
         "fayum_egypt_2022_sqm.csv",
-        # washetdonker.nl Netherlands SQM network — morning twilight inflection, 3,301 records
-        # Multi-site Netherlands network; photometric threshold method; Fajr direction.
-        "washetdonker_morning.csv",
+        # EXCLUDED — washetdonker_morning.csv: uses fixed MSAS threshold=15.0 crossing,
+        # not photometric inflection. Produces median 7.4° angles (civil twilight, not Fajr).
+        # 93.8% of records cluster at 7-8° with outliers up to 49° from light pollution.
         # EXCLUDED — bsrn_5site_twilight.csv, bsrn_all_twilight.csv, bsrn_caelus_twilight.csv,
         # surfrad_twilight.csv: BSRN/SURFRAD irradiance data detects civil sunrise at ~2°
         # depression, not Fajr/Isha at 12-18° depression. Not suitable for this dataset.
