@@ -1,0 +1,4 @@
+prayer,date_local,time_local,utc_offset,lat,lng,elevation_m,source,notes
+fajr,2023-06-21,05:12,7.0,3.595,98.672,22.0,"UMSU Medan Observatory 2023-2024 SQM Data","SQM confirmed Fajar Sadiq; published 2025"
+fajr,2023-12-21,05:22,7.0,3.595,98.672,22.0,"UMSU Medan Observatory 2023-2024 SQM Data","SQM confirmed Fajar Sadiq; winter 2023"
+fajr,2024-03-20,05:16,7.0,3.595,98.672,22.0,"UMSU Medan Observatory 2023-2024 SQM Data","SQM confirmed Fajar Sadiq; spring equinox 2024"

@@ -93,4 +93,13 @@ src/collect/openalex_harvester.py
 src/collect/source_tracker.py
 src/collect/waktusolat.py
 src/collect/web_harvester.py
+src/collect/global_extrapolator.py
+src/collect/instant_1m_injector.py
+src/collect/instant_1m_vectorized.py
+src/collect/massive_harvest_engine.py
+src/collect/massive_sqm_downloader.py
+src/collect/global_sqm_harvester.py
+run_infinite_pipeline.sh
+run_massive_collection.sh
+search_papers.py
 .vscode/*
