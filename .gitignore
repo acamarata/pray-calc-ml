@@ -56,6 +56,14 @@ data/raw/galicia_night_sky/
 data/raw/india_twilight_photometer/
 data/raw/madrid_sqm_evol/
 data/raw/majadahonda_sqm_2019/
+data/raw/massive_sqm/
+
+# Excluded/duplicate raw sighting files (not in APPROVED_RAW_CSVS)
+data/raw/raw_sightings/bsrn_*.csv
+data/raw/raw_sightings/surfrad_*.csv
+data/raw/raw_sightings/openfajr_*.csv
+data/raw/raw_sightings/global_sqm_harvester_results.csv
+data/raw/raw_sightings/web_*.csv
 
 # Collection session logs and scratch
 data/raw/collection_log*.txt
