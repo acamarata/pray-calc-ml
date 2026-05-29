@@ -16,10 +16,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Sync .github/wiki/ to GitHub Wiki
-        uses: newrelic/wiki-sync-action@v1.0.1
+        uses: Andrew-Chen-Wang/github-wiki-action@v4
         with:
-          source: .github/wiki
-          destination: wiki
+          path: .github/wiki
           token: ${{ secrets.GITHUB_TOKEN }}
-          gitAuthorName: github-actions[bot]
-          gitAuthorEmail: github-actions[bot]@users.noreply.github.com
+          commit-message: "docs: sync wiki"
+          git-author-name: github-actions[bot]
+          git-author-email: github-actions[bot]@users.noreply.github.com
