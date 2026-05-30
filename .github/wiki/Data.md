@@ -10,8 +10,8 @@ For per-source citations, see [Data Sources](Data-Sources).
 
 | Dataset | Records | Unique Locations | Latitude Range | Date Range | Last Updated |
 | --- | --- | --- | --- | --- | --- |
-| `fajr_angles.csv` | 5,871 | 110 | -9.6° to 53.8° | 1970-2026 | 2026-02-28 |
-| `isha_angles.csv` | 46 | 5 | -33.9° to 53.8° | 1985-2022 | 2026-02-28 |
+| `fajr_angles.csv` | 48,668 | 4,200+ | -62.6° to 69.7° | 1970-2026 | 2026-05-30 |
+| `isha_angles.csv` | 34,529 | 2,800+ | -65.9° to 69.3° | 1985-2026 | 2026-05-30 |
 
 Target: 100,000 Fajr + 100,000 Isha records.
 

@@ -149,7 +149,7 @@ density within 50km, or average nighttime luminance from VIIRS/DMSP.
 
 ### 2. Isha Data Scarcity
 
-Only 46 verified Isha (Shafaq al-Abyad) records exist in the dataset, compared to 5,871 Fajr.
+Only 34,529 verified Isha (Shafaq al-Abyad) records exist in the dataset, compared to 48,668 Fajr.
 Most published Isha studies either use Shafaq al-Ahmar (different criterion, lower angle) or
 report aggregate D0 only. The Isha model cannot be meaningfully trained without more data.
 
@@ -234,7 +234,7 @@ The published literature broadly agrees on these points:
 
 ## Data Gaps by Region
 
-As of 2026-02-28 (5,871 Fajr / 46 Isha across 114 locations):
+As of 2026-05-30 (48,668 Fajr / 34,529 Isha across 4,200+ locations):
 
 | Region | Observed Coverage | Priority |
 | --- | --- | --- |

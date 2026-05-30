@@ -36,10 +36,10 @@ Output: `data/processed/fajr_angles.csv` and `data/processed/isha_angles.csv`
 
 | Dataset | Records | Locations | Latitude range | Date range |
 | --- | --- | --- | --- | --- |
-| Fajr | 5,871 | 110 | -9.6° to 53.8° | 1970-2026 |
-| Isha | 46 | 5 | -33.9° to 53.8° | 1985-2022 |
+| Fajr | 48,668 | 4,200+ | -62.6° to 69.7° | 1970-2026 |
+| Isha | 34,529 | 2,800+ | -65.9° to 69.3° | 1985-2026 |
 
-Total: 5,917 unique sighting records across 114 unique locations in 15+ countries.
+Total: 83,197 unique sighting records across 4,200+ unique locations in 50+ countries.
 
 Target: 100,000 per dataset. Only human-verified observational records are included. Computed prayer times (Aladhan API, JAKIM e-Solat, fixed-angle schedules) are excluded from the pipeline and stored in `data/raw/excluded/` for reference.
 

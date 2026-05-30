@@ -53,8 +53,8 @@ This does three things in sequence:
 
 Output:
 ```
-data/processed/fajr_angles.csv   — 5,871 Fajr records
-data/processed/isha_angles.csv   — 46 Isha records
+data/processed/fajr_angles.csv   — 48,668 Fajr records
+data/processed/isha_angles.csv   — 34,529 Isha records
 ```
 
 ### Without elevation lookup
@@ -83,8 +83,8 @@ Computing solar depression angles...
   Dropping N record(s) with implausible angles (< 7.0° Fajr / < 10.0° Isha):
     ...
 
-Fajr dataset: 5871 records → data/processed/fajr_angles.csv
-Isha dataset:   46 records → data/processed/isha_angles.csv
+Fajr dataset: 48668 records → data/processed/fajr_angles.csv
+Isha dataset: 34529 records → data/processed/isha_angles.csv
 ```
 
 Records dropped with "implausible angles" are data entry or DST-transition artifacts. The

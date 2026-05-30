@@ -144,7 +144,7 @@ where the Fajr depression angle was determined by linear fitting of SQM time-ser
 
 ## Source Quality Summary
 
-Dataset counts as of pipeline run 2026-02-28: **5,871 Fajr + 46 Isha**
+Dataset counts as of pipeline run 2026-05-30: **48,668 Fajr + 34,529 Isha**
 
 | Tier | Description | Sources | Approx count |
 | --- | --- | --- | --- |
